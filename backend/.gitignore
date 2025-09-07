@@ -9,3 +9,4 @@ project/.env.local
 project/.DS_Store
 # ---- prisma artifacts (keep migrations) ----
 backend/node_modules/.prisma/
+node_modules/
