@@ -1,0 +1,10 @@
+cat > .slugignore << EOF
+requirements.txt
+*.ipynb
+eng.traineddata
+__pycache__/
+*.py
+*.pyc
+backend/backend/
+*.log
+logs/
