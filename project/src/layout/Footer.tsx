@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className="absolute inset-0 bg-blue-500/20 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               <span className="text-2xl font-light tracking-wide text-white group-hover:text-blue-400 transition-colors duration-300">
-                KeretaKu
+                MyKereta
               </span>
             </div>
             <p className="text-white/60 mb-8 leading-relaxed font-light text-lg max-w-md">
@@ -55,7 +55,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3 text-white/60 hover:text-white transition-colors duration-300 group">
                 <Mail className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
-                <span className="font-light">support@keretaku.my</span>
+                <span className="font-light">support@mykereta.my</span>
               </li>
               <li className="flex items-center space-x-3 text-white/60 hover:text-white transition-colors duration-300 group">
                 <Phone className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
@@ -82,7 +82,7 @@ const Footer = () => {
         <div className="border-t border-white/10 mt-16 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
             <p className="text-white/40 text-sm font-light">
-              © 2025 KeretaKu. All rights reserved.
+              © 2025 MyKereta. All rights reserved.
             </p>
             <div className="flex items-center space-x-6 text-sm">
               <a href="#" className="text-white/40 hover:text-white/80 transition-colors duration-300 font-light">Privacy Policy</a>
