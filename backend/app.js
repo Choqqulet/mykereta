@@ -1,38 +1,22 @@
-import express from "express";
-import cors from "cors";
-import helmet from "helmet";
-import morgan from "morgan";
-import vehiclesRouter from "./src/routes/vehicles.js";
-import documentsRouter from "./src/routes/documents.js";
-import expensesRouter from "./src/routes/expenses.js";
-import authRouter from "./src/routes/auth.js";
-import config from "./src/config/config.js";
+import cors from 'cors';
+import express from 'express';
 
 const app = express();
 
-// Trust proxy (useful if behind a proxy in prod)
-app.set("trust proxy", 1);
+const allowed = new Set([
+  process.env.FRONTEND_URL,           // https://mykereta.vercel.app
+  'http://localhost:5173',            // dev
+  'http://127.0.0.1:5173'             // dev alt
+].filter(Boolean));
 
-// CORS must match your frontend origin exactly
-app.use(
-  cors({
-    origin: config.frontendUrl,
-    credentials: true,
-    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-  })
-);
+app.use(cors({
+  origin: (origin, cb) => {
+    if (!origin || allowed.has(origin)) return cb(null, true);
+    cb(new Error(`CORS blocked: ${origin}`));
+  },
+  credentials: true
+}));
 
-app.use(helmet());
-app.use(morgan("dev"));
-app.use(express.json({ limit: "10mb" }));
-app.use(express.urlencoded({ extended: true }));
-
-app.get("/health", (_req, res) => res.json({ ok: true }));
-
-// --- Mount API routers ---
-app.use("/api/auth", authRouter);
-app.use("/api/vehicles", vehiclesRouter);
-app.use("/api/documents", documentsRouter);
-app.use("/api/expenses", expensesRouter);
+app.get('/health', (_, res) => res.json({ ok: true }));
 
 export default app;

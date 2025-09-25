@@ -61,14 +61,14 @@ const ProblemSolution = () => {
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-extralight text-white mb-8 leading-tight">
             Why Malaysian drivers love{' '}
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent font-normal">
-              KeretaKu
+            MyKereta
             </span>
           </h2>
           <p className="text-xl text-white/70 max-w-4xl mx-auto leading-relaxed font-light mb-6">
             You're busy. Road-tax sneaks up, receipts vanish, and insurance forms demand the same data again and again.
           </p>
           <p className="text-2xl text-white font-light">
-            KeretaKu puts all that chaos in one tidy vault:
+          MyKereta puts all that chaos in one tidy vault:
           </p>
         </div>
 

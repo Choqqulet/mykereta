@@ -176,7 +176,7 @@ export default function Sidebar(props: SidebarProps) {
           </nav>
 
           <div className="text-[11px] text-white/55 px-1">
-            Hover to peek. Pin to keep it open. © {new Date().getFullYear()} KeretaKu
+            Hover to peek. Pin to keep it open. © {new Date().getFullYear()} MyKereta
           </div>
         </div>
       </aside>

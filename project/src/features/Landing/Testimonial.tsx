@@ -36,7 +36,7 @@ const Testimonial = () => {
           <h2 className="text-4xl sm:text-5xl font-extralight text-white mb-6">
             A day with{' '}
             <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent font-normal">
-              KeretaKu
+            MyKereta
             </span>
           </h2>
         </div>
@@ -64,7 +64,7 @@ const Testimonial = () => {
             
             {/* Testimonial Text */}
             <blockquote className="text-2xl sm:text-3xl text-white mb-12 font-light leading-relaxed text-center group-hover:text-blue-100 transition-colors duration-500">
-              "Two weeks before my X70's insurance expired, KeretaKu pinged me, filled the renewal form in seconds, and saved me{' '}
+              "Two weeks before my X70's insurance expired, MyKereta pinged me, filled the renewal form in seconds, and saved me{' '}
               <span className="bg-gradient-to-r from-green-400 to-emerald-400 bg-clip-text text-transparent font-medium">
                 RM 450
               </span>

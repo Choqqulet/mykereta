@@ -36,7 +36,7 @@ function Hero() {
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-          KeretaKu tracks every ringgit, stores every document, and renews every policy.
+          MyKereta tracks every ringgit, stores every document, and renews every policy.
         </p>
 
         {/* CTA Buttons */}
