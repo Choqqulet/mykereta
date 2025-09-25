@@ -12,3 +12,4 @@ backend/node_modules/.prisma/
 node_modules/
 .vercel
 **/.env
+**/.env # safe, idempotent

@@ -17,6 +17,8 @@ app.use(cors({
   credentials: true
 }));
 
-app.get('/health', (_, res) => res.json({ ok: true }));
+app.get('/health', (_req, res) => {
+  res.status(200).json({ ok: true });
+});
 
 export default app;
