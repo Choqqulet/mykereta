@@ -1,97 +1,55 @@
 import axios from "axios";
 
-/**
- * Runtime base URL:
- *  - PROD (Vercel):   ''  (relative -> handled by vercel.json rewrites)
- *  - DEV (local):     VITE_BACKEND_URL (e.g. http://127.0.0.1:3000)
- */
 const isProd = import.meta.env.PROD;
-const ORIGIN =
-  isProd ? "" : (import.meta.env.VITE_BACKEND_URL ?? "http://127.0.0.1:3000");
+const DEV_BASE = import.meta.env.VITE_BACKEND_URL ?? "http://127.0.0.1:3000";
+export const BASE = isProd ? "" : DEV_BASE;
 
-const join = (path: string) => `${ORIGIN}${path}`;
-
-/** Axios client (use when you want interceptors, etc.) */
 export const http = axios.create({
-  baseURL: ORIGIN,                      // '' in prod, absolute in dev
-  withCredentials: true,                // send/receive cookies
+  baseURL: BASE || undefined,
+  withCredentials: true,
   headers: { "Content-Type": "application/json" },
 });
-export default http;                    // optional default export
 
-/** Lightweight fetch wrappers (handy for simple JSON calls) */
+// 👇 add this line so legacy imports `import { api } from "./index"`
+export { http as api };           // <— NEW
+export default http;              // default export still available
+
 type Json = Record<string, unknown>;
 
-function jsonHeaders(token?: string): Record<string, string> {
-  const h: Record<string, string> = { "Content-Type": "application/json" };
-  if (token) h["Authorization"] = `Bearer ${token}`;
-  return h;
+export async function get<T = unknown>(path: string): Promise<T> {
+  const { data } = await http.get<T>(path);
+  return data;
+}
+export async function post<T = unknown>(path: string, body?: Json): Promise<T> {
+  const { data } = await http.post<T>(path, body ?? {});
+  return data;
+}
+export async function del<T = unknown>(path: string): Promise<T> {
+  const { data } = await http.delete<T>(path);
+  return data;
 }
 
-async function get<T = unknown>(path: string, token?: string): Promise<T> {
-  const res = await fetch(join(path), {
-    method: "GET",
-    headers: jsonHeaders(token),
-    credentials: "include",
-  });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-  return (await res.json()) as T;
-}
-
-async function post<T = unknown>(path: string, body: Json, token?: string): Promise<T> {
-  const res = await fetch(join(path), {
-    method: "POST",
-    headers: jsonHeaders(token),
-    credentials: "include",
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-  return (await res.json()) as T;
-}
-
-async function del<T = unknown>(path: string, token?: string): Promise<T> {
-  const res = await fetch(join(path), {
-    method: "DELETE",
-    headers: jsonHeaders(token),
-    credentials: "include",
-  });
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-  return (await res.json()) as T;
-}
-
-/** Export a simple REST helper object.
- *  (Named `api` to match previous imports like: `import { api } from '@/api'`)
- */
-export const api = { get, post, del };
-
-/** Domain helpers — adjust paths to match your backend routes */
 export const VehiclesAPI = {
-  list: () => api.get("/api/vehicles"),
-  create: (data: Json) => api.post("/api/vehicles", data),
-  remove: (id: string) => api.del(`/api/vehicles/${id}`),
+  list: () => get("/api/vehicles"),
+  create: (payload: Json) => post("/api/vehicles", payload),
+  remove: (id: string) => del(`/api/vehicles/${id}`),
 };
 
 export const DocumentsAPI = {
-  list: () => api.get("/api/documents"),
-  create: (data: Json) => api.post("/api/documents", data),
-  remove: (id: string) => api.del(`/api/documents/${id}`),
+  list: () => get("/api/documents"),
+  create: (payload: Json) => post("/api/documents", payload),
+  remove: (id: string) => del(`/api/documents/${id}`),
 };
 
 export const ExpensesAPI = {
-  list: () => api.get("/api/expenses"),
-  create: (data: Json) => api.post("/api/expenses", data),
-  remove: (id: string) => api.del(`/api/expenses/${id}`),
+  list: () => get("/api/expenses"),
+  create: (payload: Json) => post("/api/expenses", payload),
+  remove: (id: string) => del(`/api/expenses/${id}`),
 };
 
-/** Auth */
 export const AuthAPI = {
-  /** Start Google OAuth (optionally pass desired post-login path) */
+  me: () => get("/api/auth/me"),
+  logout: () => post("/api/auth/logout"),
   startGoogle: (redirect = "/dashboard") =>
-    `${join("/api/auth/google/start")}?redirect=${encodeURIComponent(redirect)}`,
-
-  /** Who am I (session check) */
-  me: () => api.get("/api/auth/me"),
-
-  /** Logout and clear cookie */
-  logout: () => api.post("/api/auth/logout", {}),
+    `${BASE || ""}/api/auth/google/start?redirect=${encodeURIComponent(redirect)}`,
 };
