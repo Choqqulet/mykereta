@@ -2,7 +2,9 @@
   "name": "mykereta-api",
   "private": true,
   "type": "module",
-  "engines": { "node": "20.x" },
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
     "start": "node server.js",
     "heroku-postbuild": "npm prune --production",
@@ -18,10 +20,11 @@
     "express": "4.19.2",
     "express-session": "1.17.3",
     "helmet": "7.1.0",
+    "http-proxy-middleware": "^3.0.5",
+    "jsonwebtoken": "^9.0.2",
     "morgan": "1.10.0",
     "passport": "0.7.0",
     "passport-google-oauth20": "2.0.0",
-    "jsonwebtoken": "^9.0.2",
     "pg": "8.11.5"
   },
   "devDependencies": {
