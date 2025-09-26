@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000469.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PQW77 68",
+    "Nama Pemilik": "EN. WONG TAN",
+    "No. Kad Pengenalan": "660223-02-0214",
+    "Alamat": "124, LORONG SEREMBAN\nSHAH ALAM\n11423 KUALA LUMPUR",
+    "Jenama": "PROTON",
+    "Model": "EXORA",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "LM915987",
+    "No. Casis": "X3FMWRAMXKGWK7AKM",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2099CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          79,
+          69,
+          11
+        ],
+        "text": "PQW77 68",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          104,
+          10
+        ],
+        "text": "EN. WONG TAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          94,
+          10
+        ],
+        "text": "660223-02-0214",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          174,
+          36
+        ],
+        "text": "124, LORONG SEREMBAN\nSHAH ALAM\n11423 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          301,
+          41,
+          8
+        ],
+        "text": "EXORA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          28,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          382,
+          63,
+          11
+        ],
+        "text": "LM915987",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          419,
+          171,
+          10
+        ],
+        "text": "X3FMWRAMXKGWK7AKM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          459,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          501,
+          52,
+          10
+        ],
+        "text": "2099CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

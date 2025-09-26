@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000442.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PQT13 84",
+    "Nama Pemilik": "PROF. LAKSHMI",
+    "No. Kad Pengenalan": "681118-03-6131",
+    "Alamat": "701, JALAN SEREMBAN\nIPOH\n39602 NEGERI SEMBILAN",
+    "Jenama": "PROTON",
+    "Model": "PERSONA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "OX969331",
+    "No. Casis": "CT0LMP2Z8R4LASJGF",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1353CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          80,
+          65,
+          11
+        ],
+        "text": "PQT13 84",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          121,
+          107,
+          10
+        ],
+        "text": "PROF. LAKSHMI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          94,
+          10
+        ],
+        "text": "681118-03-6131",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          199,
+          171,
+          36
+        ],
+        "text": "701, JALAN SEREMBAN\nIPOH\n39602 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          299,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          303,
+          57,
+          8
+        ],
+        "text": "PERSONA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          338,
+          32,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          382,
+          62,
+          10
+        ],
+        "text": "OX969331",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          418,
+          152,
+          10
+        ],
+        "text": "CT0LMP2Z8R4LASJGF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          499,
+          52,
+          10
+        ],
+        "text": "1353CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

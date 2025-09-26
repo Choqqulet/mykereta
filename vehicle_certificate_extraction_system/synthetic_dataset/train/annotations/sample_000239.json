@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000239.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WJZ44 44",
+    "Nama Pemilik": "DATUK RAHMAN BINTI KHADIJAH",
+    "No. Kad Pengenalan": "940315-15-2157",
+    "Alamat": "441, LEBUH KAJANG\nSEREMBAN\n86812 KEDAH",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "KT416224",
+    "No. Casis": "YEJTH76XA53MWMK0K",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2272CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          77,
+          59,
+          10
+        ],
+        "text": "WJZ44 44",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          123,
+          230,
+          10
+        ],
+        "text": "DATUK RAHMAN BINTI KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          163,
+          94,
+          11
+        ],
+        "text": "940315-15-2157",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          197,
+          137,
+          36
+        ],
+        "text": "441, LEBUH KAJANG\nSEREMBAN\n86812 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          35,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          343,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          66,
+          10
+        ],
+        "text": "KT416224",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          423,
+          158,
+          10
+        ],
+        "text": "YEJTH76XA53MWMK0K",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          462,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          499,
+          46,
+          10
+        ],
+        "text": "2272CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

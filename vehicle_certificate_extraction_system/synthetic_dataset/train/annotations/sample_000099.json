@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000099.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ALV28 63",
+    "Nama Pemilik": "CHONG XIAO",
+    "No. Kad Pengenalan": "590321-11-6346",
+    "Alamat": "542, PERSIARAN AMPANG\nPETALING JAYA\n49202 SARAWAK",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "GK007815",
+    "No. Casis": "9NUBTC8K7Y4EME2G2",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3090CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          80,
+          62,
+          10
+        ],
+        "text": "ALV28 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          120,
+          88,
+          10
+        ],
+        "text": "CHONG XIAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          160,
+          106,
+          10
+        ],
+        "text": "590321-11-6346",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          202,
+          168,
+          30
+        ],
+        "text": "542, PERSIARAN AMPANG\nPETALING JAYA\n49202 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          297,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          381,
+          62,
+          11
+        ],
+        "text": "GK007815",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          418,
+          149,
+          10
+        ],
+        "text": "9NUBTC8K7Y4EME2G2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          461,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          458,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          497,
+          46,
+          10
+        ],
+        "text": "3090CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

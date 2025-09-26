@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000164.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AFM81 70",
+    "Nama Pemilik": "TAN SRI PATEL",
+    "No. Kad Pengenalan": "021018-05-1210",
+    "Alamat": "559, BANDAR KAJANG\nJOHOR BAHRU\n67604 PAHANG",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "LJ378724",
+    "No. Casis": "F44D37AD4CBU7H13W",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3199CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          77,
+          62,
+          10
+        ],
+        "text": "AFM81 70",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          123,
+          104,
+          10
+        ],
+        "text": "TAN SRI PATEL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          161,
+          106,
+          10
+        ],
+        "text": "021018-05-1210",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          148,
+          36
+        ],
+        "text": "559, BANDAR KAJANG\nJOHOR BAHRU\n67604 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          302,
+          98,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          28,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          381,
+          64,
+          9
+        ],
+        "text": "LJ378724",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          155,
+          10
+        ],
+        "text": "F44D37AD4CBU7H13W",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          462,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          458,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          502,
+          48,
+          9
+        ],
+        "text": "3199CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

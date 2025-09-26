@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000707.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BTU81 69",
+    "Nama Pemilik": "MURUGAN",
+    "No. Kad Pengenalan": "530621-15-8539",
+    "Alamat": "756, KAMPUNG IPOH\nKAJANG\n90359 SABAH",
+    "Jenama": "PERODUA",
+    "Model": "ALZA",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "YG550379",
+    "No. Casis": "0F8GPGSYZB3FL6W62",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1234CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          78,
+          64,
+          9
+        ],
+        "text": "BTU81 69",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          120,
+          56,
+          8
+        ],
+        "text": "MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          160,
+          94,
+          11
+        ],
+        "text": "530621-15-8539",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          136,
+          36
+        ],
+        "text": "756, KAMPUNG IPOH\nKAJANG\n90359 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          298,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          36,
+          10
+        ],
+        "text": "ALZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          343,
+          28,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          383,
+          64,
+          9
+        ],
+        "text": "YG550379",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          423,
+          154,
+          10
+        ],
+        "text": "0F8GPGSYZB3FL6W62",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          461,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          463,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          500,
+          48,
+          9
+        ],
+        "text": "1234CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

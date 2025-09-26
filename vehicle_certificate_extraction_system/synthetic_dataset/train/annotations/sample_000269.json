@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000269.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PSK78 72",
+    "Nama Pemilik": "PN. MOHAMED BIN FATIMAH",
+    "No. Kad Pengenalan": "500715-08-7800",
+    "Alamat": "591, JALAN RAJA CHERAS\nSHAH ALAM\n45710 SARAWAK",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "TO280698",
+    "No. Casis": "WFWX4CL6GHRJ08T9R",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1743CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          77,
+          58,
+          10
+        ],
+        "text": "PSK78 72",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          122,
+          193,
+          10
+        ],
+        "text": "PN. MOHAMED BIN FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          94,
+          11
+        ],
+        "text": "500715-08-7800",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          203,
+          175,
+          36
+        ],
+        "text": "591, JALAN RAJA CHERAS\nSHAH ALAM\n45710 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          80,
+          8
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          337,
+          32,
+          9
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          378,
+          68,
+          10
+        ],
+        "text": "TO280698",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          419,
+          137,
+          9
+        ],
+        "text": "WFWX4CL6GHRJ08T9R",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          459,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          501,
+          52,
+          10
+        ],
+        "text": "1743CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

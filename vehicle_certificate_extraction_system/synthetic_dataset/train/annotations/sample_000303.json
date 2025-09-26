@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000303.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BPX39 38",
+    "Nama Pemilik": "TAN SRI LI LIM",
+    "No. Kad Pengenalan": "021012-08-6799",
+    "Alamat": "349, LORONG SHAH ALAM\nCHERAS\n12925 TERENGGANU",
+    "Jenama": "NISSAN",
+    "Model": "LIVINA",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "CD142316",
+    "No. Casis": "7D13GXXCF3SCP8ES4",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1268CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          78,
+          59,
+          10
+        ],
+        "text": "BPX39 38",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          117,
+          104,
+          10
+        ],
+        "text": "TAN SRI LI LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          94,
+          10
+        ],
+        "text": "021012-08-6799",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          198,
+          175,
+          36
+        ],
+        "text": "349, LORONG SHAH ALAM\nCHERAS\n12925 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          300,
+          45,
+          10
+        ],
+        "text": "LIVINA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          383,
+          64,
+          9
+        ],
+        "text": "CD142316",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          417,
+          136,
+          9
+        ],
+        "text": "7D13GXXCF3SCP8ES4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          463,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          46,
+          10
+        ],
+        "text": "1268CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

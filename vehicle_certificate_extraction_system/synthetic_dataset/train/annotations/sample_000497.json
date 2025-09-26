@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000497.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PZU47 35",
+    "Nama Pemilik": "EN. YEN XIAO",
+    "No. Kad Pengenalan": "740419-10-2034",
+    "Alamat": "405, JALAN RAJA KLANG\nKAJANG\n47386 NEGERI SEMBILAN",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "GL786334",
+    "No. Casis": "C3EN8A6EBGD5JN3V4",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3062CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          64,
+          10
+        ],
+        "text": "PZU47 35",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          117,
+          92,
+          10
+        ],
+        "text": "EN. YEN XIAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          160,
+          112,
+          9
+        ],
+        "text": "740419-10-2034",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          199,
+          167,
+          36
+        ],
+        "text": "405, JALAN RAJA KLANG\nKAJANG\n47386 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          300,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          339,
+          32,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          61,
+          10
+        ],
+        "text": "GL786334",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          417,
+          143,
+          11
+        ],
+        "text": "C3EN8A6EBGD5JN3V4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          461,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          462,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          503,
+          46,
+          10
+        ],
+        "text": "3062CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

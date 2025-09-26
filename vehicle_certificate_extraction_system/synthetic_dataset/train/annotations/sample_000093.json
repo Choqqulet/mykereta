@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000093.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WHF08 12",
+    "Nama Pemilik": "DR. MARYAM BIN AHMAD",
+    "No. Kad Pengenalan": "850927-07-8219",
+    "Alamat": "607, KAMPUNG SEREMBAN\nSHAH ALAM\n26959 SELANGOR",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "XZ852120",
+    "No. Casis": "CPND2M3YDNPFPYJ8X",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2448CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          78,
+          64,
+          9
+        ],
+        "text": "WHF08 12",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          123,
+          174,
+          10
+        ],
+        "text": "DR. MARYAM BIN AHMAD",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          157,
+          94,
+          11
+        ],
+        "text": "850927-07-8219",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          168,
+          30
+        ],
+        "text": "607, KAMPUNG SEREMBAN\nSHAH ALAM\n26959 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          303,
+          33,
+          8
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          340,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          61,
+          11
+        ],
+        "text": "XZ852120",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          419,
+          149,
+          10
+        ],
+        "text": "CPND2M3YDNPFPYJ8X",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          462,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          497,
+          46,
+          10
+        ],
+        "text": "2448CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

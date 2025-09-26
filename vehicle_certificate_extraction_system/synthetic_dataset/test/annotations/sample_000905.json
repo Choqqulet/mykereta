@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000905.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JQK18 71",
+    "Nama Pemilik": "DR. RAHMAN",
+    "No. Kad Pengenalan": "800405-10-9512",
+    "Alamat": "376, JALAN SEREMBAN\nBUKIT BINTANG\n22846 PERAK",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "IQ193831",
+    "No. Casis": "1708YGMN2C4XHL6FX",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1923CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          81,
+          57,
+          12
+        ],
+        "text": "JQK18 71",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          119,
+          80,
+          8
+        ],
+        "text": "DR. RAHMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          158,
+          94,
+          11
+        ],
+        "text": "800405-10-9512",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          202,
+          156,
+          36
+        ],
+        "text": "376, JALAN SEREMBAN\nBUKIT BINTANG\n22846 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          303,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          298,
+          33,
+          10
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          32,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          377,
+          64,
+          11
+        ],
+        "text": "IQ193831",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          418,
+          136,
+          9
+        ],
+        "text": "1708YGMN2C4XHL6FX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          458,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          499,
+          48,
+          9
+        ],
+        "text": "1923CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

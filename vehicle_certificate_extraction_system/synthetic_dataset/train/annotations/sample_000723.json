@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000723.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JFU74 16",
+    "Nama Pemilik": "TAN SRI LI MING",
+    "No. Kad Pengenalan": "760505-10-7226",
+    "Alamat": "731, LORONG SHAH ALAM\nAMPANG\n62286 PAHANG",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "UI488102",
+    "No. Casis": "1EFXSRJ0977EWWGN2",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1635CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          64,
+          9
+        ],
+        "text": "JFU74 16",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          119,
+          114,
+          10
+        ],
+        "text": "TAN SRI LI MING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          163,
+          112,
+          9
+        ],
+        "text": "760505-10-7226",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          203,
+          169,
+          30
+        ],
+        "text": "731, LORONG SHAH ALAM\nAMPANG\n62286 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          300,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          343,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          379,
+          62,
+          10
+        ],
+        "text": "UI488102",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          421,
+          146,
+          10
+        ],
+        "text": "1EFXSRJ0977EWWGN2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          460,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          459,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          501,
+          52,
+          10
+        ],
+        "text": "1635CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

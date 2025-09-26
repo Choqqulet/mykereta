@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000633.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WQV86 98",
+    "Nama Pemilik": "DR. TAN WONG",
+    "No. Kad Pengenalan": "721026-03-0690",
+    "Alamat": "929, BANDAR SEREMBAN\nIPOH\n63444 KEDAH",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "TX406313",
+    "No. Casis": "SBJE8R9PKH50ULVC4",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1068CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          79,
+          69,
+          11
+        ],
+        "text": "WQV86 98",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          117,
+          96,
+          8
+        ],
+        "text": "DR. TAN WONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          162,
+          106,
+          10
+        ],
+        "text": "721026-03-0690",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          200,
+          170,
+          36
+        ],
+        "text": "929, BANDAR SEREMBAN\nIPOH\n63444 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          303,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          338,
+          28,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          377,
+          64,
+          9
+        ],
+        "text": "TX406313",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          422,
+          136,
+          9
+        ],
+        "text": "SBJE8R9PKH50ULVC4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          462,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          459,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          502,
+          46,
+          10
+        ],
+        "text": "1068CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

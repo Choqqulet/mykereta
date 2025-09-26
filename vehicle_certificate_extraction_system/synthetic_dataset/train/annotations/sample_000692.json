@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000692.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PWT97 10",
+    "Nama Pemilik": "PROF. MING GOH",
+    "No. Kad Pengenalan": "771213-13-9964",
+    "Alamat": "329, PERSIARAN KAJANG\nSHAH ALAM\n94901 PERLIS",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "FB274954",
+    "No. Casis": "Y1X1GR2024EZZ0YDE",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1361CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          83,
+          67,
+          10
+        ],
+        "text": "PWT97 10",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          112,
+          8
+        ],
+        "text": "PROF. MING GOH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          161,
+          112,
+          9
+        ],
+        "text": "771213-13-9964",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          203,
+          168,
+          30
+        ],
+        "text": "329, PERSIARAN KAJANG\nSHAH ALAM\n94901 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          342,
+          32,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          59,
+          11
+        ],
+        "text": "FB274954",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          417,
+          150,
+          10
+        ],
+        "text": "Y1X1GR2024EZZ0YDE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          459,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          497,
+          48,
+          9
+        ],
+        "text": "1361CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

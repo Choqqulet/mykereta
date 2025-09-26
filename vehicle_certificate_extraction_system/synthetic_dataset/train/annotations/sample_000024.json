@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000024.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "APV92 13",
+    "Nama Pemilik": "EN. XIAO CHONG",
+    "No. Kad Pengenalan": "851125-02-1552",
+    "Alamat": "913, LORONG PETALING JAYA\nKLANG\n98898 SELANGOR",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "IB744275",
+    "No. Casis": "89D7682GU2TWM9UF5",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2834CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          81,
+          65,
+          9
+        ],
+        "text": "APV92 13",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          120,
+          112,
+          8
+        ],
+        "text": "EN. XIAO CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          106,
+          10
+        ],
+        "text": "851125-02-1552",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          198,
+          205,
+          36
+        ],
+        "text": "913, LORONG PETALING JAYA\nKLANG\n98898 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          302,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          341,
+          28,
+          10
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          382,
+          64,
+          9
+        ],
+        "text": "IB744275",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          422,
+          136,
+          9
+        ],
+        "text": "89D7682GU2TWM9UF5",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          463,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          460,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          52,
+          10
+        ],
+        "text": "2834CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

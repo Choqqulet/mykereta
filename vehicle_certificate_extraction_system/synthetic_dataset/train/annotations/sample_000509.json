@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000509.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KKI56 55",
+    "Nama Pemilik": "EN. PRIYA A/L KAMALA",
+    "No. Kad Pengenalan": "530812-15-8676",
+    "Alamat": "403, JALAN PENANG\nJOHOR BAHRU\n96395 PERLIS",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "BL630795",
+    "No. Casis": "1JNBYHN5SUMPA3ERP",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3445CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          81,
+          64,
+          9
+        ],
+        "text": "KKI56 55",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          117,
+          161,
+          11
+        ],
+        "text": "EN. PRIYA A/L KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          112,
+          9
+        ],
+        "text": "530812-15-8676",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          197,
+          137,
+          36
+        ],
+        "text": "403, JALAN PENANG\nJOHOR BAHRU\n96395 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          303,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          32,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          382,
+          64,
+          9
+        ],
+        "text": "BL630795",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          418,
+          149,
+          11
+        ],
+        "text": "1JNBYHN5SUMPA3ERP",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          457,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          48,
+          9
+        ],
+        "text": "3445CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

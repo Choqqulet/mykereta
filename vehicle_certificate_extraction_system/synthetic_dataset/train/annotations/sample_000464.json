@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000464.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JQN91 52",
+    "Nama Pemilik": "PROF. ISMAIL",
+    "No. Kad Pengenalan": "520510-08-9890",
+    "Alamat": "628, KAMPUNG JOHOR BAHRU\nSUBANG JAYA\n58136 SELANGOR",
+    "Jenama": "PERODUA",
+    "Model": "BEZZA",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "AY010620",
+    "No. Casis": "3LH1BR7P12WP5RR79",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1719CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          57,
+          13
+        ],
+        "text": "JQN91 52",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          121,
+          92,
+          10
+        ],
+        "text": "PROF. ISMAIL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          160,
+          112,
+          9
+        ],
+        "text": "520510-08-9890",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          198,
+          207,
+          36
+        ],
+        "text": "628, KAMPUNG JOHOR BAHRU\nSUBANG JAYA\n58136 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          302,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          46,
+          10
+        ],
+        "text": "BEZZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          28,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          380,
+          62,
+          10
+        ],
+        "text": "AY010620",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          419,
+          152,
+          10
+        ],
+        "text": "3LH1BR7P12WP5RR79",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          459,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          463,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          48,
+          9
+        ],
+        "text": "1719CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

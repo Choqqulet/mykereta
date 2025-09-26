@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000534.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JQO67 87",
+    "Nama Pemilik": "DATO' FATIMAH BIN FATIMAH",
+    "No. Kad Pengenalan": "770703-13-4873",
+    "Alamat": "198, PERSIARAN IPOH\nAMPANG\n84791 KUALA LUMPUR",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "OV621855",
+    "No. Casis": "YBRLX3A842KUK1ZEM",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3210CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          57,
+          12
+        ],
+        "text": "JQO67 87",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          117,
+          201,
+          10
+        ],
+        "text": "DATO' FATIMAH BIN FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          158,
+          106,
+          10
+        ],
+        "text": "770703-13-4873",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          199,
+          152,
+          30
+        ],
+        "text": "198, PERSIARAN IPOH\nAMPANG\n84791 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          28,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          377,
+          68,
+          10
+        ],
+        "text": "OV621855",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          417,
+          153,
+          10
+        ],
+        "text": "YBRLX3A842KUK1ZEM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          457,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          497,
+          46,
+          10
+        ],
+        "text": "3210CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

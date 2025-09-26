@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000560.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BDP81 65",
+    "Nama Pemilik": "TAN SRI GOH XIAO",
+    "No. Kad Pengenalan": "550926-11-6206",
+    "Alamat": "941, TAMAN AMPANG\nAMPANG\n57340 LABUAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "BJ855397",
+    "No. Casis": "DLTB2GHNC47L9158U",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3093CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          81,
+          64,
+          9
+        ],
+        "text": "BDP81 65",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          122,
+          128,
+          10
+        ],
+        "text": "TAN SRI GOH XIAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          161,
+          106,
+          10
+        ],
+        "text": "550926-11-6206",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          201,
+          145,
+          36
+        ],
+        "text": "941, TAMAN AMPANG\nAMPANG\n57340 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          303,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          337,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          378,
+          64,
+          10
+        ],
+        "text": "BJ855397",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          419,
+          151,
+          10
+        ],
+        "text": "DLTB2GHNC47L9158U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          460,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          499,
+          48,
+          9
+        ],
+        "text": "3093CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

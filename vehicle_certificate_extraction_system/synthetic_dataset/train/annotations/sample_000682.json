@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000682.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PSC11 15",
+    "Nama Pemilik": "MURUGAN A/L MEERA",
+    "No. Kad Pengenalan": "521023-15-1317",
+    "Alamat": "739, KAMPUNG KAJANG\nSUBANG JAYA\n54813 MELAKA",
+    "Jenama": "PROTON",
+    "Model": "PERSONA",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "DD138494",
+    "No. Casis": "LT1VY216JMCF4B7AA",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1056CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          78,
+          64,
+          10
+        ],
+        "text": "PSC11 15",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          122,
+          151,
+          10
+        ],
+        "text": "MURUGAN A/L MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          162,
+          94,
+          11
+        ],
+        "text": "521023-15-1317",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          197,
+          158,
+          36
+        ],
+        "text": "739, KAMPUNG KAJANG\nSUBANG JAYA\n54813 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          303,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          68,
+          10
+        ],
+        "text": "PERSONA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          340,
+          32,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          378,
+          64,
+          9
+        ],
+        "text": "DD138494",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          419,
+          137,
+          9
+        ],
+        "text": "LT1VY216JMCF4B7AA",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          460,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          462,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          501,
+          48,
+          9
+        ],
+        "text": "1056CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

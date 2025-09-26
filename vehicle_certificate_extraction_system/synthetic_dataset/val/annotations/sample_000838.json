@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000838.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PMC23 24",
+    "Nama Pemilik": "SITI",
+    "No. Kad Pengenalan": "530528-07-7034",
+    "Alamat": "929, KAMPUNG SHAH ALAM\nSHAH ALAM\n77979 KELANTAN",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "QF338591",
+    "No. Casis": "TPW69WK9X4TMZFR93",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1197CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          67,
+          10
+        ],
+        "text": "PMC23 24",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          119,
+          26,
+          10
+        ],
+        "text": "SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          163,
+          106,
+          10
+        ],
+        "text": "530528-07-7034",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          186,
+          36
+        ],
+        "text": "929, KAMPUNG SHAH ALAM\nSHAH ALAM\n77979 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          302,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          303,
+          32,
+          8
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          340,
+          32,
+          9
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          377,
+          60,
+          13
+        ],
+        "text": "QF338591",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          419,
+          152,
+          10
+        ],
+        "text": "TPW69WK9X4TMZFR93",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          462,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          500,
+          52,
+          10
+        ],
+        "text": "1197CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

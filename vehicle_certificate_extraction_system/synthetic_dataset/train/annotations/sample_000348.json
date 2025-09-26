@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000348.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WLU92 71",
+    "Nama Pemilik": "PN. TAN FENG",
+    "No. Kad Pengenalan": "960410-07-7711",
+    "Alamat": "593, LEBUH CHERAS\nKLANG\n44724 SABAH",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "PJ999709",
+    "No. Casis": "DDXC0V9LF8VF8WCXK",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1418CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          82,
+          67,
+          10
+        ],
+        "text": "WLU92 71",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          118,
+          98,
+          10
+        ],
+        "text": "PN. TAN FENG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          159,
+          106,
+          10
+        ],
+        "text": "960410-07-7711",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          199,
+          135,
+          36
+        ],
+        "text": "593, LEBUH CHERAS\nKLANG\n44724 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          297,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          299,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          339,
+          28,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          379,
+          64,
+          10
+        ],
+        "text": "PJ999709",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          418,
+          154,
+          10
+        ],
+        "text": "DDXC0V9LF8VF8WCXK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          461,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          499,
+          48,
+          9
+        ],
+        "text": "1418CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

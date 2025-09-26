@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000535.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PAD26 83",
+    "Nama Pemilik": "DATUK LEE TEO",
+    "No. Kad Pengenalan": "680714-08-6723",
+    "Alamat": "657, BANDAR SUBANG JAYA\nBUKIT BINTANG\n10206 SELANGOR",
+    "Jenama": "PERODUA",
+    "Model": "AXIA",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "AS402407",
+    "No. Casis": "UF6XU3CBHZPLMSTNP",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1983CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          64,
+          9
+        ],
+        "text": "PAD26 83",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          118,
+          104,
+          8
+        ],
+        "text": "DATUK LEE TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          161,
+          106,
+          10
+        ],
+        "text": "680714-08-6723",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          202,
+          185,
+          30
+        ],
+        "text": "657, BANDAR SUBANG JAYA\nBUKIT BINTANG\n10206 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          299,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          297,
+          32,
+          10
+        ],
+        "text": "AXIA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          28,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          377,
+          65,
+          9
+        ],
+        "text": "AS402407",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          421,
+          153,
+          10
+        ],
+        "text": "UF6XU3CBHZPLMSTNP",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          457,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          462,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          501,
+          52,
+          10
+        ],
+        "text": "1983CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

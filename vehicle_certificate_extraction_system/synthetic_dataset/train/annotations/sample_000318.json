@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000318.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KYP14 92",
+    "Nama Pemilik": "DATO' MURUGAN",
+    "No. Kad Pengenalan": "000423-05-5751",
+    "Alamat": "203, LEBUH IPOH\nAMPANG\n13883 SELANGOR",
+    "Jenama": "PERODUA",
+    "Model": "ATIVA",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "FB807405",
+    "No. Casis": "L68AFJYXVZ2TJ04GU",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3267CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          64,
+          9
+        ],
+        "text": "KYP14 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          117,
+          118,
+          10
+        ],
+        "text": "DATO' MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          160,
+          112,
+          9
+        ],
+        "text": "000423-05-5751",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          197,
+          115,
+          36
+        ],
+        "text": "203, LEBUH IPOH\nAMPANG\n13883 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          299,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          299,
+          44,
+          10
+        ],
+        "text": "ATIVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          339,
+          28,
+          11
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          377,
+          59,
+          11
+        ],
+        "text": "FB807405",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          419,
+          140,
+          10
+        ],
+        "text": "L68AFJYXVZ2TJ04GU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          460,
+          40,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          461,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          499,
+          52,
+          10
+        ],
+        "text": "3267CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

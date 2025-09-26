@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000771.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BFF68 32",
+    "Nama Pemilik": "PN. OMAR BIN MOHAMED",
+    "No. Kad Pengenalan": "771218-05-8380",
+    "Alamat": "589, JALAN SEREMBAN\nSUBANG JAYA\n89156 PULAU PINANG",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "ZQ115753",
+    "No. Casis": "A17P0KA4PRTE50J5G",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2187CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          82,
+          57,
+          10
+        ],
+        "text": "BFF68 32",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          121,
+          172,
+          10
+        ],
+        "text": "PN. OMAR BIN MOHAMED",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          160,
+          94,
+          11
+        ],
+        "text": "771218-05-8380",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          202,
+          152,
+          30
+        ],
+        "text": "589, JALAN SEREMBAN\nSUBANG JAYA\n89156 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          301,
+          80,
+          8
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          338,
+          28,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          379,
+          68,
+          11
+        ],
+        "text": "ZQ115753",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          137,
+          11
+        ],
+        "text": "A17P0KA4PRTE50J5G",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          460,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          460,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          52,
+          10
+        ],
+        "text": "2187CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

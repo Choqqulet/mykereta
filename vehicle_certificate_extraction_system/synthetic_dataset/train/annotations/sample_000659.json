@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000659.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BCT57 05",
+    "Nama Pemilik": "PN. MURUGAN A/P SHARMA",
+    "No. Kad Pengenalan": "971012-14-4182",
+    "Alamat": "798, KAMPUNG BUKIT BINTANG\nBUKIT BINTANG\n91692 SARAWAK",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "KR767633",
+    "No. Casis": "PCH63JHC9WXXFUG91",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2481CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          78,
+          59,
+          11
+        ],
+        "text": "BCT57 05",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          117,
+          186,
+          10
+        ],
+        "text": "PN. MURUGAN A/P SHARMA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          160,
+          106,
+          10
+        ],
+        "text": "971012-14-4182",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          208,
+          30
+        ],
+        "text": "798, KAMPUNG BUKIT BINTANG\nBUKIT BINTANG\n91692 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          301,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          341,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          61,
+          10
+        ],
+        "text": "KR767633",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          422,
+          136,
+          9
+        ],
+        "text": "PCH63JHC9WXXFUG91",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          463,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          502,
+          48,
+          9
+        ],
+        "text": "2481CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

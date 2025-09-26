@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000815.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BMS71 23",
+    "Nama Pemilik": "PROF. ROHANI BINTI HALIMAH",
+    "No. Kad Pengenalan": "961104-07-2929",
+    "Alamat": "383, TAMAN KLANG\nSHAH ALAM\n58105 PAHANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "EO330508",
+    "No. Casis": "25459N1FFN0LVDYWJ",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1452CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          64,
+          9
+        ],
+        "text": "BMS71 23",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          121,
+          209,
+          10
+        ],
+        "text": "PROF. ROHANI BINTI HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          94,
+          10
+        ],
+        "text": "961104-07-2929",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          203,
+          133,
+          36
+        ],
+        "text": "383, TAMAN KLANG\nSHAH ALAM\n58105 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          299,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          341,
+          32,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          383,
+          64,
+          9
+        ],
+        "text": "EO330508",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          418,
+          150,
+          10
+        ],
+        "text": "25459N1FFN0LVDYWJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          461,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          460,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          499,
+          48,
+          9
+        ],
+        "text": "1452CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000889.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JSB14 40",
+    "Nama Pemilik": "TAN SRI YEN ONG",
+    "No. Kad Pengenalan": "990927-07-2834",
+    "Alamat": "23, TAMAN PETALING JAYA\nPENANG\n43373 TERENGGANU",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "GI795186",
+    "No. Casis": "A7PVNKJ5EXFX67LZC",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3481CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          79,
+          64,
+          9
+        ],
+        "text": "JSB14 40",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          122,
+          10
+        ],
+        "text": "TAN SRI YEN ONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          159,
+          94,
+          10
+        ],
+        "text": "990927-07-2834",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          203,
+          185,
+          36
+        ],
+        "text": "23, TAMAN PETALING JAYA\nPENANG\n43373 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          301,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          339,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          380,
+          64,
+          9
+        ],
+        "text": "GI795186",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          417,
+          148,
+          10
+        ],
+        "text": "A7PVNKJ5EXFX67LZC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          497,
+          48,
+          9
+        ],
+        "text": "3481CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

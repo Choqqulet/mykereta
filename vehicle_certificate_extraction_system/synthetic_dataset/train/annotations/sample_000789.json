@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000789.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WTI13 16",
+    "Nama Pemilik": "PROF. MARYAM",
+    "No. Kad Pengenalan": "001025-16-2329",
+    "Alamat": "198, JALAN RAJA SHAH ALAM\nBUKIT BINTANG\n96514 NEGERI SEMBILAN",
+    "Jenama": "HONDA",
+    "Model": "CIVIC",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "WG339633",
+    "No. Casis": "0T7ZU8YP8LKVKUJNC",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2235CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          77,
+          62,
+          10
+        ],
+        "text": "WTI13 16",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          107,
+          10
+        ],
+        "text": "PROF. MARYAM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          161,
+          94,
+          11
+        ],
+        "text": "001025-16-2329",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          199,
+          198,
+          36
+        ],
+        "text": "198, JALAN RAJA SHAH ALAM\nBUKIT BINTANG\n96514 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          38,
+          10
+        ],
+        "text": "CIVIC",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          337,
+          32,
+          9
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          377,
+          65,
+          10
+        ],
+        "text": "WG339633",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          420,
+          150,
+          10
+        ],
+        "text": "0T7ZU8YP8LKVKUJNC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          462,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          501,
+          52,
+          10
+        ],
+        "text": "2235CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

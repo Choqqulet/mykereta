@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000516.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KPY66 23",
+    "Nama Pemilik": "EN. OMAR BINTI YUSOF",
+    "No. Kad Pengenalan": "841126-15-8047",
+    "Alamat": "738, LORONG SHAH ALAM\nPETALING JAYA\n83320 PUTRAJAYA",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "QG545994",
+    "No. Casis": "HBWPGFS0N1THK1A74",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2765CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          78,
+          63,
+          10
+        ],
+        "text": "KPY66 23",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          122,
+          161,
+          10
+        ],
+        "text": "EN. OMAR BINTI YUSOF",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          157,
+          94,
+          11
+        ],
+        "text": "841126-15-8047",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          177,
+          36
+        ],
+        "text": "738, LORONG SHAH ALAM\nPETALING JAYA\n83320 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          300,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          338,
+          28,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          379,
+          62,
+          13
+        ],
+        "text": "QG545994",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          150,
+          10
+        ],
+        "text": "HBWPGFS0N1THK1A74",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          500,
+          46,
+          11
+        ],
+        "text": "2765CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

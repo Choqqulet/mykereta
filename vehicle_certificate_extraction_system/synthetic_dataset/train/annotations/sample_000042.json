@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000042.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JXQ39 78",
+    "Nama Pemilik": "PROF. KHADIJAH BIN RAHMAN",
+    "No. Kad Pengenalan": "760902-07-1635",
+    "Alamat": "537, TAMAN KLANG\nAMPANG\n84001 SELANGOR",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "HU194193",
+    "No. Casis": "85PNT6EK1VB9TUMMH",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2886CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          79,
+          63,
+          11
+        ],
+        "text": "JXQ39 78",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          122,
+          200,
+          8
+        ],
+        "text": "PROF. KHADIJAH BIN RAHMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          162,
+          106,
+          10
+        ],
+        "text": "760902-07-1635",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          202,
+          133,
+          36
+        ],
+        "text": "537, TAMAN KLANG\nAMPANG\n84001 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          299,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          303,
+          35,
+          10
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          338,
+          28,
+          11
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          381,
+          62,
+          10
+        ],
+        "text": "HU194193",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          418,
+          153,
+          11
+        ],
+        "text": "85PNT6EK1VB9TUMMH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          457,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          501,
+          52,
+          10
+        ],
+        "text": "2886CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

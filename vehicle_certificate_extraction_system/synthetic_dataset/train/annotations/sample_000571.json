@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000571.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WXR05 46",
+    "Nama Pemilik": "TAN SRI RADHA A/L VANI",
+    "No. Kad Pengenalan": "861216-12-2272",
+    "Alamat": "769, LORONG SUBANG JAYA\nIPOH\n60392 JOHOR",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "LX811682",
+    "No. Casis": "0TSNR8RL1DNY6CFHK",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1835CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          78,
+          68,
+          10
+        ],
+        "text": "WXR05 46",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          120,
+          168,
+          10
+        ],
+        "text": "TAN SRI RADHA A/L VANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          160,
+          94,
+          10
+        ],
+        "text": "861216-12-2272",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          201,
+          187,
+          36
+        ],
+        "text": "769, LORONG SUBANG JAYA\nIPOH\n60392 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          303,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          338,
+          32,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          383,
+          64,
+          9
+        ],
+        "text": "LX811682",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          423,
+          136,
+          9
+        ],
+        "text": "0TSNR8RL1DNY6CFHK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          457,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          457,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          501,
+          48,
+          9
+        ],
+        "text": "1835CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

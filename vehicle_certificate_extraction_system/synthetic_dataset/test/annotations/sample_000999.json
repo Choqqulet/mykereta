@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000999.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JOE39 53",
+    "Nama Pemilik": "DATO' IBRAHIM BIN YUSOF",
+    "No. Kad Pengenalan": "011103-09-9399",
+    "Alamat": "282, TAMAN IPOH\nSUBANG JAYA\n83401 MELAKA",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "UB676556",
+    "No. Casis": "H55M9EAB373MGJJW6",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1130CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          78,
+          64,
+          9
+        ],
+        "text": "JOE39 53",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          122,
+          183,
+          10
+        ],
+        "text": "DATO' IBRAHIM BIN YUSOF",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          159,
+          106,
+          10
+        ],
+        "text": "011103-09-9399",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          198,
+          120,
+          30
+        ],
+        "text": "282, TAMAN IPOH\nSUBANG JAYA\n83401 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          301,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          337,
+          28,
+          10
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          378,
+          64,
+          9
+        ],
+        "text": "UB676556",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          155,
+          10
+        ],
+        "text": "H55M9EAB373MGJJW6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          458,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          499,
+          46,
+          10
+        ],
+        "text": "1130CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

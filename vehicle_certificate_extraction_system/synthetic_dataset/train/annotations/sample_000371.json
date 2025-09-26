@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000371.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PBZ62 20",
+    "Nama Pemilik": "YEN WONG",
+    "No. Kad Pengenalan": "520423-14-1758",
+    "Alamat": "558, JALAN KLANG\nBUKIT BINTANG\n37254 PULAU PINANG",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "GX327409",
+    "No. Casis": "Y15AUSSGB1LE0AK59",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1310CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          81,
+          64,
+          9
+        ],
+        "text": "PBZ62 20",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          120,
+          76,
+          10
+        ],
+        "text": "YEN WONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          162,
+          112,
+          9
+        ],
+        "text": "520423-14-1758",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          197,
+          147,
+          36
+        ],
+        "text": "558, JALAN KLANG\nBUKIT BINTANG\n37254 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          303,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          303,
+          41,
+          8
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          338,
+          32,
+          9
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          378,
+          64,
+          9
+        ],
+        "text": "GX327409",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          420,
+          149,
+          10
+        ],
+        "text": "Y15AUSSGB1LE0AK59",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          463,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          500,
+          46,
+          10
+        ],
+        "text": "1310CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

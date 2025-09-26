@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000307.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WVB28 18",
+    "Nama Pemilik": "TAN SRI LIM CHONG",
+    "No. Kad Pengenalan": "911208-07-3387",
+    "Alamat": "904, LORONG PENANG\nBUKIT BINTANG\n96767 PULAU PINANG",
+    "Jenama": "NISSAN",
+    "Model": "ALMERA",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "WF295276",
+    "No. Casis": "YVCCDYVVKRJ2E973P",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2480CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          67,
+          10
+        ],
+        "text": "WVB28 18",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          122,
+          136,
+          8
+        ],
+        "text": "TAN SRI LIM CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          112,
+          9
+        ],
+        "text": "911208-07-3387",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          198,
+          144,
+          30
+        ],
+        "text": "904, LORONG PENANG\nBUKIT BINTANG\n96767 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          297,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          300,
+          59,
+          10
+        ],
+        "text": "ALMERA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          377,
+          64,
+          9
+        ],
+        "text": "WF295276",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          419,
+          151,
+          10
+        ],
+        "text": "YVCCDYVVKRJ2E973P",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          460,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          500,
+          46,
+          10
+        ],
+        "text": "2480CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

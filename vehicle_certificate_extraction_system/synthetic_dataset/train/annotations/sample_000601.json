@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000601.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BNM48 88",
+    "Nama Pemilik": "DR. SHARMA A/P REDDY",
+    "No. Kad Pengenalan": "631129-01-6198",
+    "Alamat": "418, KAMPUNG PENANG\nAMPANG\n90303 KEDAH",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "BN961122",
+    "No. Casis": "57U8YX1LED1G7575B",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1933CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          79,
+          63,
+          10
+        ],
+        "text": "BNM48 88",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          117,
+          166,
+          10
+        ],
+        "text": "DR. SHARMA A/P REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          160,
+          112,
+          9
+        ],
+        "text": "631129-01-6198",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          203,
+          152,
+          30
+        ],
+        "text": "418, KAMPUNG PENANG\nAMPANG\n90303 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          301,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          343,
+          28,
+          11
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          382,
+          61,
+          10
+        ],
+        "text": "BN961122",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          420,
+          136,
+          9
+        ],
+        "text": "57U8YX1LED1G7575B",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          457,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          498,
+          48,
+          9
+        ],
+        "text": "1933CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

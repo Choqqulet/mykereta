@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000270.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JAA43 96",
+    "Nama Pemilik": "EN. ROHANI BIN RAHMAN",
+    "No. Kad Pengenalan": "050801-16-2545",
+    "Alamat": "418, PERSIARAN SHAH ALAM\nAMPANG\n13934 PAHANG",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "SO937692",
+    "No. Casis": "SLYHPY2JUJJ3B8J7J",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3124CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          78,
+          57,
+          10
+        ],
+        "text": "JAA43 96",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          123,
+          174,
+          10
+        ],
+        "text": "EN. ROHANI BIN RAHMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          162,
+          106,
+          10
+        ],
+        "text": "050801-16-2545",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          203,
+          195,
+          36
+        ],
+        "text": "418, PERSIARAN SHAH ALAM\nAMPANG\n13934 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          297,
+          81,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          342,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          378,
+          60,
+          10
+        ],
+        "text": "SO937692",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          420,
+          136,
+          9
+        ],
+        "text": "SLYHPY2JUJJ3B8J7J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          461,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          462,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          499,
+          46,
+          10
+        ],
+        "text": "3124CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

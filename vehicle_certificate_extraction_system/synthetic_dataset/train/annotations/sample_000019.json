@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000019.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KWJ83 34",
+    "Nama Pemilik": "EN. CHONG MING",
+    "No. Kad Pengenalan": "620919-09-9632",
+    "Alamat": "891, PERSIARAN BUKIT BINTANG\nSUBANG JAYA\n20778 LABUAN",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "WF836854",
+    "No. Casis": "T3KC7F15W96ZFWWMG",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1462CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          79,
+          60,
+          10
+        ],
+        "text": "KWJ83 34",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          123,
+          112,
+          8
+        ],
+        "text": "EN. CHONG MING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          161,
+          112,
+          9
+        ],
+        "text": "620919-09-9632",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          198,
+          222,
+          36
+        ],
+        "text": "891, PERSIARAN BUKIT BINTANG\nSUBANG JAYA\n20778 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          297,
+          104,
+          8
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          338,
+          32,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          378,
+          64,
+          9
+        ],
+        "text": "WF836854",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          422,
+          136,
+          9
+        ],
+        "text": "T3KC7F15W96ZFWWMG",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          463,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          462,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          503,
+          46,
+          10
+        ],
+        "text": "1462CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

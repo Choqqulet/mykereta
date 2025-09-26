@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000262.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AET45 74",
+    "Nama Pemilik": "DATO' OMAR BINTI YUSOF",
+    "No. Kad Pengenalan": "730605-14-2366",
+    "Alamat": "239, PERSIARAN SEREMBAN\nAMPANG\n83453 SARAWAK",
+    "Jenama": "TOYOTA",
+    "Model": "FORTUNER",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "KO884187",
+    "No. Casis": "60CPBHF6CBK433WLF",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3242CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          80,
+          60,
+          11
+        ],
+        "text": "AET45 74",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          179,
+          10
+        ],
+        "text": "DATO' OMAR BINTI YUSOF",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          162,
+          106,
+          10
+        ],
+        "text": "730605-14-2366",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          184,
+          30
+        ],
+        "text": "239, PERSIARAN SEREMBAN\nAMPANG\n83453 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          302,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          299,
+          78,
+          10
+        ],
+        "text": "FORTUNER",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          340,
+          28,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          62,
+          10
+        ],
+        "text": "KO884187",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          423,
+          136,
+          9
+        ],
+        "text": "60CPBHF6CBK433WLF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          457,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          458,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          46,
+          10
+        ],
+        "text": "3242CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

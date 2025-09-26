@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000378.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PLW63 11",
+    "Nama Pemilik": "EN. ALI BIN HALIMAH",
+    "No. Kad Pengenalan": "780929-14-0305",
+    "Alamat": "25, JALAN TUN KAJANG\nCHERAS\n64529 MELAKA",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "KF681585",
+    "No. Casis": "2RRPZ7257GUP2FKK0",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1272CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          64,
+          9
+        ],
+        "text": "PLW63 11",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          117,
+          152,
+          8
+        ],
+        "text": "EN. ALI BIN HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          157,
+          106,
+          10
+        ],
+        "text": "780929-14-0305",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          198,
+          158,
+          36
+        ],
+        "text": "25, JALAN TUN KAJANG\nCHERAS\n64529 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          300,
+          50,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          337,
+          32,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          66,
+          10
+        ],
+        "text": "KF681585",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          140,
+          11
+        ],
+        "text": "2RRPZ7257GUP2FKK0",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          461,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          461,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          503,
+          46,
+          10
+        ],
+        "text": "1272CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

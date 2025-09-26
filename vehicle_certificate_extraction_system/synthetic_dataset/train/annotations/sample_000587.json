@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000587.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AAQ88 45",
+    "Nama Pemilik": "PN. JUN MING",
+    "No. Kad Pengenalan": "521221-14-6051",
+    "Alamat": "69, KAMPUNG SEREMBAN\nBUKIT BINTANG\n44015 NEGERI SEMBILAN",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "UA277604",
+    "No. Casis": "260GBL7HT5JZXPC58",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3053CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          80,
+          65,
+          11
+        ],
+        "text": "AAQ88 45",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          122,
+          92,
+          10
+        ],
+        "text": "PN. JUN MING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          161,
+          112,
+          9
+        ],
+        "text": "521221-14-6051",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          199,
+          175,
+          36
+        ],
+        "text": "69, KAMPUNG SEREMBAN\nBUKIT BINTANG\n44015 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          298,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          28,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          381,
+          67,
+          10
+        ],
+        "text": "UA277604",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          422,
+          137,
+          11
+        ],
+        "text": "260GBL7HT5JZXPC58",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          461,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          502,
+          46,
+          11
+        ],
+        "text": "3053CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

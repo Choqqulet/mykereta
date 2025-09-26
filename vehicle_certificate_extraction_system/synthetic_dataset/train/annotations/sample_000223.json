@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000223.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BCZ71 12",
+    "Nama Pemilik": "DATO' KUMAR A/L SINGH",
+    "No. Kad Pengenalan": "970915-15-3712",
+    "Alamat": "659, BANDAR IPOH\nBUKIT BINTANG\n69884 PAHANG",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "IB047817",
+    "No. Casis": "3NVANF5EBT06SN7HF",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1562CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          82,
+          64,
+          9
+        ],
+        "text": "BCZ71 12",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          121,
+          168,
+          11
+        ],
+        "text": "DATO' KUMAR A/L SINGH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          159,
+          112,
+          9
+        ],
+        "text": "970915-15-3712",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          201,
+          124,
+          36
+        ],
+        "text": "659, BANDAR IPOH\nBUKIT BINTANG\n69884 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          297,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          341,
+          28,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          383,
+          56,
+          10
+        ],
+        "text": "IB047817",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          422,
+          146,
+          11
+        ],
+        "text": "3NVANF5EBT06SN7HF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          461,
+          47,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          459,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          498,
+          52,
+          10
+        ],
+        "text": "1562CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

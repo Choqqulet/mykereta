@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000995.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PVB56 29",
+    "Nama Pemilik": "DATUK DEVI",
+    "No. Kad Pengenalan": "850517-13-9151",
+    "Alamat": "965, JALAN CHERAS\nSHAH ALAM\n85409 PERAK",
+    "Jenama": "TOYOTA",
+    "Model": "FORTUNER",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "VG972313",
+    "No. Casis": "SFYRCW3TXSZ7ASY29",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1064CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          64,
+          9
+        ],
+        "text": "PVB56 29",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          123,
+          80,
+          8
+        ],
+        "text": "DATUK DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          159,
+          94,
+          11
+        ],
+        "text": "850517-13-9151",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          136,
+          36
+        ],
+        "text": "965, JALAN CHERAS\nSHAH ALAM\n85409 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          301,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          298,
+          65,
+          8
+        ],
+        "text": "FORTUNER",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          338,
+          28,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          379,
+          62,
+          10
+        ],
+        "text": "VG972313",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          419,
+          136,
+          9
+        ],
+        "text": "SFYRCW3TXSZ7ASY29",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          460,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          457,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          500,
+          48,
+          9
+        ],
+        "text": "1064CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

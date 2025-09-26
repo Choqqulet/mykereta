@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000559.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "APU43 98",
+    "Nama Pemilik": "DR. KAMALA",
+    "No. Kad Pengenalan": "500827-01-9802",
+    "Alamat": "502, LEBUH IPOH\nCHERAS\n87006 PERAK",
+    "Jenama": "PERODUA",
+    "Model": "BEZZA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "KV814989",
+    "No. Casis": "ZS12FPJKMA8E8KY9N",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2683CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          83,
+          60,
+          10
+        ],
+        "text": "APU43 98",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          123,
+          85,
+          10
+        ],
+        "text": "DR. KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          157,
+          106,
+          10
+        ],
+        "text": "500827-01-9802",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          201,
+          120,
+          30
+        ],
+        "text": "502, LEBUH IPOH\nCHERAS\n87006 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          298,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          302,
+          41,
+          8
+        ],
+        "text": "BEZZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          339,
+          32,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          380,
+          66,
+          10
+        ],
+        "text": "KV814989",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          419,
+          136,
+          9
+        ],
+        "text": "ZS12FPJKMA8E8KY9N",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          458,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          503,
+          46,
+          10
+        ],
+        "text": "2683CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

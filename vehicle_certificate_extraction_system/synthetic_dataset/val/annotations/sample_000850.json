@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000850.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WQQ79 17",
+    "Nama Pemilik": "EN. DEVI",
+    "No. Kad Pengenalan": "820610-06-3819",
+    "Alamat": "21, JALAN TUN PETALING JAYA\nPENANG\n72704 PERAK",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "AI907368",
+    "No. Casis": "Y7ASWXPT2GD1PN3J9",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1066CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          77,
+          71,
+          11
+        ],
+        "text": "WQQ79 17",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          123,
+          59,
+          10
+        ],
+        "text": "EN. DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          158,
+          112,
+          9
+        ],
+        "text": "820610-06-3819",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          201,
+          217,
+          30
+        ],
+        "text": "21, JALAN TUN PETALING JAYA\nPENANG\n72704 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          297,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          301,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          32,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          377,
+          61,
+          10
+        ],
+        "text": "AI907368",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          146,
+          10
+        ],
+        "text": "Y7ASWXPT2GD1PN3J9",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          463,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          459,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          499,
+          46,
+          10
+        ],
+        "text": "1066CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

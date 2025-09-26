@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000206.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KKO92 13",
+    "Nama Pemilik": "PROF. RADHA A/P SHARMA",
+    "No. Kad Pengenalan": "881214-06-4812",
+    "Alamat": "228, TAMAN JOHOR BAHRU\nJOHOR BAHRU\n12907 PERLIS",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "QG332447",
+    "No. Casis": "GAP977T7GFHJPHEP6",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1746CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          82,
+          62,
+          10
+        ],
+        "text": "KKO92 13",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          177,
+          11
+        ],
+        "text": "PROF. RADHA A/P SHARMA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          157,
+          106,
+          10
+        ],
+        "text": "881214-06-4812",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          202,
+          176,
+          30
+        ],
+        "text": "228, TAMAN JOHOR BAHRU\nJOHOR BAHRU\n12907 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          300,
+          81,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          339,
+          32,
+          9
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          70,
+          11
+        ],
+        "text": "QG332447",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          422,
+          152,
+          10
+        ],
+        "text": "GAP977T7GFHJPHEP6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          457,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          460,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          503,
+          46,
+          10
+        ],
+        "text": "1746CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000610.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BRB81 43",
+    "Nama Pemilik": "EN. TAN WONG",
+    "No. Kad Pengenalan": "040721-02-7318",
+    "Alamat": "728, JALAN TUN KLANG\nKAJANG\n68984 PAHANG",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "TQ882664",
+    "No. Casis": "TCG82G00PWSE38CKG",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2200CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          79,
+          64,
+          9
+        ],
+        "text": "BRB81 43",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          120,
+          96,
+          8
+        ],
+        "text": "EN. TAN WONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          163,
+          112,
+          9
+        ],
+        "text": "040721-02-7318",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          203,
+          160,
+          30
+        ],
+        "text": "728, JALAN TUN KLANG\nKAJANG\n68984 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          302,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          299,
+          25,
+          10
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          342,
+          32,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          61,
+          12
+        ],
+        "text": "TQ882664",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          136,
+          9
+        ],
+        "text": "TCG82G00PWSE38CKG",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          457,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          503,
+          48,
+          9
+        ],
+        "text": "2200CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

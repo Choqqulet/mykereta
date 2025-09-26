@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000137.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PEH87 13",
+    "Nama Pemilik": "EN. RAO A/L REDDY",
+    "No. Kad Pengenalan": "941228-12-1761",
+    "Alamat": "823, JALAN TUN AMPANG\nAMPANG\n24937 KUALA LUMPUR",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "BS208232",
+    "No. Casis": "5PBRB4L6L77P1NU98",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3073CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          77,
+          59,
+          10
+        ],
+        "text": "PEH87 13",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          119,
+          135,
+          10
+        ],
+        "text": "EN. RAO A/L REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          161,
+          112,
+          9
+        ],
+        "text": "941228-12-1761",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          200,
+          170,
+          36
+        ],
+        "text": "823, JALAN TUN AMPANG\nAMPANG\n24937 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          298,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          340,
+          28,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          66,
+          10
+        ],
+        "text": "BS208232",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          423,
+          137,
+          11
+        ],
+        "text": "5PBRB4L6L77P1NU98",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          459,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          462,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          52,
+          10
+        ],
+        "text": "3073CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

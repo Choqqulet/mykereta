@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000639.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PXH32 55",
+    "Nama Pemilik": "PN. TAN GOH",
+    "No. Kad Pengenalan": "950413-06-5938",
+    "Alamat": "561, JALAN AMPANG\nKAJANG\n81770 NEGERI SEMBILAN",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "IM322168",
+    "No. Casis": "VN2M75K541SCCZXJE",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1026CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          80,
+          64,
+          10
+        ],
+        "text": "PXH32 55",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          91,
+          10
+        ],
+        "text": "PN. TAN GOH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          157,
+          112,
+          9
+        ],
+        "text": "950413-06-5938",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          200,
+          171,
+          36
+        ],
+        "text": "561, JALAN AMPANG\nKAJANG\n81770 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          298,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          340,
+          32,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          382,
+          64,
+          10
+        ],
+        "text": "IM322168",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          421,
+          151,
+          10
+        ],
+        "text": "VN2M75K541SCCZXJE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          461,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          46,
+          10
+        ],
+        "text": "1026CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

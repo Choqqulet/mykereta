@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000903.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BGX30 27",
+    "Nama Pemilik": "PROF. HALIMAH BINTI SITI",
+    "No. Kad Pengenalan": "860922-14-0662",
+    "Alamat": "564, JALAN TUN SUBANG JAYA\nBUKIT BINTANG\n46911 SABAH",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "PX967021",
+    "No. Casis": "T8FSAH2CENGJCST53",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2542CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          61,
+          10
+        ],
+        "text": "BGX30 27",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          122,
+          179,
+          10
+        ],
+        "text": "PROF. HALIMAH BINTI SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          106,
+          10
+        ],
+        "text": "860922-14-0662",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          201,
+          206,
+          36
+        ],
+        "text": "564, JALAN TUN SUBANG JAYA\nBUKIT BINTANG\n46911 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          302,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          338,
+          28,
+          11
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          379,
+          60,
+          10
+        ],
+        "text": "PX967021",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          417,
+          136,
+          9
+        ],
+        "text": "T8FSAH2CENGJCST53",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          458,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          463,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          499,
+          48,
+          9
+        ],
+        "text": "2542CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

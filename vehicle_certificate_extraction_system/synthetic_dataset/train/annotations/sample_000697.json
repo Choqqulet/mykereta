@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000697.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WQM07 93",
+    "Nama Pemilik": "EN. HALIMAH",
+    "No. Kad Pengenalan": "610929-02-0263",
+    "Alamat": "447, JALAN IPOH\nSUBANG JAYA\n76109 SELANGOR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "WU115711",
+    "No. Casis": "25R5Z50HJUAF6BJCJ",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1319CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          81,
+          72,
+          11
+        ],
+        "text": "WQM07 93",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          118,
+          88,
+          8
+        ],
+        "text": "EN. HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          158,
+          94,
+          10
+        ],
+        "text": "610929-02-0263",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          120,
+          30
+        ],
+        "text": "447, JALAN IPOH\nSUBANG JAYA\n76109 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          37,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          337,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          378,
+          65,
+          11
+        ],
+        "text": "WU115711",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          418,
+          136,
+          9
+        ],
+        "text": "25R5Z50HJUAF6BJCJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          52,
+          10
+        ],
+        "text": "1319CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

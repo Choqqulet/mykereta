@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000997.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KPW18 45",
+    "Nama Pemilik": "DATO' OMAR BIN OMAR",
+    "No. Kad Pengenalan": "790724-05-7346",
+    "Alamat": "474, TAMAN BUKIT BINTANG\nAMPANG\n96660 KELANTAN",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "LZ598824",
+    "No. Casis": "EVHXGSU46WZ31JJLG",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1186CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          79,
+          63,
+          11
+        ],
+        "text": "KPW18 45",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          121,
+          161,
+          10
+        ],
+        "text": "DATO' OMAR BIN OMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          162,
+          112,
+          9
+        ],
+        "text": "790724-05-7346",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          202,
+          192,
+          30
+        ],
+        "text": "474, TAMAN BUKIT BINTANG\nAMPANG\n96660 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          303,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          302,
+          32,
+          8
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          343,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          378,
+          64,
+          9
+        ],
+        "text": "LZ598824",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          422,
+          136,
+          9
+        ],
+        "text": "EVHXGSU46WZ31JJLG",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          461,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          463,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          500,
+          52,
+          10
+        ],
+        "text": "1186CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

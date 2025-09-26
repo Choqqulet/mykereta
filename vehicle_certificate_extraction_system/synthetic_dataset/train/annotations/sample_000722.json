@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000722.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JSK42 55",
+    "Nama Pemilik": "TAN SRI PATEL A/P LAKSHMI",
+    "No. Kad Pengenalan": "960109-08-1483",
+    "Alamat": "309, KAMPUNG SEREMBAN\nKAJANG\n92276 KEDAH",
+    "Jenama": "TOYOTA",
+    "Model": "CAMRY",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "RK637024",
+    "No. Casis": "LY08B0U2UAM617XGJ",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2110CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          64,
+          9
+        ],
+        "text": "JSK42 55",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          121,
+          194,
+          10
+        ],
+        "text": "TAN SRI PATEL A/P LAKSHMI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          158,
+          106,
+          10
+        ],
+        "text": "960109-08-1483",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          198,
+          179,
+          36
+        ],
+        "text": "309, KAMPUNG SEREMBAN\nKAJANG\n92276 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          303,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          299,
+          50,
+          10
+        ],
+        "text": "CAMRY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          383,
+          61,
+          10
+        ],
+        "text": "RK637024",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          421,
+          145,
+          10
+        ],
+        "text": "LY08B0U2UAM617XGJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          458,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          460,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          46,
+          10
+        ],
+        "text": "2110CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

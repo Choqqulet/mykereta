@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000082.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "POE88 00",
+    "Nama Pemilik": "NG LIM",
+    "No. Kad Pengenalan": "670525-02-3437",
+    "Alamat": "81, KAMPUNG IPOH\nKLANG\n67620 KUALA LUMPUR",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "ZO983739",
+    "No. Casis": "Z3UTG0Y8J09DSCEJ3",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2723CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          82,
+          65,
+          10
+        ],
+        "text": "POE88 00",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          118,
+          51,
+          10
+        ],
+        "text": "NG LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          160,
+          94,
+          11
+        ],
+        "text": "670525-02-3437",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          197,
+          152,
+          36
+        ],
+        "text": "81, KAMPUNG IPOH\nKLANG\n67620 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          298,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          301,
+          41,
+          8
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          340,
+          32,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          378,
+          68,
+          10
+        ],
+        "text": "ZO983739",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          420,
+          136,
+          10
+        ],
+        "text": "Z3UTG0Y8J09DSCEJ3",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          461,
+          47,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          498,
+          46,
+          10
+        ],
+        "text": "2723CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

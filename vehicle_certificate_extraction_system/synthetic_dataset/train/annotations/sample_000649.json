@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000649.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KEH19 94",
+    "Nama Pemilik": "TAN SRI LEE MING",
+    "No. Kad Pengenalan": "620517-11-9424",
+    "Alamat": "242, JALAN SEREMBAN\nPETALING JAYA\n36969 LABUAN",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "KG822375",
+    "No. Casis": "1FNHBPZ9T4TVDJUC1",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1865CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          81,
+          64,
+          10
+        ],
+        "text": "KEH19 94",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          126,
+          10
+        ],
+        "text": "TAN SRI LEE MING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          163,
+          112,
+          9
+        ],
+        "text": "620517-11-9424",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          199,
+          156,
+          36
+        ],
+        "text": "242, JALAN SEREMBAN\nPETALING JAYA\n36969 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          297,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          337,
+          28,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          377,
+          62,
+          11
+        ],
+        "text": "KG822375",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          423,
+          152,
+          10
+        ],
+        "text": "1FNHBPZ9T4TVDJUC1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          459,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          499,
+          52,
+          10
+        ],
+        "text": "1865CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

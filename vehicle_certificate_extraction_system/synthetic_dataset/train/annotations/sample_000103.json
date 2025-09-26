@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000103.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JHC89 39",
+    "Nama Pemilik": "PROF. AHMAD",
+    "No. Kad Pengenalan": "520117-05-8249",
+    "Alamat": "449, JALAN DATO' AMPANG\nSUBANG JAYA\n85159 PERAK",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "QT867633",
+    "No. Casis": "396ZZUXNWCH454D7A",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2550CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          56,
+          10
+        ],
+        "text": "JHC89 39",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          120,
+          97,
+          10
+        ],
+        "text": "PROF. AHMAD",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          160,
+          94,
+          11
+        ],
+        "text": "520117-05-8249",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          197,
+          183,
+          36
+        ],
+        "text": "449, JALAN DATO' AMPANG\nSUBANG JAYA\n85159 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          297,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          28,
+          10
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          338,
+          32,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          382,
+          64,
+          11
+        ],
+        "text": "QT867633",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          420,
+          156,
+          10
+        ],
+        "text": "396ZZUXNWCH454D7A",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          459,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          462,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          502,
+          52,
+          10
+        ],
+        "text": "2550CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000365.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BGN11 07",
+    "Nama Pemilik": "DATO' MEI MEI",
+    "No. Kad Pengenalan": "870801-11-1791",
+    "Alamat": "473, JALAN SUBANG JAYA\nSUBANG JAYA\n35636 NEGERI SEMBILAN",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "LK064873",
+    "No. Casis": "41CJDHX7F5A60EAWN",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2222CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          61,
+          10
+        ],
+        "text": "BGN11 07",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          119,
+          100,
+          10
+        ],
+        "text": "DATO' MEI MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          160,
+          94,
+          10
+        ],
+        "text": "870801-11-1791",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          203,
+          176,
+          36
+        ],
+        "text": "473, JALAN SUBANG JAYA\nSUBANG JAYA\n35636 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          299,
+          35,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          28,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          379,
+          65,
+          10
+        ],
+        "text": "LK064873",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          423,
+          136,
+          9
+        ],
+        "text": "41CJDHX7F5A60EAWN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          458,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          458,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          502,
+          52,
+          10
+        ],
+        "text": "2222CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

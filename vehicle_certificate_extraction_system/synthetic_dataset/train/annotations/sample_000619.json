@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000619.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JYZ81 32",
+    "Nama Pemilik": "TEO XIAO",
+    "No. Kad Pengenalan": "700605-06-7756",
+    "Alamat": "48, TAMAN BUKIT BINTANG\nAMPANG\n71081 MELAKA",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "OD348224",
+    "No. Casis": "WN0CKME9XP7UANGBS",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3371CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          82,
+          61,
+          10
+        ],
+        "text": "JYZ81 32",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          121,
+          67,
+          10
+        ],
+        "text": "TEO XIAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          159,
+          94,
+          11
+        ],
+        "text": "700605-06-7756",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          187,
+          36
+        ],
+        "text": "48, TAMAN BUKIT BINTANG\nAMPANG\n71081 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          98,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          339,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          381,
+          64,
+          9
+        ],
+        "text": "OD348224",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          136,
+          9
+        ],
+        "text": "WN0CKME9XP7UANGBS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          463,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          460,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          503,
+          46,
+          10
+        ],
+        "text": "3371CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

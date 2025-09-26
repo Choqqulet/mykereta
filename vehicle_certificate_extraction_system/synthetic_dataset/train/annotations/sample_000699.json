@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000699.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ANJ78 68",
+    "Nama Pemilik": "PROF. SHARMA A/P RAMAN",
+    "No. Kad Pengenalan": "750331-09-8784",
+    "Alamat": "225, JALAN SHAH ALAM\nCHERAS\n63332 SELANGOR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "IY002744",
+    "No. Casis": "NPZZRRYJDP960N2VL",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2232CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          65,
+          9
+        ],
+        "text": "ANJ78 68",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          121,
+          176,
+          11
+        ],
+        "text": "PROF. SHARMA A/P RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          163,
+          94,
+          11
+        ],
+        "text": "750331-09-8784",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          200,
+          161,
+          30
+        ],
+        "text": "225, JALAN SHAH ALAM\nCHERAS\n63332 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          301,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          341,
+          28,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          383,
+          61,
+          10
+        ],
+        "text": "IY002744",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          136,
+          9
+        ],
+        "text": "NPZZRRYJDP960N2VL",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          502,
+          52,
+          10
+        ],
+        "text": "2232CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

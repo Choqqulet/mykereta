@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000251.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PEG35 18",
+    "Nama Pemilik": "EN. HUI MEI",
+    "No. Kad Pengenalan": "670621-11-2233",
+    "Alamat": "542, JALAN RAJA SEREMBAN\nCHERAS\n93314 PAHANG",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "DB806360",
+    "No. Casis": "0530GV2F3LEV1G4U7",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3275CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          80,
+          65,
+          10
+        ],
+        "text": "PEG35 18",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          123,
+          80,
+          10
+        ],
+        "text": "EN. HUI MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          112,
+          9
+        ],
+        "text": "670621-11-2233",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          198,
+          192,
+          30
+        ],
+        "text": "542, JALAN RAJA SEREMBAN\nCHERAS\n93314 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          298,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          340,
+          32,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          377,
+          67,
+          10
+        ],
+        "text": "DB806360",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          421,
+          136,
+          9
+        ],
+        "text": "0530GV2F3LEV1G4U7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          462,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          503,
+          48,
+          9
+        ],
+        "text": "3275CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

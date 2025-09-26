@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000458.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KUA79 82",
+    "Nama Pemilik": "EN. WEI JUN",
+    "No. Kad Pengenalan": "970406-11-8720",
+    "Alamat": "40, JALAN RAJA IPOH\nKLANG\n30335 JOHOR",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "QA293380",
+    "No. Casis": "R5WK9KSZTDCSM5HG5",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2602CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          83,
+          62,
+          10
+        ],
+        "text": "KUA79 82",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          123,
+          84,
+          10
+        ],
+        "text": "EN. WEI JUN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          106,
+          10
+        ],
+        "text": "970406-11-8720",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          199,
+          144,
+          36
+        ],
+        "text": "40, JALAN RAJA IPOH\nKLANG\n30335 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          302,
+          65,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          339,
+          32,
+          9
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          382,
+          62,
+          12
+        ],
+        "text": "QA293380",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          418,
+          155,
+          11
+        ],
+        "text": "R5WK9KSZTDCSM5HG5",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          462,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          463,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          501,
+          48,
+          9
+        ],
+        "text": "2602CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000079.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KDG74 62",
+    "Nama Pemilik": "PROF. ROHANI",
+    "No. Kad Pengenalan": "000119-14-0698",
+    "Alamat": "368, TAMAN KLANG\nSEREMBAN\n24697 KEDAH",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "ZZ150596",
+    "No. Casis": "D3YYLSJM1UUWA5KNF",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3058CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          80,
+          66,
+          10
+        ],
+        "text": "KDG74 62",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          120,
+          96,
+          8
+        ],
+        "text": "PROF. ROHANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          162,
+          94,
+          10
+        ],
+        "text": "000119-14-0698",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          203,
+          128,
+          30
+        ],
+        "text": "368, TAMAN KLANG\nSEREMBAN\n24697 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          298,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          338,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          379,
+          60,
+          11
+        ],
+        "text": "ZZ150596",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          419,
+          158,
+          10
+        ],
+        "text": "D3YYLSJM1UUWA5KNF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          462,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          500,
+          48,
+          9
+        ],
+        "text": "3058CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

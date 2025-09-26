@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000179.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WXP50 24",
+    "Nama Pemilik": "PN. SALLEH BINTI IBRAHIM",
+    "No. Kad Pengenalan": "950730-05-2952",
+    "Alamat": "265, KAMPUNG IPOH\nCHERAS\n21261 KEDAH",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "WK586187",
+    "No. Casis": "13XW02BEB0680M7H0",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1494CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          81,
+          67,
+          10
+        ],
+        "text": "WXP50 24",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          122,
+          182,
+          10
+        ],
+        "text": "PN. SALLEH BINTI IBRAHIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          157,
+          94,
+          11
+        ],
+        "text": "950730-05-2952",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          199,
+          140,
+          36
+        ],
+        "text": "265, KAMPUNG IPOH\nCHERAS\n21261 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          50,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          338,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          379,
+          65,
+          11
+        ],
+        "text": "WK586187",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          423,
+          142,
+          10
+        ],
+        "text": "13XW02BEB0680M7H0",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          459,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          500,
+          48,
+          9
+        ],
+        "text": "1494CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

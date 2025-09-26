@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000798.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JFM13 36",
+    "Nama Pemilik": "DR. JUN CHONG",
+    "No. Kad Pengenalan": "580722-08-9071",
+    "Alamat": "574, LEBUH BUKIT BINTANG\nSHAH ALAM\n76879 PULAU PINANG",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "XC045748",
+    "No. Casis": "6F3KZFBWJDV9MZD36",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2424CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          80,
+          64,
+          10
+        ],
+        "text": "JFM13 36",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          121,
+          111,
+          10
+        ],
+        "text": "DR. JUN CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          162,
+          106,
+          10
+        ],
+        "text": "580722-08-9071",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          198,
+          192,
+          30
+        ],
+        "text": "574, LEBUH BUKIT BINTANG\nSHAH ALAM\n76879 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          300,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          341,
+          32,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          378,
+          67,
+          10
+        ],
+        "text": "XC045748",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          417,
+          136,
+          9
+        ],
+        "text": "6F3KZFBWJDV9MZD36",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          461,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          46,
+          10
+        ],
+        "text": "2424CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

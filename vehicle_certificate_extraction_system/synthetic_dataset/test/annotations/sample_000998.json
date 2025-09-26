@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000998.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BSA10 66",
+    "Nama Pemilik": "PROF. ISMAIL BIN ALI",
+    "No. Kad Pengenalan": "850916-02-7377",
+    "Alamat": "576, JALAN BUKIT BINTANG\nJOHOR BAHRU\n46989 TERENGGANU",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "UR482505",
+    "No. Casis": "SGALKZMN2NYJ1TCZR",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1566CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          83,
+          63,
+          10
+        ],
+        "text": "BSA10 66",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          121,
+          160,
+          8
+        ],
+        "text": "PROF. ISMAIL BIN ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          162,
+          112,
+          9
+        ],
+        "text": "850916-02-7377",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          198,
+          187,
+          36
+        ],
+        "text": "576, JALAN BUKIT BINTANG\nJOHOR BAHRU\n46989 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          303,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          301,
+          27,
+          10
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          342,
+          32,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          383,
+          61,
+          11
+        ],
+        "text": "UR482505",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          420,
+          154,
+          10
+        ],
+        "text": "SGALKZMN2NYJ1TCZR",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          457,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          461,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          497,
+          46,
+          11
+        ],
+        "text": "1566CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

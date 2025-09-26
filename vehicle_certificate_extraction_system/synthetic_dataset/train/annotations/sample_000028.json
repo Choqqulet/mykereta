@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000028.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PXI83 32",
+    "Nama Pemilik": "DATUK YEN TEO",
+    "No. Kad Pengenalan": "910813-07-4258",
+    "Alamat": "668, PERSIARAN SUBANG JAYA\nKAJANG\n13384 SELANGOR",
+    "Jenama": "NISSAN",
+    "Model": "NAVARA",
+    "Tahun Dibuat": "2014",
+    "No. Enjin": "GN056139",
+    "No. Casis": "N0KJURGSPYZ51NLCE",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1369CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          78,
+          55,
+          10
+        ],
+        "text": "PXI83 32",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          123,
+          104,
+          8
+        ],
+        "text": "DATUK YEN TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          160,
+          106,
+          10
+        ],
+        "text": "910813-07-4258",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          197,
+          209,
+          30
+        ],
+        "text": "668, PERSIARAN SUBANG JAYA\nKAJANG\n13384 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          302,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          303,
+          59,
+          10
+        ],
+        "text": "NAVARA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          340,
+          28,
+          10
+        ],
+        "text": "2014",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          62,
+          11
+        ],
+        "text": "GN056139",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          422,
+          154,
+          10
+        ],
+        "text": "N0KJURGSPYZ51NLCE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          500,
+          48,
+          9
+        ],
+        "text": "1369CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

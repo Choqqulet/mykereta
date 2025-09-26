@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000742.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BAI71 47",
+    "Nama Pemilik": "PROF. GEETHA",
+    "No. Kad Pengenalan": "010317-13-4313",
+    "Alamat": "285, LEBUH JOHOR BAHRU\nSHAH ALAM\n37688 KEDAH",
+    "Jenama": "PERODUA",
+    "Model": "ATIVA",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "LV587000",
+    "No. Casis": "BP42LZA12HKLPAC88",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2174CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          79,
+          64,
+          9
+        ],
+        "text": "BAI71 47",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          120,
+          105,
+          10
+        ],
+        "text": "PROF. GEETHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          112,
+          9
+        ],
+        "text": "010317-13-4313",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          199,
+          176,
+          36
+        ],
+        "text": "285, LEBUH JOHOR BAHRU\nSHAH ALAM\n37688 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          300,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          302,
+          42,
+          8
+        ],
+        "text": "ATIVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          64,
+          9
+        ],
+        "text": "LV587000",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          136,
+          9
+        ],
+        "text": "BP42LZA12HKLPAC88",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          463,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          460,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          498,
+          52,
+          10
+        ],
+        "text": "2174CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000128.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PST11 51",
+    "Nama Pemilik": "PN. PRIYA",
+    "No. Kad Pengenalan": "510623-16-8223",
+    "Alamat": "136, JALAN DATO' PETALING JAYA\nPETALING JAYA\n25824 KUALA LUMPUR",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "LR622795",
+    "No. Casis": "VN8CX68Y5DRPTSCFD",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2627CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          81,
+          57,
+          11
+        ],
+        "text": "PST11 51",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          123,
+          68,
+          10
+        ],
+        "text": "PN. PRIYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          161,
+          94,
+          11
+        ],
+        "text": "510623-16-8223",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          197,
+          232,
+          36
+        ],
+        "text": "136, JALAN DATO' PETALING JAYA\nPETALING JAYA\n25824 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          297,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          343,
+          32,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          378,
+          64,
+          9
+        ],
+        "text": "LR622795",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          148,
+          11
+        ],
+        "text": "VN8CX68Y5DRPTSCFD",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          458,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          501,
+          52,
+          10
+        ],
+        "text": "2627CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

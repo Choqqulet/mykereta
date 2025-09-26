@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000426.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PDB59 60",
+    "Nama Pemilik": "EN. RADHA A/L RAO",
+    "No. Kad Pengenalan": "601112-01-6394",
+    "Alamat": "401, JALAN TUN IPOH\nPETALING JAYA\n48555 SELANGOR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "WP499912",
+    "No. Casis": "VS91GV66SZJ64JLJ4",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2352CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          83,
+          64,
+          10
+        ],
+        "text": "PDB59 60",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          118,
+          136,
+          10
+        ],
+        "text": "EN. RADHA A/L RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          163,
+          106,
+          10
+        ],
+        "text": "601112-01-6394",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          143,
+          36
+        ],
+        "text": "401, JALAN TUN IPOH\nPETALING JAYA\n48555 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          302,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          339,
+          28,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          379,
+          63,
+          10
+        ],
+        "text": "WP499912",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          421,
+          128,
+          10
+        ],
+        "text": "VS91GV66SZJ64JLJ4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          459,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          459,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          46,
+          11
+        ],
+        "text": "2352CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

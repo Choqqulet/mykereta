@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000748.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JAQ25 14",
+    "Nama Pemilik": "PROF. TEO XIAO",
+    "No. Kad Pengenalan": "650101-08-0654",
+    "Alamat": "31, PERSIARAN SUBANG JAYA\nCHERAS\n65528 NEGERI SEMBILAN",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "QL779035",
+    "No. Casis": "5RSTZ90944Z4J3EK3",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3418CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          64,
+          11
+        ],
+        "text": "JAQ25 14",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          118,
+          110,
+          10
+        ],
+        "text": "PROF. TEO XIAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          157,
+          94,
+          11
+        ],
+        "text": "650101-08-0654",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          203,
+          200,
+          36
+        ],
+        "text": "31, PERSIARAN SUBANG JAYA\nCHERAS\n65528 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          47,
+          10
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          337,
+          32,
+          9
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          67,
+          11
+        ],
+        "text": "QL779035",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          143,
+          10
+        ],
+        "text": "5RSTZ90944Z4J3EK3",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          499,
+          52,
+          10
+        ],
+        "text": "3418CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

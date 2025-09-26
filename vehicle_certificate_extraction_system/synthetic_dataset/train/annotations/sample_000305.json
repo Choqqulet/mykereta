@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000305.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JNY91 91",
+    "Nama Pemilik": "PROF. KAMALA",
+    "No. Kad Pengenalan": "960505-16-4798",
+    "Alamat": "91, JALAN JOHOR BAHRU\nSEREMBAN\n93864 TERENGGANU",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "XG804877",
+    "No. Casis": "JWDEYU8C5WG8ETXG1",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1373CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          81,
+          57,
+          10
+        ],
+        "text": "JNY91 91",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          119,
+          104,
+          10
+        ],
+        "text": "PROF. KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          106,
+          10
+        ],
+        "text": "960505-16-4798",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          197,
+          172,
+          36
+        ],
+        "text": "91, JALAN JOHOR BAHRU\nSEREMBAN\n93864 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          302,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          339,
+          32,
+          9
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          381,
+          62,
+          10
+        ],
+        "text": "XG804877",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          417,
+          155,
+          11
+        ],
+        "text": "JWDEYU8C5WG8ETXG1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          459,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          461,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          498,
+          48,
+          9
+        ],
+        "text": "1373CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

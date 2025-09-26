@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000462.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WLU61 86",
+    "Nama Pemilik": "DR. CHAN CHONG",
+    "No. Kad Pengenalan": "960329-15-3972",
+    "Alamat": "849, LEBUH KAJANG\nSEREMBAN\n56807 SELANGOR",
+    "Jenama": "PERODUA",
+    "Model": "ALZA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "NF966630",
+    "No. Casis": "M8P9MMNG0VBF0GBWU",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1039CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          67,
+          10
+        ],
+        "text": "WLU61 86",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          120,
+          123,
+          10
+        ],
+        "text": "DR. CHAN CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          157,
+          94,
+          11
+        ],
+        "text": "960329-15-3972",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          200,
+          136,
+          30
+        ],
+        "text": "849, LEBUH KAJANG\nSEREMBAN\n56807 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          299,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          36,
+          10
+        ],
+        "text": "ALZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          343,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          381,
+          67,
+          10
+        ],
+        "text": "NF966630",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          418,
+          161,
+          10
+        ],
+        "text": "M8P9MMNG0VBF0GBWU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          459,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          499,
+          46,
+          10
+        ],
+        "text": "1039CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

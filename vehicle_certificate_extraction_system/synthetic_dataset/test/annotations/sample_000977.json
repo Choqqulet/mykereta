@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000977.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BXF86 29",
+    "Nama Pemilik": "DATO' OMAR BINTI ZALEHA",
+    "No. Kad Pengenalan": "650204-16-6793",
+    "Alamat": "506, KAMPUNG IPOH\nAMPANG\n71534 PERLIS",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "RS492921",
+    "No. Casis": "YLKJA2GV05G2UY43K",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1942CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          80,
+          64,
+          9
+        ],
+        "text": "BXF86 29",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          187,
+          10
+        ],
+        "text": "DATO' OMAR BINTI ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          112,
+          9
+        ],
+        "text": "650204-16-6793",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          198,
+          136,
+          36
+        ],
+        "text": "506, KAMPUNG IPOH\nAMPANG\n71534 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          302,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          338,
+          32,
+          9
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          59,
+          10
+        ],
+        "text": "RS492921",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          418,
+          150,
+          10
+        ],
+        "text": "YLKJA2GV05G2UY43K",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          462,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          502,
+          48,
+          9
+        ],
+        "text": "1942CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

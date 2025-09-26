@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000741.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KIQ43 05",
+    "Nama Pemilik": "DR. MEERA A/L KRISHNAN",
+    "No. Kad Pengenalan": "940309-13-4328",
+    "Alamat": "689, JALAN DATO' CHERAS\nSUBANG JAYA\n90630 PUTRAJAYA",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "KO213998",
+    "No. Casis": "RGZVJTJ2APXBZG5V4",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2720CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          60,
+          11
+        ],
+        "text": "KIQ43 05",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          117,
+          176,
+          11
+        ],
+        "text": "DR. MEERA A/L KRISHNAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          112,
+          9
+        ],
+        "text": "940309-13-4328",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          197,
+          182,
+          36
+        ],
+        "text": "689, JALAN DATO' CHERAS\nSUBANG JAYA\n90630 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          297,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          341,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          379,
+          62,
+          10
+        ],
+        "text": "KO213998",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          421,
+          151,
+          10
+        ],
+        "text": "RGZVJTJ2APXBZG5V4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          457,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          461,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          48,
+          9
+        ],
+        "text": "2720CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

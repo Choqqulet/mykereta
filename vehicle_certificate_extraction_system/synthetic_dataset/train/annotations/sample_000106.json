@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000106.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ABM93 03",
+    "Nama Pemilik": "DR. KAVITHA",
+    "No. Kad Pengenalan": "050222-11-7699",
+    "Alamat": "972, PERSIARAN PENANG\nKAJANG\n27833 SABAH",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "VX677475",
+    "No. Casis": "YMX3150GK2SY3SJ8W",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2833CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          79,
+          66,
+          10
+        ],
+        "text": "ABM93 03",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          91,
+          10
+        ],
+        "text": "DR. KAVITHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          161,
+          112,
+          9
+        ],
+        "text": "050222-11-7699",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          200,
+          173,
+          36
+        ],
+        "text": "972, PERSIARAN PENANG\nKAJANG\n27833 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          300,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          341,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          379,
+          62,
+          11
+        ],
+        "text": "VX677475",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          421,
+          146,
+          11
+        ],
+        "text": "YMX3150GK2SY3SJ8W",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          462,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          459,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          499,
+          52,
+          10
+        ],
+        "text": "2833CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

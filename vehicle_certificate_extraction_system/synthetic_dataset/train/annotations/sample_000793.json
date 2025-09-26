@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000793.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PBG44 69",
+    "Nama Pemilik": "PN. KRISHNAN A/P KAVITHA",
+    "No. Kad Pengenalan": "630608-01-9394",
+    "Alamat": "355, KAMPUNG SHAH ALAM\nKAJANG\n26928 LABUAN",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "DB539080",
+    "No. Casis": "KV743SCPKNF3D5SPN",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1040CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          82,
+          64,
+          9
+        ],
+        "text": "PBG44 69",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          123,
+          193,
+          11
+        ],
+        "text": "PN. KRISHNAN A/P KAVITHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          159,
+          112,
+          9
+        ],
+        "text": "630608-01-9394",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          197,
+          187,
+          36
+        ],
+        "text": "355, KAMPUNG SHAH ALAM\nKAJANG\n26928 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          297,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          340,
+          32,
+          9
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          378,
+          67,
+          10
+        ],
+        "text": "DB539080",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          421,
+          136,
+          9
+        ],
+        "text": "KV743SCPKNF3D5SPN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          458,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          502,
+          52,
+          10
+        ],
+        "text": "1040CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

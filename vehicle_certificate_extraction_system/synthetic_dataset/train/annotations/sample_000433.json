@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000433.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KLV84 28",
+    "Nama Pemilik": "PROF. AHMAD",
+    "No. Kad Pengenalan": "540726-09-7432",
+    "Alamat": "483, KAMPUNG SHAH ALAM\nBUKIT BINTANG\n87862 KELANTAN",
+    "Jenama": "PROTON",
+    "Model": "EXORA",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "YE700818",
+    "No. Casis": "58P4S2EATJL3C6LN1",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1439CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          61,
+          10
+        ],
+        "text": "KLV84 28",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          120,
+          97,
+          10
+        ],
+        "text": "PROF. AHMAD",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          157,
+          94,
+          11
+        ],
+        "text": "540726-09-7432",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          187,
+          36
+        ],
+        "text": "483, KAMPUNG SHAH ALAM\nBUKIT BINTANG\n87862 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          303,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          41,
+          8
+        ],
+        "text": "EXORA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          338,
+          32,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          378,
+          66,
+          10
+        ],
+        "text": "YE700818",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          144,
+          10
+        ],
+        "text": "58P4S2EATJL3C6LN1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          460,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          501,
+          46,
+          10
+        ],
+        "text": "1439CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

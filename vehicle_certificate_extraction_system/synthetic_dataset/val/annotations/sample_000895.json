@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000895.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "POQ51 73",
+    "Nama Pemilik": "FENG GOH",
+    "No. Kad Pengenalan": "650927-08-7846",
+    "Alamat": "133, LEBUH AMPANG\nKAJANG\n69474 KEDAH",
+    "Jenama": "NISSAN",
+    "Model": "X-TRAIL",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "BC233810",
+    "No. Casis": "RZWYJJLY7VPKFP3V9",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3431CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          81,
+          67,
+          11
+        ],
+        "text": "POQ51 73",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          117,
+          75,
+          10
+        ],
+        "text": "FENG GOH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          159,
+          112,
+          9
+        ],
+        "text": "650927-08-7846",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          203,
+          142,
+          36
+        ],
+        "text": "133, LEBUH AMPANG\nKAJANG\n69474 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          299,
+          54,
+          10
+        ],
+        "text": "X-TRAIL",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          343,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          64,
+          9
+        ],
+        "text": "BC233810",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          420,
+          136,
+          9
+        ],
+        "text": "RZWYJJLY7VPKFP3V9",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          457,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          461,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          501,
+          48,
+          9
+        ],
+        "text": "3431CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

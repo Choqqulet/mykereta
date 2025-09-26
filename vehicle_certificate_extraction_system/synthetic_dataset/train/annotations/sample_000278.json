@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000278.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JEI81 11",
+    "Nama Pemilik": "TAN SRI KAMALA A/P MURUGAN",
+    "No. Kad Pengenalan": "040229-11-7415",
+    "Alamat": "700, BANDAR SHAH ALAM\nIPOH\n50861 KUALA LUMPUR",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "HV193199",
+    "No. Casis": "B2R806E07BC1VKTMA",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1128CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          82,
+          56,
+          10
+        ],
+        "text": "JEI81 11",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          123,
+          208,
+          11
+        ],
+        "text": "TAN SRI KAMALA A/P MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          112,
+          9
+        ],
+        "text": "040229-11-7415",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          173,
+          36
+        ],
+        "text": "700, BANDAR SHAH ALAM\nIPOH\n50861 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          298,
+          104,
+          8
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          342,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          378,
+          67,
+          10
+        ],
+        "text": "HV193199",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          417,
+          152,
+          10
+        ],
+        "text": "B2R806E07BC1VKTMA",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          459,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          498,
+          46,
+          10
+        ],
+        "text": "1128CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

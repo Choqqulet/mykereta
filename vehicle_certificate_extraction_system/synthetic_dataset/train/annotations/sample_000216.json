@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000216.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PHG44 64",
+    "Nama Pemilik": "PN. RAO",
+    "No. Kad Pengenalan": "841105-13-3425",
+    "Alamat": "756, JALAN DATO' AMPANG\nJOHOR BAHRU\n80092 SARAWAK",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "DY191395",
+    "No. Casis": "HV1Y9BD38EA4B5EFW",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2674CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          83,
+          60,
+          10
+        ],
+        "text": "PHG44 64",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          122,
+          55,
+          10
+        ],
+        "text": "PN. RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          160,
+          106,
+          10
+        ],
+        "text": "841105-13-3425",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          198,
+          183,
+          36
+        ],
+        "text": "756, JALAN DATO' AMPANG\nJOHOR BAHRU\n80092 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          303,
+          98,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          343,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          377,
+          64,
+          9
+        ],
+        "text": "DY191395",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          422,
+          150,
+          11
+        ],
+        "text": "HV1Y9BD38EA4B5EFW",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          460,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          500,
+          46,
+          10
+        ],
+        "text": "2674CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

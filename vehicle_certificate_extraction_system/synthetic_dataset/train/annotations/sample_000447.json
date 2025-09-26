@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000447.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BBY94 00",
+    "Nama Pemilik": "DEVI A/L KUMAR",
+    "No. Kad Pengenalan": "730206-09-0504",
+    "Alamat": "394, JALAN TUN IPOH\nSEREMBAN\n25842 PERLIS",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "SF827028",
+    "No. Casis": "T3P8KTC11GCFGFLZ0",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2540CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          83,
+          63,
+          10
+        ],
+        "text": "BBY94 00",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          123,
+          117,
+          10
+        ],
+        "text": "DEVI A/L KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          112,
+          9
+        ],
+        "text": "730206-09-0504",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          200,
+          152,
+          30
+        ],
+        "text": "394, JALAN TUN IPOH\nSEREMBAN\n25842 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          298,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          343,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          383,
+          66,
+          10
+        ],
+        "text": "SF827028",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          417,
+          136,
+          9
+        ],
+        "text": "T3P8KTC11GCFGFLZ0",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          458,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          461,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          498,
+          48,
+          9
+        ],
+        "text": "2540CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

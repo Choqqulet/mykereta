@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000070.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PHJ17 92",
+    "Nama Pemilik": "RAO",
+    "No. Kad Pengenalan": "770428-02-4200",
+    "Alamat": "524, BANDAR SEREMBAN\nPETALING JAYA\n34555 JOHOR",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "OL458038",
+    "No. Casis": "5678D9D640NACNBSP",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2399CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          79,
+          55,
+          10
+        ],
+        "text": "PHJ17 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          121,
+          29,
+          10
+        ],
+        "text": "RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          162,
+          112,
+          9
+        ],
+        "text": "770428-02-4200",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          198,
+          167,
+          36
+        ],
+        "text": "524, BANDAR SEREMBAN\nPETALING JAYA\n34555 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          299,
+          120,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          337,
+          32,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          380,
+          67,
+          10
+        ],
+        "text": "OL458038",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          422,
+          136,
+          9
+        ],
+        "text": "5678D9D640NACNBSP",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          458,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          462,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          48,
+          9
+        ],
+        "text": "2399CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

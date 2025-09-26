@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000769.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JFR41 17",
+    "Nama Pemilik": "DATUK KHADIJAH BINTI YUSOF",
+    "No. Kad Pengenalan": "520320-06-7846",
+    "Alamat": "352, LEBUH KAJANG\nIPOH\n25989 SABAH",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "HK621387",
+    "No. Casis": "VWVKXNHSG53ZP4WFN",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2739CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          79,
+          64,
+          9
+        ],
+        "text": "JFR41 17",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          121,
+          211,
+          10
+        ],
+        "text": "DATUK KHADIJAH BINTI YUSOF",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          157,
+          94,
+          11
+        ],
+        "text": "520320-06-7846",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          198,
+          135,
+          36
+        ],
+        "text": "352, LEBUH KAJANG\nIPOH\n25989 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          342,
+          32,
+          9
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          383,
+          67,
+          10
+        ],
+        "text": "HK621387",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          419,
+          160,
+          11
+        ],
+        "text": "VWVKXNHSG53ZP4WFN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          46,
+          10
+        ],
+        "text": "2739CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

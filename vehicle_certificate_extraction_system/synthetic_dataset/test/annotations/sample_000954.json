@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000954.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WDQ82 33",
+    "Nama Pemilik": "TAN HUI",
+    "No. Kad Pengenalan": "610414-16-1111",
+    "Alamat": "729, TAMAN IPOH\nPETALING JAYA\n80564 PUTRAJAYA",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "EK035406",
+    "No. Casis": "SNJ154XHK4JZ4E4UL",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2896CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          70,
+          11
+        ],
+        "text": "WDQ82 33",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          123,
+          56,
+          10
+        ],
+        "text": "TAN HUI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          157,
+          94,
+          10
+        ],
+        "text": "610414-16-1111",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          197,
+          126,
+          36
+        ],
+        "text": "729, TAMAN IPOH\nPETALING JAYA\n80564 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          303,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          339,
+          28,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          380,
+          61,
+          11
+        ],
+        "text": "EK035406",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          422,
+          136,
+          9
+        ],
+        "text": "SNJ154XHK4JZ4E4UL",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          462,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          462,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          503,
+          52,
+          10
+        ],
+        "text": "2896CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000819.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ARY41 23",
+    "Nama Pemilik": "DATUK ALI",
+    "No. Kad Pengenalan": "740130-04-1453",
+    "Alamat": "339, LORONG SHAH ALAM\nIPOH\n65859 PERAK",
+    "Jenama": "HONDA",
+    "Model": "CIVIC",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "NI404846",
+    "No. Casis": "W5882XFZSVDACL57U",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2328CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          81,
+          64,
+          10
+        ],
+        "text": "ARY41 23",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          123,
+          72,
+          8
+        ],
+        "text": "DATUK ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          112,
+          9
+        ],
+        "text": "740130-04-1453",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          198,
+          177,
+          36
+        ],
+        "text": "339, LORONG SHAH ALAM\nIPOH\n65859 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          297,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          40,
+          8
+        ],
+        "text": "CIVIC",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          342,
+          32,
+          9
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          64,
+          9
+        ],
+        "text": "NI404846",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          418,
+          136,
+          9
+        ],
+        "text": "W5882XFZSVDACL57U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          461,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          458,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          48,
+          9
+        ],
+        "text": "2328CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

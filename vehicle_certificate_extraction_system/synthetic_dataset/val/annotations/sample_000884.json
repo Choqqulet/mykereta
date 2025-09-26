@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000884.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BWC28 79",
+    "Nama Pemilik": "AISHAH BINTI HASSAN",
+    "No. Kad Pengenalan": "050907-16-9988",
+    "Alamat": "906, JALAN SUBANG JAYA\nCHERAS\n56718 PERAK",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "II739380",
+    "No. Casis": "LFVU1YNNS9GJ8VJG9",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3122CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          79,
+          63,
+          10
+        ],
+        "text": "BWC28 79",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          119,
+          151,
+          10
+        ],
+        "text": "AISHAH BINTI HASSAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          159,
+          106,
+          10
+        ],
+        "text": "050907-16-9988",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          200,
+          176,
+          36
+        ],
+        "text": "906, JALAN SUBANG JAYA\nCHERAS\n56718 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          299,
+          80,
+          8
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          32,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          64,
+          9
+        ],
+        "text": "II739380",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          136,
+          9
+        ],
+        "text": "LFVU1YNNS9GJ8VJG9",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          463,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          502,
+          52,
+          10
+        ],
+        "text": "3122CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

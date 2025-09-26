@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000716.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PTD68 85",
+    "Nama Pemilik": "PROF. CHONG MEI",
+    "No. Kad Pengenalan": "630810-09-9624",
+    "Alamat": "992, JALAN CHERAS\nCHERAS\n55572 KUALA LUMPUR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "GK868558",
+    "No. Casis": "FKDP11CT4NYK9UERD",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1858CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          83,
+          64,
+          10
+        ],
+        "text": "PTD68 85",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          122,
+          122,
+          10
+        ],
+        "text": "PROF. CHONG MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          161,
+          106,
+          10
+        ],
+        "text": "630810-09-9624",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          202,
+          151,
+          36
+        ],
+        "text": "992, JALAN CHERAS\nCHERAS\n55572 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          297,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          340,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          377,
+          62,
+          11
+        ],
+        "text": "GK868558",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          417,
+          136,
+          9
+        ],
+        "text": "FKDP11CT4NYK9UERD",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          498,
+          46,
+          11
+        ],
+        "text": "1858CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

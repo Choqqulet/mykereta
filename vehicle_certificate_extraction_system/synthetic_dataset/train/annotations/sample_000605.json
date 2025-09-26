@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000605.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BQV75 33",
+    "Nama Pemilik": "PN. KUMAR",
+    "No. Kad Pengenalan": "520804-16-2320",
+    "Alamat": "12, BANDAR BUKIT BINTANG\nPENANG\n74007 SABAH",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "NT685523",
+    "No. Casis": "W8EVEX4U0W2B2EGJ2",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2565CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          79,
+          61,
+          13
+        ],
+        "text": "BQV75 33",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          78,
+          10
+        ],
+        "text": "PN. KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          161,
+          112,
+          9
+        ],
+        "text": "520804-16-2320",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          203,
+          192,
+          30
+        ],
+        "text": "12, BANDAR BUKIT BINTANG\nPENANG\n74007 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          303,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          338,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          382,
+          67,
+          10
+        ],
+        "text": "NT685523",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          422,
+          136,
+          9
+        ],
+        "text": "W8EVEX4U0W2B2EGJ2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          501,
+          48,
+          9
+        ],
+        "text": "2565CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

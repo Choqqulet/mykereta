@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000773.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ACT24 67",
+    "Nama Pemilik": "DATO' KAVITHA A/P KUMAR",
+    "No. Kad Pengenalan": "980821-15-0670",
+    "Alamat": "722, BANDAR AMPANG\nIPOH\n33602 PERLIS",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "SD312062",
+    "No. Casis": "M9CGV1GSFK59SJ31E",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3145CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          83,
+          60,
+          10
+        ],
+        "text": "ACT24 67",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          121,
+          192,
+          10
+        ],
+        "text": "DATO' KAVITHA A/P KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          157,
+          94,
+          11
+        ],
+        "text": "980821-15-0670",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          198,
+          144,
+          30
+        ],
+        "text": "722, BANDAR AMPANG\nIPOH\n33602 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          340,
+          32,
+          9
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          67,
+          10
+        ],
+        "text": "SD312062",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          417,
+          136,
+          9
+        ],
+        "text": "M9CGV1GSFK59SJ31E",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          458,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          462,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          500,
+          48,
+          9
+        ],
+        "text": "3145CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

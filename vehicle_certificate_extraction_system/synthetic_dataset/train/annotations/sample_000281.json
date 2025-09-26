@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000281.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KQP90 56",
+    "Nama Pemilik": "PN. AHMAD",
+    "No. Kad Pengenalan": "871109-16-7587",
+    "Alamat": "93, LEBUH PENANG\nKAJANG\n90893 NEGERI SEMBILAN",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "HK955668",
+    "No. Casis": "FRVD7L3DC07331D8J",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2288CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          83,
+          65,
+          11
+        ],
+        "text": "KQP90 56",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          123,
+          78,
+          10
+        ],
+        "text": "PN. AHMAD",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          94,
+          11
+        ],
+        "text": "871109-16-7587",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          199,
+          168,
+          30
+        ],
+        "text": "93, LEBUH PENANG\nKAJANG\n90893 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          300,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          303,
+          47,
+          10
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          342,
+          32,
+          9
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          67,
+          10
+        ],
+        "text": "HK955668",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          420,
+          137,
+          10
+        ],
+        "text": "FRVD7L3DC07331D8J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          457,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          48,
+          9
+        ],
+        "text": "2288CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

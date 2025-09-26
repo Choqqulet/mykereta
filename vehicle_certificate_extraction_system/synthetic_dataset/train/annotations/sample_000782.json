@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000782.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JHH08 80",
+    "Nama Pemilik": "PROF. CHONG WONG",
+    "No. Kad Pengenalan": "580105-01-1634",
+    "Alamat": "47, BANDAR IPOH\nPETALING JAYA\n22629 LABUAN",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "TM233818",
+    "No. Casis": "7LUYMLEP4HTFMWEDK",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1924CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          63,
+          10
+        ],
+        "text": "JHH08 80",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          117,
+          128,
+          8
+        ],
+        "text": "PROF. CHONG WONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          161,
+          106,
+          10
+        ],
+        "text": "580105-01-1634",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          200,
+          120,
+          30
+        ],
+        "text": "47, BANDAR IPOH\nPETALING JAYA\n22629 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          299,
+          33,
+          8
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          342,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          69,
+          10
+        ],
+        "text": "TM233818",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          419,
+          163,
+          10
+        ],
+        "text": "7LUYMLEP4HTFMWEDK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          460,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          457,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          52,
+          10
+        ],
+        "text": "1924CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

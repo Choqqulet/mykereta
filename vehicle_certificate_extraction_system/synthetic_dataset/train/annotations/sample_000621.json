@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000621.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BHS98 53",
+    "Nama Pemilik": "PN. PATEL",
+    "No. Kad Pengenalan": "790413-11-8832",
+    "Alamat": "165, BANDAR CHERAS\nBUKIT BINTANG\n91312 KELANTAN",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "UB734822",
+    "No. Casis": "L53Z7H56YGD6JSUJA",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3193CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          64,
+          10
+        ],
+        "text": "BHS98 53",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          121,
+          71,
+          10
+        ],
+        "text": "PN. PATEL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          94,
+          10
+        ],
+        "text": "790413-11-8832",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          199,
+          150,
+          36
+        ],
+        "text": "165, BANDAR CHERAS\nBUKIT BINTANG\n91312 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          338,
+          28,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          379,
+          64,
+          9
+        ],
+        "text": "UB734822",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          419,
+          138,
+          11
+        ],
+        "text": "L53Z7H56YGD6JSUJA",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          459,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          500,
+          48,
+          9
+        ],
+        "text": "3193CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

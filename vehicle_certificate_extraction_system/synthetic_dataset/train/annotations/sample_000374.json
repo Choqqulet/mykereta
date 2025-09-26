@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000374.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WJK21 90",
+    "Nama Pemilik": "CHAN CHAN",
+    "No. Kad Pengenalan": "530116-08-5127",
+    "Alamat": "807, KAMPUNG CHERAS\nBUKIT BINTANG\n43959 PAHANG",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "GH418304",
+    "No. Casis": "TL1DJYGCMGRBWRGUC",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1289CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          78,
+          60,
+          10
+        ],
+        "text": "WJK21 90",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          119,
+          82,
+          10
+        ],
+        "text": "CHAN CHAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          163,
+          112,
+          9
+        ],
+        "text": "530116-08-5127",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          197,
+          158,
+          36
+        ],
+        "text": "807, KAMPUNG CHERAS\nBUKIT BINTANG\n43959 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          297,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          339,
+          32,
+          9
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          378,
+          64,
+          9
+        ],
+        "text": "GH418304",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          417,
+          136,
+          9
+        ],
+        "text": "TL1DJYGCMGRBWRGUC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          462,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          46,
+          10
+        ],
+        "text": "1289CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

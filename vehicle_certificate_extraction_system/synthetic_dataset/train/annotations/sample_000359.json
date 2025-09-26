@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000359.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JWN13 61",
+    "Nama Pemilik": "DR. MOHAMED BIN NOOR",
+    "No. Kad Pengenalan": "580613-10-0394",
+    "Alamat": "812, JALAN RAJA IPOH\nBUKIT BINTANG\n42870 SABAH",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "JM905078",
+    "No. Casis": "X8FTJ3GVBD7TA8M5L",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2408CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          78,
+          64,
+          9
+        ],
+        "text": "JWN13 61",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          121,
+          172,
+          10
+        ],
+        "text": "DR. MOHAMED BIN NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          161,
+          94,
+          11
+        ],
+        "text": "580613-10-0394",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          198,
+          148,
+          36
+        ],
+        "text": "812, JALAN RAJA IPOH\nBUKIT BINTANG\n42870 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          298,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          303,
+          24,
+          11
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          340,
+          28,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          59,
+          11
+        ],
+        "text": "JM905078",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          419,
+          151,
+          10
+        ],
+        "text": "X8FTJ3GVBD7TA8M5L",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          462,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          503,
+          52,
+          10
+        ],
+        "text": "2408CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000149.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KDE40 79",
+    "Nama Pemilik": "PROF. MEI FENG",
+    "No. Kad Pengenalan": "700325-14-3398",
+    "Alamat": "323, KAMPUNG PETALING JAYA\nCHERAS\n20477 TERENGGANU",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "QV897415",
+    "No. Casis": "ZGN3V30LURRETRVL1",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1564CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          82,
+          64,
+          10
+        ],
+        "text": "KDE40 79",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          122,
+          110,
+          10
+        ],
+        "text": "PROF. MEI FENG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          163,
+          112,
+          9
+        ],
+        "text": "700325-14-3398",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          198,
+          212,
+          36
+        ],
+        "text": "323, KAMPUNG PETALING JAYA\nCHERAS\n20477 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          299,
+          37,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          343,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          378,
+          64,
+          11
+        ],
+        "text": "QV897415",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          423,
+          150,
+          10
+        ],
+        "text": "ZGN3V30LURRETRVL1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          503,
+          52,
+          10
+        ],
+        "text": "1564CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

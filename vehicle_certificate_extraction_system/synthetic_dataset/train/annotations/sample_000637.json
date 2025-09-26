@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000637.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BBI62 05",
+    "Nama Pemilik": "DR. LING WEI",
+    "No. Kad Pengenalan": "591019-09-6266",
+    "Alamat": "725, JALAN TUN SEREMBAN\nBUKIT BINTANG\n72810 PUTRAJAYA",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "AK257071",
+    "No. Casis": "HWYNKGPW028DNLGWH",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1205CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          58,
+          10
+        ],
+        "text": "BBI62 05",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          121,
+          91,
+          10
+        ],
+        "text": "DR. LING WEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          163,
+          106,
+          10
+        ],
+        "text": "591019-09-6266",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          199,
+          189,
+          36
+        ],
+        "text": "725, JALAN TUN SEREMBAN\nBUKIT BINTANG\n72810 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          302,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          337,
+          28,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          65,
+          9
+        ],
+        "text": "AK257071",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          417,
+          136,
+          9
+        ],
+        "text": "HWYNKGPW028DNLGWH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          463,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          460,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          500,
+          48,
+          9
+        ],
+        "text": "1205CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000015.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KXL68 63",
+    "Nama Pemilik": "EN. FATIMAH BIN KHADIJAH",
+    "No. Kad Pengenalan": "591210-02-2337",
+    "Alamat": "531, LEBUH AMPANG\nKLANG\n88099 NEGERI SEMBILAN",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "AX454895",
+    "No. Casis": "NFRSDJJDUZSCX56D4",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1479CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          81,
+          64,
+          9
+        ],
+        "text": "KXL68 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          192,
+          8
+        ],
+        "text": "EN. FATIMAH BIN KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          106,
+          10
+        ],
+        "text": "591210-02-2337",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          167,
+          36
+        ],
+        "text": "531, LEBUH AMPANG\nKLANG\n88099 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          302,
+          33,
+          10
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          338,
+          32,
+          9
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          380,
+          62,
+          11
+        ],
+        "text": "AX454895",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          153,
+          10
+        ],
+        "text": "NFRSDJJDUZSCX56D4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          459,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          500,
+          52,
+          10
+        ],
+        "text": "1479CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

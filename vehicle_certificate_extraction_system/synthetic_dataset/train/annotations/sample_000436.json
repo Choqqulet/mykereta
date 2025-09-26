@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000436.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KIG89 78",
+    "Nama Pemilik": "TAN SRI ISMAIL BINTI FATIMAH",
+    "No. Kad Pengenalan": "810105-01-9234",
+    "Alamat": "629, JALAN SHAH ALAM\nPETALING JAYA\n15251 KEDAH",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "WF954663",
+    "No. Casis": "JKW92C9DVAY6FG15J",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3251CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          83,
+          57,
+          10
+        ],
+        "text": "KIG89 78",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          122,
+          218,
+          10
+        ],
+        "text": "TAN SRI ISMAIL BINTI FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          163,
+          94,
+          11
+        ],
+        "text": "810105-01-9234",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          161,
+          36
+        ],
+        "text": "629, JALAN SHAH ALAM\nPETALING JAYA\n15251 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          337,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          380,
+          70,
+          10
+        ],
+        "text": "WF954663",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          421,
+          136,
+          9
+        ],
+        "text": "JKW92C9DVAY6FG15J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          462,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          502,
+          48,
+          9
+        ],
+        "text": "3251CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

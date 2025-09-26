@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000930.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PPJ74 62",
+    "Nama Pemilik": "DR. SHANTI A/L GEETHA",
+    "No. Kad Pengenalan": "960719-09-7600",
+    "Alamat": "567, TAMAN IPOH\nKAJANG\n21959 KELANTAN",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "DE542170",
+    "No. Casis": "Y10BE2GXNAJMHGYCH",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3359CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          64,
+          9
+        ],
+        "text": "PPJ74 62",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          117,
+          167,
+          10
+        ],
+        "text": "DR. SHANTI A/L GEETHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          160,
+          106,
+          10
+        ],
+        "text": "960719-09-7600",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          200,
+          120,
+          30
+        ],
+        "text": "567, TAMAN IPOH\nKAJANG\n21959 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          342,
+          32,
+          10
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          379,
+          64,
+          9
+        ],
+        "text": "DE542170",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          421,
+          159,
+          10
+        ],
+        "text": "Y10BE2GXNAJMHGYCH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          457,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          458,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          48,
+          9
+        ],
+        "text": "3359CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

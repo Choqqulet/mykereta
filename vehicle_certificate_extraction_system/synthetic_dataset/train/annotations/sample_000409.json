@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000409.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ANK60 98",
+    "Nama Pemilik": "PN. LIM HUI",
+    "No. Kad Pengenalan": "560903-11-6050",
+    "Alamat": "221, LORONG SUBANG JAYA\nAMPANG\n85676 PERLIS",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "JL479253",
+    "No. Casis": "ZPBUHBV9N22ARLMVP",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2958CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          79,
+          64,
+          10
+        ],
+        "text": "ANK60 98",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          81,
+          10
+        ],
+        "text": "PN. LIM HUI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          158,
+          94,
+          11
+        ],
+        "text": "560903-11-6050",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          197,
+          194,
+          36
+        ],
+        "text": "221, LORONG SUBANG JAYA\nAMPANG\n85676 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          302,
+          104,
+          8
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          28,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          64,
+          9
+        ],
+        "text": "JL479253",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          136,
+          9
+        ],
+        "text": "ZPBUHBV9N22ARLMVP",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          458,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          457,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          46,
+          11
+        ],
+        "text": "2958CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

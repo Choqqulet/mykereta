@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000750.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PMQ09 79",
+    "Nama Pemilik": "DR. VANI A/P KRISHNAN",
+    "No. Kad Pengenalan": "840510-05-5252",
+    "Alamat": "82, BANDAR SHAH ALAM\nPENANG\n78802 PAHANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2014",
+    "No. Enjin": "DA758978",
+    "No. Casis": "S9XD3LXNPYLTJ7K5J",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2546CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          79,
+          64,
+          11
+        ],
+        "text": "PMQ09 79",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          121,
+          161,
+          10
+        ],
+        "text": "DR. VANI A/P KRISHNAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          159,
+          94,
+          11
+        ],
+        "text": "840510-05-5252",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          199,
+          168,
+          36
+        ],
+        "text": "82, BANDAR SHAH ALAM\nPENANG\n78802 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          28,
+          10
+        ],
+        "text": "2014",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          379,
+          64,
+          9
+        ],
+        "text": "DA758978",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          422,
+          136,
+          9
+        ],
+        "text": "S9XD3LXNPYLTJ7K5J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          457,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          497,
+          48,
+          9
+        ],
+        "text": "2546CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

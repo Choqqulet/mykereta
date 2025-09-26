@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000967.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BDO40 36",
+    "Nama Pemilik": "DR. RAMAN",
+    "No. Kad Pengenalan": "740401-13-4895",
+    "Alamat": "241, JALAN TUN PENANG\nPENANG\n28147 LABUAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "KD232514",
+    "No. Casis": "2J438DMRVWCN5119F",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2459CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          82,
+          66,
+          10
+        ],
+        "text": "BDO40 36",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          117,
+          78,
+          10
+        ],
+        "text": "DR. RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          163,
+          94,
+          11
+        ],
+        "text": "740401-13-4895",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          198,
+          167,
+          36
+        ],
+        "text": "241, JALAN TUN PENANG\nPENANG\n28147 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          298,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          341,
+          32,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          67,
+          10
+        ],
+        "text": "KD232514",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          421,
+          154,
+          10
+        ],
+        "text": "2J438DMRVWCN5119F",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          502,
+          48,
+          9
+        ],
+        "text": "2459CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

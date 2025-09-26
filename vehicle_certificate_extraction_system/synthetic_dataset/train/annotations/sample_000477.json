@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000477.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BOZ51 92",
+    "Nama Pemilik": "PN. SINGH A/P RAO",
+    "No. Kad Pengenalan": "590519-14-2202",
+    "Alamat": "693, PERSIARAN KAJANG\nPENANG\n52759 PAHANG",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "KM667055",
+    "No. Casis": "JK8M89LBN0W11J2CM",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1267CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          80,
+          65,
+          10
+        ],
+        "text": "BOZ51 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          121,
+          131,
+          10
+        ],
+        "text": "PN. SINGH A/P RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          112,
+          9
+        ],
+        "text": "590519-14-2202",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          200,
+          168,
+          30
+        ],
+        "text": "693, PERSIARAN KAJANG\nPENANG\n52759 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          301,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          297,
+          27,
+          10
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          337,
+          32,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          377,
+          64,
+          9
+        ],
+        "text": "KM667055",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          423,
+          144,
+          10
+        ],
+        "text": "JK8M89LBN0W11J2CM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          462,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          498,
+          46,
+          10
+        ],
+        "text": "1267CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

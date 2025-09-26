@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000702.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JXS86 81",
+    "Nama Pemilik": "DATO' NOOR",
+    "No. Kad Pengenalan": "800707-05-2805",
+    "Alamat": "53, JALAN DATO' PENANG\nIPOH\n32669 PERAK",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "OZ409169",
+    "No. Casis": "V9XXSSXAF3BUTVPWR",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1703CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          55,
+          10
+        ],
+        "text": "JXS86 81",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          119,
+          86,
+          10
+        ],
+        "text": "DATO' NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          161,
+          94,
+          11
+        ],
+        "text": "800707-05-2805",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          198,
+          175,
+          36
+        ],
+        "text": "53, JALAN DATO' PENANG\nIPOH\n32669 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          65,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          342,
+          28,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          383,
+          61,
+          10
+        ],
+        "text": "OZ409169",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          418,
+          137,
+          9
+        ],
+        "text": "V9XXSSXAF3BUTVPWR",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          461,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          458,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          46,
+          10
+        ],
+        "text": "1703CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

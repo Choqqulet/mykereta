@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000091.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WRB33 27",
+    "Nama Pemilik": "DR. HUI TAN",
+    "No. Kad Pengenalan": "600227-11-8361",
+    "Alamat": "148, LEBUH JOHOR BAHRU\nAMPANG\n77594 PAHANG",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "EV883305",
+    "No. Casis": "WNDYGJRGD31ZDKYK3",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2940CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          81,
+          68,
+          10
+        ],
+        "text": "WRB33 27",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          119,
+          84,
+          10
+        ],
+        "text": "DR. HUI TAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          161,
+          106,
+          10
+        ],
+        "text": "600227-11-8361",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          176,
+          36
+        ],
+        "text": "148, LEBUH JOHOR BAHRU\nAMPANG\n77594 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          340,
+          32,
+          9
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          381,
+          64,
+          9
+        ],
+        "text": "EV883305",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          417,
+          161,
+          10
+        ],
+        "text": "WNDYGJRGD31ZDKYK3",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          463,
+          47,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          463,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          499,
+          52,
+          10
+        ],
+        "text": "2940CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

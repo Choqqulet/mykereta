@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000642.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JLI78 35",
+    "Nama Pemilik": "TAN SRI MOHAMED BINTI YUSOF",
+    "No. Kad Pengenalan": "881031-05-1593",
+    "Alamat": "168, BANDAR IPOH\nPETALING JAYA\n90868 KUALA LUMPUR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "QN072108",
+    "No. Casis": "1SW7YRHD5904D7GSU",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1850CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          77,
+          64,
+          9
+        ],
+        "text": "JLI78 35",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          122,
+          224,
+          10
+        ],
+        "text": "TAN SRI MOHAMED BINTI YUSOF",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          94,
+          11
+        ],
+        "text": "881031-05-1593",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          199,
+          145,
+          30
+        ],
+        "text": "168, BANDAR IPOH\nPETALING JAYA\n90868 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          302,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          337,
+          32,
+          9
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          377,
+          69,
+          11
+        ],
+        "text": "QN072108",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          421,
+          136,
+          9
+        ],
+        "text": "1SW7YRHD5904D7GSU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          463,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          503,
+          46,
+          11
+        ],
+        "text": "1850CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

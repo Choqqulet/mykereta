@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000383.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JOS71 17",
+    "Nama Pemilik": "DATO' CHAN CHONG",
+    "No. Kad Pengenalan": "711121-06-4039",
+    "Alamat": "664, LEBUH KAJANG\nSUBANG JAYA\n92558 SABAH",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "PN305341",
+    "No. Casis": "DLWLZUFT336UWLRXE",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3118CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          81,
+          63,
+          10
+        ],
+        "text": "JOS71 17",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          117,
+          141,
+          10
+        ],
+        "text": "DATO' CHAN CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          162,
+          112,
+          9
+        ],
+        "text": "711121-06-4039",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          137,
+          36
+        ],
+        "text": "664, LEBUH KAJANG\nSUBANG JAYA\n92558 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          300,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          338,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          60,
+          11
+        ],
+        "text": "PN305341",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          417,
+          159,
+          10
+        ],
+        "text": "DLWLZUFT336UWLRXE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          460,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          462,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          503,
+          46,
+          10
+        ],
+        "text": "3118CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000357.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BGR49 58",
+    "Nama Pemilik": "PROF. SHANTI A/L RAO",
+    "No. Kad Pengenalan": "010509-09-2317",
+    "Alamat": "398, JALAN JOHOR BAHRU\nJOHOR BAHRU\n17804 KUALA LUMPUR",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "BP735404",
+    "No. Casis": "K4RZBSWS04146ETJ7",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3132CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          66,
+          10
+        ],
+        "text": "BGR49 58",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          119,
+          155,
+          10
+        ],
+        "text": "PROF. SHANTI A/L RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          160,
+          106,
+          10
+        ],
+        "text": "010509-09-2317",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          201,
+          173,
+          36
+        ],
+        "text": "398, JALAN JOHOR BAHRU\nJOHOR BAHRU\n17804 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          297,
+          80,
+          8
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          338,
+          28,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          59,
+          11
+        ],
+        "text": "BP735404",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          423,
+          149,
+          10
+        ],
+        "text": "K4RZBSWS04146ETJ7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          463,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          460,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          501,
+          48,
+          9
+        ],
+        "text": "3132CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

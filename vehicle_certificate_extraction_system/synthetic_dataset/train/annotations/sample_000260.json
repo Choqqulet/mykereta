@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000260.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WDH49 61",
+    "Nama Pemilik": "PN. MURUGAN A/L LAKSHMI",
+    "No. Kad Pengenalan": "541022-13-3315",
+    "Alamat": "409, LEBUH AMPANG\nJOHOR BAHRU\n67451 TERENGGANU",
+    "Jenama": "PERODUA",
+    "Model": "ALZA",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "PK423002",
+    "No. Casis": "D3GXTE0B1LH42GAEX",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2868CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          83,
+          65,
+          10
+        ],
+        "text": "WDH49 61",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          121,
+          184,
+          11
+        ],
+        "text": "PN. MURUGAN A/L LAKSHMI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          163,
+          94,
+          11
+        ],
+        "text": "541022-13-3315",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          200,
+          142,
+          36
+        ],
+        "text": "409, LEBUH AMPANG\nJOHOR BAHRU\n67451 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          34,
+          8
+        ],
+        "text": "ALZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          340,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          380,
+          66,
+          10
+        ],
+        "text": "PK423002",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          421,
+          150,
+          10
+        ],
+        "text": "D3GXTE0B1LH42GAEX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          457,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          500,
+          52,
+          10
+        ],
+        "text": "2868CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

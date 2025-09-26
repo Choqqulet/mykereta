@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000693.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AIQ00 58",
+    "Nama Pemilik": "TAN SRI YEN HUI",
+    "No. Kad Pengenalan": "901010-11-8754",
+    "Alamat": "392, LEBUH SEREMBAN\nAMPANG\n91588 LABUAN",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "BN227556",
+    "No. Casis": "DNCYTG74NX6ZCLV0J",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2565CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          83,
+          65,
+          11
+        ],
+        "text": "AIQ00 58",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          120,
+          8
+        ],
+        "text": "TAN SRI YEN HUI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          106,
+          10
+        ],
+        "text": "901010-11-8754",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          201,
+          159,
+          36
+        ],
+        "text": "392, LEBUH SEREMBAN\nAMPANG\n91588 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          298,
+          24,
+          11
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          338,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          67,
+          10
+        ],
+        "text": "BN227556",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          153,
+          10
+        ],
+        "text": "DNCYTG74NX6ZCLV0J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          462,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          500,
+          48,
+          9
+        ],
+        "text": "2565CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

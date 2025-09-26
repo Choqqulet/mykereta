@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000098.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KMW06 09",
+    "Nama Pemilik": "DATO' MEERA",
+    "No. Kad Pengenalan": "540814-08-2030",
+    "Alamat": "280, LEBUH SUBANG JAYA\nSEREMBAN\n36940 KELANTAN",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "EK414978",
+    "No. Casis": "NVJZ46JN8FVVJGR0Z",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3415CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          70,
+          10
+        ],
+        "text": "KMW06 09",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          122,
+          89,
+          9
+        ],
+        "text": "DATO' MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          158,
+          94,
+          11
+        ],
+        "text": "540814-08-2030",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          179,
+          36
+        ],
+        "text": "280, LEBUH SUBANG JAYA\nSEREMBAN\n36940 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          341,
+          32,
+          9
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          382,
+          66,
+          10
+        ],
+        "text": "EK414978",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          136,
+          9
+        ],
+        "text": "NVJZ46JN8FVVJGR0Z",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          457,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          498,
+          46,
+          11
+        ],
+        "text": "3415CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

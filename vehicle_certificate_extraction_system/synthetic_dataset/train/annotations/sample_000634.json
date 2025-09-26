@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000634.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KHB83 64",
+    "Nama Pemilik": "DATUK HALIMAH",
+    "No. Kad Pengenalan": "960103-03-9335",
+    "Alamat": "194, PERSIARAN KAJANG\nKLANG\n38587 PULAU PINANG",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "VC322176",
+    "No. Casis": "61N75L7AW38YKZS1P",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1312CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          61,
+          10
+        ],
+        "text": "KHB83 64",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          119,
+          104,
+          8
+        ],
+        "text": "DATUK HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          158,
+          112,
+          9
+        ],
+        "text": "960103-03-9335",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          202,
+          166,
+          36
+        ],
+        "text": "194, PERSIARAN KAJANG\nKLANG\n38587 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          297,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          301,
+          27,
+          10
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          339,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          382,
+          61,
+          10
+        ],
+        "text": "VC322176",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          149,
+          10
+        ],
+        "text": "61N75L7AW38YKZS1P",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          457,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          462,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          52,
+          10
+        ],
+        "text": "1312CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

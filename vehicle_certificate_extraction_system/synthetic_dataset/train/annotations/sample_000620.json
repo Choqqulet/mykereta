@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000620.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KCK13 63",
+    "Nama Pemilik": "DR. MEERA",
+    "No. Kad Pengenalan": "760622-08-5604",
+    "Alamat": "82, PERSIARAN CHERAS\nAMPANG\n72358 SABAH",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "EU682668",
+    "No. Casis": "5BAFBSBW9F2JKXFMN",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3233CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          64,
+          9
+        ],
+        "text": "KCK13 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          121,
+          78,
+          10
+        ],
+        "text": "DR. MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          159,
+          106,
+          10
+        ],
+        "text": "760622-08-5604",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          202,
+          164,
+          36
+        ],
+        "text": "82, PERSIARAN CHERAS\nAMPANG\n72358 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          81,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          343,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          380,
+          67,
+          10
+        ],
+        "text": "EU682668",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          419,
+          150,
+          11
+        ],
+        "text": "5BAFBSBW9F2JKXFMN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          457,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          497,
+          46,
+          10
+        ],
+        "text": "3233CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000961.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WUU00 63",
+    "Nama Pemilik": "DATO' MAYA",
+    "No. Kad Pengenalan": "740516-12-9617",
+    "Alamat": "523, TAMAN CHERAS\nKLANG\n29189 KEDAH",
+    "Jenama": "TOYOTA",
+    "Model": "COROLLA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "AU780145",
+    "No. Casis": "3N2K1B4MLR23JZW75",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2976CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          81,
+          65,
+          10
+        ],
+        "text": "WUU00 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          121,
+          81,
+          9
+        ],
+        "text": "DATO' MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          163,
+          106,
+          10
+        ],
+        "text": "740516-12-9617",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          201,
+          139,
+          36
+        ],
+        "text": "523, TAMAN CHERAS\nKLANG\n29189 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          302,
+          66,
+          10
+        ],
+        "text": "COROLLA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          339,
+          32,
+          9
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          381,
+          62,
+          11
+        ],
+        "text": "AU780145",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          422,
+          142,
+          11
+        ],
+        "text": "3N2K1B4MLR23JZW75",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          459,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          459,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          497,
+          46,
+          10
+        ],
+        "text": "2976CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

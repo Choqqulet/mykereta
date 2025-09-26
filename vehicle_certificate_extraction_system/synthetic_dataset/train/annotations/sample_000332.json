@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000332.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JXR45 02",
+    "Nama Pemilik": "NG XIAO",
+    "No. Kad Pengenalan": "821023-14-3136",
+    "Alamat": "494, JALAN DATO' CHERAS\nBUKIT BINTANG\n16458 KELANTAN",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "EF161901",
+    "No. Casis": "ZEUMC37TJMG6NKP2P",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1879CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          80,
+          64,
+          9
+        ],
+        "text": "JXR45 02",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          59,
+          10
+        ],
+        "text": "NG XIAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          160,
+          106,
+          10
+        ],
+        "text": "821023-14-3136",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          199,
+          178,
+          36
+        ],
+        "text": "494, JALAN DATO' CHERAS\nBUKIT BINTANG\n16458 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          300,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          301,
+          32,
+          8
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          341,
+          32,
+          9
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          381,
+          59,
+          10
+        ],
+        "text": "EF161901",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          423,
+          149,
+          10
+        ],
+        "text": "ZEUMC37TJMG6NKP2P",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          500,
+          52,
+          10
+        ],
+        "text": "1879CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

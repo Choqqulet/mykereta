@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000852.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JGG73 99",
+    "Nama Pemilik": "PROF. RAHMAN BIN ISMAIL",
+    "No. Kad Pengenalan": "571107-15-5548",
+    "Alamat": "970, JALAN DATO' SEREMBAN\nIPOH\n45296 PERLIS",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "IZ836718",
+    "No. Casis": "SHFJ5NR5N9MCTRSK5",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2613CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          79,
+          65,
+          10
+        ],
+        "text": "JGG73 99",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          118,
+          185,
+          10
+        ],
+        "text": "PROF. RAHMAN BIN ISMAIL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          159,
+          94,
+          11
+        ],
+        "text": "571107-15-5548",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          199,
+          202,
+          36
+        ],
+        "text": "970, JALAN DATO' SEREMBAN\nIPOH\n45296 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          299,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          341,
+          32,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          380,
+          64,
+          9
+        ],
+        "text": "IZ836718",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          423,
+          156,
+          10
+        ],
+        "text": "SHFJ5NR5N9MCTRSK5",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          457,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          501,
+          52,
+          10
+        ],
+        "text": "2613CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

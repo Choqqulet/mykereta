@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000825.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WTL77 91",
+    "Nama Pemilik": "EN. RADHA A/L MURUGAN",
+    "No. Kad Pengenalan": "570416-15-8925",
+    "Alamat": "183, LORONG SUBANG JAYA\nSHAH ALAM\n85098 PULAU PINANG",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "CV131523",
+    "No. Casis": "PY362FPFRB912J107",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1792CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          77,
+          63,
+          10
+        ],
+        "text": "WTL77 91",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          123,
+          168,
+          11
+        ],
+        "text": "EN. RADHA A/L MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          158,
+          106,
+          10
+        ],
+        "text": "570416-15-8925",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          199,
+          185,
+          30
+        ],
+        "text": "183, LORONG SUBANG JAYA\nSHAH ALAM\n85098 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          299,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          32,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          380,
+          64,
+          9
+        ],
+        "text": "CV131523",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          143,
+          10
+        ],
+        "text": "PY362FPFRB912J107",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          460,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          463,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          52,
+          10
+        ],
+        "text": "1792CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000247.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PGC30 25",
+    "Nama Pemilik": "TAN SRI KUMAR",
+    "No. Kad Pengenalan": "560828-03-9378",
+    "Alamat": "77, LEBUH CHERAS\nCHERAS\n64822 SARAWAK",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "YX159245",
+    "No. Casis": "XKKBXF7LLPSNM8AA4",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1183CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          83,
+          59,
+          11
+        ],
+        "text": "PGC30 25",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          121,
+          105,
+          8
+        ],
+        "text": "TAN SRI KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          159,
+          112,
+          9
+        ],
+        "text": "560828-03-9378",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          203,
+          131,
+          36
+        ],
+        "text": "77, LEBUH CHERAS\nCHERAS\n64822 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          301,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          302,
+          54,
+          10
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          342,
+          28,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          64,
+          9
+        ],
+        "text": "YX159245",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          423,
+          152,
+          10
+        ],
+        "text": "XKKBXF7LLPSNM8AA4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          462,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          458,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          500,
+          52,
+          10
+        ],
+        "text": "1183CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

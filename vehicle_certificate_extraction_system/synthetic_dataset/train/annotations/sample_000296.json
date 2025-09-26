@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000296.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PIK91 95",
+    "Nama Pemilik": "PN. KAMALA",
+    "No. Kad Pengenalan": "990824-14-3758",
+    "Alamat": "287, JALAN DATO' KLANG\nKAJANG\n13742 KELANTAN",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "VC885724",
+    "No. Casis": "BKG5N6KM58EB8HM4J",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2807CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          82,
+          58,
+          10
+        ],
+        "text": "PIK91 95",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          121,
+          84,
+          10
+        ],
+        "text": "PN. KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          160,
+          94,
+          11
+        ],
+        "text": "990824-14-3758",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          172,
+          36
+        ],
+        "text": "287, JALAN DATO' KLANG\nKAJANG\n13742 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          297,
+          35,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          340,
+          32,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          380,
+          67,
+          10
+        ],
+        "text": "VC885724",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          421,
+          149,
+          11
+        ],
+        "text": "BKG5N6KM58EB8HM4J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          458,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          497,
+          52,
+          10
+        ],
+        "text": "2807CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

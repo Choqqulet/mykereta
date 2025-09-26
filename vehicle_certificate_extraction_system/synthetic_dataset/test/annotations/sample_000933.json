@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000933.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JYD26 45",
+    "Nama Pemilik": "PROF. MOHAMED",
+    "No. Kad Pengenalan": "700719-06-2201",
+    "Alamat": "52, PERSIARAN CHERAS\nCHERAS\n68380 JOHOR",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "AW535282",
+    "No. Casis": "4H1YMFTJWRM8BE25A",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2504CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          78,
+          57,
+          11
+        ],
+        "text": "JYD26 45",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          117,
+          116,
+          10
+        ],
+        "text": "PROF. MOHAMED",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          159,
+          112,
+          9
+        ],
+        "text": "700719-06-2201",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          198,
+          160,
+          30
+        ],
+        "text": "52, PERSIARAN CHERAS\nCHERAS\n68380 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          298,
+          33,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          28,
+          11
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          378,
+          65,
+          9
+        ],
+        "text": "AW535282",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          159,
+          10
+        ],
+        "text": "4H1YMFTJWRM8BE25A",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          501,
+          46,
+          11
+        ],
+        "text": "2504CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000647.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BCL55 38",
+    "Nama Pemilik": "DATO' WONG MING",
+    "No. Kad Pengenalan": "930420-06-8256",
+    "Alamat": "70, JALAN RAJA KAJANG\nSUBANG JAYA\n72880 PERAK",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "EY030980",
+    "No. Casis": "D09KV5D4X6NLBXUCE",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2925CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          79,
+          64,
+          9
+        ],
+        "text": "BCL55 38",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          121,
+          130,
+          10
+        ],
+        "text": "DATO' WONG MING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          161,
+          112,
+          9
+        ],
+        "text": "930420-06-8256",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          203,
+          168,
+          30
+        ],
+        "text": "70, JALAN RAJA KAJANG\nSUBANG JAYA\n72880 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          300,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          299,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          340,
+          32,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          66,
+          10
+        ],
+        "text": "EY030980",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          418,
+          151,
+          11
+        ],
+        "text": "D09KV5D4X6NLBXUCE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          458,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          462,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          52,
+          10
+        ],
+        "text": "2925CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

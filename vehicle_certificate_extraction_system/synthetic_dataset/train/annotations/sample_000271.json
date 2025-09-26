@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000271.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KST47 17",
+    "Nama Pemilik": "DATUK OMAR",
+    "No. Kad Pengenalan": "761103-03-2638",
+    "Alamat": "20, JALAN TUN KAJANG\nPENANG\n65477 NEGERI SEMBILAN",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "HH196665",
+    "No. Casis": "T587NPBP7NWTXP71F",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3088CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          59,
+          10
+        ],
+        "text": "KST47 17",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          121,
+          93,
+          10
+        ],
+        "text": "DATUK OMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          161,
+          112,
+          9
+        ],
+        "text": "761103-03-2638",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          201,
+          167,
+          36
+        ],
+        "text": "20, JALAN TUN KAJANG\nPENANG\n65477 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          300,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          339,
+          32,
+          9
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          379,
+          62,
+          11
+        ],
+        "text": "HH196665",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          422,
+          153,
+          10
+        ],
+        "text": "T587NPBP7NWTXP71F",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          461,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          48,
+          9
+        ],
+        "text": "3088CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000680.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JCX85 08",
+    "Nama Pemilik": "PN. NOOR BINTI ALI",
+    "No. Kad Pengenalan": "920827-11-1712",
+    "Alamat": "418, BANDAR BUKIT BINTANG\nSUBANG JAYA\n82665 SARAWAK",
+    "Jenama": "PROTON",
+    "Model": "PERSONA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "QM848536",
+    "No. Casis": "8UTX0N5JJUN9L6PYU",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2642CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          78,
+          62,
+          10
+        ],
+        "text": "JCX85 08",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          134,
+          10
+        ],
+        "text": "PN. NOOR BINTI ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          158,
+          106,
+          10
+        ],
+        "text": "920827-11-1712",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          197,
+          200,
+          30
+        ],
+        "text": "418, BANDAR BUKIT BINTANG\nSUBANG JAYA\n82665 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          301,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          64,
+          10
+        ],
+        "text": "PERSONA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          377,
+          64,
+          11
+        ],
+        "text": "QM848536",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          423,
+          141,
+          11
+        ],
+        "text": "8UTX0N5JJUN9L6PYU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          463,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          46,
+          10
+        ],
+        "text": "2642CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

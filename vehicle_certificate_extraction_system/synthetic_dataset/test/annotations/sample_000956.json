@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000956.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PTP82 52",
+    "Nama Pemilik": "DR. ONG LIM",
+    "No. Kad Pengenalan": "660802-03-3241",
+    "Alamat": "538, JALAN RAJA AMPANG\nSEREMBAN\n44804 SARAWAK",
+    "Jenama": "NISSAN",
+    "Model": "ALMERA",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "DX835575",
+    "No. Casis": "DY9DM6DH6F608DG3B",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2775CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          83,
+          57,
+          11
+        ],
+        "text": "PTP82 52",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          121,
+          88,
+          10
+        ],
+        "text": "DR. ONG LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          157,
+          94,
+          10
+        ],
+        "text": "660802-03-3241",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          178,
+          36
+        ],
+        "text": "538, JALAN RAJA AMPANG\nSEREMBAN\n44804 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          302,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          300,
+          59,
+          10
+        ],
+        "text": "ALMERA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          341,
+          28,
+          11
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          381,
+          67,
+          10
+        ],
+        "text": "DX835575",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          417,
+          148,
+          10
+        ],
+        "text": "DY9DM6DH6F608DG3B",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          457,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          498,
+          46,
+          11
+        ],
+        "text": "2775CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

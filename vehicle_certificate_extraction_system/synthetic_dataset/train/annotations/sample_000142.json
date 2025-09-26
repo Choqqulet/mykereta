@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000142.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KVO01 73",
+    "Nama Pemilik": "MAYA",
+    "No. Kad Pengenalan": "021230-13-7005",
+    "Alamat": "694, JALAN DATO' SEREMBAN\nAMPANG\n98717 JOHOR",
+    "Jenama": "PERODUA",
+    "Model": "MYVI",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "ZP568091",
+    "No. Casis": "WY6LCS7U3HJ185SJS",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2893CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          82,
+          64,
+          9
+        ],
+        "text": "KVO01 73",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          33,
+          8
+        ],
+        "text": "MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          160,
+          94,
+          11
+        ],
+        "text": "021230-13-7005",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          203,
+          202,
+          36
+        ],
+        "text": "694, JALAN DATO' SEREMBAN\nAMPANG\n98717 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          299,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          303,
+          37,
+          10
+        ],
+        "text": "MYVI",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          32,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          383,
+          66,
+          10
+        ],
+        "text": "ZP568091",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          419,
+          136,
+          9
+        ],
+        "text": "WY6LCS7U3HJ185SJS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          458,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          458,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          503,
+          48,
+          9
+        ],
+        "text": "2893CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

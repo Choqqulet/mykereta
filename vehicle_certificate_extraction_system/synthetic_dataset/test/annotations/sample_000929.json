@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000929.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BGC41 82",
+    "Nama Pemilik": "DATO' DEVI A/L MAYA",
+    "No. Kad Pengenalan": "711220-08-8179",
+    "Alamat": "563, JALAN KLANG\nJOHOR BAHRU\n49069 NEGERI SEMBILAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "KV409619",
+    "No. Casis": "CRY5MU4LPSKDZGH77",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2415CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          83,
+          64,
+          9
+        ],
+        "text": "BGC41 82",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          147,
+          10
+        ],
+        "text": "DATO' DEVI A/L MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          159,
+          106,
+          10
+        ],
+        "text": "711220-08-8179",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          200,
+          171,
+          36
+        ],
+        "text": "563, JALAN KLANG\nJOHOR BAHRU\n49069 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          297,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          343,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          379,
+          62,
+          10
+        ],
+        "text": "KV409619",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          158,
+          10
+        ],
+        "text": "CRY5MU4LPSKDZGH77",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          502,
+          46,
+          11
+        ],
+        "text": "2415CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

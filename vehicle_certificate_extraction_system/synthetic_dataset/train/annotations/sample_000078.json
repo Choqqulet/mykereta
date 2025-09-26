@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000078.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WDT11 97",
+    "Nama Pemilik": "PROF. SHANTI",
+    "No. Kad Pengenalan": "760423-15-1461",
+    "Alamat": "348, JALAN DATO' BUKIT BINTANG\nSEREMBAN\n97447 KELANTAN",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "RP989664",
+    "No. Casis": "3ZUSH6F76E39RFJ70",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1893CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          80,
+          68,
+          10
+        ],
+        "text": "WDT11 97",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          95,
+          10
+        ],
+        "text": "PROF. SHANTI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          163,
+          112,
+          9
+        ],
+        "text": "760423-15-1461",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          203,
+          232,
+          36
+        ],
+        "text": "348, JALAN DATO' BUKIT BINTANG\nSEREMBAN\n97447 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          297,
+          50,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          339,
+          32,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          379,
+          64,
+          9
+        ],
+        "text": "RP989664",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          423,
+          146,
+          10
+        ],
+        "text": "3ZUSH6F76E39RFJ70",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          463,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          502,
+          52,
+          10
+        ],
+        "text": "1893CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000955.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KCP61 90",
+    "Nama Pemilik": "TAN SRI HASSAN BINTI IBRAHIM",
+    "No. Kad Pengenalan": "870429-01-6321",
+    "Alamat": "871, JALAN TUN CHERAS\nSHAH ALAM\n88678 LABUAN",
+    "Jenama": "PERODUA",
+    "Model": "ARUZ",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "CK899599",
+    "No. Casis": "PUE68RWU0T7U8B7VS",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2826CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          59,
+          10
+        ],
+        "text": "KCP61 90",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          123,
+          222,
+          10
+        ],
+        "text": "TAN SRI HASSAN BINTI IBRAHIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          106,
+          10
+        ],
+        "text": "870429-01-6321",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          198,
+          165,
+          36
+        ],
+        "text": "871, JALAN TUN CHERAS\nSHAH ALAM\n88678 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          299,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          299,
+          38,
+          10
+        ],
+        "text": "ARUZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          340,
+          28,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          379,
+          61,
+          11
+        ],
+        "text": "CK899599",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          419,
+          147,
+          10
+        ],
+        "text": "PUE68RWU0T7U8B7VS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          462,
+          40,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          462,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          497,
+          52,
+          10
+        ],
+        "text": "2826CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

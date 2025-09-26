@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000876.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WJA47 57",
+    "Nama Pemilik": "PROF. AISHAH BINTI SALLEH",
+    "No. Kad Pengenalan": "980906-13-2821",
+    "Alamat": "821, JALAN TUN PENANG\nKLANG\n48570 KELANTAN",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "YZ267801",
+    "No. Casis": "MBAUGXGTRDN8S4R7R",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1458CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          81,
+          65,
+          10
+        ],
+        "text": "WJA47 57",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          197,
+          10
+        ],
+        "text": "PROF. AISHAH BINTI SALLEH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          112,
+          9
+        ],
+        "text": "980906-13-2821",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          200,
+          170,
+          36
+        ],
+        "text": "821, JALAN TUN PENANG\nKLANG\n48570 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          300,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          341,
+          28,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          383,
+          66,
+          10
+        ],
+        "text": "YZ267801",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          163,
+          10
+        ],
+        "text": "MBAUGXGTRDN8S4R7R",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          461,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          461,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          500,
+          46,
+          11
+        ],
+        "text": "1458CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

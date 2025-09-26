@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000089.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AWY12 52",
+    "Nama Pemilik": "PROF. WEI CHAN",
+    "No. Kad Pengenalan": "570606-15-8292",
+    "Alamat": "573, KAMPUNG KLANG\nJOHOR BAHRU\n49005 TERENGGANU",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "BM884036",
+    "No. Casis": "8ET3SWHPZT5CRXCRX",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1395CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          78,
+          67,
+          10
+        ],
+        "text": "AWY12 52",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          117,
+          112,
+          8
+        ],
+        "text": "PROF. WEI CHAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          161,
+          94,
+          11
+        ],
+        "text": "570606-15-8292",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          144,
+          30
+        ],
+        "text": "573, KAMPUNG KLANG\nJOHOR BAHRU\n49005 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          299,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          298,
+          24,
+          11
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          28,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          380,
+          69,
+          10
+        ],
+        "text": "BM884036",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          423,
+          160,
+          10
+        ],
+        "text": "8ET3SWHPZT5CRXCRX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          458,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          463,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          500,
+          52,
+          10
+        ],
+        "text": "1395CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000275.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JBR70 78",
+    "Nama Pemilik": "PROF. MEI CHONG",
+    "No. Kad Pengenalan": "531017-04-4204",
+    "Alamat": "83, JALAN RAJA BUKIT BINTANG\nKAJANG\n78530 KEDAH",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "DE605732",
+    "No. Casis": "0VLSZFTC3TJP3JJ9W",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1819CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          77,
+          55,
+          10
+        ],
+        "text": "JBR70 78",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          122,
+          10
+        ],
+        "text": "PROF. MEI CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          106,
+          10
+        ],
+        "text": "531017-04-4204",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          202,
+          218,
+          36
+        ],
+        "text": "83, JALAN RAJA BUKIT BINTANG\nKAJANG\n78530 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          303,
+          35,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          343,
+          32,
+          9
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          381,
+          61,
+          11
+        ],
+        "text": "DE605732",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          419,
+          148,
+          10
+        ],
+        "text": "0VLSZFTC3TJP3JJ9W",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          498,
+          52,
+          10
+        ],
+        "text": "1819CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

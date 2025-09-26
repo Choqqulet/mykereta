@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000941.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KNX19 93",
+    "Nama Pemilik": "DATO' XIAO MEI",
+    "No. Kad Pengenalan": "991020-15-9002",
+    "Alamat": "654, LEBUH CHERAS\nSUBANG JAYA\n37669 MELAKA",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "CR519943",
+    "No. Casis": "B13DGL8NKCUWSY55V",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2495CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          77,
+          64,
+          9
+        ],
+        "text": "KNX19 93",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          117,
+          108,
+          10
+        ],
+        "text": "DATO' XIAO MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          162,
+          94,
+          11
+        ],
+        "text": "991020-15-9002",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          197,
+          139,
+          36
+        ],
+        "text": "654, LEBUH CHERAS\nSUBANG JAYA\n37669 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          299,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          28,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          60,
+          11
+        ],
+        "text": "CR519943",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          423,
+          158,
+          10
+        ],
+        "text": "B13DGL8NKCUWSY55V",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          463,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          498,
+          52,
+          10
+        ],
+        "text": "2495CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

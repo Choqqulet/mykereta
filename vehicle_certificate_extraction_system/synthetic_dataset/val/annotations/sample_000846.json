@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000846.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BXB23 08",
+    "Nama Pemilik": "PN. TAN TEO",
+    "No. Kad Pengenalan": "520731-16-1067",
+    "Alamat": "956, JALAN TUN AMPANG\nCHERAS\n20915 TERENGGANU",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "KA877425",
+    "No. Casis": "9WU6YC8AV6KL7DX31",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1287CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          78,
+          60,
+          10
+        ],
+        "text": "BXB23 08",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          122,
+          88,
+          10
+        ],
+        "text": "PN. TAN TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          157,
+          106,
+          10
+        ],
+        "text": "520731-16-1067",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          203,
+          172,
+          36
+        ],
+        "text": "956, JALAN TUN AMPANG\nCHERAS\n20915 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          300,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          339,
+          32,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          64,
+          9
+        ],
+        "text": "KA877425",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          417,
+          136,
+          9
+        ],
+        "text": "9WU6YC8AV6KL7DX31",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          459,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          500,
+          46,
+          10
+        ],
+        "text": "1287CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

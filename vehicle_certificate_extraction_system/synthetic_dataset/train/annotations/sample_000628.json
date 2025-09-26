@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000628.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KWC42 62",
+    "Nama Pemilik": "AHMAD BINTI AISHAH",
+    "No. Kad Pengenalan": "900515-02-2600",
+    "Alamat": "333, LEBUH AMPANG\nCHERAS\n75492 KEDAH",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "XH521574",
+    "No. Casis": "WBU3K2LJGC478P8BR",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1259CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          80,
+          68,
+          10
+        ],
+        "text": "KWC42 62",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          145,
+          8
+        ],
+        "text": "AHMAD BINTI AISHAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          157,
+          106,
+          10
+        ],
+        "text": "900515-02-2600",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          198,
+          136,
+          30
+        ],
+        "text": "333, LEBUH AMPANG\nCHERAS\n75492 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          301,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          340,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          377,
+          62,
+          11
+        ],
+        "text": "XH521574",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          419,
+          137,
+          9
+        ],
+        "text": "WBU3K2LJGC478P8BR",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          463,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          498,
+          52,
+          10
+        ],
+        "text": "1259CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

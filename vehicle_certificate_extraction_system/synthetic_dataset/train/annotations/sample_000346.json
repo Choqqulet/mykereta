@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000346.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BIA38 13",
+    "Nama Pemilik": "EN. FENG LIM",
+    "No. Kad Pengenalan": "610515-14-6547",
+    "Alamat": "331, PERSIARAN IPOH\nKLANG\n78970 JOHOR",
+    "Jenama": "PROTON",
+    "Model": "X70",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "RT998717",
+    "No. Casis": "U01SCNE7C9R9J5W90",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1582CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          64,
+          9
+        ],
+        "text": "BIA38 13",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          121,
+          94,
+          10
+        ],
+        "text": "EN. FENG LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          158,
+          94,
+          11
+        ],
+        "text": "610515-14-6547",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          200,
+          144,
+          36
+        ],
+        "text": "331, PERSIARAN IPOH\nKLANG\n78970 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          302,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          303,
+          24,
+          9
+        ],
+        "text": "X70",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          32,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          383,
+          60,
+          10
+        ],
+        "text": "RT998717",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          418,
+          138,
+          11
+        ],
+        "text": "U01SCNE7C9R9J5W90",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          463,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          457,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          46,
+          11
+        ],
+        "text": "1582CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

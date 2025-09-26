@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000333.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PQC12 63",
+    "Nama Pemilik": "EN. ISMAIL BIN MOHAMED",
+    "No. Kad Pengenalan": "010519-12-5772",
+    "Alamat": "999, KAMPUNG CHERAS\nPENANG\n95192 SABAH",
+    "Jenama": "PROTON",
+    "Model": "PERSONA",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "KW030127",
+    "No. Casis": "LDSLBX1UMA04VNU84",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2095CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          81,
+          59,
+          12
+        ],
+        "text": "PQC12 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          120,
+          176,
+          8
+        ],
+        "text": "EN. ISMAIL BIN MOHAMED",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          112,
+          9
+        ],
+        "text": "010519-12-5772",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          200,
+          152,
+          30
+        ],
+        "text": "999, KAMPUNG CHERAS\nPENANG\n95192 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          299,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          301,
+          64,
+          10
+        ],
+        "text": "PERSONA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          339,
+          32,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          381,
+          64,
+          9
+        ],
+        "text": "KW030127",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          420,
+          153,
+          10
+        ],
+        "text": "LDSLBX1UMA04VNU84",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          498,
+          52,
+          10
+        ],
+        "text": "2095CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

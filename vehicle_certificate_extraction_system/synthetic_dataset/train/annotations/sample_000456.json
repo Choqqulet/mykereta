@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000456.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BEW77 83",
+    "Nama Pemilik": "DR. TEO LIM",
+    "No. Kad Pengenalan": "761218-08-9290",
+    "Alamat": "415, LORONG AMPANG\nIPOH\n32849 PERLIS",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "CY031538",
+    "No. Casis": "EUHZ1WA5WJD3UBLMU",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1714CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          77,
+          67,
+          10
+        ],
+        "text": "BEW77 83",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          120,
+          89,
+          8
+        ],
+        "text": "DR. TEO LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          158,
+          106,
+          10
+        ],
+        "text": "761218-08-9290",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          201,
+          157,
+          36
+        ],
+        "text": "415, LORONG AMPANG\nIPOH\n32849 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          33,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          340,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          381,
+          67,
+          10
+        ],
+        "text": "CY031538",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          418,
+          136,
+          9
+        ],
+        "text": "EUHZ1WA5WJD3UBLMU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          461,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          457,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          500,
+          46,
+          10
+        ],
+        "text": "1714CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

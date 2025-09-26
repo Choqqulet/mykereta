@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000388.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KAD37 68",
+    "Nama Pemilik": "EN. LI LIM",
+    "No. Kad Pengenalan": "531024-12-4218",
+    "Alamat": "285, BANDAR SHAH ALAM\nSHAH ALAM\n89631 PAHANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "CP609312",
+    "No. Casis": "1R0VJ2J7APMDM3DMM",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2970CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          80,
+          64,
+          10
+        ],
+        "text": "KAD37 68",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          67,
+          10
+        ],
+        "text": "EN. LI LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          163,
+          106,
+          10
+        ],
+        "text": "531024-12-4218",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          200,
+          173,
+          36
+        ],
+        "text": "285, BANDAR SHAH ALAM\nSHAH ALAM\n89631 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          342,
+          28,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          59,
+          10
+        ],
+        "text": "CP609312",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          137,
+          9
+        ],
+        "text": "1R0VJ2J7APMDM3DMM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          463,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          460,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          503,
+          52,
+          10
+        ],
+        "text": "2970CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

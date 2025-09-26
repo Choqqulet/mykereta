@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000429.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JJR36 33",
+    "Nama Pemilik": "TAN SRI MURUGAN",
+    "No. Kad Pengenalan": "650921-07-5604",
+    "Alamat": "395, TAMAN KAJANG\nKAJANG\n40298 PUTRAJAYA",
+    "Jenama": "PERODUA",
+    "Model": "ATIVA",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "ME932202",
+    "No. Casis": "F50FS0RU63BX1LT0J",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1478CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          64,
+          9
+        ],
+        "text": "JJR36 33",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          117,
+          131,
+          10
+        ],
+        "text": "TAN SRI MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          112,
+          9
+        ],
+        "text": "650921-07-5604",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          198,
+          140,
+          36
+        ],
+        "text": "395, TAMAN KAJANG\nKAJANG\n40298 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          303,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          302,
+          41,
+          10
+        ],
+        "text": "ATIVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          340,
+          32,
+          9
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          377,
+          63,
+          10
+        ],
+        "text": "ME932202",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          145,
+          10
+        ],
+        "text": "F50FS0RU63BX1LT0J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          462,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          501,
+          46,
+          10
+        ],
+        "text": "1478CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

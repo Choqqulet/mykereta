@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000557.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BEH27 88",
+    "Nama Pemilik": "TAN SRI ZALEHA BIN ROHANI",
+    "No. Kad Pengenalan": "831005-13-5562",
+    "Alamat": "626, JALAN TUN SUBANG JAYA\nPENANG\n97698 PERAK",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "AH664871",
+    "No. Casis": "8NU8R0Y9RG8YZCBYB",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1391CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          82,
+          64,
+          9
+        ],
+        "text": "BEH27 88",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          118,
+          200,
+          8
+        ],
+        "text": "TAN SRI ZALEHA BIN ROHANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          157,
+          112,
+          9
+        ],
+        "text": "831005-13-5562",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          201,
+          209,
+          30
+        ],
+        "text": "626, JALAN TUN SUBANG JAYA\nPENANG\n97698 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          302,
+          81,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          337,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          377,
+          67,
+          10
+        ],
+        "text": "AH664871",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          423,
+          149,
+          10
+        ],
+        "text": "8NU8R0Y9RG8YZCBYB",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          460,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          457,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          503,
+          46,
+          10
+        ],
+        "text": "1391CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

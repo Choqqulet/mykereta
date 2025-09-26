@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000259.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BMJ92 33",
+    "Nama Pemilik": "EN. MAYA A/P KRISHNAN",
+    "No. Kad Pengenalan": "570908-08-5815",
+    "Alamat": "692, TAMAN AMPANG\nKLANG\n83016 TERENGGANU",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "MI897848",
+    "No. Casis": "SX0L043UKYSVMZAFT",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3275CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          77,
+          58,
+          10
+        ],
+        "text": "BMJ92 33",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          122,
+          168,
+          11
+        ],
+        "text": "EN. MAYA A/P KRISHNAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          158,
+          94,
+          11
+        ],
+        "text": "570908-08-5815",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          144,
+          36
+        ],
+        "text": "692, TAMAN AMPANG\nKLANG\n83016 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          301,
+          65,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          32,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          64,
+          10
+        ],
+        "text": "MI897848",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          423,
+          152,
+          10
+        ],
+        "text": "SX0L043UKYSVMZAFT",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          461,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          500,
+          52,
+          10
+        ],
+        "text": "3275CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

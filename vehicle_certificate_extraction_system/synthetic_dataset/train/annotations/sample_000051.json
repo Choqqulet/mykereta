@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000051.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AVZ30 67",
+    "Nama Pemilik": "DATO' LI LING",
+    "No. Kad Pengenalan": "921112-06-8088",
+    "Alamat": "734, JALAN DATO' KAJANG\nSEREMBAN\n44896 KEDAH",
+    "Jenama": "PROTON",
+    "Model": "EXORA",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "GN571829",
+    "No. Casis": "XDKXDGW5KZTYN3WNP",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2129CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          77,
+          63,
+          10
+        ],
+        "text": "AVZ30 67",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          122,
+          95,
+          10
+        ],
+        "text": "DATO' LI LING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          161,
+          94,
+          10
+        ],
+        "text": "921112-06-8088",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          197,
+          180,
+          36
+        ],
+        "text": "734, JALAN DATO' KAJANG\nSEREMBAN\n44896 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          297,
+          49,
+          10
+        ],
+        "text": "EXORA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          342,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          380,
+          69,
+          10
+        ],
+        "text": "GN571829",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          419,
+          166,
+          11
+        ],
+        "text": "XDKXDGW5KZTYN3WNP",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          461,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          462,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          497,
+          46,
+          10
+        ],
+        "text": "2129CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000086.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WSB95 98",
+    "Nama Pemilik": "DATUK AISHAH",
+    "No. Kad Pengenalan": "970826-05-0855",
+    "Alamat": "743, JALAN RAJA PENANG\nCHERAS\n62214 PULAU PINANG",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "HU125033",
+    "No. Casis": "3P68CCHAZLP5FE62U",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1868CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          79,
+          62,
+          11
+        ],
+        "text": "WSB95 98",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          120,
+          96,
+          8
+        ],
+        "text": "DATUK AISHAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          163,
+          106,
+          10
+        ],
+        "text": "970826-05-0855",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          199,
+          172,
+          36
+        ],
+        "text": "743, JALAN RAJA PENANG\nCHERAS\n62214 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          301,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          342,
+          32,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          62,
+          11
+        ],
+        "text": "HU125033",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          423,
+          150,
+          10
+        ],
+        "text": "3P68CCHAZLP5FE62U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          459,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          458,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          52,
+          10
+        ],
+        "text": "1868CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

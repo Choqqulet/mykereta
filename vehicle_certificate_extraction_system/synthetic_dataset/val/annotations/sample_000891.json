@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000891.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WZH93 63",
+    "Nama Pemilik": "MOHAMED",
+    "No. Kad Pengenalan": "800413-09-2331",
+    "Alamat": "249, KAMPUNG AMPANG\nKAJANG\n42822 SELANGOR",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "ZZ383856",
+    "No. Casis": "P7X6Y2YVWWB8AGN5M",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1469CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          83,
+          64,
+          10
+        ],
+        "text": "WZH93 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          123,
+          73,
+          10
+        ],
+        "text": "MOHAMED",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          159,
+          106,
+          10
+        ],
+        "text": "800413-09-2331",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          198,
+          166,
+          36
+        ],
+        "text": "249, KAMPUNG AMPANG\nKAJANG\n42822 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          301,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          338,
+          32,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          377,
+          60,
+          11
+        ],
+        "text": "ZZ383856",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          419,
+          162,
+          10
+        ],
+        "text": "P7X6Y2YVWWB8AGN5M",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          462,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          459,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          52,
+          10
+        ],
+        "text": "1469CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

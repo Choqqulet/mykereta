@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000248.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AQS51 88",
+    "Nama Pemilik": "PN. LIM LI",
+    "No. Kad Pengenalan": "880906-14-1372",
+    "Alamat": "11, BANDAR SHAH ALAM\nAMPANG\n75946 TERENGGANU",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "CU946114",
+    "No. Casis": "7CMYVNJRDY40SHG7W",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2930CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          81,
+          65,
+          11
+        ],
+        "text": "AQS51 88",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          123,
+          80,
+          8
+        ],
+        "text": "PN. LIM LI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          157,
+          94,
+          10
+        ],
+        "text": "880906-14-1372",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          165,
+          36
+        ],
+        "text": "11, BANDAR SHAH ALAM\nAMPANG\n75946 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          341,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          381,
+          68,
+          10
+        ],
+        "text": "CU946114",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          419,
+          155,
+          10
+        ],
+        "text": "7CMYVNJRDY40SHG7W",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          458,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          461,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          500,
+          48,
+          9
+        ],
+        "text": "2930CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

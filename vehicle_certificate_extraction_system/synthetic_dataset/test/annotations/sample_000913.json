@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000913.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BOC84 16",
+    "Nama Pemilik": "PROF. CHONG JUN",
+    "No. Kad Pengenalan": "571014-16-4633",
+    "Alamat": "122, LEBUH JOHOR BAHRU\nBUKIT BINTANG\n55885 PERLIS",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "VD302146",
+    "No. Casis": "5UFDLFMNG7E357XWX",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2731CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          80,
+          66,
+          10
+        ],
+        "text": "BOC84 16",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          122,
+          130,
+          10
+        ],
+        "text": "PROF. CHONG JUN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          159,
+          94,
+          11
+        ],
+        "text": "571014-16-4633",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          176,
+          30
+        ],
+        "text": "122, LEBUH JOHOR BAHRU\nBUKIT BINTANG\n55885 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          342,
+          28,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          382,
+          62,
+          10
+        ],
+        "text": "VD302146",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          420,
+          136,
+          9
+        ],
+        "text": "5UFDLFMNG7E357XWX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          462,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          461,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          502,
+          48,
+          9
+        ],
+        "text": "2731CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000731.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AUE79 58",
+    "Nama Pemilik": "PROF. GOH HUI",
+    "No. Kad Pengenalan": "741016-15-3711",
+    "Alamat": "562, JALAN TUN AMPANG\nSUBANG JAYA\n47478 SELANGOR",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "ST676536",
+    "No. Casis": "6Z1TN3LS3XTW3TEC2",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1262CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          65,
+          9
+        ],
+        "text": "AUE79 58",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          104,
+          8
+        ],
+        "text": "PROF. GOH HUI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          106,
+          10
+        ],
+        "text": "741016-15-3711",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          168,
+          30
+        ],
+        "text": "562, JALAN TUN AMPANG\nSUBANG JAYA\n47478 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          341,
+          32,
+          9
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          379,
+          64,
+          9
+        ],
+        "text": "ST676536",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          136,
+          9
+        ],
+        "text": "6Z1TN3LS3XTW3TEC2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          463,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          498,
+          48,
+          9
+        ],
+        "text": "1262CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

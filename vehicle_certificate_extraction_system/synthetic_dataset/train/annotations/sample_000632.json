@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000632.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JGG12 02",
+    "Nama Pemilik": "TAN SRI ISMAIL",
+    "No. Kad Pengenalan": "570429-11-8993",
+    "Alamat": "854, LORONG BUKIT BINTANG\nSUBANG JAYA\n47560 TERENGGANU",
+    "Jenama": "NISSAN",
+    "Model": "LIVINA",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "JO683893",
+    "No. Casis": "LMYH70MWD3FAA3FS5",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1770CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          77,
+          65,
+          10
+        ],
+        "text": "JGG12 02",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          119,
+          112,
+          8
+        ],
+        "text": "TAN SRI ISMAIL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          157,
+          106,
+          10
+        ],
+        "text": "570429-11-8993",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          198,
+          201,
+          36
+        ],
+        "text": "854, LORONG BUKIT BINTANG\nSUBANG JAYA\n47560 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          299,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          303,
+          49,
+          10
+        ],
+        "text": "LIVINA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          339,
+          32,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          66,
+          10
+        ],
+        "text": "JO683893",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          417,
+          159,
+          10
+        ],
+        "text": "LMYH70MWD3FAA3FS5",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          462,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          503,
+          48,
+          9
+        ],
+        "text": "1770CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

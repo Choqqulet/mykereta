@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000025.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KYN39 97",
+    "Nama Pemilik": "DATO' RAO",
+    "No. Kad Pengenalan": "861109-15-5914",
+    "Alamat": "541, PERSIARAN AMPANG\nPENANG\n41096 LABUAN",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "AA527579",
+    "No. Casis": "LTVHJDSS5K1EV91B4",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3371CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          62,
+          10
+        ],
+        "text": "KYN39 97",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          119,
+          72,
+          9
+        ],
+        "text": "DATO' RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          161,
+          112,
+          9
+        ],
+        "text": "861109-15-5914",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          197,
+          175,
+          36
+        ],
+        "text": "541, PERSIARAN AMPANG\nPENANG\n41096 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          298,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          339,
+          32,
+          10
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          380,
+          62,
+          11
+        ],
+        "text": "AA527579",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          418,
+          142,
+          11
+        ],
+        "text": "LTVHJDSS5K1EV91B4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          462,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          503,
+          52,
+          10
+        ],
+        "text": "3371CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

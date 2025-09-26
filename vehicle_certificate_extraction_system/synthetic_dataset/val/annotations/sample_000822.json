@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000822.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KZE64 49",
+    "Nama Pemilik": "TAN SRI ONG JUN",
+    "No. Kad Pengenalan": "920510-10-6771",
+    "Alamat": "539, TAMAN SUBANG JAYA\nKLANG\n99790 PERLIS",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "ND040106",
+    "No. Casis": "0UFXMUKW8EG5PX4VY",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2972CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          79,
+          64,
+          9
+        ],
+        "text": "KZE64 49",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          118,
+          120,
+          8
+        ],
+        "text": "TAN SRI ONG JUN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          158,
+          106,
+          10
+        ],
+        "text": "920510-10-6771",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          199,
+          177,
+          30
+        ],
+        "text": "539, TAMAN SUBANG JAYA\nKLANG\n99790 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          298,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          340,
+          28,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          62,
+          10
+        ],
+        "text": "ND040106",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          421,
+          161,
+          10
+        ],
+        "text": "0UFXMUKW8EG5PX4VY",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          462,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          499,
+          46,
+          10
+        ],
+        "text": "2972CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

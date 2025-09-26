@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000978.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WCV00 98",
+    "Nama Pemilik": "DATO' SHARMA A/L MEERA",
+    "No. Kad Pengenalan": "730315-02-4533",
+    "Alamat": "24, TAMAN SHAH ALAM\nSUBANG JAYA\n27413 PERAK",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "AA476132",
+    "No. Casis": "1ZHCM7R192EWCYGCW",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1699CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          80,
+          68,
+          10
+        ],
+        "text": "WCV00 98",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          117,
+          177,
+          11
+        ],
+        "text": "DATO' SHARMA A/L MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          158,
+          94,
+          11
+        ],
+        "text": "730315-02-4533",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          200,
+          157,
+          36
+        ],
+        "text": "24, TAMAN SHAH ALAM\nSUBANG JAYA\n27413 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          300,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          340,
+          32,
+          9
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          382,
+          66,
+          10
+        ],
+        "text": "AA476132",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          420,
+          137,
+          9
+        ],
+        "text": "1ZHCM7R192EWCYGCW",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          462,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          463,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          499,
+          52,
+          10
+        ],
+        "text": "1699CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

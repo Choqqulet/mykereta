@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000207.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JEO69 54",
+    "Nama Pemilik": "LAKSHMI A/P VANI",
+    "No. Kad Pengenalan": "540105-12-2518",
+    "Alamat": "408, BANDAR IPOH\nKLANG\n69539 KUALA LUMPUR",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "BQ105869",
+    "No. Casis": "MU0AS3804UFXEGG04",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1922CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          81,
+          64,
+          9
+        ],
+        "text": "JEO69 54",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          123,
+          10
+        ],
+        "text": "LAKSHMI A/P VANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          160,
+          94,
+          11
+        ],
+        "text": "540105-12-2518",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          199,
+          151,
+          36
+        ],
+        "text": "408, BANDAR IPOH\nKLANG\n69539 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          303,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          342,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          61,
+          13
+        ],
+        "text": "BQ105869",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          421,
+          146,
+          10
+        ],
+        "text": "MU0AS3804UFXEGG04",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          461,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          463,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          499,
+          48,
+          9
+        ],
+        "text": "1922CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

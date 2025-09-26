@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000261.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KVM12 76",
+    "Nama Pemilik": "SITI BIN FATIMAH",
+    "No. Kad Pengenalan": "041127-15-4963",
+    "Alamat": "538, JALAN DATO' CHERAS\nBUKIT BINTANG\n21404 KEDAH",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "IQ588416",
+    "No. Casis": "FTCPD1H1TSF7ZHWRV",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1841CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          78,
+          64,
+          10
+        ],
+        "text": "KVM12 76",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          128,
+          8
+        ],
+        "text": "SITI BIN FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          160,
+          106,
+          10
+        ],
+        "text": "041127-15-4963",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          202,
+          184,
+          30
+        ],
+        "text": "538, JALAN DATO' CHERAS\nBUKIT BINTANG\n21404 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          298,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          32,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          379,
+          63,
+          11
+        ],
+        "text": "IQ588416",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          160,
+          10
+        ],
+        "text": "FTCPD1H1TSF7ZHWRV",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          497,
+          52,
+          10
+        ],
+        "text": "1841CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

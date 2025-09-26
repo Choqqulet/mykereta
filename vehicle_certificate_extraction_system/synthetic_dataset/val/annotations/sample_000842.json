@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000842.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JGJ29 67",
+    "Nama Pemilik": "RAO",
+    "No. Kad Pengenalan": "820312-07-2851",
+    "Alamat": "716, JALAN RAJA CHERAS\nIPOH\n93555 MELAKA",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "TT959095",
+    "No. Casis": "SRBFD98W1MTSRL34U",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2016CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          80,
+          64,
+          9
+        ],
+        "text": "JGJ29 67",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          123,
+          24,
+          8
+        ],
+        "text": "RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          158,
+          112,
+          9
+        ],
+        "text": "820312-07-2851",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          197,
+          176,
+          30
+        ],
+        "text": "716, JALAN RAJA CHERAS\nIPOH\n93555 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          301,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          343,
+          28,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          380,
+          60,
+          11
+        ],
+        "text": "TT959095",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          423,
+          158,
+          10
+        ],
+        "text": "SRBFD98W1MTSRL34U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          463,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          463,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          503,
+          52,
+          10
+        ],
+        "text": "2016CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000037.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WOV26 39",
+    "Nama Pemilik": "REDDY",
+    "No. Kad Pengenalan": "611209-07-3057",
+    "Alamat": "45, JALAN PENANG\nIPOH\n31779 MELAKA",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "KE081158",
+    "No. Casis": "UN2TK7BBP37P1M53J",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2578CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          78,
+          64,
+          9
+        ],
+        "text": "WOV26 39",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          117,
+          49,
+          10
+        ],
+        "text": "REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          160,
+          106,
+          10
+        ],
+        "text": "611209-07-3057",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          197,
+          129,
+          36
+        ],
+        "text": "45, JALAN PENANG\nIPOH\n31779 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          303,
+          104,
+          8
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          340,
+          32,
+          9
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          378,
+          64,
+          9
+        ],
+        "text": "KE081158",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          423,
+          140,
+          11
+        ],
+        "text": "UN2TK7BBP37P1M53J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          501,
+          52,
+          10
+        ],
+        "text": "2578CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000479.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "APK00 70",
+    "Nama Pemilik": "DR. KHADIJAH BIN HALIMAH",
+    "No. Kad Pengenalan": "971222-04-9557",
+    "Alamat": "185, JALAN RAJA PENANG\nIPOH\n73478 SARAWAK",
+    "Jenama": "NISSAN",
+    "Model": "NAVARA",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "ZU441225",
+    "No. Casis": "FJJ7R2FLPWJU8L9RU",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1068CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          81,
+          60,
+          10
+        ],
+        "text": "APK00 70",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          195,
+          10
+        ],
+        "text": "DR. KHADIJAH BIN HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          157,
+          106,
+          10
+        ],
+        "text": "971222-04-9557",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          176,
+          30
+        ],
+        "text": "185, JALAN RAJA PENANG\nIPOH\n73478 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          297,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          297,
+          59,
+          10
+        ],
+        "text": "NAVARA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          342,
+          28,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          67,
+          10
+        ],
+        "text": "ZU441225",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          422,
+          149,
+          10
+        ],
+        "text": "FJJ7R2FLPWJU8L9RU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          457,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          462,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          499,
+          46,
+          10
+        ],
+        "text": "1068CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

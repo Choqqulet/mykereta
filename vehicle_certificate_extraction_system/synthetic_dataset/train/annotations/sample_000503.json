@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000503.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PAB97 99",
+    "Nama Pemilik": "PROF. ONG LIM",
+    "No. Kad Pengenalan": "580212-04-0788",
+    "Alamat": "51, JALAN DATO' SEREMBAN\nKAJANG\n99075 PERAK",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2014",
+    "No. Enjin": "SF451332",
+    "No. Casis": "4P1GVB5ZSXDKVU34W",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2396CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          77,
+          59,
+          10
+        ],
+        "text": "PAB97 99",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          122,
+          104,
+          10
+        ],
+        "text": "PROF. ONG LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          163,
+          112,
+          9
+        ],
+        "text": "580212-04-0788",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          202,
+          194,
+          36
+        ],
+        "text": "51, JALAN DATO' SEREMBAN\nKAJANG\n99075 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          300,
+          81,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          338,
+          32,
+          10
+        ],
+        "text": "2014",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          378,
+          64,
+          9
+        ],
+        "text": "SF451332",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          417,
+          153,
+          11
+        ],
+        "text": "4P1GVB5ZSXDKVU34W",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          458,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          498,
+          52,
+          10
+        ],
+        "text": "2396CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

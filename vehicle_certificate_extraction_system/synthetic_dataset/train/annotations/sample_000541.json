@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000541.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WEL20 45",
+    "Nama Pemilik": "PROF. SHARMA",
+    "No. Kad Pengenalan": "531129-12-1767",
+    "Alamat": "146, JALAN TUN KLANG\nKLANG\n52060 LABUAN",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "SO262371",
+    "No. Casis": "A64UUR25N9NF42MA2",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1665CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          79,
+          63,
+          11
+        ],
+        "text": "WEL20 45",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          121,
+          97,
+          8
+        ],
+        "text": "PROF. SHARMA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          158,
+          106,
+          10
+        ],
+        "text": "531129-12-1767",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          200,
+          159,
+          36
+        ],
+        "text": "146, JALAN TUN KLANG\nKLANG\n52060 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          301,
+          35,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          299,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          341,
+          28,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          379,
+          64,
+          9
+        ],
+        "text": "SO262371",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          417,
+          137,
+          9
+        ],
+        "text": "A64UUR25N9NF42MA2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          463,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          460,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          503,
+          46,
+          11
+        ],
+        "text": "1665CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

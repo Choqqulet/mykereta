@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000197.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BLG71 44",
+    "Nama Pemilik": "PN. TEO CHONG",
+    "No. Kad Pengenalan": "780116-10-5416",
+    "Alamat": "611, BANDAR BUKIT BINTANG\nPETALING JAYA\n31081 LABUAN",
+    "Jenama": "PROTON",
+    "Model": "PERSONA",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "XH848046",
+    "No. Casis": "3C23F3FNJD6M59Z1N",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2811CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          77,
+          64,
+          9
+        ],
+        "text": "BLG71 44",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          117,
+          104,
+          8
+        ],
+        "text": "PN. TEO CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          159,
+          94,
+          11
+        ],
+        "text": "780116-10-5416",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          199,
+          200,
+          30
+        ],
+        "text": "611, BANDAR BUKIT BINTANG\nPETALING JAYA\n31081 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          301,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          64,
+          10
+        ],
+        "text": "PERSONA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          340,
+          32,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          379,
+          62,
+          10
+        ],
+        "text": "XH848046",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          417,
+          137,
+          11
+        ],
+        "text": "3C23F3FNJD6M59Z1N",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          461,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          462,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          48,
+          9
+        ],
+        "text": "2811CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

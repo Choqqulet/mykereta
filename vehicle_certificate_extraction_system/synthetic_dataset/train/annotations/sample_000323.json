@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000323.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JLR53 84",
+    "Nama Pemilik": "PN. HUI WONG",
+    "No. Kad Pengenalan": "670224-03-6354",
+    "Alamat": "717, TAMAN PENANG\nAMPANG\n76053 PUTRAJAYA",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "IN224694",
+    "No. Casis": "LG945BW2FHAUY1E1T",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2667CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          83,
+          55,
+          11
+        ],
+        "text": "JLR53 84",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          117,
+          100,
+          10
+        ],
+        "text": "PN. HUI WONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          94,
+          11
+        ],
+        "text": "670224-03-6354",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          199,
+          136,
+          30
+        ],
+        "text": "717, TAMAN PENANG\nAMPANG\n76053 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          301,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          337,
+          32,
+          9
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          64,
+          9
+        ],
+        "text": "IN224694",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          423,
+          136,
+          9
+        ],
+        "text": "LG945BW2FHAUY1E1T",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          460,
+          47,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          461,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          503,
+          46,
+          10
+        ],
+        "text": "2667CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

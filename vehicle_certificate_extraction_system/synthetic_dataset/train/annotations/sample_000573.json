@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000573.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AHI37 64",
+    "Nama Pemilik": "DR. LING WONG",
+    "No. Kad Pengenalan": "990509-09-1090",
+    "Alamat": "174, TAMAN SEREMBAN\nSEREMBAN\n72815 PERAK",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "OL425791",
+    "No. Casis": "R029T2XYT0YFCCKRV",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2728CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          80,
+          59,
+          10
+        ],
+        "text": "AHI37 64",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          122,
+          110,
+          10
+        ],
+        "text": "DR. LING WONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          159,
+          106,
+          10
+        ],
+        "text": "990509-09-1090",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          203,
+          162,
+          36
+        ],
+        "text": "174, TAMAN SEREMBAN\nSEREMBAN\n72815 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          297,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          303,
+          25,
+          10
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          341,
+          28,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          381,
+          67,
+          10
+        ],
+        "text": "OL425791",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          137,
+          9
+        ],
+        "text": "R029T2XYT0YFCCKRV",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          457,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          46,
+          10
+        ],
+        "text": "2728CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

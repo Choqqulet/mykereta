@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000176.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JGK39 09",
+    "Nama Pemilik": "OMAR BINTI SITI",
+    "No. Kad Pengenalan": "560528-14-2230",
+    "Alamat": "567, JALAN RAJA AMPANG\nSHAH ALAM\n38795 PULAU PINANG",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "AK716304",
+    "No. Casis": "603CYY2RA5CD14WV2",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2240CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          78,
+          63,
+          10
+        ],
+        "text": "JGK39 09",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          120,
+          8
+        ],
+        "text": "OMAR BINTI SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          112,
+          9
+        ],
+        "text": "560528-14-2230",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          203,
+          175,
+          36
+        ],
+        "text": "567, JALAN RAJA AMPANG\nSHAH ALAM\n38795 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          299,
+          37,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          341,
+          28,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          62,
+          10
+        ],
+        "text": "AK716304",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          146,
+          11
+        ],
+        "text": "603CYY2RA5CD14WV2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          461,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          459,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          500,
+          52,
+          10
+        ],
+        "text": "2240CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

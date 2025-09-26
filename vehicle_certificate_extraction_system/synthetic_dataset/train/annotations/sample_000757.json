@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000757.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ANU64 70",
+    "Nama Pemilik": "EN. NG ONG",
+    "No. Kad Pengenalan": "041101-15-5316",
+    "Alamat": "692, KAMPUNG SUBANG JAYA\nSUBANG JAYA\n41516 KELANTAN",
+    "Jenama": "NISSAN",
+    "Model": "X-TRAIL",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "FB478174",
+    "No. Casis": "AVM7GBXNGXGFNJYJV",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3305CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          79,
+          62,
+          10
+        ],
+        "text": "ANU64 70",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          117,
+          84,
+          10
+        ],
+        "text": "EN. NG ONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          160,
+          106,
+          10
+        ],
+        "text": "041101-15-5316",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          197,
+          199,
+          36
+        ],
+        "text": "692, KAMPUNG SUBANG JAYA\nSUBANG JAYA\n41516 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          57,
+          10
+        ],
+        "text": "X-TRAIL",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          343,
+          28,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          378,
+          66,
+          10
+        ],
+        "text": "FB478174",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          420,
+          138,
+          9
+        ],
+        "text": "AVM7GBXNGXGFNJYJV",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          461,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          52,
+          10
+        ],
+        "text": "3305CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

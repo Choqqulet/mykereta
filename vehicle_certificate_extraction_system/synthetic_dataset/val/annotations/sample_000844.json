@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000844.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BCC01 84",
+    "Nama Pemilik": "EN. SINGH A/L SHANTI",
+    "No. Kad Pengenalan": "841112-15-1052",
+    "Alamat": "372, JALAN IPOH\nKLANG\n51977 NEGERI SEMBILAN",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "MN451423",
+    "No. Casis": "DRELDE900DVJGU5KH",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3495CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          79,
+          59,
+          10
+        ],
+        "text": "BCC01 84",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          151,
+          10
+        ],
+        "text": "EN. SINGH A/L SHANTI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          163,
+          94,
+          11
+        ],
+        "text": "841112-15-1052",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          203,
+          168,
+          30
+        ],
+        "text": "372, JALAN IPOH\nKLANG\n51977 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          297,
+          37,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          340,
+          32,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          379,
+          70,
+          10
+        ],
+        "text": "MN451423",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          420,
+          154,
+          10
+        ],
+        "text": "DRELDE900DVJGU5KH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          458,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          462,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          501,
+          46,
+          11
+        ],
+        "text": "3495CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

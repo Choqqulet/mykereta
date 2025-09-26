@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000219.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KHP90 67",
+    "Nama Pemilik": "DATO' GEETHA",
+    "No. Kad Pengenalan": "920903-08-5610",
+    "Alamat": "582, LEBUH SUBANG JAYA\nPETALING JAYA\n83488 NEGERI SEMBILAN",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "TP560200",
+    "No. Casis": "S7U22R8N3JV9X84JS",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2313CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          77,
+          64,
+          10
+        ],
+        "text": "KHP90 67",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          121,
+          104,
+          10
+        ],
+        "text": "DATO' GEETHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          161,
+          94,
+          11
+        ],
+        "text": "920903-08-5610",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          199,
+          177,
+          30
+        ],
+        "text": "582, LEBUH SUBANG JAYA\nPETALING JAYA\n83488 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          342,
+          32,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          379,
+          64,
+          9
+        ],
+        "text": "TP560200",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          419,
+          136,
+          9
+        ],
+        "text": "S7U22R8N3JV9X84JS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          460,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          499,
+          46,
+          10
+        ],
+        "text": "2313CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

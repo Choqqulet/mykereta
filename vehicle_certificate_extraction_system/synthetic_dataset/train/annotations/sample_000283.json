@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000283.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KBA51 17",
+    "Nama Pemilik": "EN. YUSOF BIN AISHAH",
+    "No. Kad Pengenalan": "601216-06-2491",
+    "Alamat": "717, BANDAR KLANG\nAMPANG\n14438 SARAWAK",
+    "Jenama": "PERODUA",
+    "Model": "ALZA",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "GY715781",
+    "No. Casis": "21U4LGRFJU4JXRSGY",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1675CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          80,
+          63,
+          10
+        ],
+        "text": "KBA51 17",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          122,
+          158,
+          10
+        ],
+        "text": "EN. YUSOF BIN AISHAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          160,
+          94,
+          10
+        ],
+        "text": "601216-06-2491",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          136,
+          30
+        ],
+        "text": "717, BANDAR KLANG\nAMPANG\n14438 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          299,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          299,
+          34,
+          8
+        ],
+        "text": "ALZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          342,
+          32,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          64,
+          9
+        ],
+        "text": "GY715781",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          419,
+          153,
+          10
+        ],
+        "text": "21U4LGRFJU4JXRSGY",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          458,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          46,
+          11
+        ],
+        "text": "1675CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000084.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JFG86 31",
+    "Nama Pemilik": "PN. HUI YEN",
+    "No. Kad Pengenalan": "920505-16-2855",
+    "Alamat": "8, BANDAR KAJANG\nIPOH\n37596 PAHANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "AQ015324",
+    "No. Casis": "HXPYCCSF8CLJC6VN7",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1823CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          63,
+          10
+        ],
+        "text": "JFG86 31",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          122,
+          83,
+          10
+        ],
+        "text": "PN. HUI YEN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          163,
+          106,
+          10
+        ],
+        "text": "920505-16-2855",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          128,
+          30
+        ],
+        "text": "8, BANDAR KAJANG\nIPOH\n37596 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          299,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          342,
+          32,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          65,
+          11
+        ],
+        "text": "AQ015324",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          421,
+          136,
+          9
+        ],
+        "text": "HXPYCCSF8CLJC6VN7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          503,
+          48,
+          9
+        ],
+        "text": "1823CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

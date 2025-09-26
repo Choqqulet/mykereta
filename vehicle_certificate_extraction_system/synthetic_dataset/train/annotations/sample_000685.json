@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000685.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WQI63 94",
+    "Nama Pemilik": "PROF. MAYA",
+    "No. Kad Pengenalan": "040920-16-6427",
+    "Alamat": "783, JALAN TUN BUKIT BINTANG\nSUBANG JAYA\n51391 PERLIS",
+    "Jenama": "PERODUA",
+    "Model": "ATIVA",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "BI166617",
+    "No. Casis": "FJL405SKESVDAXG6R",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3045CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          82,
+          64,
+          11
+        ],
+        "text": "WQI63 94",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          118,
+          85,
+          10
+        ],
+        "text": "PROF. MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          158,
+          106,
+          10
+        ],
+        "text": "040920-16-6427",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          199,
+          219,
+          36
+        ],
+        "text": "783, JALAN TUN BUKIT BINTANG\nSUBANG JAYA\n51391 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          297,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          301,
+          42,
+          8
+        ],
+        "text": "ATIVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          343,
+          32,
+          9
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          61,
+          10
+        ],
+        "text": "BI166617",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          419,
+          145,
+          11
+        ],
+        "text": "FJL405SKESVDAXG6R",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          457,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          503,
+          52,
+          10
+        ],
+        "text": "3045CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

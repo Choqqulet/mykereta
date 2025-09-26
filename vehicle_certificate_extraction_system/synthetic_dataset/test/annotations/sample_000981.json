@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000981.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KJF40 89",
+    "Nama Pemilik": "DR. KUMAR A/L DEVI",
+    "No. Kad Pengenalan": "831231-01-8705",
+    "Alamat": "181, KAMPUNG KLANG\nIPOH\n41189 KEDAH",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "WH765195",
+    "No. Casis": "YV04HZ28HPYK74SCD",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1340CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          77,
+          61,
+          10
+        ],
+        "text": "KJF40 89",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          119,
+          144,
+          11
+        ],
+        "text": "DR. KUMAR A/L DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          162,
+          106,
+          10
+        ],
+        "text": "831231-01-8705",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          201,
+          153,
+          36
+        ],
+        "text": "181, KAMPUNG KLANG\nIPOH\n41189 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          297,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          340,
+          28,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          64,
+          9
+        ],
+        "text": "WH765195",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          417,
+          136,
+          9
+        ],
+        "text": "YV04HZ28HPYK74SCD",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          462,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          500,
+          52,
+          10
+        ],
+        "text": "1340CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000301.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PQO65 89",
+    "Nama Pemilik": "DR. MEERA",
+    "No. Kad Pengenalan": "000331-14-0321",
+    "Alamat": "621, BANDAR SEREMBAN\nKAJANG\n96448 TERENGGANU",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "KX966385",
+    "No. Casis": "CXPMJ1B265CJ2ZGG0",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2773CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          60,
+          13
+        ],
+        "text": "PQO65 89",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          119,
+          76,
+          10
+        ],
+        "text": "DR. MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          158,
+          106,
+          10
+        ],
+        "text": "000331-14-0321",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          199,
+          160,
+          30
+        ],
+        "text": "621, BANDAR SEREMBAN\nKAJANG\n96448 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          301,
+          81,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          32,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          377,
+          66,
+          10
+        ],
+        "text": "KX966385",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          417,
+          136,
+          9
+        ],
+        "text": "CXPMJ1B265CJ2ZGG0",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          459,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          499,
+          46,
+          10
+        ],
+        "text": "2773CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

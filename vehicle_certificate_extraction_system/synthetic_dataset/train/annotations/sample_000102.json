@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000102.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BWC27 70",
+    "Nama Pemilik": "PN. ROHANI BIN ROHANI",
+    "No. Kad Pengenalan": "760119-14-0862",
+    "Alamat": "150, LEBUH BUKIT BINTANG\nJOHOR BAHRU\n42660 PUTRAJAYA",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "CX030114",
+    "No. Casis": "LF4RW2XTFXG68EX6U",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2703CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          79,
+          64,
+          9
+        ],
+        "text": "BWC27 70",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          120,
+          166,
+          10
+        ],
+        "text": "PN. ROHANI BIN ROHANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          160,
+          94,
+          10
+        ],
+        "text": "760119-14-0862",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          199,
+          190,
+          36
+        ],
+        "text": "150, LEBUH BUKIT BINTANG\nJOHOR BAHRU\n42660 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          298,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          337,
+          32,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          381,
+          64,
+          9
+        ],
+        "text": "CX030114",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          419,
+          136,
+          9
+        ],
+        "text": "LF4RW2XTFXG68EX6U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          459,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          459,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          502,
+          46,
+          10
+        ],
+        "text": "2703CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

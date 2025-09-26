@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000588.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BKH62 94",
+    "Nama Pemilik": "TAN SRI SINGH",
+    "No. Kad Pengenalan": "791019-08-3767",
+    "Alamat": "515, LORONG KLANG\nAMPANG\n38487 JOHOR",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "YO114071",
+    "No. Casis": "3V98H0AFYDAU942H7",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2784CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          64,
+          9
+        ],
+        "text": "BKH62 94",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          118,
+          102,
+          10
+        ],
+        "text": "TAN SRI SINGH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          157,
+          112,
+          9
+        ],
+        "text": "791019-08-3767",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          202,
+          136,
+          30
+        ],
+        "text": "515, LORONG KLANG\nAMPANG\n38487 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          302,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          342,
+          32,
+          9
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          381,
+          64,
+          9
+        ],
+        "text": "YO114071",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          422,
+          149,
+          10
+        ],
+        "text": "3V98H0AFYDAU942H7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          457,
+          47,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          459,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          499,
+          48,
+          9
+        ],
+        "text": "2784CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

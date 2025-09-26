@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000000.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JNM06 16",
+    "Nama Pemilik": "PN. SALLEH BIN FATIMAH",
+    "No. Kad Pengenalan": "560102-04-1861",
+    "Alamat": "515, BANDAR BUKIT BINTANG\nPETALING JAYA\n10626 PERAK",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "RH673166",
+    "No. Casis": "T6GTT8P8E0P3WTER6",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2997CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          80,
+          59,
+          10
+        ],
+        "text": "JNM06 16",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          176,
+          8
+        ],
+        "text": "PN. SALLEH BIN FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          159,
+          106,
+          10
+        ],
+        "text": "560102-04-1861",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          200,
+          30
+        ],
+        "text": "515, BANDAR BUKIT BINTANG\nPETALING JAYA\n10626 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          303,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          339,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          64,
+          9
+        ],
+        "text": "RH673166",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          418,
+          154,
+          10
+        ],
+        "text": "T6GTT8P8E0P3WTER6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          460,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          497,
+          52,
+          10
+        ],
+        "text": "2997CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000067.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PNN80 12",
+    "Nama Pemilik": "PROF. NG WEI",
+    "No. Kad Pengenalan": "520201-16-3705",
+    "Alamat": "786, JALAN DATO' CHERAS\nKLANG\n64758 KELANTAN",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "EM206636",
+    "No. Casis": "6MNJXPH0D33TNK5PK",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2042CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          77,
+          60,
+          10
+        ],
+        "text": "PNN80 12",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          122,
+          98,
+          10
+        ],
+        "text": "PROF. NG WEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          157,
+          112,
+          9
+        ],
+        "text": "520201-16-3705",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          197,
+          178,
+          36
+        ],
+        "text": "786, JALAN DATO' CHERAS\nKLANG\n64758 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          302,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          303,
+          33,
+          10
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          340,
+          28,
+          11
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          69,
+          10
+        ],
+        "text": "EM206636",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          419,
+          136,
+          9
+        ],
+        "text": "6MNJXPH0D33TNK5PK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          459,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          459,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          501,
+          48,
+          9
+        ],
+        "text": "2042CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

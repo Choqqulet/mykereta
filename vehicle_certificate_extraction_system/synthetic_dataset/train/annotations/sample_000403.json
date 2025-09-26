@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000403.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KHU85 20",
+    "Nama Pemilik": "PROF. MEI LIM",
+    "No. Kad Pengenalan": "720519-06-8309",
+    "Alamat": "709, JALAN RAJA BUKIT BINTANG\nBUKIT BINTANG\n32383 PUTRAJAYA",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "UA014877",
+    "No. Casis": "FW5K2SZW1FX75P8PL",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2155CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          64,
+          9
+        ],
+        "text": "KHU85 20",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          123,
+          100,
+          10
+        ],
+        "text": "PROF. MEI LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          157,
+          94,
+          11
+        ],
+        "text": "720519-06-8309",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          202,
+          225,
+          36
+        ],
+        "text": "709, JALAN RAJA BUKIT BINTANG\nBUKIT BINTANG\n32383 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          298,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          341,
+          28,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          380,
+          67,
+          10
+        ],
+        "text": "UA014877",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          419,
+          136,
+          9
+        ],
+        "text": "FW5K2SZW1FX75P8PL",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          463,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          498,
+          48,
+          9
+        ],
+        "text": "2155CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

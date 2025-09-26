@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000917.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KBE09 43",
+    "Nama Pemilik": "PN. ALI BIN MOHAMED",
+    "No. Kad Pengenalan": "810120-07-2424",
+    "Alamat": "640, TAMAN AMPANG\nKAJANG\n75749 TERENGGANU",
+    "Jenama": "TOYOTA",
+    "Model": "FORTUNER",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "LV389564",
+    "No. Casis": "6WA1C6V189X795LBE",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3183CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          80,
+          60,
+          10
+        ],
+        "text": "KBE09 43",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          119,
+          152,
+          10
+        ],
+        "text": "PN. ALI BIN MOHAMED",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          162,
+          112,
+          9
+        ],
+        "text": "810120-07-2424",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          200,
+          144,
+          36
+        ],
+        "text": "640, TAMAN AMPANG\nKAJANG\n75749 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          302,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          297,
+          75,
+          10
+        ],
+        "text": "FORTUNER",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          339,
+          28,
+          11
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          382,
+          64,
+          9
+        ],
+        "text": "LV389564",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          420,
+          142,
+          11
+        ],
+        "text": "6WA1C6V189X795LBE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          458,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          459,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          52,
+          10
+        ],
+        "text": "3183CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

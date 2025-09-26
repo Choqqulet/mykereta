@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000092.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PMC32 02",
+    "Nama Pemilik": "TAN SRI PATEL A/P KUMAR",
+    "No. Kad Pengenalan": "880306-16-2490",
+    "Alamat": "941, JALAN KAJANG\nSUBANG JAYA\n40217 PULAU PINANG",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "NJ556524",
+    "No. Casis": "L42CXNLF9XJ4ZWBWN",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2774CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          82,
+          67,
+          10
+        ],
+        "text": "PMC32 02",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          121,
+          183,
+          10
+        ],
+        "text": "TAN SRI PATEL A/P KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          159,
+          94,
+          10
+        ],
+        "text": "880306-16-2490",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          200,
+          144,
+          30
+        ],
+        "text": "941, JALAN KAJANG\nSUBANG JAYA\n40217 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          301,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          340,
+          28,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          383,
+          57,
+          11
+        ],
+        "text": "NJ556524",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          421,
+          136,
+          9
+        ],
+        "text": "L42CXNLF9XJ4ZWBWN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          52,
+          10
+        ],
+        "text": "2774CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

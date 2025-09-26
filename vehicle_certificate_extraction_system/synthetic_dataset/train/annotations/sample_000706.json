@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000706.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JFP74 26",
+    "Nama Pemilik": "TAN SRI NOOR BINTI ALI",
+    "No. Kad Pengenalan": "750426-03-7230",
+    "Alamat": "945, KAMPUNG IPOH\nSHAH ALAM\n39307 KEDAH",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "GW951905",
+    "No. Casis": "J2XH8SZ56DSS7PJNR",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1375CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          81,
+          61,
+          10
+        ],
+        "text": "JFP74 26",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          122,
+          166,
+          10
+        ],
+        "text": "TAN SRI NOOR BINTI ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          112,
+          9
+        ],
+        "text": "750426-03-7230",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          136,
+          30
+        ],
+        "text": "945, KAMPUNG IPOH\nSHAH ALAM\n39307 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          302,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          301,
+          33,
+          10
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          341,
+          32,
+          9
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          64,
+          9
+        ],
+        "text": "GW951905",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          421,
+          148,
+          10
+        ],
+        "text": "J2XH8SZ56DSS7PJNR",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          457,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          460,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          501,
+          46,
+          11
+        ],
+        "text": "1375CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

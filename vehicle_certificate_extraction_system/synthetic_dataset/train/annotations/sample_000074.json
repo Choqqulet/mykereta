@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000074.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WOF24 22",
+    "Nama Pemilik": "PROF. OMAR BIN NOOR",
+    "No. Kad Pengenalan": "881108-02-6781",
+    "Alamat": "634, LEBUH KAJANG\nPENANG\n16712 LABUAN",
+    "Jenama": "HONDA",
+    "Model": "BR-V",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "AQ294467",
+    "No. Casis": "6TUMN6R2NT6S201K6",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1090CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          79,
+          63,
+          10
+        ],
+        "text": "WOF24 22",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          122,
+          156,
+          10
+        ],
+        "text": "PROF. OMAR BIN NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          157,
+          112,
+          9
+        ],
+        "text": "881108-02-6781",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          200,
+          135,
+          36
+        ],
+        "text": "634, LEBUH KAJANG\nPENANG\n16712 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          303,
+          33,
+          10
+        ],
+        "text": "BR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          340,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          379,
+          62,
+          12
+        ],
+        "text": "AQ294467",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          420,
+          152,
+          10
+        ],
+        "text": "6TUMN6R2NT6S201K6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          461,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          462,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          52,
+          10
+        ],
+        "text": "1090CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000328.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WUM94 84",
+    "Nama Pemilik": "DR. YEN ONG",
+    "No. Kad Pengenalan": "870416-06-9870",
+    "Alamat": "679, LEBUH KLANG\nSHAH ALAM\n20531 LABUAN",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "QZ458283",
+    "No. Casis": "LSU3Z6BH36LD8JCFH",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3160CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          64,
+          9
+        ],
+        "text": "WUM94 84",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          121,
+          88,
+          8
+        ],
+        "text": "DR. YEN ONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          163,
+          106,
+          10
+        ],
+        "text": "870416-06-9870",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          203,
+          129,
+          36
+        ],
+        "text": "679, LEBUH KLANG\nSHAH ALAM\n20531 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          81,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          378,
+          61,
+          13
+        ],
+        "text": "QZ458283",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          418,
+          136,
+          9
+        ],
+        "text": "LSU3Z6BH36LD8JCFH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          463,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          457,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          503,
+          52,
+          10
+        ],
+        "text": "3160CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

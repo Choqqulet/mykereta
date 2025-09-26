@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000886.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "POO13 87",
+    "Nama Pemilik": "EN. ISMAIL BIN KHADIJAH",
+    "No. Kad Pengenalan": "731224-07-8827",
+    "Alamat": "304, JALAN SEREMBAN\nKLANG\n55888 LABUAN",
+    "Jenama": "TOYOTA",
+    "Model": "HILUX",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "UY102600",
+    "No. Casis": "47M3WPGC4SKT9G60Y",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2586CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          79,
+          60,
+          10
+        ],
+        "text": "POO13 87",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          123,
+          178,
+          10
+        ],
+        "text": "EN. ISMAIL BIN KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          163,
+          94,
+          10
+        ],
+        "text": "731224-07-8827",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          197,
+          153,
+          36
+        ],
+        "text": "304, JALAN SEREMBAN\nKLANG\n55888 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          300,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          301,
+          40,
+          8
+        ],
+        "text": "HILUX",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          340,
+          32,
+          9
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          382,
+          64,
+          9
+        ],
+        "text": "UY102600",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          422,
+          159,
+          10
+        ],
+        "text": "47M3WPGC4SKT9G60Y",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          458,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          458,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          503,
+          48,
+          9
+        ],
+        "text": "2586CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

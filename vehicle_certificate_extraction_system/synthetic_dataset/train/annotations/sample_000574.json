@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000574.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PQE99 21",
+    "Nama Pemilik": "FATIMAH BINTI ROHANI",
+    "No. Kad Pengenalan": "851130-07-9743",
+    "Alamat": "65, LORONG SHAH ALAM\nPETALING JAYA\n75452 MELAKA",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "SC395637",
+    "No. Casis": "USSGTLWMU6NFG7ZV4",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2401CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          64,
+          11
+        ],
+        "text": "PQE99 21",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          123,
+          164,
+          10
+        ],
+        "text": "FATIMAH BINTI ROHANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          106,
+          10
+        ],
+        "text": "851130-07-9743",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          197,
+          168,
+          36
+        ],
+        "text": "65, LORONG SHAH ALAM\nPETALING JAYA\n75452 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          301,
+          98,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          342,
+          32,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          64,
+          9
+        ],
+        "text": "SC395637",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          417,
+          157,
+          10
+        ],
+        "text": "USSGTLWMU6NFG7ZV4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          459,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          458,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          503,
+          48,
+          9
+        ],
+        "text": "2401CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

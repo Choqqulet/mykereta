@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000430.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AFU18 24",
+    "Nama Pemilik": "PN. LEE MEI",
+    "No. Kad Pengenalan": "530303-08-4915",
+    "Alamat": "699, LEBUH AMPANG\nKAJANG\n52119 PAHANG",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "YE504019",
+    "No. Casis": "9VM8YCA5WGH51AWDN",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2788CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          79,
+          60,
+          10
+        ],
+        "text": "AFU18 24",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          122,
+          83,
+          10
+        ],
+        "text": "PN. LEE MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          157,
+          112,
+          9
+        ],
+        "text": "530303-08-4915",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          201,
+          140,
+          36
+        ],
+        "text": "699, LEBUH AMPANG\nKAJANG\n52119 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          301,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          302,
+          54,
+          10
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          341,
+          28,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          382,
+          61,
+          11
+        ],
+        "text": "YE504019",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          421,
+          165,
+          10
+        ],
+        "text": "9VM8YCA5WGH51AWDN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          462,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          498,
+          48,
+          9
+        ],
+        "text": "2788CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

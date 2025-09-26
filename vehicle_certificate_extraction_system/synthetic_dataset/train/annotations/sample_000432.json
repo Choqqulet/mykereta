@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000432.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KYX90 57",
+    "Nama Pemilik": "RAMAN A/P VANI",
+    "No. Kad Pengenalan": "620308-15-6924",
+    "Alamat": "958, TAMAN AMPANG\nPENANG\n39966 PULAU PINANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "LL659782",
+    "No. Casis": "A8NJ4G64WD04REBGH",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2073CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          82,
+          62,
+          11
+        ],
+        "text": "KYX90 57",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          123,
+          112,
+          11
+        ],
+        "text": "RAMAN A/P VANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          163,
+          112,
+          9
+        ],
+        "text": "620308-15-6924",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          200,
+          144,
+          36
+        ],
+        "text": "958, TAMAN AMPANG\nPENANG\n39966 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          301,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          338,
+          28,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          383,
+          64,
+          10
+        ],
+        "text": "LL659782",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          157,
+          10
+        ],
+        "text": "A8NJ4G64WD04REBGH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          457,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          501,
+          52,
+          10
+        ],
+        "text": "2073CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000045.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ANU51 69",
+    "Nama Pemilik": "EN. LIM TAN",
+    "No. Kad Pengenalan": "510327-12-7467",
+    "Alamat": "615, TAMAN CHERAS\nPETALING JAYA\n67242 SARAWAK",
+    "Jenama": "TOYOTA",
+    "Model": "COROLLA",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "BC163561",
+    "No. Casis": "S9VL3PPXLTAMHFVZV",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2122CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          65,
+          9
+        ],
+        "text": "ANU51 69",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          119,
+          88,
+          8
+        ],
+        "text": "EN. LIM TAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          161,
+          94,
+          11
+        ],
+        "text": "510327-12-7467",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          197,
+          142,
+          36
+        ],
+        "text": "615, TAMAN CHERAS\nPETALING JAYA\n67242 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          303,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          302,
+          68,
+          10
+        ],
+        "text": "COROLLA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          342,
+          32,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          378,
+          60,
+          11
+        ],
+        "text": "BC163561",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          418,
+          154,
+          10
+        ],
+        "text": "S9VL3PPXLTAMHFVZV",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          458,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          462,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          52,
+          10
+        ],
+        "text": "2122CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

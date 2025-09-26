@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000032.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BOG76 10",
+    "Nama Pemilik": "TAN SRI CHONG LI",
+    "No. Kad Pengenalan": "690721-16-2569",
+    "Alamat": "574, JALAN TUN KAJANG\nIPOH\n26880 NEGERI SEMBILAN",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2014",
+    "No. Enjin": "VB855656",
+    "No. Casis": "WJ6K0UM34BFCL4MMN",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2306CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          78,
+          61,
+          10
+        ],
+        "text": "BOG76 10",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          128,
+          8
+        ],
+        "text": "TAN SRI CHONG LI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          161,
+          94,
+          11
+        ],
+        "text": "690721-16-2569",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          200,
+          171,
+          36
+        ],
+        "text": "574, JALAN TUN KAJANG\nIPOH\n26880 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          297,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          32,
+          10
+        ],
+        "text": "2014",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          379,
+          64,
+          9
+        ],
+        "text": "VB855656",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          421,
+          161,
+          10
+        ],
+        "text": "WJ6K0UM34BFCL4MMN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          458,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          502,
+          46,
+          10
+        ],
+        "text": "2306CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

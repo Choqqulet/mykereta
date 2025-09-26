@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000924.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KGD18 31",
+    "Nama Pemilik": "DATO' ZAINAB BINTI NOOR",
+    "No. Kad Pengenalan": "730104-11-4241",
+    "Alamat": "976, JALAN DATO' AMPANG\nBUKIT BINTANG\n50341 KUALA LUMPUR",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "DK361749",
+    "No. Casis": "UM5V864U9ECKGBA0P",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2568CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          83,
+          66,
+          10
+        ],
+        "text": "KGD18 31",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          185,
+          9
+        ],
+        "text": "DATO' ZAINAB BINTI NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          161,
+          106,
+          10
+        ],
+        "text": "730104-11-4241",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          202,
+          183,
+          36
+        ],
+        "text": "976, JALAN DATO' AMPANG\nBUKIT BINTANG\n50341 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          300,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          33,
+          8
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          338,
+          28,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          377,
+          62,
+          10
+        ],
+        "text": "DK361749",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          420,
+          155,
+          10
+        ],
+        "text": "UM5V864U9ECKGBA0P",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          462,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          457,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          48,
+          9
+        ],
+        "text": "2568CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

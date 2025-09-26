@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000569.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WLW33 59",
+    "Nama Pemilik": "PROF. HUI WEI",
+    "No. Kad Pengenalan": "740131-09-9638",
+    "Alamat": "56, BANDAR AMPANG\nPETALING JAYA\n82238 PUTRAJAYA",
+    "Jenama": "PROTON",
+    "Model": "SAGA",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "NR552481",
+    "No. Casis": "C6YA029BFW5M9PDSS",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3411CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          78,
+          67,
+          11
+        ],
+        "text": "WLW33 59",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          123,
+          99,
+          10
+        ],
+        "text": "PROF. HUI WEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          162,
+          112,
+          9
+        ],
+        "text": "740131-09-9638",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          201,
+          136,
+          30
+        ],
+        "text": "56, BANDAR AMPANG\nPETALING JAYA\n82238 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          297,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          298,
+          38,
+          10
+        ],
+        "text": "SAGA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          343,
+          32,
+          9
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          378,
+          61,
+          11
+        ],
+        "text": "NR552481",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          423,
+          156,
+          10
+        ],
+        "text": "C6YA029BFW5M9PDSS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          462,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          46,
+          10
+        ],
+        "text": "3411CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

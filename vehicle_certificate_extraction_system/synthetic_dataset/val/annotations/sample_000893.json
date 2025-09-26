@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000893.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KRC99 34",
+    "Nama Pemilik": "DATO' MING MING",
+    "No. Kad Pengenalan": "650525-04-4266",
+    "Alamat": "493, BANDAR KAJANG\nCHERAS\n65792 JOHOR",
+    "Jenama": "TOYOTA",
+    "Model": "HILUX",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "RK105652",
+    "No. Casis": "0F95RJ17LYE9UZ757",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2833CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          81,
+          65,
+          10
+        ],
+        "text": "KRC99 34",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          120,
+          124,
+          10
+        ],
+        "text": "DATO' MING MING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          160,
+          112,
+          9
+        ],
+        "text": "650525-04-4266",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          203,
+          148,
+          36
+        ],
+        "text": "493, BANDAR KAJANG\nCHERAS\n65792 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          299,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          299,
+          40,
+          8
+        ],
+        "text": "HILUX",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          341,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          381,
+          61,
+          11
+        ],
+        "text": "RK105652",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          423,
+          143,
+          10
+        ],
+        "text": "0F95RJ17LYE9UZ757",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          459,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          462,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          52,
+          10
+        ],
+        "text": "2833CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000180.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JQZ45 59",
+    "Nama Pemilik": "PROF. MURUGAN A/L DEVI",
+    "No. Kad Pengenalan": "800320-16-4776",
+    "Alamat": "98, JALAN TUN SUBANG JAYA\nCHERAS\n45209 PERLIS",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "JQ154601",
+    "No. Casis": "R9SBXY78HUDN1YDE2",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2028CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          80,
+          64,
+          11
+        ],
+        "text": "JQZ45 59",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          176,
+          11
+        ],
+        "text": "PROF. MURUGAN A/L DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          159,
+          106,
+          10
+        ],
+        "text": "800320-16-4776",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          200,
+          201,
+          36
+        ],
+        "text": "98, JALAN TUN SUBANG JAYA\nCHERAS\n45209 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          297,
+          33,
+          8
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          338,
+          28,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          380,
+          57,
+          13
+        ],
+        "text": "JQ154601",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          420,
+          154,
+          10
+        ],
+        "text": "R9SBXY78HUDN1YDE2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          497,
+          46,
+          10
+        ],
+        "text": "2028CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

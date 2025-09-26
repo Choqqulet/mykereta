@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000171.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PQG54 85",
+    "Nama Pemilik": "DATO' GOH LING",
+    "No. Kad Pengenalan": "921016-03-4399",
+    "Alamat": "238, BANDAR SEREMBAN\nBUKIT BINTANG\n90042 SELANGOR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "GQ926281",
+    "No. Casis": "LSPF2CS17S6U9X0YX",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1078CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          82,
+          67,
+          11
+        ],
+        "text": "PQG54 85",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          121,
+          112,
+          9
+        ],
+        "text": "DATO' GOH LING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          106,
+          10
+        ],
+        "text": "921016-03-4399",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          198,
+          170,
+          36
+        ],
+        "text": "238, BANDAR SEREMBAN\nBUKIT BINTANG\n90042 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          297,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          342,
+          28,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          382,
+          64,
+          11
+        ],
+        "text": "GQ926281",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          417,
+          149,
+          10
+        ],
+        "text": "LSPF2CS17S6U9X0YX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          459,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          459,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          498,
+          48,
+          9
+        ],
+        "text": "1078CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

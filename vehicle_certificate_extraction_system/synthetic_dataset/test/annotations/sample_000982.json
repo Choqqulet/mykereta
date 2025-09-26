@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000982.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PXB36 41",
+    "Nama Pemilik": "DATO' FENG MEI",
+    "No. Kad Pengenalan": "941015-01-3236",
+    "Alamat": "454, BANDAR KLANG\nSEREMBAN\n83997 LABUAN",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "QB215921",
+    "No. Casis": "59DHMN660RVGFZL57",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1952CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          82,
+          59,
+          10
+        ],
+        "text": "PXB36 41",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          121,
+          114,
+          10
+        ],
+        "text": "DATO' FENG MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          158,
+          94,
+          11
+        ],
+        "text": "941015-01-3236",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          140,
+          36
+        ],
+        "text": "454, BANDAR KLANG\nSEREMBAN\n83997 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          298,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          302,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          342,
+          32,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          379,
+          64,
+          11
+        ],
+        "text": "QB215921",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          420,
+          146,
+          11
+        ],
+        "text": "59DHMN660RVGFZL57",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          459,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          461,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          499,
+          52,
+          10
+        ],
+        "text": "1952CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

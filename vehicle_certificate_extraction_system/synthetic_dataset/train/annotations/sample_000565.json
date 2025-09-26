@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000565.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JBB57 96",
+    "Nama Pemilik": "DR. SITI BIN ALI",
+    "No. Kad Pengenalan": "940729-13-5143",
+    "Alamat": "732, JALAN DATO' CHERAS\nSEREMBAN\n88100 KELANTAN",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "UF680733",
+    "No. Casis": "1JXRNT9W7JMPK8PGE",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1248CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          83,
+          64,
+          9
+        ],
+        "text": "JBB57 96",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          123,
+          110,
+          10
+        ],
+        "text": "DR. SITI BIN ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          159,
+          94,
+          11
+        ],
+        "text": "940729-13-5143",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          178,
+          36
+        ],
+        "text": "732, JALAN DATO' CHERAS\nSEREMBAN\n88100 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          300,
+          33,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          299,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          338,
+          32,
+          10
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          379,
+          67,
+          10
+        ],
+        "text": "UF680733",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          136,
+          9
+        ],
+        "text": "1JXRNT9W7JMPK8PGE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          462,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          52,
+          10
+        ],
+        "text": "1248CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

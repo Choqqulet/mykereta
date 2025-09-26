@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000527.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KHT15 19",
+    "Nama Pemilik": "EN. HASSAN BINTI ZALEHA",
+    "No. Kad Pengenalan": "870825-10-1780",
+    "Alamat": "95, LEBUH SUBANG JAYA\nIPOH\n78684 KELANTAN",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "HX697542",
+    "No. Casis": "061C2F14UCDA3T65J",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2191CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          82,
+          64,
+          10
+        ],
+        "text": "KHT15 19",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          117,
+          182,
+          10
+        ],
+        "text": "EN. HASSAN BINTI ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          163,
+          94,
+          11
+        ],
+        "text": "870825-10-1780",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          198,
+          171,
+          36
+        ],
+        "text": "95, LEBUH SUBANG JAYA\nIPOH\n78684 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          297,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          341,
+          32,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          381,
+          62,
+          11
+        ],
+        "text": "HX697542",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          421,
+          136,
+          9
+        ],
+        "text": "061C2F14UCDA3T65J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          461,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          503,
+          48,
+          9
+        ],
+        "text": "2191CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000023.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ABB71 45",
+    "Nama Pemilik": "DATUK SITI BINTI KHADIJAH",
+    "No. Kad Pengenalan": "840531-13-6599",
+    "Alamat": "978, BANDAR SEREMBAN\nCHERAS\n94919 SELANGOR",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "TB924720",
+    "No. Casis": "MMWX77BEM4YH0BAHZ",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1449CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          60,
+          11
+        ],
+        "text": "ABB71 45",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          122,
+          200,
+          8
+        ],
+        "text": "DATUK SITI BINTI KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          159,
+          94,
+          11
+        ],
+        "text": "840531-13-6599",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          200,
+          160,
+          30
+        ],
+        "text": "978, BANDAR SEREMBAN\nCHERAS\n94919 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          301,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          338,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          380,
+          60,
+          10
+        ],
+        "text": "TB924720",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          163,
+          10
+        ],
+        "text": "MMWX77BEM4YH0BAHZ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          463,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          461,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          498,
+          48,
+          9
+        ],
+        "text": "1449CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

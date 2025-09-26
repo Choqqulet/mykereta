@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000657.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PSD04 33",
+    "Nama Pemilik": "GEETHA A/P KAMALA",
+    "No. Kad Pengenalan": "000613-14-5440",
+    "Alamat": "645, LORONG CHERAS\nJOHOR BAHRU\n90053 JOHOR",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "DG083990",
+    "No. Casis": "G0S2YLL5VMMXPDGTC",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2550CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          79,
+          58,
+          10
+        ],
+        "text": "PSD04 33",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          118,
+          148,
+          10
+        ],
+        "text": "GEETHA A/P KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          162,
+          94,
+          11
+        ],
+        "text": "000613-14-5440",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          203,
+          154,
+          36
+        ],
+        "text": "645, LORONG CHERAS\nJOHOR BAHRU\n90053 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          337,
+          32,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          381,
+          64,
+          9
+        ],
+        "text": "DG083990",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          157,
+          11
+        ],
+        "text": "G0S2YLL5VMMXPDGTC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          461,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          498,
+          52,
+          10
+        ],
+        "text": "2550CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

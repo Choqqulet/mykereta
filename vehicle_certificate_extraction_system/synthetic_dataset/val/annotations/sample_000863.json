@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000863.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JGF22 75",
+    "Nama Pemilik": "DATUK MURUGAN",
+    "No. Kad Pengenalan": "690929-03-0436",
+    "Alamat": "161, LEBUH KAJANG\nKLANG\n14534 PULAU PINANG",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "RP905808",
+    "No. Casis": "9KARZKKRKBYAAV9N7",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2507CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          64,
+          9
+        ],
+        "text": "JGF22 75",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          123,
+          124,
+          10
+        ],
+        "text": "DATUK MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          163,
+          106,
+          10
+        ],
+        "text": "690929-03-0436",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          198,
+          144,
+          30
+        ],
+        "text": "161, LEBUH KAJANG\nKLANG\n14534 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          302,
+          33,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          339,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          383,
+          59,
+          11
+        ],
+        "text": "RP905808",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          418,
+          153,
+          10
+        ],
+        "text": "9KARZKKRKBYAAV9N7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          500,
+          46,
+          11
+        ],
+        "text": "2507CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

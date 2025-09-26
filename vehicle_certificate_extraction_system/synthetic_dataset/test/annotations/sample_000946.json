@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000946.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KTO19 59",
+    "Nama Pemilik": "PROF. DEVI",
+    "No. Kad Pengenalan": "010610-10-6250",
+    "Alamat": "180, JALAN RAJA SEREMBAN\nCHERAS\n75773 SABAH",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "ZO009681",
+    "No. Casis": "HZ23WX50YT0C8BNLF",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2546CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          77,
+          61,
+          11
+        ],
+        "text": "KTO19 59",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          123,
+          79,
+          10
+        ],
+        "text": "PROF. DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          162,
+          112,
+          9
+        ],
+        "text": "010610-10-6250",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          202,
+          195,
+          36
+        ],
+        "text": "180, JALAN RAJA SEREMBAN\nCHERAS\n75773 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          338,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          381,
+          64,
+          9
+        ],
+        "text": "ZO009681",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          148,
+          11
+        ],
+        "text": "HZ23WX50YT0C8BNLF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          459,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          463,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          497,
+          48,
+          9
+        ],
+        "text": "2546CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

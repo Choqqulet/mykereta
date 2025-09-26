@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000018.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JCT07 86",
+    "Nama Pemilik": "EN. MURUGAN",
+    "No. Kad Pengenalan": "880113-01-3098",
+    "Alamat": "985, KAMPUNG CHERAS\nPENANG\n74712 JOHOR",
+    "Jenama": "PERODUA",
+    "Model": "AXIA",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "WB807008",
+    "No. Casis": "CWEX96YS6FNC09V2U",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2181CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          83,
+          62,
+          10
+        ],
+        "text": "JCT07 86",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          118,
+          99,
+          10
+        ],
+        "text": "EN. MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          160,
+          112,
+          9
+        ],
+        "text": "880113-01-3098",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          158,
+          36
+        ],
+        "text": "985, KAMPUNG CHERAS\nPENANG\n74712 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          301,
+          34,
+          8
+        ],
+        "text": "AXIA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          339,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          380,
+          64,
+          9
+        ],
+        "text": "WB807008",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          421,
+          148,
+          10
+        ],
+        "text": "CWEX96YS6FNC09V2U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          461,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          502,
+          52,
+          10
+        ],
+        "text": "2181CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

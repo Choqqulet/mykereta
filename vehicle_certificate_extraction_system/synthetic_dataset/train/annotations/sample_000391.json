@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000391.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AME69 26",
+    "Nama Pemilik": "DR. ROHANI BINTI SITI",
+    "No. Kad Pengenalan": "580514-03-5584",
+    "Alamat": "68, BANDAR SEREMBAN\nPETALING JAYA\n86464 MELAKA",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "FY951157",
+    "No. Casis": "DGGGWZ6TWFXKGBWN1",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2920CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          80,
+          65,
+          9
+        ],
+        "text": "AME69 26",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          152,
+          10
+        ],
+        "text": "DR. ROHANI BINTI SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          159,
+          106,
+          10
+        ],
+        "text": "580514-03-5584",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          152,
+          30
+        ],
+        "text": "68, BANDAR SEREMBAN\nPETALING JAYA\n86464 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          302,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          339,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          378,
+          64,
+          9
+        ],
+        "text": "FY951157",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          421,
+          173,
+          10
+        ],
+        "text": "DGGGWZ6TWFXKGBWN1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          460,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          502,
+          52,
+          10
+        ],
+        "text": "2920CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

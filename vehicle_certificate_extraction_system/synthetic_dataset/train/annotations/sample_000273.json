@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000273.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PKZ07 07",
+    "Nama Pemilik": "DR. HUI NG",
+    "No. Kad Pengenalan": "500228-03-4286",
+    "Alamat": "97, JALAN TUN CHERAS\nIPOH\n91829 KEDAH",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "SU061563",
+    "No. Casis": "VHSSPMN4DWS220E28",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2640CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          63,
+          10
+        ],
+        "text": "PKZ07 07",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          121,
+          76,
+          10
+        ],
+        "text": "DR. HUI NG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          162,
+          112,
+          9
+        ],
+        "text": "500228-03-4286",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          199,
+          161,
+          36
+        ],
+        "text": "97, JALAN TUN CHERAS\nIPOH\n91829 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          381,
+          67,
+          10
+        ],
+        "text": "SU061563",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          421,
+          136,
+          9
+        ],
+        "text": "VHSSPMN4DWS220E28",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          458,
+          47,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          458,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          499,
+          52,
+          10
+        ],
+        "text": "2640CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

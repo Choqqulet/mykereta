@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000486.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JAC33 96",
+    "Nama Pemilik": "DATUK MEI WEI",
+    "No. Kad Pengenalan": "621008-15-0906",
+    "Alamat": "238, PERSIARAN AMPANG\nKAJANG\n47628 PUTRAJAYA",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "QS166557",
+    "No. Casis": "FETDCECTAV3EE7UNH",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3198CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          77,
+          62,
+          10
+        ],
+        "text": "JAC33 96",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          117,
+          110,
+          10
+        ],
+        "text": "DATUK MEI WEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          161,
+          94,
+          11
+        ],
+        "text": "621008-15-0906",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          198,
+          175,
+          36
+        ],
+        "text": "238, PERSIARAN AMPANG\nKAJANG\n47628 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          99,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          341,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          379,
+          64,
+          11
+        ],
+        "text": "QS166557",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          154,
+          10
+        ],
+        "text": "FETDCECTAV3EE7UNH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          461,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          457,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          497,
+          46,
+          10
+        ],
+        "text": "3198CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

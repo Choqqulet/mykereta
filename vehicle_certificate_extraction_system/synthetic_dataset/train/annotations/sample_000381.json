@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000381.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AMR70 22",
+    "Nama Pemilik": "DATO' FENG LI",
+    "No. Kad Pengenalan": "560421-13-0075",
+    "Alamat": "369, TAMAN SUBANG JAYA\nKLANG\n53109 PAHANG",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "YW166078",
+    "No. Casis": "ZC66Z746ZB8WNYMVN",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1288CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          77,
+          63,
+          10
+        ],
+        "text": "AMR70 22",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          122,
+          101,
+          10
+        ],
+        "text": "DATO' FENG LI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          163,
+          106,
+          10
+        ],
+        "text": "560421-13-0075",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          198,
+          180,
+          36
+        ],
+        "text": "369, TAMAN SUBANG JAYA\nKLANG\n53109 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          301,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          28,
+          10
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          341,
+          32,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          379,
+          64,
+          9
+        ],
+        "text": "YW166078",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          419,
+          152,
+          10
+        ],
+        "text": "ZC66Z746ZB8WNYMVN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          498,
+          52,
+          10
+        ],
+        "text": "1288CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

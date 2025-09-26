@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000622.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ARO50 72",
+    "Nama Pemilik": "DR. KHADIJAH",
+    "No. Kad Pengenalan": "500414-14-3514",
+    "Alamat": "847, JALAN TUN JOHOR BAHRU\nBUKIT BINTANG\n88344 PERLIS",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "YK582219",
+    "No. Casis": "H0ZPC4P4S5ENYS2UN",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1734CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          83,
+          66,
+          10
+        ],
+        "text": "ARO50 72",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          119,
+          97,
+          10
+        ],
+        "text": "DR. KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          158,
+          112,
+          9
+        ],
+        "text": "500414-14-3514",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          208,
+          30
+        ],
+        "text": "847, JALAN TUN JOHOR BAHRU\nBUKIT BINTANG\n88344 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          298,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          343,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          379,
+          66,
+          10
+        ],
+        "text": "YK582219",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          420,
+          136,
+          9
+        ],
+        "text": "H0ZPC4P4S5ENYS2UN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          463,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          48,
+          9
+        ],
+        "text": "1734CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

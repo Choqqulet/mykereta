@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000973.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WSO36 82",
+    "Nama Pemilik": "DATO' ONG LEE",
+    "No. Kad Pengenalan": "020117-03-8172",
+    "Alamat": "865, KAMPUNG SEREMBAN\nBUKIT BINTANG\n42203 PUTRAJAYA",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "GB239837",
+    "No. Casis": "R1A2NF7X0WV7534S4",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3035CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          78,
+          64,
+          9
+        ],
+        "text": "WSO36 82",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          121,
+          107,
+          10
+        ],
+        "text": "DATO' ONG LEE",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          163,
+          112,
+          9
+        ],
+        "text": "020117-03-8172",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          201,
+          179,
+          36
+        ],
+        "text": "865, KAMPUNG SEREMBAN\nBUKIT BINTANG\n42203 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          301,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          303,
+          48,
+          10
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          339,
+          28,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          382,
+          64,
+          9
+        ],
+        "text": "GB239837",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          418,
+          150,
+          10
+        ],
+        "text": "R1A2NF7X0WV7534S4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          500,
+          46,
+          11
+        ],
+        "text": "3035CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

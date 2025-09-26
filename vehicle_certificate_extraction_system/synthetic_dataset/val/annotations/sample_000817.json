@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000817.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WAB64 35",
+    "Nama Pemilik": "TAN SRI OMAR BIN MOHAMED",
+    "No. Kad Pengenalan": "050628-07-7289",
+    "Alamat": "58, BANDAR SHAH ALAM\nPENANG\n54696 TERENGGANU",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "BT061847",
+    "No. Casis": "U56TAX2U1YBKFB6X9",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1698CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          67,
+          10
+        ],
+        "text": "WAB64 35",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          123,
+          205,
+          10
+        ],
+        "text": "TAN SRI OMAR BIN MOHAMED",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          163,
+          94,
+          11
+        ],
+        "text": "050628-07-7289",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          203,
+          161,
+          30
+        ],
+        "text": "58, BANDAR SHAH ALAM\nPENANG\n54696 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          303,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          28,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          60,
+          10
+        ],
+        "text": "BT061847",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          422,
+          149,
+          10
+        ],
+        "text": "U56TAX2U1YBKFB6X9",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          457,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          499,
+          48,
+          9
+        ],
+        "text": "1698CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

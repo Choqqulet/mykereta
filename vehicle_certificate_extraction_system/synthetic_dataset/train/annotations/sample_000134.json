@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000134.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BWN93 89",
+    "Nama Pemilik": "EN. VANI A/P SINGH",
+    "No. Kad Pengenalan": "610603-10-5988",
+    "Alamat": "977, LEBUH SEREMBAN\nJOHOR BAHRU\n14384 PAHANG",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "HX853336",
+    "No. Casis": "W37WK0CKC6H0MAMRC",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2461CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          79,
+          64,
+          10
+        ],
+        "text": "BWN93 89",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          135,
+          10
+        ],
+        "text": "EN. VANI A/P SINGH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          160,
+          112,
+          9
+        ],
+        "text": "610603-10-5988",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          197,
+          156,
+          36
+        ],
+        "text": "977, LEBUH SEREMBAN\nJOHOR BAHRU\n14384 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          300,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          299,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          341,
+          28,
+          11
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          377,
+          64,
+          9
+        ],
+        "text": "HX853336",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          419,
+          167,
+          10
+        ],
+        "text": "W37WK0CKC6H0MAMRC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          461,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          503,
+          46,
+          10
+        ],
+        "text": "2461CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

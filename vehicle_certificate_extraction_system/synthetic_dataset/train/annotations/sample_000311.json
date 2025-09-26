@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000311.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BOF16 43",
+    "Nama Pemilik": "PN. RAMAN",
+    "No. Kad Pengenalan": "790312-14-6110",
+    "Alamat": "416, JALAN PENANG\nSUBANG JAYA\n67041 SABAH",
+    "Jenama": "TOYOTA",
+    "Model": "CAMRY",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "RD704232",
+    "No. Casis": "ANHGX5LDUXK7NPEKN",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1620CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          83,
+          64,
+          9
+        ],
+        "text": "BOF16 43",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          117,
+          72,
+          8
+        ],
+        "text": "PN. RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          163,
+          112,
+          9
+        ],
+        "text": "790312-14-6110",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          136,
+          30
+        ],
+        "text": "416, JALAN PENANG\nSUBANG JAYA\n67041 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          299,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          298,
+          40,
+          8
+        ],
+        "text": "CAMRY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          343,
+          32,
+          9
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          68,
+          10
+        ],
+        "text": "RD704232",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          420,
+          160,
+          11
+        ],
+        "text": "ANHGX5LDUXK7NPEKN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          463,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          48,
+          9
+        ],
+        "text": "1620CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000643.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KBC98 23",
+    "Nama Pemilik": "TAN SRI GEETHA A/L RAO",
+    "No. Kad Pengenalan": "000917-16-8138",
+    "Alamat": "359, KAMPUNG JOHOR BAHRU\nSHAH ALAM\n23448 PERLIS",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "PO331789",
+    "No. Casis": "NEHDV160ZFAHT30GN",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1668CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          82,
+          64,
+          9
+        ],
+        "text": "KBC98 23",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          123,
+          176,
+          10
+        ],
+        "text": "TAN SRI GEETHA A/L RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          160,
+          94,
+          10
+        ],
+        "text": "000917-16-8138",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          203,
+          192,
+          30
+        ],
+        "text": "359, KAMPUNG JOHOR BAHRU\nSHAH ALAM\n23448 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          300,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          342,
+          32,
+          9
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          381,
+          64,
+          9
+        ],
+        "text": "PO331789",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          422,
+          136,
+          9
+        ],
+        "text": "NEHDV160ZFAHT30GN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          458,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          503,
+          52,
+          10
+        ],
+        "text": "1668CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

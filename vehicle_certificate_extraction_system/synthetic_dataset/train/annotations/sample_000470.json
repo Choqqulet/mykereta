@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000470.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PRX95 61",
+    "Nama Pemilik": "DR. KUMAR A/P KUMAR",
+    "No. Kad Pengenalan": "770125-08-5445",
+    "Alamat": "144, BANDAR SEREMBAN\nAMPANG\n14769 LABUAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "MF284762",
+    "No. Casis": "EZDCRUMMV8ECK0XWJ",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3331CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          81,
+          64,
+          9
+        ],
+        "text": "PRX95 61",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          120,
+          158,
+          10
+        ],
+        "text": "DR. KUMAR A/P KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          158,
+          94,
+          11
+        ],
+        "text": "770125-08-5445",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          201,
+          167,
+          36
+        ],
+        "text": "144, BANDAR SEREMBAN\nAMPANG\n14769 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          339,
+          32,
+          9
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          377,
+          64,
+          9
+        ],
+        "text": "MF284762",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          418,
+          136,
+          9
+        ],
+        "text": "EZDCRUMMV8ECK0XWJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          458,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          462,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          498,
+          46,
+          10
+        ],
+        "text": "3331CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000336.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WHA01 84",
+    "Nama Pemilik": "DATUK MAYA A/L SHANTI",
+    "No. Kad Pengenalan": "500316-08-6798",
+    "Alamat": "287, JALAN RAJA KAJANG\nJOHOR BAHRU\n44364 PULAU PINANG",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "OQ092508",
+    "No. Casis": "BSG5J2N3MPD0R9ZWN",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1933CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          81,
+          64,
+          9
+        ],
+        "text": "WHA01 84",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          122,
+          178,
+          10
+        ],
+        "text": "DATUK MAYA A/L SHANTI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          163,
+          94,
+          11
+        ],
+        "text": "500316-08-6798",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          201,
+          173,
+          36
+        ],
+        "text": "287, JALAN RAJA KAJANG\nJOHOR BAHRU\n44364 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          339,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          380,
+          62,
+          13
+        ],
+        "text": "OQ092508",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          422,
+          148,
+          11
+        ],
+        "text": "BSG5J2N3MPD0R9ZWN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          459,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          503,
+          46,
+          10
+        ],
+        "text": "1933CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

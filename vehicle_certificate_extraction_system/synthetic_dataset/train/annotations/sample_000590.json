@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000590.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JLK31 60",
+    "Nama Pemilik": "DATUK GOH ONG",
+    "No. Kad Pengenalan": "760430-09-3035",
+    "Alamat": "536, KAMPUNG CHERAS\nJOHOR BAHRU\n67419 KUALA LUMPUR",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "OV762537",
+    "No. Casis": "Y2SD12F7EVVH6PMHK",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2507CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          79,
+          64,
+          9
+        ],
+        "text": "JLK31 60",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          122,
+          119,
+          10
+        ],
+        "text": "DATUK GOH ONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          158,
+          106,
+          10
+        ],
+        "text": "760430-09-3035",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          152,
+          30
+        ],
+        "text": "536, KAMPUNG CHERAS\nJOHOR BAHRU\n67419 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          297,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          28,
+          11
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          379,
+          64,
+          9
+        ],
+        "text": "OV762537",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          136,
+          9
+        ],
+        "text": "Y2SD12F7EVVH6PMHK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          457,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          52,
+          10
+        ],
+        "text": "2507CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

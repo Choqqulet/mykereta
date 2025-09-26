@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000856.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WZP62 17",
+    "Nama Pemilik": "TAN SRI RAHMAN BIN SITI",
+    "No. Kad Pengenalan": "850730-06-3235",
+    "Alamat": "851, PERSIARAN JOHOR BAHRU\nIPOH\n20457 SELANGOR",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "AO551698",
+    "No. Casis": "EHG98S3KKVH3950K7",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2491CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          62,
+          10
+        ],
+        "text": "WZP62 17",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          118,
+          179,
+          10
+        ],
+        "text": "TAN SRI RAHMAN BIN SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          160,
+          106,
+          10
+        ],
+        "text": "850730-06-3235",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          198,
+          208,
+          30
+        ],
+        "text": "851, PERSIARAN JOHOR BAHRU\nIPOH\n20457 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          301,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          343,
+          32,
+          9
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          383,
+          68,
+          10
+        ],
+        "text": "AO551698",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          418,
+          149,
+          10
+        ],
+        "text": "EHG98S3KKVH3950K7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          457,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          501,
+          46,
+          10
+        ],
+        "text": "2491CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

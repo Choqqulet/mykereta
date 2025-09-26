@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000520.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BOY19 96",
+    "Nama Pemilik": "TAN SRI KRISHNAN A/L KUMAR",
+    "No. Kad Pengenalan": "701122-10-8168",
+    "Alamat": "57, JALAN DATO' JOHOR BAHRU\nCHERAS\n25654 KUALA LUMPUR",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "OS201815",
+    "No. Casis": "L3VDPN97SM0E14S08",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1569CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          80,
+          64,
+          9
+        ],
+        "text": "BOY19 96",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          117,
+          214,
+          10
+        ],
+        "text": "TAN SRI KRISHNAN A/L KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          112,
+          9
+        ],
+        "text": "701122-10-8168",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          199,
+          218,
+          36
+        ],
+        "text": "57, JALAN DATO' JOHOR BAHRU\nCHERAS\n25654 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          302,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          32,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          64,
+          9
+        ],
+        "text": "OS201815",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          423,
+          149,
+          10
+        ],
+        "text": "L3VDPN97SM0E14S08",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          457,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          501,
+          52,
+          10
+        ],
+        "text": "1569CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

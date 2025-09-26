@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000841.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KYK03 98",
+    "Nama Pemilik": "DR. YEN WEI",
+    "No. Kad Pengenalan": "811122-16-4650",
+    "Alamat": "977, JALAN DATO' IPOH\nSHAH ALAM\n37222 SABAH",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "ZQ874269",
+    "No. Casis": "W4YL7B49CGSCGV1C7",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1648CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          79,
+          63,
+          10
+        ],
+        "text": "KYK03 98",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          120,
+          87,
+          10
+        ],
+        "text": "DR. YEN WEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          160,
+          94,
+          11
+        ],
+        "text": "811122-16-4650",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          200,
+          159,
+          36
+        ],
+        "text": "977, JALAN DATO' IPOH\nSHAH ALAM\n37222 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          300,
+          37,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          32,
+          9
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          380,
+          68,
+          11
+        ],
+        "text": "ZQ874269",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          157,
+          10
+        ],
+        "text": "W4YL7B49CGSCGV1C7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          458,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          500,
+          52,
+          10
+        ],
+        "text": "1648CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000156.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BRW54 12",
+    "Nama Pemilik": "DR. MING MEI",
+    "No. Kad Pengenalan": "751025-13-9706",
+    "Alamat": "347, JALAN DATO' PENANG\nCHERAS\n72257 PAHANG",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "BT010558",
+    "No. Casis": "U5D9SVE50SAXSM2Z4",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3497CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          78,
+          68,
+          10
+        ],
+        "text": "BRW54 12",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          122,
+          94,
+          10
+        ],
+        "text": "DR. MING MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          157,
+          106,
+          10
+        ],
+        "text": "751025-13-9706",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          202,
+          184,
+          30
+        ],
+        "text": "347, JALAN DATO' PENANG\nCHERAS\n72257 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          301,
+          37,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          28,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          378,
+          66,
+          10
+        ],
+        "text": "BT010558",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          419,
+          152,
+          10
+        ],
+        "text": "U5D9SVE50SAXSM2Z4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          462,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          497,
+          52,
+          10
+        ],
+        "text": "3497CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

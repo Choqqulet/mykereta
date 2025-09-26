@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000322.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PGP02 87",
+    "Nama Pemilik": "EN. AHMAD",
+    "No. Kad Pengenalan": "800205-01-4872",
+    "Alamat": "39, JALAN DATO' AMPANG\nPETALING JAYA\n62332 MELAKA",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "GN702579",
+    "No. Casis": "46XBVMCS824FACNWB",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2605CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          82,
+          58,
+          10
+        ],
+        "text": "PGP02 87",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          120,
+          79,
+          10
+        ],
+        "text": "EN. AHMAD",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          112,
+          9
+        ],
+        "text": "800205-01-4872",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          177,
+          36
+        ],
+        "text": "39, JALAN DATO' AMPANG\nPETALING JAYA\n62332 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          298,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          302,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          343,
+          28,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          380,
+          69,
+          10
+        ],
+        "text": "GN702579",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          423,
+          152,
+          10
+        ],
+        "text": "46XBVMCS824FACNWB",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          462,
+          40,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          459,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          501,
+          48,
+          9
+        ],
+        "text": "2605CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

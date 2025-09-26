@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000581.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PIH54 38",
+    "Nama Pemilik": "PN. MEERA A/P KUMAR",
+    "No. Kad Pengenalan": "650131-13-2177",
+    "Alamat": "734, JALAN TUN PENANG\nSUBANG JAYA\n60061 TERENGGANU",
+    "Jenama": "HONDA",
+    "Model": "ACCORD",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "UQ724004",
+    "No. Casis": "GNN2UMXLP9KHJAM23",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1205CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          64,
+          9
+        ],
+        "text": "PIH54 38",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          122,
+          157,
+          10
+        ],
+        "text": "PN. MEERA A/P KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          160,
+          94,
+          11
+        ],
+        "text": "650131-13-2177",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          168,
+          30
+        ],
+        "text": "734, JALAN TUN PENANG\nSUBANG JAYA\n60061 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          300,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          57,
+          10
+        ],
+        "text": "ACCORD",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          341,
+          32,
+          9
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          381,
+          64,
+          11
+        ],
+        "text": "UQ724004",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          422,
+          154,
+          10
+        ],
+        "text": "GNN2UMXLP9KHJAM23",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          458,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          463,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          502,
+          48,
+          9
+        ],
+        "text": "1205CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

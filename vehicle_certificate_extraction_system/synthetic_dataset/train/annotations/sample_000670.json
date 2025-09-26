@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000670.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KIH13 91",
+    "Nama Pemilik": "PN. YUSOF BINTI HASSAN",
+    "No. Kad Pengenalan": "621117-09-9035",
+    "Alamat": "591, KAMPUNG JOHOR BAHRU\nKLANG\n34637 NEGERI SEMBILAN",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "DA898930",
+    "No. Casis": "6HVDX6GSK50SCASPM",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1496CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          77,
+          57,
+          10
+        ],
+        "text": "KIH13 91",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          122,
+          175,
+          10
+        ],
+        "text": "PN. YUSOF BINTI HASSAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          158,
+          106,
+          10
+        ],
+        "text": "621117-09-9035",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          207,
+          36
+        ],
+        "text": "591, KAMPUNG JOHOR BAHRU\nKLANG\n34637 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          298,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          380,
+          62,
+          10
+        ],
+        "text": "DA898930",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          417,
+          137,
+          9
+        ],
+        "text": "6HVDX6GSK50SCASPM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          460,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          458,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          499,
+          48,
+          9
+        ],
+        "text": "1496CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

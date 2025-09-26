@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000765.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JQA89 55",
+    "Nama Pemilik": "HALIMAH BIN ROHANI",
+    "No. Kad Pengenalan": "740219-07-6232",
+    "Alamat": "47, LORONG SEREMBAN\nCHERAS\n29509 TERENGGANU",
+    "Jenama": "HONDA",
+    "Model": "CIVIC",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "IU370557",
+    "No. Casis": "C5KJ7D40DLUA2MMTA",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1237CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          81,
+          63,
+          11
+        ],
+        "text": "JQA89 55",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          119,
+          147,
+          10
+        ],
+        "text": "HALIMAH BIN ROHANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          162,
+          94,
+          10
+        ],
+        "text": "740219-07-6232",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          202,
+          160,
+          36
+        ],
+        "text": "47, LORONG SEREMBAN\nCHERAS\n29509 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          302,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          302,
+          37,
+          10
+        ],
+        "text": "CIVIC",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          342,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          380,
+          62,
+          10
+        ],
+        "text": "IU370557",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          151,
+          11
+        ],
+        "text": "C5KJ7D40DLUA2MMTA",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          501,
+          52,
+          10
+        ],
+        "text": "1237CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

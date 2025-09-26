@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000797.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BEE94 99",
+    "Nama Pemilik": "EN. MAYA A/P PATEL",
+    "No. Kad Pengenalan": "930703-11-3063",
+    "Alamat": "361, JALAN RAJA CHERAS\nJOHOR BAHRU\n54179 TERENGGANU",
+    "Jenama": "HONDA",
+    "Model": "ACCORD",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "MV225839",
+    "No. Casis": "YU64CFSRMJ3CBYNVF",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2863CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          59,
+          10
+        ],
+        "text": "BEE94 99",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          119,
+          140,
+          10
+        ],
+        "text": "EN. MAYA A/P PATEL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          162,
+          94,
+          10
+        ],
+        "text": "930703-11-3063",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          197,
+          170,
+          36
+        ],
+        "text": "361, JALAN RAJA CHERAS\nJOHOR BAHRU\n54179 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          298,
+          57,
+          10
+        ],
+        "text": "ACCORD",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          338,
+          32,
+          10
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          383,
+          64,
+          11
+        ],
+        "text": "MV225839",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          418,
+          156,
+          10
+        ],
+        "text": "YU64CFSRMJ3CBYNVF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          462,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          503,
+          46,
+          10
+        ],
+        "text": "2863CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

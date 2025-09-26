@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000265.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PVL08 23",
+    "Nama Pemilik": "TAN SRI WONG NG",
+    "No. Kad Pengenalan": "930123-01-4336",
+    "Alamat": "544, BANDAR AMPANG\nPENANG\n73914 MELAKA",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "WC538895",
+    "No. Casis": "KMXJNML2FY6GDK5VH",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1927CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          59,
+          10
+        ],
+        "text": "PVL08 23",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          120,
+          120,
+          8
+        ],
+        "text": "TAN SRI WONG NG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          160,
+          106,
+          10
+        ],
+        "text": "930123-01-4336",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          198,
+          144,
+          30
+        ],
+        "text": "544, BANDAR AMPANG\nPENANG\n73914 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          297,
+          65,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          302,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          339,
+          28,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          381,
+          64,
+          11
+        ],
+        "text": "WC538895",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          420,
+          157,
+          11
+        ],
+        "text": "KMXJNML2FY6GDK5VH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          459,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          457,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          501,
+          52,
+          10
+        ],
+        "text": "1927CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

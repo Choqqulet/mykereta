@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000358.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BZG78 20",
+    "Nama Pemilik": "DR. HASSAN",
+    "No. Kad Pengenalan": "711228-15-7670",
+    "Alamat": "565, PERSIARAN PETALING JAYA\nKLANG\n98266 JOHOR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "LP516133",
+    "No. Casis": "XB27FTGRFHPGXUPMB",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3100CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          64,
+          9
+        ],
+        "text": "BZG78 20",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          117,
+          80,
+          8
+        ],
+        "text": "DR. HASSAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          162,
+          94,
+          11
+        ],
+        "text": "711228-15-7670",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          203,
+          225,
+          30
+        ],
+        "text": "565, PERSIARAN PETALING JAYA\nKLANG\n98266 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          297,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          343,
+          32,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          379,
+          64,
+          9
+        ],
+        "text": "LP516133",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          423,
+          161,
+          10
+        ],
+        "text": "XB27FTGRFHPGXUPMB",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          462,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          503,
+          52,
+          10
+        ],
+        "text": "3100CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

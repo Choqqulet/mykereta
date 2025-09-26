@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000136.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PYJ28 47",
+    "Nama Pemilik": "CHAN CHONG",
+    "No. Kad Pengenalan": "570404-06-8305",
+    "Alamat": "519, KAMPUNG BUKIT BINTANG\nSUBANG JAYA\n16203 PERAK",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "VU378592",
+    "No. Casis": "5H558FVJ5PCUJ469M",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2339CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          83,
+          64,
+          9
+        ],
+        "text": "PYJ28 47",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          117,
+          95,
+          10
+        ],
+        "text": "CHAN CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          162,
+          94,
+          11
+        ],
+        "text": "570404-06-8305",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          197,
+          213,
+          36
+        ],
+        "text": "519, KAMPUNG BUKIT BINTANG\nSUBANG JAYA\n16203 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          341,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          382,
+          67,
+          10
+        ],
+        "text": "VU378592",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          420,
+          147,
+          10
+        ],
+        "text": "5H558FVJ5PCUJ469M",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          463,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          501,
+          52,
+          10
+        ],
+        "text": "2339CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000384.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WSY84 52",
+    "Nama Pemilik": "DATO' FENG WONG",
+    "No. Kad Pengenalan": "820821-01-2996",
+    "Alamat": "782, JALAN TUN SUBANG JAYA\nBUKIT BINTANG\n17202 TERENGGANU",
+    "Jenama": "PROTON",
+    "Model": "EXORA",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "FM125499",
+    "No. Casis": "WTYMYVJ94R5FDPKMS",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1920CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          77,
+          63,
+          11
+        ],
+        "text": "WSY84 52",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          134,
+          10
+        ],
+        "text": "DATO' FENG WONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          157,
+          106,
+          10
+        ],
+        "text": "820821-01-2996",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          198,
+          209,
+          30
+        ],
+        "text": "782, JALAN TUN SUBANG JAYA\nBUKIT BINTANG\n17202 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          301,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          297,
+          49,
+          10
+        ],
+        "text": "EXORA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          340,
+          28,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          64,
+          9
+        ],
+        "text": "FM125499",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          155,
+          11
+        ],
+        "text": "WTYMYVJ94R5FDPKMS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          460,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          457,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          46,
+          10
+        ],
+        "text": "1920CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

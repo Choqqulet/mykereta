@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000760.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KTP41 75",
+    "Nama Pemilik": "EN. HALIMAH",
+    "No. Kad Pengenalan": "731231-07-7745",
+    "Alamat": "203, KAMPUNG KLANG\nAMPANG\n68012 KUALA LUMPUR",
+    "Jenama": "NISSAN",
+    "Model": "LIVINA",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "MF526569",
+    "No. Casis": "5Y9JYA3LNPYU0ESLS",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2418CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          80,
+          59,
+          11
+        ],
+        "text": "KTP41 75",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          123,
+          93,
+          10
+        ],
+        "text": "EN. HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          161,
+          94,
+          11
+        ],
+        "text": "731231-07-7745",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          201,
+          145,
+          30
+        ],
+        "text": "203, KAMPUNG KLANG\nAMPANG\n68012 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          300,
+          49,
+          8
+        ],
+        "text": "LIVINA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          343,
+          32,
+          9
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          382,
+          62,
+          11
+        ],
+        "text": "MF526569",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          419,
+          144,
+          11
+        ],
+        "text": "5Y9JYA3LNPYU0ESLS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          503,
+          46,
+          10
+        ],
+        "text": "2418CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

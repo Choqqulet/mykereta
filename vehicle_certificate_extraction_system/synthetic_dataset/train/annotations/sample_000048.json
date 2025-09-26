@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000048.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WPU87 92",
+    "Nama Pemilik": "DATO' XIAO GOH",
+    "No. Kad Pengenalan": "660625-07-9802",
+    "Alamat": "633, TAMAN SEREMBAN\nPENANG\n95040 PUTRAJAYA",
+    "Jenama": "TOYOTA",
+    "Model": "FORTUNER",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "TD846232",
+    "No. Casis": "SESPHMKS7RDZK3PKH",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1841CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          83,
+          64,
+          9
+        ],
+        "text": "WPU87 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          115,
+          10
+        ],
+        "text": "DATO' XIAO GOH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          161,
+          94,
+          11
+        ],
+        "text": "660625-07-9802",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          162,
+          36
+        ],
+        "text": "633, TAMAN SEREMBAN\nPENANG\n95040 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          301,
+          78,
+          10
+        ],
+        "text": "FORTUNER",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          378,
+          64,
+          9
+        ],
+        "text": "TD846232",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          417,
+          136,
+          9
+        ],
+        "text": "SESPHMKS7RDZK3PKH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          459,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          503,
+          46,
+          10
+        ],
+        "text": "1841CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

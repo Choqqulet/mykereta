@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000694.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WAK88 92",
+    "Nama Pemilik": "RAMAN",
+    "No. Kad Pengenalan": "990508-11-0343",
+    "Alamat": "149, TAMAN SHAH ALAM\nSHAH ALAM\n90515 PULAU PINANG",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "CX786180",
+    "No. Casis": "1Y5DFRT6C3TPHT6F8",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1716CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          79,
+          67,
+          10
+        ],
+        "text": "WAK88 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          118,
+          50,
+          10
+        ],
+        "text": "RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          163,
+          106,
+          10
+        ],
+        "text": "990508-11-0343",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          203,
+          165,
+          36
+        ],
+        "text": "149, TAMAN SHAH ALAM\nSHAH ALAM\n90515 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          298,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          297,
+          35,
+          10
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          339,
+          32,
+          9
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          377,
+          61,
+          10
+        ],
+        "text": "CX786180",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          417,
+          136,
+          9
+        ],
+        "text": "1Y5DFRT6C3TPHT6F8",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          463,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          499,
+          52,
+          10
+        ],
+        "text": "1716CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

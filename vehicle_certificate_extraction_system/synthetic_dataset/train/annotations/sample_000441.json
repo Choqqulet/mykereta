@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000441.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KPK94 18",
+    "Nama Pemilik": "DATO' REDDY",
+    "No. Kad Pengenalan": "660802-05-4693",
+    "Alamat": "170, TAMAN IPOH\nKAJANG\n24319 PERLIS",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "QG094046",
+    "No. Casis": "MVM4E17X5EAZVURDG",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1900CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          79,
+          60,
+          10
+        ],
+        "text": "KPK94 18",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          119,
+          88,
+          9
+        ],
+        "text": "DATO' REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          161,
+          112,
+          9
+        ],
+        "text": "660802-05-4693",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          199,
+          120,
+          30
+        ],
+        "text": "170, TAMAN IPOH\nKAJANG\n24319 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          301,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          341,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          380,
+          64,
+          11
+        ],
+        "text": "QG094046",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          420,
+          136,
+          9
+        ],
+        "text": "MVM4E17X5EAZVURDG",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          458,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          459,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          46,
+          10
+        ],
+        "text": "1900CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

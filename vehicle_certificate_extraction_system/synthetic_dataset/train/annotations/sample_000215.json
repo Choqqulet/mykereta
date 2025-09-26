@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000215.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BNN03 43",
+    "Nama Pemilik": "DATO' NOOR",
+    "No. Kad Pengenalan": "020608-05-3068",
+    "Alamat": "309, JALAN RAJA SUBANG JAYA\nSUBANG JAYA\n51103 JOHOR",
+    "Jenama": "HONDA",
+    "Model": "HR-V",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "PV745908",
+    "No. Casis": "HXGF7VLHPZFWV4HYT",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1172CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          83,
+          61,
+          10
+        ],
+        "text": "BNN03 43",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          121,
+          86,
+          10
+        ],
+        "text": "DATO' NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          157,
+          94,
+          11
+        ],
+        "text": "020608-05-3068",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          202,
+          211,
+          36
+        ],
+        "text": "309, JALAN RAJA SUBANG JAYA\nSUBANG JAYA\n51103 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          300,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          303,
+          33,
+          8
+        ],
+        "text": "HR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          338,
+          32,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          382,
+          64,
+          9
+        ],
+        "text": "PV745908",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          158,
+          10
+        ],
+        "text": "HXGF7VLHPZFWV4HYT",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          460,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          460,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          498,
+          52,
+          10
+        ],
+        "text": "1172CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

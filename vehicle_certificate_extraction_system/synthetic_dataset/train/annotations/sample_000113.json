@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000113.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AUZ31 35",
+    "Nama Pemilik": "KAMALA",
+    "No. Kad Pengenalan": "731012-03-1958",
+    "Alamat": "575, JALAN RAJA KLANG\nJOHOR BAHRU\n19083 PERAK",
+    "Jenama": "PROTON",
+    "Model": "PERSONA",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "BL559472",
+    "No. Casis": "2V14J8YCREY271DCN",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2617CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          77,
+          64,
+          10
+        ],
+        "text": "AUZ31 35",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          61,
+          10
+        ],
+        "text": "KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          157,
+          106,
+          10
+        ],
+        "text": "731012-03-1958",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          198,
+          164,
+          36
+        ],
+        "text": "575, JALAN RAJA KLANG\nJOHOR BAHRU\n19083 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          299,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          297,
+          57,
+          8
+        ],
+        "text": "PERSONA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          341,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          383,
+          65,
+          10
+        ],
+        "text": "BL559472",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          423,
+          149,
+          10
+        ],
+        "text": "2V14J8YCREY271DCN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          458,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          458,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          497,
+          46,
+          10
+        ],
+        "text": "2617CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

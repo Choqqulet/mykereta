@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000053.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AKS58 52",
+    "Nama Pemilik": "EN. CHONG FENG",
+    "No. Kad Pengenalan": "690602-11-6343",
+    "Alamat": "75, JALAN RAJA KAJANG\nSHAH ALAM\n48551 PUTRAJAYA",
+    "Jenama": "NISSAN",
+    "Model": "LIVINA",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "YU352162",
+    "No. Casis": "WX22XYLXY8U2TSC4Z",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3117CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          65,
+          9
+        ],
+        "text": "AKS58 52",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          122,
+          10
+        ],
+        "text": "EN. CHONG FENG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          112,
+          9
+        ],
+        "text": "690602-11-6343",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          201,
+          163,
+          36
+        ],
+        "text": "75, JALAN RAJA KAJANG\nSHAH ALAM\n48551 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          299,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          298,
+          45,
+          10
+        ],
+        "text": "LIVINA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          340,
+          28,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          381,
+          64,
+          9
+        ],
+        "text": "YU352162",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          136,
+          9
+        ],
+        "text": "WX22XYLXY8U2TSC4Z",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          461,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          459,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          497,
+          48,
+          9
+        ],
+        "text": "3117CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

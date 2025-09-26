@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000823.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JDQ70 80",
+    "Nama Pemilik": "PN. NOOR",
+    "No. Kad Pengenalan": "930508-05-8402",
+    "Alamat": "340, PERSIARAN IPOH\nSUBANG JAYA\n29031 KELANTAN",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "KW901078",
+    "No. Casis": "3T8EB49Z9YDNEVE69",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2978CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          81,
+          64,
+          11
+        ],
+        "text": "JDQ70 80",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          122,
+          65,
+          8
+        ],
+        "text": "PN. NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          160,
+          106,
+          10
+        ],
+        "text": "930508-05-8402",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          144,
+          36
+        ],
+        "text": "340, PERSIARAN IPOH\nSUBANG JAYA\n29031 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          299,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          338,
+          32,
+          9
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          378,
+          65,
+          10
+        ],
+        "text": "KW901078",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          419,
+          136,
+          9
+        ],
+        "text": "3T8EB49Z9YDNEVE69",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          503,
+          48,
+          9
+        ],
+        "text": "2978CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

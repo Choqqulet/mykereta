@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000942.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PYV48 04",
+    "Nama Pemilik": "EN. MURUGAN A/L MEERA",
+    "No. Kad Pengenalan": "880314-04-7950",
+    "Alamat": "404, TAMAN PETALING JAYA\nKAJANG\n49004 TERENGGANU",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "YD764151",
+    "No. Casis": "X4HZLGR0CJRL37584",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1195CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          80,
+          64,
+          9
+        ],
+        "text": "PYV48 04",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          121,
+          169,
+          11
+        ],
+        "text": "EN. MURUGAN A/L MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          163,
+          106,
+          10
+        ],
+        "text": "880314-04-7950",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          202,
+          193,
+          30
+        ],
+        "text": "404, TAMAN PETALING JAYA\nKAJANG\n49004 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          300,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          55,
+          10
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          337,
+          32,
+          9
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          378,
+          67,
+          10
+        ],
+        "text": "YD764151",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          417,
+          148,
+          10
+        ],
+        "text": "X4HZLGR0CJRL37584",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          461,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          457,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          500,
+          46,
+          11
+        ],
+        "text": "1195CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

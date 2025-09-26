@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000392.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PTS05 55",
+    "Nama Pemilik": "DATO' HALIMAH BIN HALIMAH",
+    "No. Kad Pengenalan": "010716-13-0750",
+    "Alamat": "70, JALAN KAJANG\nSHAH ALAM\n19076 PERLIS",
+    "Jenama": "PERODUA",
+    "Model": "MYVI",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "XR435140",
+    "No. Casis": "44DEJ3Z6RP0Z6B335",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1832CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          77,
+          57,
+          11
+        ],
+        "text": "PTS05 55",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          121,
+          200,
+          9
+        ],
+        "text": "DATO' HALIMAH BIN HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          161,
+          106,
+          10
+        ],
+        "text": "010716-13-0750",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          197,
+          126,
+          36
+        ],
+        "text": "70, JALAN KAJANG\nSHAH ALAM\n19076 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          303,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          298,
+          37,
+          10
+        ],
+        "text": "MYVI",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          28,
+          11
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          379,
+          67,
+          10
+        ],
+        "text": "XR435140",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          422,
+          136,
+          9
+        ],
+        "text": "44DEJ3Z6RP0Z6B335",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          458,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          460,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          500,
+          46,
+          10
+        ],
+        "text": "1832CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

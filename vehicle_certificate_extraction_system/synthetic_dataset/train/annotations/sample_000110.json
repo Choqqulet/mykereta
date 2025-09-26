@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000110.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JYB05 05",
+    "Nama Pemilik": "XIAO ONG",
+    "No. Kad Pengenalan": "940712-06-4150",
+    "Alamat": "12, BANDAR IPOH\nAMPANG\n52615 SELANGOR",
+    "Jenama": "TOYOTA",
+    "Model": "FORTUNER",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "BE314466",
+    "No. Casis": "GXFYTMZDVHPN02GCD",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2712CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          77,
+          56,
+          11
+        ],
+        "text": "JYB05 05",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          120,
+          69,
+          10
+        ],
+        "text": "XIAO ONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          162,
+          112,
+          9
+        ],
+        "text": "940712-06-4150",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          200,
+          120,
+          30
+        ],
+        "text": "12, BANDAR IPOH\nAMPANG\n52615 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          302,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          78,
+          10
+        ],
+        "text": "FORTUNER",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          32,
+          9
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          378,
+          64,
+          9
+        ],
+        "text": "BE314466",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          418,
+          163,
+          10
+        ],
+        "text": "GXFYTMZDVHPN02GCD",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          457,
+          40,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          463,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          503,
+          48,
+          9
+        ],
+        "text": "2712CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

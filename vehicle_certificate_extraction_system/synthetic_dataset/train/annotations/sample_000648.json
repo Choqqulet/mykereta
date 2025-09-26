@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000648.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PTP61 26",
+    "Nama Pemilik": "ZAINAB BIN AHMAD",
+    "No. Kad Pengenalan": "980105-03-5392",
+    "Alamat": "303, PERSIARAN SUBANG JAYA\nKLANG\n43036 KUALA LUMPUR",
+    "Jenama": "TOYOTA",
+    "Model": "FORTUNER",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "RJ963008",
+    "No. Casis": "G1B4F5NPDGWGKH96W",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1739CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          81,
+          57,
+          10
+        ],
+        "text": "PTP61 26",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          119,
+          128,
+          8
+        ],
+        "text": "ZAINAB BIN AHMAD",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          162,
+          106,
+          10
+        ],
+        "text": "980105-03-5392",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          200,
+          207,
+          36
+        ],
+        "text": "303, PERSIARAN SUBANG JAYA\nKLANG\n43036 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          302,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          75,
+          10
+        ],
+        "text": "FORTUNER",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          343,
+          32,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          65,
+          10
+        ],
+        "text": "RJ963008",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          417,
+          166,
+          10
+        ],
+        "text": "G1B4F5NPDGWGKH96W",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          457,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          46,
+          10
+        ],
+        "text": "1739CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

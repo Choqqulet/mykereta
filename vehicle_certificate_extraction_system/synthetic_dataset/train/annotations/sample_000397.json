@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000397.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BNG88 89",
+    "Nama Pemilik": "DATO' LING TAN",
+    "No. Kad Pengenalan": "930326-07-5799",
+    "Alamat": "349, TAMAN PETALING JAYA\nJOHOR BAHRU\n80536 KEDAH",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "CK878651",
+    "No. Casis": "VD31KS7X7FP8BL2C4",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1612CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          77,
+          66,
+          10
+        ],
+        "text": "BNG88 89",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          113,
+          10
+        ],
+        "text": "DATO' LING TAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          158,
+          112,
+          9
+        ],
+        "text": "930326-07-5799",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          193,
+          36
+        ],
+        "text": "349, TAMAN PETALING JAYA\nJOHOR BAHRU\n80536 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          32,
+          9
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          378,
+          67,
+          10
+        ],
+        "text": "CK878651",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          419,
+          140,
+          10
+        ],
+        "text": "VD31KS7X7FP8BL2C4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          459,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          463,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          498,
+          46,
+          10
+        ],
+        "text": "1612CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000878.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PEW45 76",
+    "Nama Pemilik": "DATUK LEE CHAN",
+    "No. Kad Pengenalan": "510311-11-0392",
+    "Alamat": "428, KAMPUNG CHERAS\nJOHOR BAHRU\n34769 SELANGOR",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "WE758035",
+    "No. Casis": "4TC5BEBMSNGRZP583",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3177CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          77,
+          62,
+          11
+        ],
+        "text": "PEW45 76",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          118,
+          120,
+          10
+        ],
+        "text": "DATUK LEE CHAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          161,
+          94,
+          11
+        ],
+        "text": "510311-11-0392",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          198,
+          163,
+          36
+        ],
+        "text": "428, KAMPUNG CHERAS\nJOHOR BAHRU\n34769 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          302,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          338,
+          32,
+          9
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          64,
+          9
+        ],
+        "text": "WE758035",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          417,
+          156,
+          10
+        ],
+        "text": "4TC5BEBMSNGRZP583",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          499,
+          48,
+          9
+        ],
+        "text": "3177CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

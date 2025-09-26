@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000463.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KKR41 79",
+    "Nama Pemilik": "DR. RAHMAN BINTI ZALEHA",
+    "No. Kad Pengenalan": "020330-10-0850",
+    "Alamat": "155, JALAN DATO' PETALING JAYA\nSUBANG JAYA\n94626 KELANTAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "MT085698",
+    "No. Casis": "JA18MHLU3A8YRYNXF",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1683CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          64,
+          10
+        ],
+        "text": "KKR41 79",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          185,
+          8
+        ],
+        "text": "DR. RAHMAN BINTI ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          161,
+          94,
+          11
+        ],
+        "text": "020330-10-0850",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          199,
+          232,
+          36
+        ],
+        "text": "155, JALAN DATO' PETALING JAYA\nSUBANG JAYA\n94626 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          300,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          340,
+          32,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          383,
+          63,
+          11
+        ],
+        "text": "MT085698",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          419,
+          153,
+          10
+        ],
+        "text": "JA18MHLU3A8YRYNXF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          459,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          458,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          52,
+          10
+        ],
+        "text": "1683CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000211.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KIO03 88",
+    "Nama Pemilik": "SINGH A/P DEVI",
+    "No. Kad Pengenalan": "950927-04-4794",
+    "Alamat": "261, JALAN RAJA PETALING JAYA\nSHAH ALAM\n76906 SARAWAK",
+    "Jenama": "TOYOTA",
+    "Model": "COROLLA",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "OL527851",
+    "No. Casis": "4792RFMVCYSSL80DW",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3046CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          64,
+          9
+        ],
+        "text": "KIO03 88",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          119,
+          106,
+          10
+        ],
+        "text": "SINGH A/P DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          160,
+          94,
+          11
+        ],
+        "text": "950927-04-4794",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          226,
+          36
+        ],
+        "text": "261, JALAN RAJA PETALING JAYA\nSHAH ALAM\n76906 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          301,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          298,
+          57,
+          8
+        ],
+        "text": "COROLLA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          28,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          64,
+          9
+        ],
+        "text": "OL527851",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          417,
+          157,
+          10
+        ],
+        "text": "4792RFMVCYSSL80DW",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          460,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          502,
+          52,
+          10
+        ],
+        "text": "3046CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

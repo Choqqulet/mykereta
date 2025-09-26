@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000888.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JSX42 73",
+    "Nama Pemilik": "EN. VANI A/L REDDY",
+    "No. Kad Pengenalan": "660511-05-6565",
+    "Alamat": "963, JALAN TUN IPOH\nSEREMBAN\n13077 SARAWAK",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "GN755539",
+    "No. Casis": "B5FA3Y64VTDY057VK",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1889CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          82,
+          55,
+          10
+        ],
+        "text": "JSX42 73",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          118,
+          141,
+          10
+        ],
+        "text": "EN. VANI A/L REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          112,
+          9
+        ],
+        "text": "660511-05-6565",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          202,
+          146,
+          36
+        ],
+        "text": "963, JALAN TUN IPOH\nSEREMBAN\n13077 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          299,
+          50,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          339,
+          32,
+          10
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          380,
+          64,
+          9
+        ],
+        "text": "GN755539",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          423,
+          148,
+          10
+        ],
+        "text": "B5FA3Y64VTDY057VK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          458,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          459,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          499,
+          52,
+          10
+        ],
+        "text": "1889CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

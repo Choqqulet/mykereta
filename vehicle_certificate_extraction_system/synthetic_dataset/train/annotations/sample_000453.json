@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000453.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BMR10 42",
+    "Nama Pemilik": "TAN SRI PATEL",
+    "No. Kad Pengenalan": "740221-04-5230",
+    "Alamat": "815, LORONG SEREMBAN\nAMPANG\n50229 PULAU PINANG",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "KB206234",
+    "No. Casis": "A26FN9P2WJTY9S2ST",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1007CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          79,
+          64,
+          9
+        ],
+        "text": "BMR10 42",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          104,
+          10
+        ],
+        "text": "TAN SRI PATEL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          160,
+          106,
+          10
+        ],
+        "text": "740221-04-5230",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          197,
+          167,
+          36
+        ],
+        "text": "815, LORONG SEREMBAN\nAMPANG\n50229 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          298,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          378,
+          61,
+          10
+        ],
+        "text": "KB206234",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          417,
+          140,
+          10
+        ],
+        "text": "A26FN9P2WJTY9S2ST",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          459,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          463,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          46,
+          10
+        ],
+        "text": "1007CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

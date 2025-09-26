@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000459.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JPX74 63",
+    "Nama Pemilik": "DATUK YEN YEN",
+    "No. Kad Pengenalan": "871128-11-6680",
+    "Alamat": "426, TAMAN SEREMBAN\nSUBANG JAYA\n83708 SELANGOR",
+    "Jenama": "HONDA",
+    "Model": "ACCORD",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "BH605701",
+    "No. Casis": "38L1CEL0Z22XHDCF8",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1233CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          78,
+          61,
+          10
+        ],
+        "text": "JPX74 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          123,
+          104,
+          8
+        ],
+        "text": "DATUK YEN YEN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          158,
+          106,
+          10
+        ],
+        "text": "871128-11-6680",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          201,
+          162,
+          36
+        ],
+        "text": "426, TAMAN SEREMBAN\nSUBANG JAYA\n83708 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          298,
+          57,
+          10
+        ],
+        "text": "ACCORD",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          382,
+          61,
+          11
+        ],
+        "text": "BH605701",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          421,
+          136,
+          9
+        ],
+        "text": "38L1CEL0Z22XHDCF8",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          463,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          503,
+          46,
+          10
+        ],
+        "text": "1233CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

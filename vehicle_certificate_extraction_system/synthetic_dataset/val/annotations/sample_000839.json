@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000839.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AMW15 55",
+    "Nama Pemilik": "PN. LAKSHMI A/L DEVI",
+    "No. Kad Pengenalan": "900902-12-7550",
+    "Alamat": "308, LEBUH SEREMBAN\nIPOH\n53268 SABAH",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "VV058104",
+    "No. Casis": "0J7FK8BZAWXWEKSJN",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2363CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          67,
+          11
+        ],
+        "text": "AMW15 55",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          160,
+          11
+        ],
+        "text": "PN. LAKSHMI A/L DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          112,
+          9
+        ],
+        "text": "900902-12-7550",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          198,
+          156,
+          36
+        ],
+        "text": "308, LEBUH SEREMBAN\nIPOH\n53268 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          302,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          339,
+          28,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          380,
+          62,
+          11
+        ],
+        "text": "VV058104",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          417,
+          155,
+          10
+        ],
+        "text": "0J7FK8BZAWXWEKSJN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          457,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          502,
+          46,
+          10
+        ],
+        "text": "2363CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

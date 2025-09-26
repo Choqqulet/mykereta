@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000187.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AKH68 97",
+    "Nama Pemilik": "PROF. RAMAN A/P PRIYA",
+    "No. Kad Pengenalan": "930107-12-8358",
+    "Alamat": "268, JALAN RAJA KAJANG\nJOHOR BAHRU\n65177 SARAWAK",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "ID736323",
+    "No. Casis": "GB7XX3904ZK9HGTG6",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2318CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          64,
+          10
+        ],
+        "text": "AKH68 97",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          118,
+          166,
+          10
+        ],
+        "text": "PROF. RAMAN A/P PRIYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          163,
+          106,
+          10
+        ],
+        "text": "930107-12-8358",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          173,
+          36
+        ],
+        "text": "268, JALAN RAJA KAJANG\nJOHOR BAHRU\n65177 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          298,
+          98,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          299,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          340,
+          28,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          383,
+          64,
+          9
+        ],
+        "text": "ID736323",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          421,
+          136,
+          9
+        ],
+        "text": "GB7XX3904ZK9HGTG6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          461,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          498,
+          52,
+          10
+        ],
+        "text": "2318CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

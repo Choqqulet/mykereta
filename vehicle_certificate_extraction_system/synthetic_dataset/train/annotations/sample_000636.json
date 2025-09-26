@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000636.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AMB68 79",
+    "Nama Pemilik": "PN. MARYAM BIN HASSAN",
+    "No. Kad Pengenalan": "750512-12-0697",
+    "Alamat": "331, BANDAR BUKIT BINTANG\nJOHOR BAHRU\n72171 SELANGOR",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "AF095640",
+    "No. Casis": "GYTXG00HTAHLASY1G",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3179CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          66,
+          10
+        ],
+        "text": "AMB68 79",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          118,
+          177,
+          10
+        ],
+        "text": "PN. MARYAM BIN HASSAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          158,
+          112,
+          9
+        ],
+        "text": "750512-12-0697",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          197,
+          200,
+          30
+        ],
+        "text": "331, BANDAR BUKIT BINTANG\nJOHOR BAHRU\n72171 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          300,
+          120,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          341,
+          32,
+          9
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          65,
+          9
+        ],
+        "text": "AF095640",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          420,
+          156,
+          10
+        ],
+        "text": "GYTXG00HTAHLASY1G",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          462,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          497,
+          48,
+          9
+        ],
+        "text": "3179CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

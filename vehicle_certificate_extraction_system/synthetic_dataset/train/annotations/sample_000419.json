@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000419.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WQJ83 99",
+    "Nama Pemilik": "DR. XIAO GOH",
+    "No. Kad Pengenalan": "870202-02-5556",
+    "Alamat": "261, JALAN IPOH\nIPOH\n50428 PAHANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "YL273378",
+    "No. Casis": "XBRZP9HFET1Y9ZCLE",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1265CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          82,
+          67,
+          11
+        ],
+        "text": "WQJ83 99",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          121,
+          96,
+          10
+        ],
+        "text": "DR. XIAO GOH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          162,
+          106,
+          10
+        ],
+        "text": "870202-02-5556",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          198,
+          113,
+          36
+        ],
+        "text": "261, JALAN IPOH\nIPOH\n50428 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          303,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          379,
+          65,
+          10
+        ],
+        "text": "YL273378",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          417,
+          152,
+          10
+        ],
+        "text": "XBRZP9HFET1Y9ZCLE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          461,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          459,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          500,
+          52,
+          10
+        ],
+        "text": "1265CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

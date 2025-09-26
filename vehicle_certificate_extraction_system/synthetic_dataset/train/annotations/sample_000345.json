@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000345.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AOA58 02",
+    "Nama Pemilik": "DATUK RAMAN A/P MEERA",
+    "No. Kad Pengenalan": "861224-01-8579",
+    "Alamat": "738, JALAN DATO' CHERAS\nAMPANG\n39192 TERENGGANU",
+    "Jenama": "PERODUA",
+    "Model": "ARUZ",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "VW182885",
+    "No. Casis": "0RMZKMVBMDR2SD6NG",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2551CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          78,
+          65,
+          9
+        ],
+        "text": "AOA58 02",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          119,
+          183,
+          10
+        ],
+        "text": "DATUK RAMAN A/P MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          157,
+          112,
+          9
+        ],
+        "text": "861224-01-8579",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          201,
+          184,
+          30
+        ],
+        "text": "738, JALAN DATO' CHERAS\nAMPANG\n39192 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          303,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          301,
+          33,
+          8
+        ],
+        "text": "ARUZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          337,
+          28,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          381,
+          64,
+          9
+        ],
+        "text": "VW182885",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          422,
+          136,
+          9
+        ],
+        "text": "0RMZKMVBMDR2SD6NG",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          462,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          497,
+          52,
+          10
+        ],
+        "text": "2551CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

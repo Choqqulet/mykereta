@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000744.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AMX62 33",
+    "Nama Pemilik": "EN. ROHANI BIN FATIMAH",
+    "No. Kad Pengenalan": "951108-10-2726",
+    "Alamat": "873, JALAN RAJA PENANG\nKLANG\n15579 MELAKA",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "MP925726",
+    "No. Casis": "UPR0TZ8JRUC43237L",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1698CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          65,
+          9
+        ],
+        "text": "AMX62 33",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          122,
+          176,
+          8
+        ],
+        "text": "EN. ROHANI BIN FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          159,
+          112,
+          9
+        ],
+        "text": "951108-10-2726",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          200,
+          172,
+          36
+        ],
+        "text": "873, JALAN RAJA PENANG\nKLANG\n15579 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          342,
+          32,
+          9
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          378,
+          64,
+          9
+        ],
+        "text": "MP925726",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          421,
+          136,
+          10
+        ],
+        "text": "UPR0TZ8JRUC43237L",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          460,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          500,
+          52,
+          10
+        ],
+        "text": "1698CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000747.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WBK00 76",
+    "Nama Pemilik": "PROF. LI JUN",
+    "No. Kad Pengenalan": "661227-02-4470",
+    "Alamat": "577, JALAN TUN PENANG\nKAJANG\n26443 PERAK",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "RC182128",
+    "No. Casis": "1ESNDSW7HE41YEKL9",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1047CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          82,
+          64,
+          10
+        ],
+        "text": "WBK00 76",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          122,
+          96,
+          8
+        ],
+        "text": "PROF. LI JUN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          163,
+          94,
+          10
+        ],
+        "text": "661227-02-4470",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          200,
+          168,
+          30
+        ],
+        "text": "577, JALAN TUN PENANG\nKAJANG\n26443 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          302,
+          65,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          32,
+          9
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          382,
+          60,
+          10
+        ],
+        "text": "RC182128",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          150,
+          10
+        ],
+        "text": "1ESNDSW7HE41YEKL9",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          459,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          459,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          497,
+          46,
+          10
+        ],
+        "text": "1047CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

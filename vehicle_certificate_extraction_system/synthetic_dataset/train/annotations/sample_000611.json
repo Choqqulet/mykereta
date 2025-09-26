@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000611.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WYE41 90",
+    "Nama Pemilik": "TAN SRI KAMALA A/L LAKSHMI",
+    "No. Kad Pengenalan": "920123-15-8585",
+    "Alamat": "856, JALAN AMPANG\nIPOH\n49567 SARAWAK",
+    "Jenama": "PROTON",
+    "Model": "SAGA",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "LT164590",
+    "No. Casis": "SX4JEX72CS8ZPLA9Y",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2222CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          64,
+          9
+        ],
+        "text": "WYE41 90",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          118,
+          205,
+          10
+        ],
+        "text": "TAN SRI KAMALA A/L LAKSHMI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          157,
+          112,
+          9
+        ],
+        "text": "920123-15-8585",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          202,
+          137,
+          36
+        ],
+        "text": "856, JALAN AMPANG\nIPOH\n49567 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          301,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          38,
+          10
+        ],
+        "text": "SAGA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          338,
+          32,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          381,
+          65,
+          10
+        ],
+        "text": "LT164590",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          422,
+          147,
+          10
+        ],
+        "text": "SX4JEX72CS8ZPLA9Y",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          460,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          457,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          52,
+          10
+        ],
+        "text": "2222CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

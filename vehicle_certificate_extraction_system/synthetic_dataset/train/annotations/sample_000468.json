@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000468.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JXN95 51",
+    "Nama Pemilik": "PROF. MAYA",
+    "No. Kad Pengenalan": "930825-15-9105",
+    "Alamat": "655, PERSIARAN SHAH ALAM\nCHERAS\n16202 KELANTAN",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "KR196837",
+    "No. Casis": "3GUBTV5LJ81SEJF1S",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3203CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          77,
+          62,
+          10
+        ],
+        "text": "JXN95 51",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          81,
+          8
+        ],
+        "text": "PROF. MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          162,
+          94,
+          11
+        ],
+        "text": "930825-15-9105",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          195,
+          36
+        ],
+        "text": "655, PERSIARAN SHAH ALAM\nCHERAS\n16202 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          297,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          27,
+          10
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          340,
+          32,
+          9
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          383,
+          67,
+          10
+        ],
+        "text": "KR196837",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          420,
+          146,
+          10
+        ],
+        "text": "3GUBTV5LJ81SEJF1S",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          460,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          498,
+          46,
+          10
+        ],
+        "text": "3203CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

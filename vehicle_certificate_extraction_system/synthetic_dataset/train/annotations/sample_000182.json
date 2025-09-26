@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000182.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KOX14 44",
+    "Nama Pemilik": "DR. CHONG LEE",
+    "No. Kad Pengenalan": "941016-10-4759",
+    "Alamat": "777, TAMAN AMPANG\nSHAH ALAM\n39302 MELAKA",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "XI085162",
+    "No. Casis": "D07LT60TEBNS42DU8",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2165CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          77,
+          65,
+          10
+        ],
+        "text": "KOX14 44",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          119,
+          110,
+          10
+        ],
+        "text": "DR. CHONG LEE",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          157,
+          106,
+          10
+        ],
+        "text": "941016-10-4759",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          202,
+          144,
+          36
+        ],
+        "text": "777, TAMAN AMPANG\nSHAH ALAM\n39302 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          300,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          343,
+          32,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          377,
+          57,
+          11
+        ],
+        "text": "XI085162",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          422,
+          149,
+          10
+        ],
+        "text": "D07LT60TEBNS42DU8",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          460,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          499,
+          48,
+          9
+        ],
+        "text": "2165CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

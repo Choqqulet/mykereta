@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000413.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PBH08 09",
+    "Nama Pemilik": "EN. PATEL",
+    "No. Kad Pengenalan": "891201-08-2963",
+    "Alamat": "181, JALAN DATO' IPOH\nIPOH\n69470 KEDAH",
+    "Jenama": "TOYOTA",
+    "Model": "HILUX",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "NO643089",
+    "No. Casis": "67DFPURAT9D9GMAJ5",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3141CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          64,
+          10
+        ],
+        "text": "PBH08 09",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          118,
+          72,
+          10
+        ],
+        "text": "EN. PATEL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          94,
+          10
+        ],
+        "text": "891201-08-2963",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          156,
+          36
+        ],
+        "text": "181, JALAN DATO' IPOH\nIPOH\n69470 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          302,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          297,
+          44,
+          10
+        ],
+        "text": "HILUX",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          343,
+          32,
+          9
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          379,
+          69,
+          10
+        ],
+        "text": "NO643089",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          146,
+          11
+        ],
+        "text": "67DFPURAT9D9GMAJ5",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          463,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          457,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          502,
+          46,
+          10
+        ],
+        "text": "3141CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

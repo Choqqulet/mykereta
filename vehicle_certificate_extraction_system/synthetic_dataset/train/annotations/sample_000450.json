@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000450.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KWQ59 50",
+    "Nama Pemilik": "FENG WEI",
+    "No. Kad Pengenalan": "520807-08-0905",
+    "Alamat": "532, LEBUH IPOH\nPENANG\n53145 KEDAH",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "JO673483",
+    "No. Casis": "U2ZDXLLCVBDXJWR9P",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2512CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          81,
+          69,
+          11
+        ],
+        "text": "KWQ59 50",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          68,
+          10
+        ],
+        "text": "FENG WEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          160,
+          94,
+          11
+        ],
+        "text": "520807-08-0905",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          113,
+          36
+        ],
+        "text": "532, LEBUH IPOH\nPENANG\n53145 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          299,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          302,
+          32,
+          8
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          343,
+          32,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          379,
+          66,
+          10
+        ],
+        "text": "JO673483",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          422,
+          136,
+          9
+        ],
+        "text": "U2ZDXLLCVBDXJWR9P",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          462,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          461,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          46,
+          11
+        ],
+        "text": "2512CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

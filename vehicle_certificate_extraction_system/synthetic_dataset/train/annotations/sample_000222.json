@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000222.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BSV16 01",
+    "Nama Pemilik": "DATO' LEE TEO",
+    "No. Kad Pengenalan": "950505-10-5645",
+    "Alamat": "432, LEBUH IPOH\nIPOH\n70597 KELANTAN",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "JI727551",
+    "No. Casis": "C5T06EM03NPC768EG",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1001CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          82,
+          59,
+          10
+        ],
+        "text": "BSV16 01",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          121,
+          105,
+          10
+        ],
+        "text": "DATO' LEE TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          161,
+          106,
+          10
+        ],
+        "text": "950505-10-5645",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          199,
+          116,
+          36
+        ],
+        "text": "432, LEBUH IPOH\nIPOH\n70597 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          298,
+          33,
+          8
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          341,
+          32,
+          9
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          378,
+          59,
+          10
+        ],
+        "text": "JI727551",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          419,
+          136,
+          9
+        ],
+        "text": "C5T06EM03NPC768EG",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          457,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          457,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          52,
+          10
+        ],
+        "text": "1001CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000339.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WKY52 64",
+    "Nama Pemilik": "PROF. SALLEH BINTI ZAINAB",
+    "No. Kad Pengenalan": "521015-13-9824",
+    "Alamat": "949, LEBUH SEREMBAN\nCHERAS\n36919 SARAWAK",
+    "Jenama": "PROTON",
+    "Model": "SAGA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "BX164586",
+    "No. Casis": "Y2KHAKCUR1X5WCWR3",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1187CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          82,
+          67,
+          10
+        ],
+        "text": "WKY52 64",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          121,
+          200,
+          8
+        ],
+        "text": "PROF. SALLEH BINTI ZAINAB",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          161,
+          112,
+          9
+        ],
+        "text": "521015-13-9824",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          156,
+          36
+        ],
+        "text": "949, LEBUH SEREMBAN\nCHERAS\n36919 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          297,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          297,
+          38,
+          10
+        ],
+        "text": "SAGA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          340,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          383,
+          66,
+          10
+        ],
+        "text": "BX164586",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          417,
+          160,
+          11
+        ],
+        "text": "Y2KHAKCUR1X5WCWR3",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          500,
+          46,
+          10
+        ],
+        "text": "1187CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

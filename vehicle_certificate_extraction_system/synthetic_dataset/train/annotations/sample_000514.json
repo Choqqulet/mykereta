@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000514.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JRT98 24",
+    "Nama Pemilik": "PROF. MAYA A/L KAVITHA",
+    "No. Kad Pengenalan": "790523-02-1264",
+    "Alamat": "813, JALAN RAJA JOHOR BAHRU\nAMPANG\n15278 PERAK",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "AY960209",
+    "No. Casis": "3YUD7R4WE4BKVZB54",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1692CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          78,
+          64,
+          9
+        ],
+        "text": "JRT98 24",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          117,
+          175,
+          10
+        ],
+        "text": "PROF. MAYA A/L KAVITHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          157,
+          94,
+          11
+        ],
+        "text": "790523-02-1264",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          198,
+          211,
+          36
+        ],
+        "text": "813, JALAN RAJA JOHOR BAHRU\nAMPANG\n15278 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          297,
+          120,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          340,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          65,
+          9
+        ],
+        "text": "AY960209",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          136,
+          9
+        ],
+        "text": "3YUD7R4WE4BKVZB54",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          460,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          497,
+          48,
+          9
+        ],
+        "text": "1692CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

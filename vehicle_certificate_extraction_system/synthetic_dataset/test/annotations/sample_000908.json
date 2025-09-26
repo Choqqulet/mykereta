@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000908.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JUX13 49",
+    "Nama Pemilik": "PROF. SITI",
+    "No. Kad Pengenalan": "620226-07-1318",
+    "Alamat": "612, JALAN BUKIT BINTANG\nKAJANG\n93432 SABAH",
+    "Jenama": "PROTON",
+    "Model": "X70",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "HU772043",
+    "No. Casis": "SGP6FREKF4GU5WW5U",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2664CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          82,
+          64,
+          9
+        ],
+        "text": "JUX13 49",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          80,
+          8
+        ],
+        "text": "PROF. SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          161,
+          106,
+          10
+        ],
+        "text": "620226-07-1318",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          197,
+          187,
+          36
+        ],
+        "text": "612, JALAN BUKIT BINTANG\nKAJANG\n93432 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          303,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          298,
+          24,
+          10
+        ],
+        "text": "X70",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          339,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          64,
+          9
+        ],
+        "text": "HU772043",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          417,
+          154,
+          11
+        ],
+        "text": "SGP6FREKF4GU5WW5U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          457,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          458,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          48,
+          9
+        ],
+        "text": "2664CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

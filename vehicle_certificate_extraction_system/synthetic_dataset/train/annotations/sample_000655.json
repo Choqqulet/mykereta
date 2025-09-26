@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000655.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JJP18 85",
+    "Nama Pemilik": "PROF. RAHMAN BINTI YUSOF",
+    "No. Kad Pengenalan": "040705-11-0756",
+    "Alamat": "732, JALAN RAJA SEREMBAN\nSHAH ALAM\n39094 LABUAN",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "UY781466",
+    "No. Casis": "66275CMVM20HNEEVR",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3221CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          79,
+          59,
+          10
+        ],
+        "text": "JJP18 85",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          119,
+          196,
+          10
+        ],
+        "text": "PROF. RAHMAN BINTI YUSOF",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          157,
+          112,
+          9
+        ],
+        "text": "040705-11-0756",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          199,
+          192,
+          30
+        ],
+        "text": "732, JALAN RAJA SEREMBAN\nSHAH ALAM\n39094 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          300,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          339,
+          32,
+          10
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          380,
+          67,
+          10
+        ],
+        "text": "UY781466",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          417,
+          150,
+          11
+        ],
+        "text": "66275CMVM20HNEEVR",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          458,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          459,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          501,
+          48,
+          9
+        ],
+        "text": "3221CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

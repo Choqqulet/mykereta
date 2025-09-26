@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000800.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KGJ94 21",
+    "Nama Pemilik": "DATUK FENG CHONG",
+    "No. Kad Pengenalan": "790515-02-5667",
+    "Alamat": "141, KAMPUNG CHERAS\nJOHOR BAHRU\n65563 PULAU PINANG",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "EC192422",
+    "No. Casis": "UDEC3M4ST40U32EVY",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2385CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          82,
+          63,
+          10
+        ],
+        "text": "KGJ94 21",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          123,
+          143,
+          10
+        ],
+        "text": "DATUK FENG CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          163,
+          94,
+          11
+        ],
+        "text": "790515-02-5667",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          163,
+          36
+        ],
+        "text": "141, KAMPUNG CHERAS\nJOHOR BAHRU\n65563 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          339,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          380,
+          60,
+          10
+        ],
+        "text": "EC192422",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          418,
+          136,
+          9
+        ],
+        "text": "UDEC3M4ST40U32EVY",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          502,
+          52,
+          10
+        ],
+        "text": "2385CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

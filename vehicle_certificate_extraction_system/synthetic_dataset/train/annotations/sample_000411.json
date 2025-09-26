@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000411.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BCP19 49",
+    "Nama Pemilik": "EN. MING YEN",
+    "No. Kad Pengenalan": "820110-02-6569",
+    "Alamat": "590, LORONG JOHOR BAHRU\nKLANG\n21294 PERLIS",
+    "Jenama": "NISSAN",
+    "Model": "ALMERA",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "SY697638",
+    "No. Casis": "SF8X14B06MMSUG544",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2517CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          83,
+          64,
+          10
+        ],
+        "text": "BCP19 49",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          122,
+          96,
+          8
+        ],
+        "text": "EN. MING YEN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          161,
+          94,
+          11
+        ],
+        "text": "820110-02-6569",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          198,
+          198,
+          36
+        ],
+        "text": "590, LORONG JOHOR BAHRU\nKLANG\n21294 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          299,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          59,
+          10
+        ],
+        "text": "ALMERA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          340,
+          32,
+          9
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          378,
+          66,
+          10
+        ],
+        "text": "SY697638",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          419,
+          143,
+          11
+        ],
+        "text": "SF8X14B06MMSUG544",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          499,
+          48,
+          9
+        ],
+        "text": "2517CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

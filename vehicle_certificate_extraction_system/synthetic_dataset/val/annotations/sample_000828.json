@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000828.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BIX38 38",
+    "Nama Pemilik": "PROF. SHANTI",
+    "No. Kad Pengenalan": "900419-01-2038",
+    "Alamat": "143, BANDAR PETALING JAYA\nPETALING JAYA\n96469 NEGERI SEMBILAN",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "FK808695",
+    "No. Casis": "PLR5S0BZX5AF1FY90",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3344CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          79,
+          58,
+          10
+        ],
+        "text": "BIX38 38",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          121,
+          95,
+          10
+        ],
+        "text": "PROF. SHANTI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          160,
+          106,
+          10
+        ],
+        "text": "900419-01-2038",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          201,
+          201,
+          36
+        ],
+        "text": "143, BANDAR PETALING JAYA\nPETALING JAYA\n96469 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          297,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          28,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          60,
+          11
+        ],
+        "text": "FK808695",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          140,
+          11
+        ],
+        "text": "PLR5S0BZX5AF1FY90",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          503,
+          48,
+          9
+        ],
+        "text": "3344CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

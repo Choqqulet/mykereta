@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000198.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KUH85 90",
+    "Nama Pemilik": "EN. RAO",
+    "No. Kad Pengenalan": "540704-03-1214",
+    "Alamat": "572, JALAN TUN SEREMBAN\nBUKIT BINTANG\n50213 SABAH",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "JN556314",
+    "No. Casis": "YUDGDCE1C1ZAJAYMD",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3303CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          62,
+          11
+        ],
+        "text": "KUH85 90",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          121,
+          56,
+          10
+        ],
+        "text": "EN. RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          159,
+          106,
+          10
+        ],
+        "text": "540704-03-1214",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          197,
+          186,
+          36
+        ],
+        "text": "572, JALAN TUN SEREMBAN\nBUKIT BINTANG\n50213 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          297,
+          99,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          339,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          378,
+          64,
+          9
+        ],
+        "text": "JN556314",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          418,
+          136,
+          9
+        ],
+        "text": "YUDGDCE1C1ZAJAYMD",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          500,
+          52,
+          10
+        ],
+        "text": "3303CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

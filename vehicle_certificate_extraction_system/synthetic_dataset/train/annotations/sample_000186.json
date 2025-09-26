@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000186.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BKP85 64",
+    "Nama Pemilik": "PN. RAHMAN BINTI ZALEHA",
+    "No. Kad Pengenalan": "811003-05-6347",
+    "Alamat": "472, JALAN DATO' PETALING JAYA\nJOHOR BAHRU\n47634 PUTRAJAYA",
+    "Jenama": "HONDA",
+    "Model": "ACCORD",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "MV031885",
+    "No. Casis": "CGBFVN8Z9EFVRBYXM",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2952CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          79,
+          64,
+          9
+        ],
+        "text": "BKP85 64",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          120,
+          185,
+          8
+        ],
+        "text": "PN. RAHMAN BINTI ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          94,
+          11
+        ],
+        "text": "811003-05-6347",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          203,
+          241,
+          30
+        ],
+        "text": "472, JALAN DATO' PETALING JAYA\nJOHOR BAHRU\n47634 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          302,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          299,
+          57,
+          10
+        ],
+        "text": "ACCORD",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          338,
+          32,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          380,
+          69,
+          10
+        ],
+        "text": "MV031885",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          421,
+          159,
+          10
+        ],
+        "text": "CGBFVN8Z9EFVRBYXM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          461,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          502,
+          46,
+          11
+        ],
+        "text": "2952CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

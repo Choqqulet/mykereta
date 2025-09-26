@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000321.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AQD70 45",
+    "Nama Pemilik": "PN. KHADIJAH",
+    "No. Kad Pengenalan": "771130-02-7850",
+    "Alamat": "153, PERSIARAN AMPANG\nSUBANG JAYA\n94408 KEDAH",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "XJ610039",
+    "No. Casis": "T68AX7BT85U1RTBA1",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1249CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          66,
+          11
+        ],
+        "text": "AQD70 45",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          96,
+          10
+        ],
+        "text": "PN. KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          160,
+          112,
+          9
+        ],
+        "text": "771130-02-7850",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          197,
+          175,
+          36
+        ],
+        "text": "153, PERSIARAN AMPANG\nSUBANG JAYA\n94408 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          300,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          32,
+          9
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          64,
+          10
+        ],
+        "text": "XJ610039",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          422,
+          136,
+          9
+        ],
+        "text": "T68AX7BT85U1RTBA1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          461,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          462,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          503,
+          48,
+          9
+        ],
+        "text": "1249CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

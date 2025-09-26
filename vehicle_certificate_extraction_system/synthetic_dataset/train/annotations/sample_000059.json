@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000059.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BQO74 67",
+    "Nama Pemilik": "OMAR",
+    "No. Kad Pengenalan": "731004-08-3742",
+    "Alamat": "42, LEBUH KLANG\nSEREMBAN\n70782 PERLIS",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "XI926137",
+    "No. Casis": "V8HN92416NE8V9PAS",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2098CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          67,
+          11
+        ],
+        "text": "BQO74 67",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          123,
+          42,
+          10
+        ],
+        "text": "OMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          159,
+          112,
+          9
+        ],
+        "text": "731004-08-3742",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          199,
+          121,
+          36
+        ],
+        "text": "42, LEBUH KLANG\nSEREMBAN\n70782 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          302,
+          80,
+          8
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          337,
+          28,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          379,
+          61,
+          10
+        ],
+        "text": "XI926137",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          421,
+          136,
+          9
+        ],
+        "text": "V8HN92416NE8V9PAS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          457,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          463,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          48,
+          9
+        ],
+        "text": "2098CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

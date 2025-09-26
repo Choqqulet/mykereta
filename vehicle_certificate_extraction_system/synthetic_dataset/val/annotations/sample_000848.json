@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000848.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PZF40 03",
+    "Nama Pemilik": "DATO' IBRAHIM BIN NOOR",
+    "No. Kad Pengenalan": "951104-08-8788",
+    "Alamat": "653, LORONG CHERAS\nKAJANG\n20114 KELANTAN",
+    "Jenama": "TOYOTA",
+    "Model": "HILUX",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "VK855745",
+    "No. Casis": "CBKWT3T1S77W0RYEC",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1558CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          82,
+          64,
+          9
+        ],
+        "text": "PZF40 03",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          178,
+          10
+        ],
+        "text": "DATO' IBRAHIM BIN NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          162,
+          94,
+          11
+        ],
+        "text": "951104-08-8788",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          202,
+          154,
+          36
+        ],
+        "text": "653, LORONG CHERAS\nKAJANG\n20114 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          297,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          303,
+          40,
+          8
+        ],
+        "text": "HILUX",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          341,
+          28,
+          11
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          379,
+          64,
+          9
+        ],
+        "text": "VK855745",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          419,
+          152,
+          10
+        ],
+        "text": "CBKWT3T1S77W0RYEC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          459,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          501,
+          46,
+          11
+        ],
+        "text": "1558CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

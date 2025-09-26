@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000937.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WTP84 60",
+    "Nama Pemilik": "PN. KAVITHA A/P PRIYA",
+    "No. Kad Pengenalan": "511015-14-3279",
+    "Alamat": "814, JALAN DATO' JOHOR BAHRU\nCHERAS\n86896 SARAWAK",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "TS664761",
+    "No. Casis": "5WBUSE84C0149U731",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2729CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          64,
+          9
+        ],
+        "text": "WTP84 60",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          120,
+          169,
+          11
+        ],
+        "text": "PN. KAVITHA A/P PRIYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          163,
+          106,
+          10
+        ],
+        "text": "511015-14-3279",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          197,
+          224,
+          30
+        ],
+        "text": "814, JALAN DATO' JOHOR BAHRU\nCHERAS\n86896 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          301,
+          98,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          337,
+          32,
+          9
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          379,
+          64,
+          9
+        ],
+        "text": "TS664761",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          423,
+          136,
+          9
+        ],
+        "text": "5WBUSE84C0149U731",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          462,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          459,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          499,
+          48,
+          9
+        ],
+        "text": "2729CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

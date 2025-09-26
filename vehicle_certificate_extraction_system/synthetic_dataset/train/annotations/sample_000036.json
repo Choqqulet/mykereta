@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000036.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KQF12 65",
+    "Nama Pemilik": "AHMAD BIN HASSAN",
+    "No. Kad Pengenalan": "961021-15-4803",
+    "Alamat": "772, LEBUH IPOH\nBUKIT BINTANG\n49828 KELANTAN",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "ZA744664",
+    "No. Casis": "B137BVBGSVPD1JYHT",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2240CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          79,
+          60,
+          13
+        ],
+        "text": "KQF12 65",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          129,
+          8
+        ],
+        "text": "AHMAD BIN HASSAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          159,
+          112,
+          9
+        ],
+        "text": "961021-15-4803",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          202,
+          116,
+          36
+        ],
+        "text": "772, LEBUH IPOH\nBUKIT BINTANG\n49828 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          298,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          338,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          377,
+          64,
+          9
+        ],
+        "text": "ZA744664",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          418,
+          151,
+          10
+        ],
+        "text": "B137BVBGSVPD1JYHT",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          462,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          52,
+          10
+        ],
+        "text": "2240CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

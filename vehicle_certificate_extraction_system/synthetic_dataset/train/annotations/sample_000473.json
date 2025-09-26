@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000473.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PVR16 30",
+    "Nama Pemilik": "EN. OMAR BINTI SITI",
+    "No. Kad Pengenalan": "520921-09-7736",
+    "Alamat": "896, KAMPUNG SHAH ALAM\nCHERAS\n59296 KEDAH",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "ZX359861",
+    "No. Casis": "XBS20SMAJS4DC7WLN",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2757CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          64,
+          9
+        ],
+        "text": "PVR16 30",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          139,
+          10
+        ],
+        "text": "EN. OMAR BINTI SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          162,
+          112,
+          9
+        ],
+        "text": "520921-09-7736",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          200,
+          186,
+          36
+        ],
+        "text": "896, KAMPUNG SHAH ALAM\nCHERAS\n59296 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          340,
+          28,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          380,
+          64,
+          9
+        ],
+        "text": "ZX359861",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          421,
+          136,
+          9
+        ],
+        "text": "XBS20SMAJS4DC7WLN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          460,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          52,
+          10
+        ],
+        "text": "2757CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

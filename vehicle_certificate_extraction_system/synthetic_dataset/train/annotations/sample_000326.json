@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000326.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BQW13 79",
+    "Nama Pemilik": "DATO' AISHAH BIN ISMAIL",
+    "No. Kad Pengenalan": "760624-07-7143",
+    "Alamat": "440, PERSIARAN PENANG\nPETALING JAYA\n12811 TERENGGANU",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "OZ229468",
+    "No. Casis": "V9XCV0DNDBKYY5Z94",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2217CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          80,
+          69,
+          11
+        ],
+        "text": "BQW13 79",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          122,
+          184,
+          9
+        ],
+        "text": "DATO' AISHAH BIN ISMAIL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          159,
+          94,
+          10
+        ],
+        "text": "760624-07-7143",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          201,
+          168,
+          36
+        ],
+        "text": "440, PERSIARAN PENANG\nPETALING JAYA\n12811 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          302,
+          98,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          340,
+          32,
+          9
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          381,
+          61,
+          10
+        ],
+        "text": "OZ229468",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          418,
+          152,
+          11
+        ],
+        "text": "V9XCV0DNDBKYY5Z94",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          457,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          458,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          498,
+          46,
+          10
+        ],
+        "text": "2217CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000285.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BAI55 85",
+    "Nama Pemilik": "NOOR BIN SALLEH",
+    "No. Kad Pengenalan": "781224-15-7779",
+    "Alamat": "740, LEBUH KAJANG\nCHERAS\n47795 SELANGOR",
+    "Jenama": "PROTON",
+    "Model": "PERSONA",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "XA346138",
+    "No. Casis": "U8RZY1WA26WKFKPWD",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1789CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          82,
+          58,
+          10
+        ],
+        "text": "BAI55 85",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          117,
+          126,
+          10
+        ],
+        "text": "NOOR BIN SALLEH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          162,
+          112,
+          9
+        ],
+        "text": "781224-15-7779",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          201,
+          136,
+          30
+        ],
+        "text": "740, LEBUH KAJANG\nCHERAS\n47795 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          303,
+          68,
+          10
+        ],
+        "text": "PERSONA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          339,
+          32,
+          9
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          62,
+          10
+        ],
+        "text": "XA346138",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          423,
+          161,
+          10
+        ],
+        "text": "U8RZY1WA26WKFKPWD",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          500,
+          46,
+          10
+        ],
+        "text": "1789CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

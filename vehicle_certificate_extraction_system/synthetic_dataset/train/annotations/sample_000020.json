@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000020.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KSN92 16",
+    "Nama Pemilik": "EN. SITI BIN ROHANI",
+    "No. Kad Pengenalan": "850608-02-7916",
+    "Alamat": "107, TAMAN SEREMBAN\nPENANG\n46052 PERAK",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "GU087789",
+    "No. Casis": "AMR1U3AB9AWUDBW97",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1517CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          82,
+          60,
+          10
+        ],
+        "text": "KSN92 16",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          123,
+          138,
+          10
+        ],
+        "text": "EN. SITI BIN ROHANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          163,
+          106,
+          10
+        ],
+        "text": "850608-02-7916",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          200,
+          162,
+          36
+        ],
+        "text": "107, TAMAN SEREMBAN\nPENANG\n46052 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          303,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          340,
+          32,
+          9
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          383,
+          62,
+          10
+        ],
+        "text": "GU087789",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          422,
+          160,
+          10
+        ],
+        "text": "AMR1U3AB9AWUDBW97",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          458,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          460,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          497,
+          48,
+          9
+        ],
+        "text": "1517CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000919.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AJN19 21",
+    "Nama Pemilik": "HUI CHAN",
+    "No. Kad Pengenalan": "820730-09-7777",
+    "Alamat": "110, TAMAN KLANG\nBUKIT BINTANG\n90783 NEGERI SEMBILAN",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "RW849595",
+    "No. Casis": "DM5E3MC4JBGP3HJRR",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3158CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          65,
+          9
+        ],
+        "text": "AJN19 21",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          68,
+          10
+        ],
+        "text": "HUI CHAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          159,
+          94,
+          10
+        ],
+        "text": "820730-09-7777",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          167,
+          36
+        ],
+        "text": "110, TAMAN KLANG\nBUKIT BINTANG\n90783 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          302,
+          35,
+          10
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          339,
+          32,
+          9
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          381,
+          64,
+          9
+        ],
+        "text": "RW849595",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          422,
+          146,
+          11
+        ],
+        "text": "DM5E3MC4JBGP3HJRR",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          501,
+          52,
+          10
+        ],
+        "text": "3158CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

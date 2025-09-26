@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000922.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BCU34 82",
+    "Nama Pemilik": "DR. RAMAN",
+    "No. Kad Pengenalan": "990602-05-0495",
+    "Alamat": "825, TAMAN PENANG\nPETALING JAYA\n33993 PERLIS",
+    "Jenama": "PERODUA",
+    "Model": "ARUZ",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "MM389690",
+    "No. Casis": "BYB7L7GZTXKD0F5C9",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1655CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          81,
+          64,
+          9
+        ],
+        "text": "BCU34 82",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          121,
+          78,
+          10
+        ],
+        "text": "DR. RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          157,
+          112,
+          9
+        ],
+        "text": "990602-05-0495",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          201,
+          141,
+          36
+        ],
+        "text": "825, TAMAN PENANG\nPETALING JAYA\n33993 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          297,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          38,
+          10
+        ],
+        "text": "ARUZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          341,
+          32,
+          9
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          379,
+          66,
+          10
+        ],
+        "text": "MM389690",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          417,
+          147,
+          11
+        ],
+        "text": "BYB7L7GZTXKD0F5C9",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          497,
+          52,
+          10
+        ],
+        "text": "1655CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

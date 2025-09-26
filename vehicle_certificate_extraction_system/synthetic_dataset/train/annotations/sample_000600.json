@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000600.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ATS23 91",
+    "Nama Pemilik": "DATO' RAMAN A/P RADHA",
+    "No. Kad Pengenalan": "690411-09-9072",
+    "Alamat": "438, BANDAR SHAH ALAM\nAMPANG\n68810 KEDAH",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "RC551355",
+    "No. Casis": "7DSARJRU2H7NK59DV",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2435CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          81,
+          59,
+          10
+        ],
+        "text": "ATS23 91",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          117,
+          169,
+          11
+        ],
+        "text": "DATO' RAMAN A/P RADHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          106,
+          10
+        ],
+        "text": "690411-09-9072",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          201,
+          175,
+          36
+        ],
+        "text": "438, BANDAR SHAH ALAM\nAMPANG\n68810 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          301,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          28,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          383,
+          64,
+          9
+        ],
+        "text": "RC551355",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          154,
+          10
+        ],
+        "text": "7DSARJRU2H7NK59DV",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          463,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          461,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          501,
+          46,
+          11
+        ],
+        "text": "2435CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

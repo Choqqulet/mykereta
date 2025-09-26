@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000501.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JOX25 83",
+    "Nama Pemilik": "PN. AHMAD BINTI ALI",
+    "No. Kad Pengenalan": "551218-11-9411",
+    "Alamat": "785, JALAN TUN PENANG\nSUBANG JAYA\n50417 PERAK",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "RL600276",
+    "No. Casis": "C2RTHRN0ZJ9EZX5GK",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1184CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          78,
+          57,
+          11
+        ],
+        "text": "JOX25 83",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          148,
+          10
+        ],
+        "text": "PN. AHMAD BINTI ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          159,
+          112,
+          9
+        ],
+        "text": "551218-11-9411",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          202,
+          170,
+          36
+        ],
+        "text": "785, JALAN TUN PENANG\nSUBANG JAYA\n50417 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          303,
+          120,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          339,
+          28,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          64,
+          9
+        ],
+        "text": "RL600276",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          420,
+          146,
+          11
+        ],
+        "text": "C2RTHRN0ZJ9EZX5GK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          461,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          459,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          498,
+          52,
+          10
+        ],
+        "text": "1184CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

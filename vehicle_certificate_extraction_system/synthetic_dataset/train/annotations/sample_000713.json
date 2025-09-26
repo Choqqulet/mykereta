@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000713.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KTB33 32",
+    "Nama Pemilik": "PN. JUN LIM",
+    "No. Kad Pengenalan": "590915-02-8379",
+    "Alamat": "535, JALAN DATO' JOHOR BAHRU\nKLANG\n59371 SARAWAK",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "VE899584",
+    "No. Casis": "55KZHSGY1B5LW9TDV",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2746CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          78,
+          60,
+          10
+        ],
+        "text": "KTB33 32",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          118,
+          82,
+          10
+        ],
+        "text": "PN. JUN LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          158,
+          106,
+          10
+        ],
+        "text": "590915-02-8379",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          197,
+          224,
+          30
+        ],
+        "text": "535, JALAN DATO' JOHOR BAHRU\nKLANG\n59371 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          342,
+          28,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          383,
+          61,
+          11
+        ],
+        "text": "VE899584",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          421,
+          137,
+          9
+        ],
+        "text": "55KZHSGY1B5LW9TDV",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          461,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          461,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          500,
+          52,
+          10
+        ],
+        "text": "2746CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

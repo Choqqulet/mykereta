@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000950.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JLF71 20",
+    "Nama Pemilik": "TAN SRI LI LI",
+    "No. Kad Pengenalan": "910822-03-6432",
+    "Alamat": "646, BANDAR PETALING JAYA\nIPOH\n50373 NEGERI SEMBILAN",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "BN405330",
+    "No. Casis": "3NETA3HCW8G960407",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1363CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          81,
+          60,
+          10
+        ],
+        "text": "JLF71 20",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          87,
+          10
+        ],
+        "text": "TAN SRI LI LI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          158,
+          112,
+          9
+        ],
+        "text": "910822-03-6432",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          200,
+          201,
+          36
+        ],
+        "text": "646, BANDAR PETALING JAYA\nIPOH\n50373 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          297,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          338,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          377,
+          64,
+          9
+        ],
+        "text": "BN405330",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          423,
+          153,
+          10
+        ],
+        "text": "3NETA3HCW8G960407",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          499,
+          52,
+          10
+        ],
+        "text": "1363CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

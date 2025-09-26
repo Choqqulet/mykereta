@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000538.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JDV92 39",
+    "Nama Pemilik": "EN. ONG LING",
+    "No. Kad Pengenalan": "521117-10-9229",
+    "Alamat": "249, LORONG BUKIT BINTANG\nSUBANG JAYA\n72088 PERLIS",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "QY258286",
+    "No. Casis": "YEL9XBYZXPG5D46UX",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2828CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          79,
+          64,
+          9
+        ],
+        "text": "JDV92 39",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          122,
+          96,
+          10
+        ],
+        "text": "EN. ONG LING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          161,
+          106,
+          10
+        ],
+        "text": "521117-10-9229",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          200,
+          200,
+          30
+        ],
+        "text": "249, LORONG BUKIT BINTANG\nSUBANG JAYA\n72088 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          25,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          343,
+          28,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          379,
+          68,
+          11
+        ],
+        "text": "QY258286",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          420,
+          136,
+          9
+        ],
+        "text": "YEL9XBYZXPG5D46UX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          461,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          500,
+          52,
+          10
+        ],
+        "text": "2828CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

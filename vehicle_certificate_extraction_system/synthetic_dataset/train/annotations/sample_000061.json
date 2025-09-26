@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000061.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KIF18 53",
+    "Nama Pemilik": "DR. KAVITHA A/L SHARMA",
+    "No. Kad Pengenalan": "820711-06-6474",
+    "Alamat": "940, LEBUH BUKIT BINTANG\nPETALING JAYA\n98921 KEDAH",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "MK705183",
+    "No. Casis": "TULN0WJ1GMP8VRUK0",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3338CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          64,
+          9
+        ],
+        "text": "KIF18 53",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          120,
+          181,
+          10
+        ],
+        "text": "DR. KAVITHA A/L SHARMA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          160,
+          94,
+          10
+        ],
+        "text": "820711-06-6474",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          199,
+          189,
+          36
+        ],
+        "text": "940, LEBUH BUKIT BINTANG\nPETALING JAYA\n98921 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          297,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          340,
+          32,
+          9
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          380,
+          64,
+          11
+        ],
+        "text": "MK705183",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          417,
+          159,
+          10
+        ],
+        "text": "TULN0WJ1GMP8VRUK0",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          462,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          498,
+          46,
+          10
+        ],
+        "text": "3338CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

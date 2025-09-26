@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000984.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KTF26 25",
+    "Nama Pemilik": "EN. AISHAH BINTI OMAR",
+    "No. Kad Pengenalan": "850716-08-6087",
+    "Alamat": "220, LEBUH SHAH ALAM\nBUKIT BINTANG\n59497 KEDAH",
+    "Jenama": "NISSAN",
+    "Model": "ALMERA",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "NK980298",
+    "No. Casis": "H5C27MAPDYYN78RK0",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3465CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          80,
+          63,
+          10
+        ],
+        "text": "KTF26 25",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          164,
+          10
+        ],
+        "text": "EN. AISHAH BINTI OMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          160,
+          94,
+          11
+        ],
+        "text": "850716-08-6087",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          200,
+          161,
+          30
+        ],
+        "text": "220, LEBUH SHAH ALAM\nBUKIT BINTANG\n59497 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          298,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          300,
+          50,
+          8
+        ],
+        "text": "ALMERA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          28,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          383,
+          62,
+          10
+        ],
+        "text": "NK980298",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          419,
+          155,
+          10
+        ],
+        "text": "H5C27MAPDYYN78RK0",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          458,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          497,
+          52,
+          10
+        ],
+        "text": "3465CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

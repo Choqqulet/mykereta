@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000112.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KZL02 25",
+    "Nama Pemilik": "DATO' MAYA",
+    "No. Kad Pengenalan": "620713-04-6895",
+    "Alamat": "222, TAMAN PETALING JAYA\nPENANG\n59072 SELANGOR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "RE844152",
+    "No. Casis": "D6RAMG4PFHVSYGWTC",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1593CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          77,
+          64,
+          9
+        ],
+        "text": "KZL02 25",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          119,
+          86,
+          10
+        ],
+        "text": "DATO' MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          161,
+          112,
+          9
+        ],
+        "text": "620713-04-6895",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          202,
+          193,
+          36
+        ],
+        "text": "222, TAMAN PETALING JAYA\nPENANG\n59072 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          300,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          343,
+          28,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          380,
+          60,
+          11
+        ],
+        "text": "RE844152",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          423,
+          160,
+          10
+        ],
+        "text": "D6RAMG4PFHVSYGWTC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          458,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          500,
+          46,
+          11
+        ],
+        "text": "1593CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

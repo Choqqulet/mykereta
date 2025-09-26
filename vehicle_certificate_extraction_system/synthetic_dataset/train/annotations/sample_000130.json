@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000130.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KKF34 83",
+    "Nama Pemilik": "PN. RAHMAN BIN ZALEHA",
+    "No. Kad Pengenalan": "590405-08-5647",
+    "Alamat": "208, JALAN TUN AMPANG\nCHERAS\n68529 SARAWAK",
+    "Jenama": "HONDA",
+    "Model": "BR-V",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "OW590039",
+    "No. Casis": "86090YWD1MD7WXS72",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2685CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          64,
+          9
+        ],
+        "text": "KKF34 83",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          122,
+          176,
+          10
+        ],
+        "text": "PN. RAHMAN BIN ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          94,
+          11
+        ],
+        "text": "590405-08-5647",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          199,
+          168,
+          30
+        ],
+        "text": "208, JALAN TUN AMPANG\nCHERAS\n68529 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          302,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          299,
+          34,
+          10
+        ],
+        "text": "BR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          340,
+          32,
+          9
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          382,
+          72,
+          10
+        ],
+        "text": "OW590039",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          419,
+          157,
+          10
+        ],
+        "text": "86090YWD1MD7WXS72",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          461,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          497,
+          48,
+          9
+        ],
+        "text": "2685CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

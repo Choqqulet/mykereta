@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000439.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JIB44 82",
+    "Nama Pemilik": "TAN SRI VANI A/P MURUGAN",
+    "No. Kad Pengenalan": "900225-08-0762",
+    "Alamat": "318, TAMAN KLANG\nKLANG\n64168 LABUAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "VG570225",
+    "No. Casis": "YCFJKNJDVXUWJNT9T",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1923CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          56,
+          10
+        ],
+        "text": "JIB44 82",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          122,
+          195,
+          10
+        ],
+        "text": "TAN SRI VANI A/P MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          94,
+          11
+        ],
+        "text": "900225-08-0762",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          201,
+          133,
+          36
+        ],
+        "text": "318, TAMAN KLANG\nKLANG\n64168 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          299,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          342,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          381,
+          68,
+          10
+        ],
+        "text": "VG570225",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          419,
+          150,
+          10
+        ],
+        "text": "YCFJKNJDVXUWJNT9T",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          461,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          52,
+          10
+        ],
+        "text": "1923CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

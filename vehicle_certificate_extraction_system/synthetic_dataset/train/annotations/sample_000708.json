@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000708.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PFW92 35",
+    "Nama Pemilik": "DATUK SINGH",
+    "No. Kad Pengenalan": "850811-16-0967",
+    "Alamat": "360, KAMPUNG JOHOR BAHRU\nSUBANG JAYA\n74786 PULAU PINANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "PU939884",
+    "No. Casis": "1SLWVCM1ENWWS2J2L",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1154CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          79,
+          61,
+          11
+        ],
+        "text": "PFW92 35",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          123,
+          88,
+          8
+        ],
+        "text": "DATUK SINGH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          159,
+          106,
+          10
+        ],
+        "text": "850811-16-0967",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          201,
+          199,
+          36
+        ],
+        "text": "360, KAMPUNG JOHOR BAHRU\nSUBANG JAYA\n74786 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          297,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          339,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          379,
+          64,
+          9
+        ],
+        "text": "PU939884",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          162,
+          10
+        ],
+        "text": "1SLWVCM1ENWWS2J2L",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          459,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          497,
+          48,
+          9
+        ],
+        "text": "1154CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

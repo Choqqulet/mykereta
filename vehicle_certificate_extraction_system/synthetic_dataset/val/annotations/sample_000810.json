@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000810.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WYB88 14",
+    "Nama Pemilik": "PROF. KRISHNAN A/P VANI",
+    "No. Kad Pengenalan": "870301-01-6465",
+    "Alamat": "221, KAMPUNG PETALING JAYA\nPENANG\n97273 PERLIS",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "RA873805",
+    "No. Casis": "FGJXNVRU1BXHK2110",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1695CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          64,
+          9
+        ],
+        "text": "WYB88 14",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          122,
+          184,
+          11
+        ],
+        "text": "PROF. KRISHNAN A/P VANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          163,
+          112,
+          9
+        ],
+        "text": "870301-01-6465",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          201,
+          212,
+          36
+        ],
+        "text": "221, KAMPUNG PETALING JAYA\nPENANG\n97273 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          298,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          55,
+          10
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          28,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          380,
+          61,
+          11
+        ],
+        "text": "RA873805",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          417,
+          146,
+          10
+        ],
+        "text": "FGJXNVRU1BXHK2110",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          461,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          461,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          497,
+          46,
+          11
+        ],
+        "text": "1695CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

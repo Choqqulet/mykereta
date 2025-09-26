@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000256.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KJT95 29",
+    "Nama Pemilik": "TAN SRI LAKSHMI",
+    "No. Kad Pengenalan": "760628-10-2730",
+    "Alamat": "165, BANDAR PENANG\nPENANG\n22023 JOHOR",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "WS824819",
+    "No. Casis": "3GLH5KS71BCDBLZ6A",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1192CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          64,
+          9
+        ],
+        "text": "KJT95 29",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          118,
+          120,
+          10
+        ],
+        "text": "TAN SRI LAKSHMI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          106,
+          10
+        ],
+        "text": "760628-10-2730",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          144,
+          30
+        ],
+        "text": "165, BANDAR PENANG\nPENANG\n22023 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          299,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          338,
+          32,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          378,
+          64,
+          9
+        ],
+        "text": "WS824819",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          417,
+          137,
+          9
+        ],
+        "text": "3GLH5KS71BCDBLZ6A",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          460,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          462,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          497,
+          48,
+          9
+        ],
+        "text": "1192CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

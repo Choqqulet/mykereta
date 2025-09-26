@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000340.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AWM03 26",
+    "Nama Pemilik": "EN. WEI LI",
+    "No. Kad Pengenalan": "650310-16-2993",
+    "Alamat": "141, PERSIARAN IPOH\nSEREMBAN\n24678 PAHANG",
+    "Jenama": "PERODUA",
+    "Model": "BEZZA",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "XU826521",
+    "No. Casis": "KMCVAZA48JHYW32EF",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1519CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          81,
+          67,
+          10
+        ],
+        "text": "AWM03 26",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          123,
+          72,
+          10
+        ],
+        "text": "EN. WEI LI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          94,
+          11
+        ],
+        "text": "650310-16-2993",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          200,
+          152,
+          30
+        ],
+        "text": "141, PERSIARAN IPOH\nSEREMBAN\n24678 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          298,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          298,
+          46,
+          10
+        ],
+        "text": "BEZZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          342,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          377,
+          64,
+          9
+        ],
+        "text": "XU826521",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          419,
+          156,
+          10
+        ],
+        "text": "KMCVAZA48JHYW32EF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          457,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          503,
+          52,
+          10
+        ],
+        "text": "1519CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

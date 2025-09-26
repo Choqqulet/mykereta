@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000827.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BZK24 52",
+    "Nama Pemilik": "EN. HALIMAH BINTI SALLEH",
+    "No. Kad Pengenalan": "911016-03-1416",
+    "Alamat": "788, TAMAN AMPANG\nSUBANG JAYA\n58227 KUALA LUMPUR",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "ZB065504",
+    "No. Casis": "VTA8NB3H0D0NV5HTN",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1759CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          60,
+          11
+        ],
+        "text": "BZK24 52",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          192,
+          8
+        ],
+        "text": "EN. HALIMAH BINTI SALLEH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          157,
+          106,
+          10
+        ],
+        "text": "911016-03-1416",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          203,
+          145,
+          30
+        ],
+        "text": "788, TAMAN AMPANG\nSUBANG JAYA\n58227 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          299,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          379,
+          66,
+          10
+        ],
+        "text": "ZB065504",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          423,
+          136,
+          9
+        ],
+        "text": "VTA8NB3H0D0NV5HTN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          458,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          48,
+          9
+        ],
+        "text": "1759CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

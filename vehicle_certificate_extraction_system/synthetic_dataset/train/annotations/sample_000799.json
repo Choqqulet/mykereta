@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000799.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PGV76 58",
+    "Nama Pemilik": "DR. KAVITHA A/L VANI",
+    "No. Kad Pengenalan": "910608-08-7283",
+    "Alamat": "392, JALAN SHAH ALAM\nPENANG\n16648 SARAWAK",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "UI554750",
+    "No. Casis": "HTT8WP8EH5TKYFPJ1",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1098CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          65,
+          10
+        ],
+        "text": "PGV76 58",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          122,
+          157,
+          10
+        ],
+        "text": "DR. KAVITHA A/L VANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          159,
+          106,
+          10
+        ],
+        "text": "910608-08-7283",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          202,
+          161,
+          30
+        ],
+        "text": "392, JALAN SHAH ALAM\nPENANG\n16648 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          339,
+          32,
+          9
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          377,
+          62,
+          10
+        ],
+        "text": "UI554750",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          417,
+          146,
+          11
+        ],
+        "text": "HTT8WP8EH5TKYFPJ1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          462,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          458,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          502,
+          52,
+          10
+        ],
+        "text": "1098CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

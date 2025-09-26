@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000613.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AHZ44 21",
+    "Nama Pemilik": "PN. MARYAM",
+    "No. Kad Pengenalan": "820118-09-9589",
+    "Alamat": "95, BANDAR PETALING JAYA\nBUKIT BINTANG\n70712 JOHOR",
+    "Jenama": "NISSAN",
+    "Model": "SERENA",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "GE319750",
+    "No. Casis": "0SK3HLGFNYH4DDJXT",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3262CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          61,
+          10
+        ],
+        "text": "AHZ44 21",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          117,
+          88,
+          10
+        ],
+        "text": "PN. MARYAM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          163,
+          94,
+          11
+        ],
+        "text": "820118-09-9589",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          201,
+          193,
+          36
+        ],
+        "text": "95, BANDAR PETALING JAYA\nBUKIT BINTANG\n70712 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          57,
+          10
+        ],
+        "text": "SERENA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          338,
+          28,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          381,
+          61,
+          11
+        ],
+        "text": "GE319750",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          154,
+          10
+        ],
+        "text": "0SK3HLGFNYH4DDJXT",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          457,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          462,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          46,
+          10
+        ],
+        "text": "3262CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

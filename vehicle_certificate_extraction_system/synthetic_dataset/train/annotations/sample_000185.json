@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000185.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PTF33 83",
+    "Nama Pemilik": "EN. RAO",
+    "No. Kad Pengenalan": "020127-07-6035",
+    "Alamat": "626, BANDAR SUBANG JAYA\nPENANG\n25853 PULAU PINANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "SP173884",
+    "No. Casis": "79UYZYT92BLWBW3E2",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1776CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          82,
+          63,
+          10
+        ],
+        "text": "PTF33 83",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          121,
+          57,
+          10
+        ],
+        "text": "EN. RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          160,
+          94,
+          11
+        ],
+        "text": "020127-07-6035",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          185,
+          30
+        ],
+        "text": "626, BANDAR SUBANG JAYA\nPENANG\n25853 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          297,
+          65,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          341,
+          32,
+          9
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          380,
+          66,
+          10
+        ],
+        "text": "SP173884",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          423,
+          152,
+          10
+        ],
+        "text": "79UYZYT92BLWBW3E2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          463,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          461,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          500,
+          52,
+          10
+        ],
+        "text": "1776CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000236.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PJO70 03",
+    "Nama Pemilik": "PROF. RAHMAN BIN AISHAH",
+    "No. Kad Pengenalan": "010319-15-2126",
+    "Alamat": "317, LORONG SEREMBAN\nSHAH ALAM\n84184 SELANGOR",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "HB294368",
+    "No. Casis": "C6ZCCHRPLRHUMA9KP",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1481CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          81,
+          55,
+          10
+        ],
+        "text": "PJO70 03",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          123,
+          189,
+          10
+        ],
+        "text": "PROF. RAHMAN BIN AISHAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          159,
+          94,
+          11
+        ],
+        "text": "010319-15-2126",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          203,
+          160,
+          30
+        ],
+        "text": "317, LORONG SEREMBAN\nSHAH ALAM\n84184 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          50,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          32,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          382,
+          61,
+          10
+        ],
+        "text": "HB294368",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          419,
+          136,
+          9
+        ],
+        "text": "C6ZCCHRPLRHUMA9KP",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          501,
+          48,
+          9
+        ],
+        "text": "1481CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

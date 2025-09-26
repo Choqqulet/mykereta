@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000665.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WTA53 26",
+    "Nama Pemilik": "PN. MARYAM",
+    "No. Kad Pengenalan": "610908-04-7918",
+    "Alamat": "240, JALAN RAJA CHERAS\nSHAH ALAM\n85760 PERAK",
+    "Jenama": "PERODUA",
+    "Model": "ALZA",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "XM081814",
+    "No. Casis": "EMVHT9SJHL260W38G",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3032CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          81,
+          64,
+          9
+        ],
+        "text": "WTA53 26",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          119,
+          81,
+          8
+        ],
+        "text": "PN. MARYAM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          161,
+          112,
+          9
+        ],
+        "text": "610908-04-7918",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          201,
+          175,
+          36
+        ],
+        "text": "240, JALAN RAJA CHERAS\nSHAH ALAM\n85760 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          303,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          34,
+          8
+        ],
+        "text": "ALZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          343,
+          28,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          377,
+          64,
+          9
+        ],
+        "text": "XM081814",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          155,
+          10
+        ],
+        "text": "EMVHT9SJHL260W38G",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          462,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          458,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          502,
+          52,
+          10
+        ],
+        "text": "3032CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

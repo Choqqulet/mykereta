@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000416.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BLH48 78",
+    "Nama Pemilik": "EN. NOOR",
+    "No. Kad Pengenalan": "000329-16-3380",
+    "Alamat": "568, JALAN SHAH ALAM\nSHAH ALAM\n30714 TERENGGANU",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "ZH728665",
+    "No. Casis": "CH3RUVTTMCCMBYNMY",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1825CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          80,
+          63,
+          10
+        ],
+        "text": "BLH48 78",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          117,
+          67,
+          10
+        ],
+        "text": "EN. NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          163,
+          106,
+          10
+        ],
+        "text": "000329-16-3380",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          199,
+          161,
+          36
+        ],
+        "text": "568, JALAN SHAH ALAM\nSHAH ALAM\n30714 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          338,
+          32,
+          9
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          379,
+          64,
+          9
+        ],
+        "text": "ZH728665",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          419,
+          169,
+          10
+        ],
+        "text": "CH3RUVTTMCCMBYNMY",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          461,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          500,
+          46,
+          11
+        ],
+        "text": "1825CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

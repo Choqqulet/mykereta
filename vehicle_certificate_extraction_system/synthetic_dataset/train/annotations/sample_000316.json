@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000316.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JLM98 35",
+    "Nama Pemilik": "DATUK LIM LING",
+    "No. Kad Pengenalan": "560101-04-7791",
+    "Alamat": "442, PERSIARAN CHERAS\nJOHOR BAHRU\n74661 PULAU PINANG",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "HQ448426",
+    "No. Casis": "6CMPHXY668JKMDY3L",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3026CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          78,
+          58,
+          11
+        ],
+        "text": "JLM98 35",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          123,
+          112,
+          10
+        ],
+        "text": "DATUK LIM LING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          163,
+          94,
+          11
+        ],
+        "text": "560101-04-7791",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          198,
+          166,
+          36
+        ],
+        "text": "442, PERSIARAN CHERAS\nJOHOR BAHRU\n74661 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          301,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          337,
+          28,
+          11
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          380,
+          64,
+          11
+        ],
+        "text": "HQ448426",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          154,
+          10
+        ],
+        "text": "6CMPHXY668JKMDY3L",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          460,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          460,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          499,
+          46,
+          10
+        ],
+        "text": "3026CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

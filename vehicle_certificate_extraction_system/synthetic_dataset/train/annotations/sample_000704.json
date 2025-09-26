@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000704.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KXY30 26",
+    "Nama Pemilik": "PROF. RAHMAN BIN KHADIJAH",
+    "No. Kad Pengenalan": "540129-04-2366",
+    "Alamat": "8, JALAN RAJA IPOH\nKLANG\n23369 KUALA LUMPUR",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "LG453154",
+    "No. Casis": "824M75422S19K0Y6Y",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2701CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          81,
+          64,
+          9
+        ],
+        "text": "KXY30 26",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          122,
+          200,
+          8
+        ],
+        "text": "PROF. RAHMAN BIN KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          106,
+          10
+        ],
+        "text": "540129-04-2366",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          145,
+          30
+        ],
+        "text": "8, JALAN RAJA IPOH\nKLANG\n23369 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          301,
+          47,
+          10
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          343,
+          32,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          380,
+          61,
+          11
+        ],
+        "text": "LG453154",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          421,
+          136,
+          9
+        ],
+        "text": "824M75422S19K0Y6Y",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          457,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          497,
+          46,
+          10
+        ],
+        "text": "2701CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

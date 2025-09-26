@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000820.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AVQ70 71",
+    "Nama Pemilik": "DATUK AHMAD",
+    "No. Kad Pengenalan": "510703-15-5519",
+    "Alamat": "429, KAMPUNG PENANG\nBUKIT BINTANG\n49133 PUTRAJAYA",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "IW315315",
+    "No. Casis": "J8Y26J8WJV5KS1BHK",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2930CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          83,
+          65,
+          11
+        ],
+        "text": "AVQ70 71",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          120,
+          101,
+          10
+        ],
+        "text": "DATUK AHMAD",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          162,
+          106,
+          10
+        ],
+        "text": "510703-15-5519",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          164,
+          36
+        ],
+        "text": "429, KAMPUNG PENANG\nBUKIT BINTANG\n49133 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          297,
+          33,
+          8
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          342,
+          28,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          383,
+          64,
+          9
+        ],
+        "text": "IW315315",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          420,
+          147,
+          10
+        ],
+        "text": "J8Y26J8WJV5KS1BHK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          462,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          52,
+          10
+        ],
+        "text": "2930CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

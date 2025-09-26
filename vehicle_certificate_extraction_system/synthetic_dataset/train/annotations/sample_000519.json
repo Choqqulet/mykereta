@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000519.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AVJ09 44",
+    "Nama Pemilik": "TAN SRI PRIYA A/P MURUGAN",
+    "No. Kad Pengenalan": "720622-15-8174",
+    "Alamat": "396, BANDAR CHERAS\nKAJANG\n79759 NEGERI SEMBILAN",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "HT207434",
+    "No. Casis": "G18A11M2MG23T924E",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2668CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          81,
+          61,
+          10
+        ],
+        "text": "AVJ09 44",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          119,
+          202,
+          10
+        ],
+        "text": "TAN SRI PRIYA A/P MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          158,
+          112,
+          9
+        ],
+        "text": "720622-15-8174",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          167,
+          36
+        ],
+        "text": "396, BANDAR CHERAS\nKAJANG\n79759 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          301,
+          41,
+          8
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          340,
+          32,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          383,
+          64,
+          9
+        ],
+        "text": "HT207434",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          420,
+          142,
+          10
+        ],
+        "text": "G18A11M2MG23T924E",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          460,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          461,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          499,
+          52,
+          10
+        ],
+        "text": "2668CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

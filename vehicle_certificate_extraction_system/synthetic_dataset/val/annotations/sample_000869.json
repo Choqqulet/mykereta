@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000869.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JJU64 00",
+    "Nama Pemilik": "DR. KHADIJAH BIN IBRAHIM",
+    "No. Kad Pengenalan": "950221-02-5448",
+    "Alamat": "645, LORONG AMPANG\nBUKIT BINTANG\n52062 PERAK",
+    "Jenama": "PROTON",
+    "Model": "SAGA",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "PG316413",
+    "No. Casis": "B506432JYBTJ9NPSU",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1538CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          78,
+          64,
+          9
+        ],
+        "text": "JJU64 00",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          120,
+          193,
+          8
+        ],
+        "text": "DR. KHADIJAH BIN IBRAHIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          160,
+          94,
+          11
+        ],
+        "text": "950221-02-5448",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          199,
+          151,
+          36
+        ],
+        "text": "645, LORONG AMPANG\nBUKIT BINTANG\n52062 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          298,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          33,
+          8
+        ],
+        "text": "SAGA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          337,
+          32,
+          9
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          377,
+          60,
+          10
+        ],
+        "text": "PG316413",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          417,
+          136,
+          9
+        ],
+        "text": "B506432JYBTJ9NPSU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          457,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          501,
+          46,
+          11
+        ],
+        "text": "1538CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

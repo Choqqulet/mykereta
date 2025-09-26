@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000108.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KHJ41 47",
+    "Nama Pemilik": "DR. DEVI",
+    "No. Kad Pengenalan": "030206-02-3295",
+    "Alamat": "381, BANDAR SHAH ALAM\nJOHOR BAHRU\n24802 SABAH",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "XH203489",
+    "No. Casis": "FKD8ZY6FUXMB24T7T",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1455CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          77,
+          62,
+          10
+        ],
+        "text": "KHJ41 47",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          118,
+          60,
+          10
+        ],
+        "text": "DR. DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          160,
+          94,
+          11
+        ],
+        "text": "030206-02-3295",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          202,
+          175,
+          36
+        ],
+        "text": "381, BANDAR SHAH ALAM\nJOHOR BAHRU\n24802 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          299,
+          104,
+          8
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          32,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          378,
+          62,
+          10
+        ],
+        "text": "XH203489",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          420,
+          149,
+          10
+        ],
+        "text": "FKD8ZY6FUXMB24T7T",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          462,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          502,
+          52,
+          10
+        ],
+        "text": "1455CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

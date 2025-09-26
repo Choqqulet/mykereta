@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000762.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BIX46 84",
+    "Nama Pemilik": "EN. NOOR BIN ISMAIL",
+    "No. Kad Pengenalan": "800708-07-2137",
+    "Alamat": "312, JALAN DATO' BUKIT BINTANG\nPENANG\n35879 NEGERI SEMBILAN",
+    "Jenama": "TOYOTA",
+    "Model": "CAMRY",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "AA914828",
+    "No. Casis": "8WW5PX3KLGMR1PRXU",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2945CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          78,
+          64,
+          9
+        ],
+        "text": "BIX46 84",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          119,
+          146,
+          10
+        ],
+        "text": "EN. NOOR BIN ISMAIL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          157,
+          112,
+          9
+        ],
+        "text": "800708-07-2137",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          203,
+          240,
+          30
+        ],
+        "text": "312, JALAN DATO' BUKIT BINTANG\nPENANG\n35879 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          297,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          302,
+          51,
+          10
+        ],
+        "text": "CAMRY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          337,
+          32,
+          9
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          377,
+          66,
+          10
+        ],
+        "text": "AA914828",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          420,
+          164,
+          10
+        ],
+        "text": "8WW5PX3KLGMR1PRXU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          462,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          460,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          503,
+          52,
+          10
+        ],
+        "text": "2945CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

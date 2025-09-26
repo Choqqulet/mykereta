@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000992.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KRA19 44",
+    "Nama Pemilik": "MAYA A/L DEVI",
+    "No. Kad Pengenalan": "611130-04-7956",
+    "Alamat": "178, LORONG JOHOR BAHRU\nPETALING JAYA\n63747 PERLIS",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "FQ274376",
+    "No. Casis": "JHF1HJ1GTLBP0W2Z5",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3388CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          61,
+          10
+        ],
+        "text": "KRA19 44",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          121,
+          107,
+          10
+        ],
+        "text": "MAYA A/L DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          162,
+          106,
+          10
+        ],
+        "text": "611130-04-7956",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          201,
+          198,
+          36
+        ],
+        "text": "178, LORONG JOHOR BAHRU\nPETALING JAYA\n63747 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          340,
+          32,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          378,
+          60,
+          12
+        ],
+        "text": "FQ274376",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          421,
+          140,
+          11
+        ],
+        "text": "JHF1HJ1GTLBP0W2Z5",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          462,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          46,
+          10
+        ],
+        "text": "3388CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

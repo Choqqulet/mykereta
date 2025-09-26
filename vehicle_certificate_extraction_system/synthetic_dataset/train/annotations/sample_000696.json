@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000696.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WKT68 28",
+    "Nama Pemilik": "TAN SRI ZALEHA",
+    "No. Kad Pengenalan": "780611-10-0695",
+    "Alamat": "309, JALAN DATO' KLANG\nSEREMBAN\n81012 SELANGOR",
+    "Jenama": "PROTON",
+    "Model": "SAGA",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "EM517545",
+    "No. Casis": "YYCJ17P2H9P56HDD6",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2161CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          82,
+          64,
+          9
+        ],
+        "text": "WKT68 28",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          119,
+          116,
+          10
+        ],
+        "text": "TAN SRI ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          158,
+          112,
+          9
+        ],
+        "text": "780611-10-0695",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          200,
+          176,
+          30
+        ],
+        "text": "309, JALAN DATO' KLANG\nSEREMBAN\n81012 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          299,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          301,
+          33,
+          8
+        ],
+        "text": "SAGA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          341,
+          28,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          69,
+          10
+        ],
+        "text": "EM517545",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          421,
+          136,
+          9
+        ],
+        "text": "YYCJ17P2H9P56HDD6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          460,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          461,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          500,
+          52,
+          10
+        ],
+        "text": "2161CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

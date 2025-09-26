@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000272.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WZW98 51",
+    "Nama Pemilik": "DATO' VANI",
+    "No. Kad Pengenalan": "611004-05-7811",
+    "Alamat": "976, JALAN JOHOR BAHRU\nCHERAS\n68228 PERAK",
+    "Jenama": "NISSAN",
+    "Model": "SERENA",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "WY633301",
+    "No. Casis": "AHMDU6HVX7TJV2KVK",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2056CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          82,
+          67,
+          11
+        ],
+        "text": "WZW98 51",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          123,
+          80,
+          9
+        ],
+        "text": "DATO' VANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          162,
+          106,
+          10
+        ],
+        "text": "611004-05-7811",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          173,
+          36
+        ],
+        "text": "976, JALAN JOHOR BAHRU\nCHERAS\n68228 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          299,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          297,
+          55,
+          10
+        ],
+        "text": "SERENA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          342,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          70,
+          10
+        ],
+        "text": "WY633301",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          419,
+          157,
+          10
+        ],
+        "text": "AHMDU6HVX7TJV2KVK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          462,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          500,
+          46,
+          11
+        ],
+        "text": "2056CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

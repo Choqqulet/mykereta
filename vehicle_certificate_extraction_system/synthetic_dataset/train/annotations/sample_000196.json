@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000196.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WMP28 96",
+    "Nama Pemilik": "DATUK TAN CHAN",
+    "No. Kad Pengenalan": "781012-07-9046",
+    "Alamat": "833, PERSIARAN SEREMBAN\nCHERAS\n75366 NEGERI SEMBILAN",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "HH424277",
+    "No. Casis": "2LAFL35WJ7SL6MLUW",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2575CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          78,
+          64,
+          9
+        ],
+        "text": "WMP28 96",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          112,
+          8
+        ],
+        "text": "DATUK TAN CHAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          106,
+          10
+        ],
+        "text": "781012-07-9046",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          199,
+          184,
+          30
+        ],
+        "text": "833, PERSIARAN SEREMBAN\nCHERAS\n75366 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          338,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          380,
+          68,
+          10
+        ],
+        "text": "HH424277",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          418,
+          155,
+          10
+        ],
+        "text": "2LAFL35WJ7SL6MLUW",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          458,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          498,
+          52,
+          10
+        ],
+        "text": "2575CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

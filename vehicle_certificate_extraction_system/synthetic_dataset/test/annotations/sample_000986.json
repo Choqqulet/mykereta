@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000986.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KXU91 09",
+    "Nama Pemilik": "TAN SRI HALIMAH",
+    "No. Kad Pengenalan": "960405-03-8190",
+    "Alamat": "815, PERSIARAN IPOH\nSHAH ALAM\n42045 MELAKA",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "VI103768",
+    "No. Casis": "18T6WBXDB3G6JP2B6",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2571CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          64,
+          9
+        ],
+        "text": "KXU91 09",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          122,
+          125,
+          10
+        ],
+        "text": "TAN SRI HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          94,
+          11
+        ],
+        "text": "960405-03-8190",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          202,
+          152,
+          30
+        ],
+        "text": "815, PERSIARAN IPOH\nSHAH ALAM\n42045 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          299,
+          120,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          342,
+          32,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          377,
+          61,
+          10
+        ],
+        "text": "VI103768",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          136,
+          9
+        ],
+        "text": "18T6WBXDB3G6JP2B6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          459,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          462,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          501,
+          46,
+          11
+        ],
+        "text": "2571CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

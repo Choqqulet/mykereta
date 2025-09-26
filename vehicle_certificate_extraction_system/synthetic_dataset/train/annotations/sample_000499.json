@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000499.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PSY23 27",
+    "Nama Pemilik": "DR. HALIMAH",
+    "No. Kad Pengenalan": "540706-10-7844",
+    "Alamat": "890, LEBUH PENANG\nJOHOR BAHRU\n89192 SARAWAK",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "UX590903",
+    "No. Casis": "LG3NPF2YLU7CBKSUL",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1020CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          77,
+          63,
+          10
+        ],
+        "text": "PSY23 27",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          121,
+          88,
+          8
+        ],
+        "text": "DR. HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          106,
+          10
+        ],
+        "text": "540706-10-7844",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          201,
+          140,
+          36
+        ],
+        "text": "890, LEBUH PENANG\nJOHOR BAHRU\n89192 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          337,
+          28,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          381,
+          62,
+          11
+        ],
+        "text": "UX590903",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          417,
+          136,
+          9
+        ],
+        "text": "LG3NPF2YLU7CBKSUL",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          32,
+          8
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          459,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          497,
+          52,
+          10
+        ],
+        "text": "1020CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

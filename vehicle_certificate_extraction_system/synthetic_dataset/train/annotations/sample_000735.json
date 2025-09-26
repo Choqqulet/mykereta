@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000735.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BME27 46",
+    "Nama Pemilik": "TAN SRI REDDY",
+    "No. Kad Pengenalan": "751220-16-2922",
+    "Alamat": "207, KAMPUNG PENANG\nCHERAS\n40258 SABAH",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "OO948520",
+    "No. Casis": "A753K049EDEJU9BPM",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3454CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          83,
+          62,
+          10
+        ],
+        "text": "BME27 46",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          120,
+          108,
+          10
+        ],
+        "text": "TAN SRI REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          159,
+          94,
+          11
+        ],
+        "text": "751220-16-2922",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          199,
+          160,
+          36
+        ],
+        "text": "207, KAMPUNG PENANG\nCHERAS\n40258 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          300,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          342,
+          32,
+          9
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          379,
+          62,
+          11
+        ],
+        "text": "OO948520",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          422,
+          138,
+          9
+        ],
+        "text": "A753K049EDEJU9BPM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          457,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          457,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          52,
+          10
+        ],
+        "text": "3454CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

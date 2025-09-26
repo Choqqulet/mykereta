@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000526.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AEG83 80",
+    "Nama Pemilik": "DR. MURUGAN A/L MEERA",
+    "No. Kad Pengenalan": "970618-12-5029",
+    "Alamat": "702, JALAN RAJA SHAH ALAM\nBUKIT BINTANG\n86040 PERAK",
+    "Jenama": "TOYOTA",
+    "Model": "COROLLA",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "ZO462971",
+    "No. Casis": "XP02X705PPLTZY2TB",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3085CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          78,
+          65,
+          10
+        ],
+        "text": "AEG83 80",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          121,
+          169,
+          11
+        ],
+        "text": "DR. MURUGAN A/L MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          161,
+          106,
+          10
+        ],
+        "text": "970618-12-5029",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          198,
+          36
+        ],
+        "text": "702, JALAN RAJA SHAH ALAM\nBUKIT BINTANG\n86040 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          57,
+          8
+        ],
+        "text": "COROLLA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          343,
+          28,
+          10
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          61,
+          10
+        ],
+        "text": "ZO462971",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          423,
+          141,
+          11
+        ],
+        "text": "XP02X705PPLTZY2TB",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          462,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          502,
+          46,
+          11
+        ],
+        "text": "3085CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

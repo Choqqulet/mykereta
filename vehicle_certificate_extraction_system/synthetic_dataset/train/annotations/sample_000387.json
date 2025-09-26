@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000387.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JCJ98 71",
+    "Nama Pemilik": "SITI",
+    "No. Kad Pengenalan": "561109-08-8846",
+    "Alamat": "1, JALAN PENANG\nPENANG\n96755 NEGERI SEMBILAN",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "KH810008",
+    "No. Casis": "D32T5CKGTP7GV0P8C",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1968CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          80,
+          51,
+          10
+        ],
+        "text": "JCJ98 71",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          119,
+          26,
+          10
+        ],
+        "text": "SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          160,
+          94,
+          11
+        ],
+        "text": "561109-08-8846",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          201,
+          168,
+          30
+        ],
+        "text": "1, JALAN PENANG\nPENANG\n96755 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          120,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          337,
+          28,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          378,
+          64,
+          9
+        ],
+        "text": "KH810008",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          419,
+          144,
+          11
+        ],
+        "text": "D32T5CKGTP7GV0P8C",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          498,
+          46,
+          10
+        ],
+        "text": "1968CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

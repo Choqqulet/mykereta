@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000877.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WCW50 50",
+    "Nama Pemilik": "DR. ALI",
+    "No. Kad Pengenalan": "840312-01-7383",
+    "Alamat": "257, LORONG SHAH ALAM\nPENANG\n31298 PUTRAJAYA",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "ZN929998",
+    "No. Casis": "CRESBKRD9BMM4MASE",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1921CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          83,
+          72,
+          10
+        ],
+        "text": "WCW50 50",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          121,
+          51,
+          10
+        ],
+        "text": "DR. ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          94,
+          10
+        ],
+        "text": "840312-01-7383",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          201,
+          175,
+          36
+        ],
+        "text": "257, LORONG SHAH ALAM\nPENANG\n31298 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          300,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          32,
+          9
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          380,
+          64,
+          9
+        ],
+        "text": "ZN929998",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          422,
+          159,
+          10
+        ],
+        "text": "CRESBKRD9BMM4MASE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          461,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          500,
+          48,
+          9
+        ],
+        "text": "1921CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

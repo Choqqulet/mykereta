@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000582.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KWV19 46",
+    "Nama Pemilik": "PN. NG XIAO",
+    "No. Kad Pengenalan": "610822-02-5431",
+    "Alamat": "171, JALAN DATO' PENANG\nJOHOR BAHRU\n61206 PAHANG",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "WY774476",
+    "No. Casis": "SEU63HZS59E9FR9A6",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2952CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          67,
+          10
+        ],
+        "text": "KWV19 46",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          123,
+          85,
+          10
+        ],
+        "text": "PN. NG XIAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          159,
+          112,
+          9
+        ],
+        "text": "610822-02-5431",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          201,
+          184,
+          30
+        ],
+        "text": "171, JALAN DATO' PENANG\nJOHOR BAHRU\n61206 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          80,
+          10
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          342,
+          28,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          382,
+          65,
+          10
+        ],
+        "text": "WY774476",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          419,
+          139,
+          11
+        ],
+        "text": "SEU63HZS59E9FR9A6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          458,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          457,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          48,
+          9
+        ],
+        "text": "2952CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

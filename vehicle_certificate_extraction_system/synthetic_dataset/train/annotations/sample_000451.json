@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000451.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BPJ79 53",
+    "Nama Pemilik": "PN. TAN LEE",
+    "No. Kad Pengenalan": "911229-03-1564",
+    "Alamat": "245, JALAN CHERAS\nSUBANG JAYA\n38606 MELAKA",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "NG856616",
+    "No. Casis": "L9CTZWYWFSVB1TAZ9",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2045CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          79,
+          54,
+          11
+        ],
+        "text": "BPJ79 53",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          117,
+          88,
+          8
+        ],
+        "text": "PN. TAN LEE",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          160,
+          94,
+          11
+        ],
+        "text": "911229-03-1564",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          198,
+          136,
+          36
+        ],
+        "text": "245, JALAN CHERAS\nSUBANG JAYA\n38606 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          298,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          338,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          383,
+          64,
+          9
+        ],
+        "text": "NG856616",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          422,
+          158,
+          10
+        ],
+        "text": "L9CTZWYWFSVB1TAZ9",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          462,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          463,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          501,
+          46,
+          11
+        ],
+        "text": "2045CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

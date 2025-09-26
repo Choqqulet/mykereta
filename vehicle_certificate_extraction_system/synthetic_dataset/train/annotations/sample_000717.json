@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000717.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BBH36 44",
+    "Nama Pemilik": "PROF. CHONG MEI",
+    "No. Kad Pengenalan": "860407-10-5967",
+    "Alamat": "253, JALAN DATO' PETALING JAYA\nKLANG\n23742 SELANGOR",
+    "Jenama": "PERODUA",
+    "Model": "ATIVA",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "XP529913",
+    "No. Casis": "VMTARKKAPS8WWL3AJ",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1395CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          80,
+          64,
+          9
+        ],
+        "text": "BBH36 44",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          128,
+          10
+        ],
+        "text": "PROF. CHONG MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          157,
+          112,
+          9
+        ],
+        "text": "860407-10-5967",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          201,
+          232,
+          36
+        ],
+        "text": "253, JALAN DATO' PETALING JAYA\nKLANG\n23742 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          299,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          298,
+          42,
+          8
+        ],
+        "text": "ATIVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          338,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          378,
+          66,
+          10
+        ],
+        "text": "XP529913",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          418,
+          160,
+          10
+        ],
+        "text": "VMTARKKAPS8WWL3AJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          462,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          461,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          498,
+          46,
+          11
+        ],
+        "text": "1395CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

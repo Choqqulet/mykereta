@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000529.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WOK79 36",
+    "Nama Pemilik": "TAN SRI SITI BINTI MOHAMED",
+    "No. Kad Pengenalan": "651203-05-9779",
+    "Alamat": "368, JALAN TUN BUKIT BINTANG\nPETALING JAYA\n94464 KEDAH",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "MQ506960",
+    "No. Casis": "0ZNCEPV6WZ99J9MK2",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2032CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          83,
+          69,
+          10
+        ],
+        "text": "WOK79 36",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          123,
+          205,
+          10
+        ],
+        "text": "TAN SRI SITI BINTI MOHAMED",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          158,
+          106,
+          10
+        ],
+        "text": "651203-05-9779",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          200,
+          219,
+          36
+        ],
+        "text": "368, JALAN TUN BUKIT BINTANG\nPETALING JAYA\n94464 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          303,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          339,
+          32,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          378,
+          71,
+          11
+        ],
+        "text": "MQ506960",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          419,
+          154,
+          10
+        ],
+        "text": "0ZNCEPV6WZ99J9MK2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          457,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          462,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          48,
+          9
+        ],
+        "text": "2032CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

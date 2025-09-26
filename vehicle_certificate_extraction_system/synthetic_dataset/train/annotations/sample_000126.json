@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000126.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JWQ40 09",
+    "Nama Pemilik": "DATUK FATIMAH",
+    "No. Kad Pengenalan": "940528-09-2678",
+    "Alamat": "946, BANDAR CHERAS\nKAJANG\n86783 KEDAH",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "BV829181",
+    "No. Casis": "89KLYX3Y7FJUU0LDJ",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1993CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          81,
+          67,
+          11
+        ],
+        "text": "JWQ40 09",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          120,
+          104,
+          8
+        ],
+        "text": "DATUK FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          161,
+          112,
+          9
+        ],
+        "text": "940528-09-2678",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          144,
+          30
+        ],
+        "text": "946, BANDAR CHERAS\nKAJANG\n86783 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          301,
+          33,
+          8
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          337,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          381,
+          64,
+          9
+        ],
+        "text": "BV829181",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          419,
+          145,
+          10
+        ],
+        "text": "89KLYX3Y7FJUU0LDJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          459,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          501,
+          48,
+          9
+        ],
+        "text": "1993CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

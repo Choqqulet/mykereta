@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000630.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BIY21 04",
+    "Nama Pemilik": "TAN SRI IBRAHIM BINTI AISHAH",
+    "No. Kad Pengenalan": "520330-12-0994",
+    "Alamat": "363, LORONG CHERAS\nPETALING JAYA\n42763 PULAU PINANG",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "VX043890",
+    "No. Casis": "3EW4N1DSVP97EGHFG",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2711CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          78,
+          64,
+          9
+        ],
+        "text": "BIY21 04",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          123,
+          212,
+          10
+        ],
+        "text": "TAN SRI IBRAHIM BINTI AISHAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          158,
+          112,
+          9
+        ],
+        "text": "520330-12-0994",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          146,
+          36
+        ],
+        "text": "363, LORONG CHERAS\nPETALING JAYA\n42763 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          338,
+          28,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          379,
+          66,
+          10
+        ],
+        "text": "VX043890",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          422,
+          159,
+          10
+        ],
+        "text": "3EW4N1DSVP97EGHFG",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          457,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          461,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          497,
+          52,
+          10
+        ],
+        "text": "2711CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

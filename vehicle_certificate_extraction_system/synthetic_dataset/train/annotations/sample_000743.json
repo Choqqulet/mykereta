@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000743.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WOY97 91",
+    "Nama Pemilik": "DATO' WONG CHAN",
+    "No. Kad Pengenalan": "860203-04-2216",
+    "Alamat": "237, TAMAN PENANG\nPETALING JAYA\n99544 TERENGGANU",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "GA175319",
+    "No. Casis": "XMMVKKXK8EZW1JCRX",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1407CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          79,
+          64,
+          9
+        ],
+        "text": "WOY97 91",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          118,
+          132,
+          10
+        ],
+        "text": "DATO' WONG CHAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          163,
+          112,
+          9
+        ],
+        "text": "860203-04-2216",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          203,
+          136,
+          30
+        ],
+        "text": "237, TAMAN PENANG\nPETALING JAYA\n99544 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          297,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          24,
+          9
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          339,
+          32,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          377,
+          68,
+          10
+        ],
+        "text": "GA175319",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          421,
+          162,
+          10
+        ],
+        "text": "XMMVKKXK8EZW1JCRX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          459,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          497,
+          48,
+          9
+        ],
+        "text": "1407CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

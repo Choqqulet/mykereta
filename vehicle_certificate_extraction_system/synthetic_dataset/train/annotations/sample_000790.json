@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000790.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PQP13 20",
+    "Nama Pemilik": "DATO' XIAO TAN",
+    "No. Kad Pengenalan": "540926-09-6698",
+    "Alamat": "528, LORONG AMPANG\nBUKIT BINTANG\n65308 SELANGOR",
+    "Jenama": "TOYOTA",
+    "Model": "FORTUNER",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "PN318101",
+    "No. Casis": "KPT9W5Z9XUF6YYN77",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2369CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          80,
+          65,
+          11
+        ],
+        "text": "PQP13 20",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          117,
+          112,
+          9
+        ],
+        "text": "DATO' XIAO TAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          162,
+          106,
+          10
+        ],
+        "text": "540926-09-6698",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          144,
+          30
+        ],
+        "text": "528, LORONG AMPANG\nBUKIT BINTANG\n65308 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          297,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          297,
+          75,
+          10
+        ],
+        "text": "FORTUNER",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          342,
+          28,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          381,
+          67,
+          10
+        ],
+        "text": "PN318101",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          423,
+          136,
+          9
+        ],
+        "text": "KPT9W5Z9XUF6YYN77",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          459,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          462,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          503,
+          48,
+          9
+        ],
+        "text": "2369CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

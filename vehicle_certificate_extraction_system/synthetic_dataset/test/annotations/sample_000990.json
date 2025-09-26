@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000990.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JJZ23 94",
+    "Nama Pemilik": "DR. OMAR BIN YUSOF",
+    "No. Kad Pengenalan": "850108-10-6421",
+    "Alamat": "862, KAMPUNG BUKIT BINTANG\nIPOH\n37736 LABUAN",
+    "Jenama": "HONDA",
+    "Model": "HR-V",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "FG470931",
+    "No. Casis": "0U95MXAZ0X77V88Z2",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2994CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          59,
+          10
+        ],
+        "text": "JJZ23 94",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          146,
+          10
+        ],
+        "text": "DR. OMAR BIN YUSOF",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          162,
+          94,
+          11
+        ],
+        "text": "850108-10-6421",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          203,
+          208,
+          30
+        ],
+        "text": "862, KAMPUNG BUKIT BINTANG\nIPOH\n37736 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          298,
+          33,
+          8
+        ],
+        "text": "HR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          337,
+          32,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          382,
+          68,
+          10
+        ],
+        "text": "FG470931",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          419,
+          148,
+          10
+        ],
+        "text": "0U95MXAZ0X77V88Z2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          463,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          48,
+          9
+        ],
+        "text": "2994CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

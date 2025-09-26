@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000320.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PBG39 73",
+    "Nama Pemilik": "PROF. OMAR BIN HASSAN",
+    "No. Kad Pengenalan": "800511-07-3449",
+    "Alamat": "128, PERSIARAN IPOH\nAMPANG\n48459 KELANTAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "IZ076901",
+    "No. Casis": "7GSMXD0N6T22EP5P3",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3095CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          65,
+          10
+        ],
+        "text": "PBG39 73",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          120,
+          168,
+          8
+        ],
+        "text": "PROF. OMAR BIN HASSAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          159,
+          112,
+          9
+        ],
+        "text": "800511-07-3449",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          149,
+          36
+        ],
+        "text": "128, PERSIARAN IPOH\nAMPANG\n48459 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          339,
+          28,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          381,
+          56,
+          10
+        ],
+        "text": "IZ076901",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          422,
+          136,
+          9
+        ],
+        "text": "7GSMXD0N6T22EP5P3",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          460,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          460,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          46,
+          11
+        ],
+        "text": "3095CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

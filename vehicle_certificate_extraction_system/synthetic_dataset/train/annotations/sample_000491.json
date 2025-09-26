@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000491.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PNB72 68",
+    "Nama Pemilik": "PN. FENG LI",
+    "No. Kad Pengenalan": "630821-08-7953",
+    "Alamat": "492, JALAN RAJA JOHOR BAHRU\nAMPANG\n17250 SARAWAK",
+    "Jenama": "PROTON",
+    "Model": "X70",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "GP427657",
+    "No. Casis": "94CTW5KSU81NYHFPJ",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1821CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          79,
+          64,
+          9
+        ],
+        "text": "PNB72 68",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          118,
+          82,
+          10
+        ],
+        "text": "PN. FENG LI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          163,
+          112,
+          9
+        ],
+        "text": "630821-08-7953",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          202,
+          219,
+          36
+        ],
+        "text": "492, JALAN RAJA JOHOR BAHRU\nAMPANG\n17250 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          301,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          301,
+          24,
+          9
+        ],
+        "text": "X70",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          339,
+          28,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          381,
+          60,
+          11
+        ],
+        "text": "GP427657",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          146,
+          11
+        ],
+        "text": "94CTW5KSU81NYHFPJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          462,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          461,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          48,
+          9
+        ],
+        "text": "1821CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

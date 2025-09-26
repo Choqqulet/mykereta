@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000542.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KHK77 61",
+    "Nama Pemilik": "DR. MEI ONG",
+    "No. Kad Pengenalan": "581216-06-4441",
+    "Alamat": "26, JALAN DATO' CHERAS\nKLANG\n56425 PUTRAJAYA",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "TS800321",
+    "No. Casis": "DC1WVAUJSRD9U3G05",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1900CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          78,
+          62,
+          10
+        ],
+        "text": "KHK77 61",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          122,
+          88,
+          8
+        ],
+        "text": "DR. MEI ONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          106,
+          10
+        ],
+        "text": "581216-06-4441",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          201,
+          171,
+          36
+        ],
+        "text": "26, JALAN DATO' CHERAS\nKLANG\n56425 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          303,
+          99,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          302,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          343,
+          28,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          377,
+          59,
+          10
+        ],
+        "text": "TS800321",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          417,
+          158,
+          10
+        ],
+        "text": "DC1WVAUJSRD9U3G05",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          461,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          457,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          499,
+          46,
+          10
+        ],
+        "text": "1900CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

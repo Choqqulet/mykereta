@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000077.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KNQ24 29",
+    "Nama Pemilik": "PROF. JUN NG",
+    "No. Kad Pengenalan": "950813-03-1783",
+    "Alamat": "700, BANDAR IPOH\nKAJANG\n29124 TERENGGANU",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "TU066285",
+    "No. Casis": "RMPVX4LAPY44XYL9Z",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3407CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          78,
+          64,
+          11
+        ],
+        "text": "KNQ24 29",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          119,
+          92,
+          10
+        ],
+        "text": "PROF. JUN NG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          157,
+          94,
+          11
+        ],
+        "text": "950813-03-1783",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          203,
+          128,
+          30
+        ],
+        "text": "700, BANDAR IPOH\nKAJANG\n29124 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          297,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          337,
+          32,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          379,
+          64,
+          9
+        ],
+        "text": "TU066285",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          422,
+          152,
+          10
+        ],
+        "text": "RMPVX4LAPY44XYL9Z",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          459,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          46,
+          10
+        ],
+        "text": "3407CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

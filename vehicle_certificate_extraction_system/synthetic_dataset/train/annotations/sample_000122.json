@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000122.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PXE32 51",
+    "Nama Pemilik": "PN. KUMAR A/L RADHA",
+    "No. Kad Pengenalan": "850720-07-9411",
+    "Alamat": "702, BANDAR PETALING JAYA\nSUBANG JAYA\n27671 MELAKA",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "IU555196",
+    "No. Casis": "47T3VHX25TWXY0T17",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2969CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          59,
+          11
+        ],
+        "text": "PXE32 51",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          119,
+          155,
+          10
+        ],
+        "text": "PN. KUMAR A/L RADHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          162,
+          94,
+          11
+        ],
+        "text": "850720-07-9411",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          198,
+          201,
+          36
+        ],
+        "text": "702, BANDAR PETALING JAYA\nSUBANG JAYA\n27671 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          301,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          54,
+          10
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          343,
+          32,
+          9
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          64,
+          9
+        ],
+        "text": "IU555196",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          417,
+          136,
+          9
+        ],
+        "text": "47T3VHX25TWXY0T17",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          497,
+          48,
+          9
+        ],
+        "text": "2969CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

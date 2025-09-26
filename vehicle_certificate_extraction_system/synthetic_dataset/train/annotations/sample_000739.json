@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000739.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KCR84 97",
+    "Nama Pemilik": "PROF. GEETHA A/L PATEL",
+    "No. Kad Pengenalan": "020630-13-2659",
+    "Alamat": "979, JALAN DATO' CHERAS\nKLANG\n80166 PERAK",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "FZ508599",
+    "No. Casis": "SEX7P5KU60DGVD96H",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1599CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          81,
+          65,
+          10
+        ],
+        "text": "KCR84 97",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          122,
+          176,
+          11
+        ],
+        "text": "PROF. GEETHA A/L PATEL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          157,
+          112,
+          9
+        ],
+        "text": "020630-13-2659",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          202,
+          182,
+          36
+        ],
+        "text": "979, JALAN DATO' CHERAS\nKLANG\n80166 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          301,
+          65,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          339,
+          32,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          383,
+          59,
+          11
+        ],
+        "text": "FZ508599",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          421,
+          136,
+          9
+        ],
+        "text": "SEX7P5KU60DGVD96H",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          458,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          458,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          498,
+          46,
+          11
+        ],
+        "text": "1599CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

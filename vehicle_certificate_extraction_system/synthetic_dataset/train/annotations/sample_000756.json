@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000756.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AFS29 71",
+    "Nama Pemilik": "DR. LAKSHMI",
+    "No. Kad Pengenalan": "010529-03-3221",
+    "Alamat": "69, JALAN TUN SEREMBAN\nKAJANG\n58587 PERAK",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "ZL661071",
+    "No. Casis": "V9AS8DA5J2YFNPU7H",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1036CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          58,
+          10
+        ],
+        "text": "AFS29 71",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          118,
+          89,
+          10
+        ],
+        "text": "DR. LAKSHMI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          106,
+          10
+        ],
+        "text": "010529-03-3221",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          202,
+          179,
+          36
+        ],
+        "text": "69, JALAN TUN SEREMBAN\nKAJANG\n58587 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          299,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          298,
+          24,
+          11
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          340,
+          32,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          380,
+          60,
+          10
+        ],
+        "text": "ZL661071",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          418,
+          150,
+          10
+        ],
+        "text": "V9AS8DA5J2YFNPU7H",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          459,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          457,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          46,
+          10
+        ],
+        "text": "1036CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

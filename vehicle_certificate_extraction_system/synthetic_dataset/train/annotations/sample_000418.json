@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000418.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PFM10 47",
+    "Nama Pemilik": "VANI A/P REDDY",
+    "No. Kad Pengenalan": "660403-04-2764",
+    "Alamat": "143, JALAN PETALING JAYA\nPETALING JAYA\n37233 JOHOR",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "AB593259",
+    "No. Casis": "UCH5PF1UAD9YXRNCP",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1727CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          81,
+          64,
+          9
+        ],
+        "text": "PFM10 47",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          113,
+          10
+        ],
+        "text": "VANI A/P REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          159,
+          112,
+          9
+        ],
+        "text": "660403-04-2764",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          187,
+          36
+        ],
+        "text": "143, JALAN PETALING JAYA\nPETALING JAYA\n37233 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          299,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          341,
+          28,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          381,
+          66,
+          10
+        ],
+        "text": "AB593259",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          419,
+          152,
+          11
+        ],
+        "text": "UCH5PF1UAD9YXRNCP",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          503,
+          52,
+          10
+        ],
+        "text": "1727CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

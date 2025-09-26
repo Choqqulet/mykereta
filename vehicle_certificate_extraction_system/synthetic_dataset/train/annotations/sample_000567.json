@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000567.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PQH53 46",
+    "Nama Pemilik": "DATO' SALLEH BINTI ZALEHA",
+    "No. Kad Pengenalan": "851004-14-3972",
+    "Alamat": "748, KAMPUNG KLANG\nSUBANG JAYA\n14506 KELANTAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "SC020843",
+    "No. Casis": "B36JR97J8YX2245ZM",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3172CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          83,
+          64,
+          11
+        ],
+        "text": "PQH53 46",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          121,
+          204,
+          10
+        ],
+        "text": "DATO' SALLEH BINTI ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          162,
+          106,
+          10
+        ],
+        "text": "851004-14-3972",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          197,
+          152,
+          36
+        ],
+        "text": "748, KAMPUNG KLANG\nSUBANG JAYA\n14506 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          300,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          343,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          64,
+          9
+        ],
+        "text": "SC020843",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          423,
+          133,
+          11
+        ],
+        "text": "B36JR97J8YX2245ZM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          463,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          463,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          48,
+          9
+        ],
+        "text": "3172CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

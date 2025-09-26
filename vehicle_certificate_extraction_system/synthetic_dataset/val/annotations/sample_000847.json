@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000847.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PAN06 92",
+    "Nama Pemilik": "RADHA A/L PATEL",
+    "No. Kad Pengenalan": "941008-05-2365",
+    "Alamat": "660, LEBUH SUBANG JAYA\nIPOH\n34097 PERAK",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "LI457676",
+    "No. Casis": "21XGN2ERJFW4RELJX",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3275CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          78,
+          64,
+          9
+        ],
+        "text": "PAN06 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          123,
+          125,
+          10
+        ],
+        "text": "RADHA A/L PATEL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          161,
+          112,
+          9
+        ],
+        "text": "941008-05-2365",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          201,
+          179,
+          36
+        ],
+        "text": "660, LEBUH SUBANG JAYA\nIPOH\n34097 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          299,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          342,
+          32,
+          9
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          381,
+          64,
+          9
+        ],
+        "text": "LI457676",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          421,
+          154,
+          10
+        ],
+        "text": "21XGN2ERJFW4RELJX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          462,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          459,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          497,
+          48,
+          9
+        ],
+        "text": "3275CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000968.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BJK84 63",
+    "Nama Pemilik": "PN. XIAO ONG",
+    "No. Kad Pengenalan": "670402-07-1163",
+    "Alamat": "404, LEBUH JOHOR BAHRU\nBUKIT BINTANG\n81618 JOHOR",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "GF003563",
+    "No. Casis": "43AF6UT996GXEXN7K",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3442CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          77,
+          56,
+          10
+        ],
+        "text": "BJK84 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          117,
+          96,
+          10
+        ],
+        "text": "PN. XIAO ONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          157,
+          94,
+          10
+        ],
+        "text": "670402-07-1163",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          199,
+          176,
+          30
+        ],
+        "text": "404, LEBUH JOHOR BAHRU\nBUKIT BINTANG\n81618 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          297,
+          37,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          28,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          380,
+          64,
+          9
+        ],
+        "text": "GF003563",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          422,
+          151,
+          10
+        ],
+        "text": "43AF6UT996GXEXN7K",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          500,
+          52,
+          10
+        ],
+        "text": "3442CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

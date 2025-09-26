@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000154.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BME96 60",
+    "Nama Pemilik": "DATUK KRISHNAN A/P SHARMA",
+    "No. Kad Pengenalan": "050701-06-1907",
+    "Alamat": "878, LORONG PETALING JAYA\nSHAH ALAM\n33708 TERENGGANU",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "HB861425",
+    "No. Casis": "Y3FHV9XSALP3NVFR2",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1368CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          83,
+          66,
+          10
+        ],
+        "text": "BME96 60",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          121,
+          201,
+          11
+        ],
+        "text": "DATUK KRISHNAN A/P SHARMA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          158,
+          106,
+          10
+        ],
+        "text": "050701-06-1907",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          202,
+          200,
+          36
+        ],
+        "text": "878, LORONG PETALING JAYA\nSHAH ALAM\n33708 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          297,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          297,
+          33,
+          10
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          343,
+          32,
+          10
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          381,
+          67,
+          10
+        ],
+        "text": "HB861425",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          418,
+          136,
+          9
+        ],
+        "text": "Y3FHV9XSALP3NVFR2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          463,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          498,
+          48,
+          9
+        ],
+        "text": "1368CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

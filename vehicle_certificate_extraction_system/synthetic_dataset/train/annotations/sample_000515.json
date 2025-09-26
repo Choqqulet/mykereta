@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000515.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JCO23 47",
+    "Nama Pemilik": "PN. SINGH A/P REDDY",
+    "No. Kad Pengenalan": "870325-02-4365",
+    "Alamat": "456, LEBUH KLANG\nKAJANG\n46060 LABUAN",
+    "Jenama": "NISSAN",
+    "Model": "NAVARA",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "QA760597",
+    "No. Casis": "GDHS0UPWKSFGWNXUF",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3436CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          56,
+          10
+        ],
+        "text": "JCO23 47",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          147,
+          10
+        ],
+        "text": "PN. SINGH A/P REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          162,
+          94,
+          11
+        ],
+        "text": "870325-02-4365",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          201,
+          129,
+          36
+        ],
+        "text": "456, LEBUH KLANG\nKAJANG\n46060 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          301,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          49,
+          8
+        ],
+        "text": "NAVARA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          338,
+          32,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          382,
+          68,
+          11
+        ],
+        "text": "QA760597",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          421,
+          169,
+          10
+        ],
+        "text": "GDHS0UPWKSFGWNXUF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          463,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          458,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          499,
+          48,
+          9
+        ],
+        "text": "3436CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

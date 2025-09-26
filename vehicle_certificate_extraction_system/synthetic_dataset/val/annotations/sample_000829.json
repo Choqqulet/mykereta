@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000829.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KST70 85",
+    "Nama Pemilik": "PROF. RAO",
+    "No. Kad Pengenalan": "550313-04-7480",
+    "Alamat": "960, KAMPUNG SUBANG JAYA\nIPOH\n39030 PERLIS",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "KM568805",
+    "No. Casis": "J519D52BR5G894NZT",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1041CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          77,
+          59,
+          11
+        ],
+        "text": "KST70 85",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          120,
+          77,
+          10
+        ],
+        "text": "PROF. RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          162,
+          106,
+          10
+        ],
+        "text": "550313-04-7480",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          203,
+          199,
+          36
+        ],
+        "text": "960, KAMPUNG SUBANG JAYA\nIPOH\n39030 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          298,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          339,
+          28,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          383,
+          69,
+          10
+        ],
+        "text": "KM568805",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          419,
+          147,
+          10
+        ],
+        "text": "J519D52BR5G894NZT",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          458,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          498,
+          46,
+          10
+        ],
+        "text": "1041CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

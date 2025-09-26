@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000788.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PVF40 91",
+    "Nama Pemilik": "ROHANI BINTI HASSAN",
+    "No. Kad Pengenalan": "780719-02-1495",
+    "Alamat": "750, JALAN TUN KAJANG\nSHAH ALAM\n83310 MELAKA",
+    "Jenama": "PROTON",
+    "Model": "X70",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "ML739076",
+    "No. Casis": "R2PNK5PRH3YD4S76C",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2845CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          81,
+          58,
+          10
+        ],
+        "text": "PVF40 91",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          152,
+          8
+        ],
+        "text": "ROHANI BINTI HASSAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          159,
+          106,
+          10
+        ],
+        "text": "780719-02-1495",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          199,
+          168,
+          30
+        ],
+        "text": "750, JALAN TUN KAJANG\nSHAH ALAM\n83310 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          298,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          303,
+          25,
+          10
+        ],
+        "text": "X70",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          340,
+          32,
+          9
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          382,
+          68,
+          10
+        ],
+        "text": "ML739076",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          136,
+          9
+        ],
+        "text": "R2PNK5PRH3YD4S76C",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          461,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          502,
+          52,
+          10
+        ],
+        "text": "2845CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

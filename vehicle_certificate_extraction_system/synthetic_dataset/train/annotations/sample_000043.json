@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000043.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JOM73 01",
+    "Nama Pemilik": "TAN SRI REDDY A/L MAYA",
+    "No. Kad Pengenalan": "950307-10-7669",
+    "Alamat": "848, BANDAR BUKIT BINTANG\nSEREMBAN\n21991 PAHANG",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "WQ914954",
+    "No. Casis": "22X80FG8G0B4R5JBZ",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3445CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          66,
+          10
+        ],
+        "text": "JOM73 01",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          180,
+          10
+        ],
+        "text": "TAN SRI REDDY A/L MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          158,
+          106,
+          10
+        ],
+        "text": "950307-10-7669",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          197,
+          200,
+          30
+        ],
+        "text": "848, BANDAR BUKIT BINTANG\nSEREMBAN\n21991 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          299,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          300,
+          47,
+          10
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          341,
+          32,
+          9
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          378,
+          64,
+          11
+        ],
+        "text": "WQ914954",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          420,
+          136,
+          9
+        ],
+        "text": "22X80FG8G0B4R5JBZ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          457,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          461,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          497,
+          52,
+          10
+        ],
+        "text": "3445CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

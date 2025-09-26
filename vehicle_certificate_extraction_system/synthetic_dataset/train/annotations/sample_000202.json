@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000202.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BIA31 61",
+    "Nama Pemilik": "PN. IBRAHIM",
+    "No. Kad Pengenalan": "680713-12-9841",
+    "Alamat": "819, LEBUH JOHOR BAHRU\nIPOH\n93584 SELANGOR",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "OO100901",
+    "No. Casis": "EE2G1ASGWW255T7U4",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2490CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          58,
+          10
+        ],
+        "text": "BIA31 61",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          87,
+          10
+        ],
+        "text": "PN. IBRAHIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          112,
+          9
+        ],
+        "text": "680713-12-9841",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          197,
+          176,
+          30
+        ],
+        "text": "819, LEBUH JOHOR BAHRU\nIPOH\n93584 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          297,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          299,
+          47,
+          10
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          338,
+          28,
+          10
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          378,
+          64,
+          9
+        ],
+        "text": "OO100901",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          150,
+          11
+        ],
+        "text": "EE2G1ASGWW255T7U4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          462,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          502,
+          52,
+          10
+        ],
+        "text": "2490CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

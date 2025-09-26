@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000060.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BFD15 56",
+    "Nama Pemilik": "DR. LEE HUI",
+    "No. Kad Pengenalan": "631215-06-4442",
+    "Alamat": "18, LEBUH JOHOR BAHRU\nSUBANG JAYA\n49151 PERLIS",
+    "Jenama": "PERODUA",
+    "Model": "ARUZ",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "VN975183",
+    "No. Casis": "GVTDLXJ86J41X6XSJ",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2771CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          80,
+          59,
+          11
+        ],
+        "text": "BFD15 56",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          122,
+          82,
+          10
+        ],
+        "text": "DR. LEE HUI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          158,
+          106,
+          10
+        ],
+        "text": "631215-06-4442",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          197,
+          169,
+          36
+        ],
+        "text": "18, LEBUH JOHOR BAHRU\nSUBANG JAYA\n49151 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          300,
+          33,
+          8
+        ],
+        "text": "ARUZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          339,
+          32,
+          10
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          383,
+          67,
+          10
+        ],
+        "text": "VN975183",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          419,
+          137,
+          10
+        ],
+        "text": "GVTDLXJ86J41X6XSJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          458,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          457,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          502,
+          52,
+          10
+        ],
+        "text": "2771CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

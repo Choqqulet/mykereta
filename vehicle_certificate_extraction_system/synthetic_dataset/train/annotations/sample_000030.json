@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000030.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KFI55 05",
+    "Nama Pemilik": "NOOR BINTI ZAINAB",
+    "No. Kad Pengenalan": "590720-04-6308",
+    "Alamat": "788, JALAN DATO' JOHOR BAHRU\nCHERAS\n52114 TERENGGANU",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "FT801445",
+    "No. Casis": "YHEDT383XDD6ASDMU",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3202CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          81,
+          58,
+          10
+        ],
+        "text": "KFI55 05",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          117,
+          136,
+          10
+        ],
+        "text": "NOOR BINTI ZAINAB",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          161,
+          94,
+          11
+        ],
+        "text": "590720-04-6308",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          199,
+          226,
+          36
+        ],
+        "text": "788, JALAN DATO' JOHOR BAHRU\nCHERAS\n52114 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          300,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          301,
+          41,
+          8
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          339,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          378,
+          59,
+          11
+        ],
+        "text": "FT801445",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          421,
+          158,
+          10
+        ],
+        "text": "YHEDT383XDD6ASDMU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          461,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          462,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          498,
+          52,
+          10
+        ],
+        "text": "3202CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

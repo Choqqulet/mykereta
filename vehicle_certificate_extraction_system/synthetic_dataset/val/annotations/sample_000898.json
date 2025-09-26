@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000898.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AVC03 49",
+    "Nama Pemilik": "DATO' NOOR BIN ZAINAB",
+    "No. Kad Pengenalan": "860405-06-0000",
+    "Alamat": "446, JALAN DATO' SEREMBAN\nAMPANG\n74698 PULAU PINANG",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "OP179046",
+    "No. Casis": "WD2X0RE5TKG5AR0FX",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2174CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          78,
+          64,
+          10
+        ],
+        "text": "AVC03 49",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          118,
+          169,
+          10
+        ],
+        "text": "DATO' NOOR BIN ZAINAB",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          158,
+          106,
+          10
+        ],
+        "text": "860405-06-0000",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          198,
+          202,
+          36
+        ],
+        "text": "446, JALAN DATO' SEREMBAN\nAMPANG\n74698 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          297,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          342,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          377,
+          68,
+          10
+        ],
+        "text": "OP179046",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          421,
+          136,
+          9
+        ],
+        "text": "WD2X0RE5TKG5AR0FX",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          462,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          501,
+          46,
+          10
+        ],
+        "text": "2174CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000308.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PTB21 52",
+    "Nama Pemilik": "CHAN CHONG",
+    "No. Kad Pengenalan": "701112-04-3809",
+    "Alamat": "418, JALAN TUN CHERAS\nBUKIT BINTANG\n17189 LABUAN",
+    "Jenama": "HONDA",
+    "Model": "BR-V",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "PL283275",
+    "No. Casis": "G36PAR4YE9RYTBJNL",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1296CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          82,
+          58,
+          11
+        ],
+        "text": "PTB21 52",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          120,
+          95,
+          10
+        ],
+        "text": "CHAN CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          160,
+          94,
+          10
+        ],
+        "text": "701112-04-3809",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          200,
+          165,
+          36
+        ],
+        "text": "418, JALAN TUN CHERAS\nBUKIT BINTANG\n17189 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          299,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          298,
+          33,
+          8
+        ],
+        "text": "BR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          339,
+          32,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          378,
+          59,
+          11
+        ],
+        "text": "PL283275",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          423,
+          136,
+          9
+        ],
+        "text": "G36PAR4YE9RYTBJNL",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          463,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          48,
+          9
+        ],
+        "text": "1296CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

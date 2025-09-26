@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000107.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AEK82 19",
+    "Nama Pemilik": "DR. NOOR BINTI FATIMAH",
+    "No. Kad Pengenalan": "581022-08-0097",
+    "Alamat": "343, LORONG KAJANG\nPETALING JAYA\n98439 PERAK",
+    "Jenama": "PERODUA",
+    "Model": "ATIVA",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "DS438892",
+    "No. Casis": "K8T3VCNNSUHAH8EPN",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1799CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          78,
+          65,
+          9
+        ],
+        "text": "AEK82 19",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          117,
+          176,
+          10
+        ],
+        "text": "DR. NOOR BINTI FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          159,
+          112,
+          9
+        ],
+        "text": "581022-08-0097",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          199,
+          152,
+          36
+        ],
+        "text": "343, LORONG KAJANG\nPETALING JAYA\n98439 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          302,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          298,
+          41,
+          10
+        ],
+        "text": "ATIVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          343,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          381,
+          64,
+          9
+        ],
+        "text": "DS438892",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          136,
+          9
+        ],
+        "text": "K8T3VCNNSUHAH8EPN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          458,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          462,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          501,
+          48,
+          9
+        ],
+        "text": "1799CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

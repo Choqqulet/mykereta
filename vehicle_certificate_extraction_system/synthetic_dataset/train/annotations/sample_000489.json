@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000489.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WIJ58 58",
+    "Nama Pemilik": "DATO' KAVITHA A/P KAMALA",
+    "No. Kad Pengenalan": "861230-14-1018",
+    "Alamat": "734, PERSIARAN IPOH\nKAJANG\n53764 MELAKA",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "TT053137",
+    "No. Casis": "4KMRMMEBNNCD4MF4E",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2975CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          80,
+          60,
+          10
+        ],
+        "text": "WIJ58 58",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          123,
+          193,
+          11
+        ],
+        "text": "DATO' KAVITHA A/P KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          160,
+          94,
+          10
+        ],
+        "text": "861230-14-1018",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          202,
+          152,
+          30
+        ],
+        "text": "734, PERSIARAN IPOH\nKAJANG\n53764 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          302,
+          25,
+          8
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          32,
+          9
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          378,
+          64,
+          9
+        ],
+        "text": "TT053137",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          419,
+          162,
+          10
+        ],
+        "text": "4KMRMMEBNNCD4MF4E",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          463,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          497,
+          46,
+          11
+        ],
+        "text": "2975CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

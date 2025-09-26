@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000014.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KFJ79 92",
+    "Nama Pemilik": "DATUK RAO A/P PATEL",
+    "No. Kad Pengenalan": "051221-14-4624",
+    "Alamat": "744, JALAN DATO' KLANG\nBUKIT BINTANG\n46061 SARAWAK",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "MF688525",
+    "No. Casis": "BEUWXXHT5C8D41D6C",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2462CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          64,
+          9
+        ],
+        "text": "KFJ79 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          118,
+          152,
+          11
+        ],
+        "text": "DATUK RAO A/P PATEL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          158,
+          112,
+          9
+        ],
+        "text": "051221-14-4624",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          203,
+          172,
+          36
+        ],
+        "text": "744, JALAN DATO' KLANG\nBUKIT BINTANG\n46061 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          301,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          339,
+          32,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          383,
+          64,
+          9
+        ],
+        "text": "MF688525",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          421,
+          158,
+          10
+        ],
+        "text": "BEUWXXHT5C8D41D6C",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          458,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          461,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          497,
+          46,
+          10
+        ],
+        "text": "2462CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

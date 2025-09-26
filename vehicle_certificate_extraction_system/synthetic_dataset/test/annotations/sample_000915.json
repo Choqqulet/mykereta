@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000915.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KIE95 17",
+    "Nama Pemilik": "DR. HALIMAH BINTI NOOR",
+    "No. Kad Pengenalan": "640530-01-2071",
+    "Alamat": "680, LEBUH IPOH\nBUKIT BINTANG\n35538 KUALA LUMPUR",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "HX958063",
+    "No. Casis": "5N57YBE4TN0R1HELY",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2721CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          58,
+          10
+        ],
+        "text": "KIE95 17",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          118,
+          176,
+          10
+        ],
+        "text": "DR. HALIMAH BINTI NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          160,
+          112,
+          9
+        ],
+        "text": "640530-01-2071",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          199,
+          152,
+          36
+        ],
+        "text": "680, LEBUH IPOH\nBUKIT BINTANG\n35538 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          298,
+          33,
+          8
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          338,
+          28,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          377,
+          62,
+          11
+        ],
+        "text": "HX958063",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          419,
+          146,
+          11
+        ],
+        "text": "5N57YBE4TN0R1HELY",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          499,
+          52,
+          10
+        ],
+        "text": "2721CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

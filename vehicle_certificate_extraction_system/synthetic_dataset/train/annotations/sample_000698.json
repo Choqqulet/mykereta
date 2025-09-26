@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000698.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ABN74 07",
+    "Nama Pemilik": "TAN SRI SITI",
+    "No. Kad Pengenalan": "660625-05-6044",
+    "Alamat": "506, KAMPUNG JOHOR BAHRU\nIPOH\n22197 PERAK",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "JX974349",
+    "No. Casis": "170FFRND09JD0MZ8A",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1752CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          78,
+          64,
+          10
+        ],
+        "text": "ABN74 07",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          121,
+          86,
+          10
+        ],
+        "text": "TAN SRI SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          161,
+          112,
+          9
+        ],
+        "text": "660625-05-6044",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          200,
+          192,
+          30
+        ],
+        "text": "506, KAMPUNG JOHOR BAHRU\nIPOH\n22197 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          303,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          340,
+          32,
+          9
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          64,
+          10
+        ],
+        "text": "JX974349",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          423,
+          137,
+          9
+        ],
+        "text": "170FFRND09JD0MZ8A",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          461,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          501,
+          46,
+          11
+        ],
+        "text": "1752CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000804.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PVE24 16",
+    "Nama Pemilik": "EN. RADHA A/P MAYA",
+    "No. Kad Pengenalan": "980203-04-3346",
+    "Alamat": "141, JALAN AMPANG\nPENANG\n40508 PUTRAJAYA",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "IZ499989",
+    "No. Casis": "983YSL7R372FBRZ2G",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2536CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          81,
+          64,
+          9
+        ],
+        "text": "PVE24 16",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          121,
+          148,
+          10
+        ],
+        "text": "EN. RADHA A/P MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          159,
+          94,
+          10
+        ],
+        "text": "980203-04-3346",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          203,
+          136,
+          30
+        ],
+        "text": "141, JALAN AMPANG\nPENANG\n40508 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          298,
+          49,
+          8
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          28,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          377,
+          64,
+          9
+        ],
+        "text": "IZ499989",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          422,
+          136,
+          9
+        ],
+        "text": "983YSL7R372FBRZ2G",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          457,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          460,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          52,
+          10
+        ],
+        "text": "2536CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000434.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AAR22 28",
+    "Nama Pemilik": "PROF. IBRAHIM",
+    "No. Kad Pengenalan": "930714-16-3968",
+    "Alamat": "552, JALAN DATO' CHERAS\nPETALING JAYA\n91317 TERENGGANU",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "OL863108",
+    "No. Casis": "NE2MMZGX16ZVMSVPF",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3365CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          82,
+          65,
+          9
+        ],
+        "text": "AAR22 28",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          104,
+          10
+        ],
+        "text": "PROF. IBRAHIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          159,
+          94,
+          10
+        ],
+        "text": "930714-16-3968",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          199,
+          182,
+          36
+        ],
+        "text": "552, JALAN DATO' CHERAS\nPETALING JAYA\n91317 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          299,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          298,
+          47,
+          10
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          28,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          381,
+          61,
+          10
+        ],
+        "text": "OL863108",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          418,
+          158,
+          10
+        ],
+        "text": "NE2MMZGX16ZVMSVPF",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          463,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          459,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          498,
+          52,
+          10
+        ],
+        "text": "3365CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

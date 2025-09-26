@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000034.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WKD31 61",
+    "Nama Pemilik": "DR. ZALEHA",
+    "No. Kad Pengenalan": "601122-07-7610",
+    "Alamat": "724, JALAN DATO' BUKIT BINTANG\nBUKIT BINTANG\n31983 SELANGOR",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "QS273985",
+    "No. Casis": "DEJHWP6K02WRX4SBZ",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2697CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          78,
+          65,
+          10
+        ],
+        "text": "WKD31 61",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          122,
+          83,
+          10
+        ],
+        "text": "DR. ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          163,
+          112,
+          9
+        ],
+        "text": "601122-07-7610",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          202,
+          240,
+          30
+        ],
+        "text": "724, JALAN DATO' BUKIT BINTANG\nBUKIT BINTANG\n31983 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          303,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          298,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          343,
+          32,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          377,
+          64,
+          11
+        ],
+        "text": "QS273985",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          421,
+          158,
+          10
+        ],
+        "text": "DEJHWP6K02WRX4SBZ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          461,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          460,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          499,
+          46,
+          10
+        ],
+        "text": "2697CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

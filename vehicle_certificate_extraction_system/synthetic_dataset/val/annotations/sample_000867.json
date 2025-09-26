@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000867.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KOT15 14",
+    "Nama Pemilik": "DATUK TEO JUN",
+    "No. Kad Pengenalan": "840721-09-3882",
+    "Alamat": "161, PERSIARAN JOHOR BAHRU\nSUBANG JAYA\n15765 PERAK",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "TX953335",
+    "No. Casis": "7LAUSBD4EP3W5GDB6",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3244CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          64,
+          9
+        ],
+        "text": "KOT15 14",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          120,
+          104,
+          8
+        ],
+        "text": "DATUK TEO JUN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          158,
+          106,
+          10
+        ],
+        "text": "840721-09-3882",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          202,
+          208,
+          30
+        ],
+        "text": "161, PERSIARAN JOHOR BAHRU\nSUBANG JAYA\n15765 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          299,
+          33,
+          10
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          339,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          377,
+          66,
+          10
+        ],
+        "text": "TX953335",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          417,
+          150,
+          11
+        ],
+        "text": "7LAUSBD4EP3W5GDB6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          461,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          500,
+          52,
+          10
+        ],
+        "text": "3244CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

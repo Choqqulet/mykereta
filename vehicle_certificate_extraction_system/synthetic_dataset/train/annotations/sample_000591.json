@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000591.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PNA48 03",
+    "Nama Pemilik": "TAN SRI LIM CHAN",
+    "No. Kad Pengenalan": "630318-05-3438",
+    "Alamat": "435, PERSIARAN SHAH ALAM\nJOHOR BAHRU\n81120 KELANTAN",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "BV400503",
+    "No. Casis": "74YNWBFT5FTEHBRN4",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1416CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          60,
+          10
+        ],
+        "text": "PNA48 03",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          123,
+          128,
+          10
+        ],
+        "text": "TAN SRI LIM CHAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          94,
+          11
+        ],
+        "text": "630318-05-3438",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          203,
+          195,
+          36
+        ],
+        "text": "435, PERSIARAN SHAH ALAM\nJOHOR BAHRU\n81120 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          298,
+          23,
+          10
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          337,
+          32,
+          9
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          382,
+          61,
+          11
+        ],
+        "text": "BV400503",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          420,
+          151,
+          11
+        ],
+        "text": "74YNWBFT5FTEHBRN4",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          462,
+          40,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          500,
+          52,
+          10
+        ],
+        "text": "1416CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000548.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BFP98 06",
+    "Nama Pemilik": "KAVITHA A/L KRISHNAN",
+    "No. Kad Pengenalan": "890830-09-9806",
+    "Alamat": "681, LEBUH SEREMBAN\nSHAH ALAM\n78359 PAHANG",
+    "Jenama": "VOLKSWAGEN",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "EU669229",
+    "No. Casis": "8X7V9A8LCW5SCB2VC",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2319CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          78,
+          63,
+          10
+        ],
+        "text": "BFP98 06",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          123,
+          167,
+          10
+        ],
+        "text": "KAVITHA A/L KRISHNAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          160,
+          106,
+          10
+        ],
+        "text": "890830-09-9806",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          199,
+          159,
+          36
+        ],
+        "text": "681, LEBUH SEREMBAN\nSHAH ALAM\n78359 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          98,
+          10
+        ],
+        "text": "VOLKSWAGEN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          340,
+          32,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          381,
+          64,
+          9
+        ],
+        "text": "EU669229",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          419,
+          153,
+          10
+        ],
+        "text": "8X7V9A8LCW5SCB2VC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          460,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          457,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          499,
+          46,
+          10
+        ],
+        "text": "2319CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

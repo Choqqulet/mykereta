@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000885.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JMS19 46",
+    "Nama Pemilik": "TAN SRI LEE TEO",
+    "No. Kad Pengenalan": "800121-01-0296",
+    "Alamat": "464, JALAN KAJANG\nCHERAS\n56512 PULAU PINANG",
+    "Jenama": "PERODUA",
+    "Model": "BEZZA",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "WM581397",
+    "No. Casis": "RASM89MJRBWH0TF38",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2238CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          81,
+          64,
+          10
+        ],
+        "text": "JMS19 46",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          118,
+          118,
+          10
+        ],
+        "text": "TAN SRI LEE TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          161,
+          106,
+          10
+        ],
+        "text": "800121-01-0296",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          202,
+          147,
+          36
+        ],
+        "text": "464, JALAN KAJANG\nCHERAS\n56512 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          303,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          303,
+          46,
+          10
+        ],
+        "text": "BEZZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          379,
+          73,
+          10
+        ],
+        "text": "WM581397",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          136,
+          9
+        ],
+        "text": "RASM89MJRBWH0TF38",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          457,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          462,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          501,
+          52,
+          10
+        ],
+        "text": "2238CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

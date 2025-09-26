@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000959.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KIA45 64",
+    "Nama Pemilik": "DR. KRISHNAN",
+    "No. Kad Pengenalan": "790928-10-7353",
+    "Alamat": "526, JALAN DATO' CHERAS\nKAJANG\n10971 MELAKA",
+    "Jenama": "AUDI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "WG658008",
+    "No. Casis": "M2W7YFV5AKH72LYEM",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2205CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          57,
+          11
+        ],
+        "text": "KIA45 64",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          118,
+          99,
+          10
+        ],
+        "text": "DR. KRISHNAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          157,
+          94,
+          11
+        ],
+        "text": "790928-10-7353",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          203,
+          178,
+          36
+        ],
+        "text": "526, JALAN DATO' CHERAS\nKAJANG\n10971 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          298,
+          33,
+          8
+        ],
+        "text": "AUDI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          303,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          338,
+          28,
+          10
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          381,
+          64,
+          9
+        ],
+        "text": "WG658008",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          421,
+          159,
+          11
+        ],
+        "text": "M2W7YFV5AKH72LYEM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          461,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          501,
+          48,
+          9
+        ],
+        "text": "2205CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

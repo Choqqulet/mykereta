@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000264.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BLZ54 37",
+    "Nama Pemilik": "TAN SRI MEI FENG",
+    "No. Kad Pengenalan": "500914-04-8886",
+    "Alamat": "639, PERSIARAN AMPANG\nSEREMBAN\n18389 SABAH",
+    "Jenama": "HONDA",
+    "Model": "ACCORD",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "VQ947149",
+    "No. Casis": "BT90NCP0LZHYP00CH",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3154CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          79,
+          62,
+          10
+        ],
+        "text": "BLZ54 37",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          123,
+          126,
+          10
+        ],
+        "text": "TAN SRI MEI FENG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          161,
+          106,
+          10
+        ],
+        "text": "500914-04-8886",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          201,
+          171,
+          36
+        ],
+        "text": "639, PERSIARAN AMPANG\nSEREMBAN\n18389 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          302,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          303,
+          60,
+          10
+        ],
+        "text": "ACCORD",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          339,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          68,
+          11
+        ],
+        "text": "VQ947149",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          423,
+          136,
+          9
+        ],
+        "text": "BT90NCP0LZHYP00CH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          463,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          46,
+          11
+        ],
+        "text": "3154CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

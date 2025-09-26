@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000204.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PUV93 34",
+    "Nama Pemilik": "TAN SRI SINGH A/P SHARMA",
+    "No. Kad Pengenalan": "720403-04-7975",
+    "Alamat": "733, TAMAN KAJANG\nAMPANG\n76641 NEGERI SEMBILAN",
+    "Jenama": "PROTON",
+    "Model": "SAGA",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "WQ052291",
+    "No. Casis": "P9PHRSU5FBUW1TMXT",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3215CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          80,
+          64,
+          9
+        ],
+        "text": "PUV93 34",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          191,
+          10
+        ],
+        "text": "TAN SRI SINGH A/P SHARMA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          158,
+          94,
+          11
+        ],
+        "text": "720403-04-7975",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          198,
+          168,
+          30
+        ],
+        "text": "733, TAMAN KAJANG\nAMPANG\n76641 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          301,
+          33,
+          8
+        ],
+        "text": "SAGA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          381,
+          72,
+          11
+        ],
+        "text": "WQ052291",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          423,
+          136,
+          9
+        ],
+        "text": "P9PHRSU5FBUW1TMXT",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          457,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          498,
+          52,
+          10
+        ],
+        "text": "3215CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

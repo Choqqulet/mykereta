@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000638.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BFS83 72",
+    "Nama Pemilik": "PN. MARYAM",
+    "No. Kad Pengenalan": "670928-05-0744",
+    "Alamat": "672, LEBUH KAJANG\nPETALING JAYA\n35600 LABUAN",
+    "Jenama": "PROTON",
+    "Model": "EXORA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "SD848706",
+    "No. Casis": "736BMNU6HT709DHCW",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3027CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          63,
+          10
+        ],
+        "text": "BFS83 72",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          81,
+          8
+        ],
+        "text": "PN. MARYAM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          158,
+          106,
+          10
+        ],
+        "text": "670928-05-0744",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          200,
+          136,
+          30
+        ],
+        "text": "672, LEBUH KAJANG\nPETALING JAYA\n35600 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          49,
+          10
+        ],
+        "text": "EXORA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          341,
+          32,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          382,
+          64,
+          9
+        ],
+        "text": "SD848706",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          423,
+          160,
+          10
+        ],
+        "text": "736BMNU6HT709DHCW",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          459,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          458,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          46,
+          10
+        ],
+        "text": "3027CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

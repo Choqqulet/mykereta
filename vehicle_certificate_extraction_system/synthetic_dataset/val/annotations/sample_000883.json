@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000883.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KPB23 84",
+    "Nama Pemilik": "PROF. MING TEO",
+    "No. Kad Pengenalan": "020323-13-7642",
+    "Alamat": "196, JALAN RAJA AMPANG\nAMPANG\n31776 SARAWAK",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "UY482733",
+    "No. Casis": "NC8S057U813APKP3X",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1910CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          81,
+          59,
+          10
+        ],
+        "text": "KPB23 84",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          118,
+          112,
+          8
+        ],
+        "text": "PROF. MING TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          94,
+          10
+        ],
+        "text": "020323-13-7642",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          201,
+          175,
+          36
+        ],
+        "text": "196, JALAN RAJA AMPANG\nAMPANG\n31776 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          32,
+          8
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          339,
+          28,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          62,
+          10
+        ],
+        "text": "UY482733",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          421,
+          149,
+          10
+        ],
+        "text": "NC8S057U813APKP3X",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          497,
+          46,
+          10
+        ],
+        "text": "1910CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

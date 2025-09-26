@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000153.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WMA55 32",
+    "Nama Pemilik": "DR. REDDY A/P KUMAR",
+    "No. Kad Pengenalan": "700709-10-5077",
+    "Alamat": "567, BANDAR SHAH ALAM\nCHERAS\n44338 SABAH",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "MY946632",
+    "No. Casis": "9SG102X60TX3P7ZGK",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2942CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          82,
+          67,
+          11
+        ],
+        "text": "WMA55 32",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          153,
+          11
+        ],
+        "text": "DR. REDDY A/P KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          162,
+          106,
+          10
+        ],
+        "text": "700709-10-5077",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          203,
+          173,
+          36
+        ],
+        "text": "567, BANDAR SHAH ALAM\nCHERAS\n44338 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          298,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          33,
+          10
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          341,
+          32,
+          9
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          379,
+          69,
+          10
+        ],
+        "text": "MY946632",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          420,
+          136,
+          9
+        ],
+        "text": "9SG102X60TX3P7ZGK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          462,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          462,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          46,
+          10
+        ],
+        "text": "2942CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

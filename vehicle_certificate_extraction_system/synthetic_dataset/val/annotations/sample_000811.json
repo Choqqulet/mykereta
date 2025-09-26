@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000811.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BLG41 63",
+    "Nama Pemilik": "PROF. LING LIM",
+    "No. Kad Pengenalan": "751206-07-6369",
+    "Alamat": "232, JALAN DATO' KLANG\nSUBANG JAYA\n67831 LABUAN",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "GM176202",
+    "No. Casis": "JZ6C90WRGA3B0C0Z5",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2461CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          81,
+          60,
+          10
+        ],
+        "text": "BLG41 63",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          122,
+          113,
+          8
+        ],
+        "text": "PROF. LING LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          161,
+          94,
+          11
+        ],
+        "text": "751206-07-6369",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          202,
+          176,
+          30
+        ],
+        "text": "232, JALAN DATO' KLANG\nSUBANG JAYA\n67831 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          300,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          342,
+          32,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          71,
+          10
+        ],
+        "text": "GM176202",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          136,
+          9
+        ],
+        "text": "JZ6C90WRGA3B0C0Z5",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          463,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          502,
+          52,
+          10
+        ],
+        "text": "2461CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

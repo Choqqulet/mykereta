@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000140.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JLM59 73",
+    "Nama Pemilik": "DATO' MARYAM",
+    "No. Kad Pengenalan": "950326-08-9684",
+    "Alamat": "755, LORONG KAJANG\nSHAH ALAM\n75682 KELANTAN",
+    "Jenama": "PROTON",
+    "Model": "EXORA",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "GE546086",
+    "No. Casis": "DELRE9PGU86X5L5NS",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3336CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          63,
+          10
+        ],
+        "text": "JLM59 73",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          120,
+          110,
+          10
+        ],
+        "text": "DATO' MARYAM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          162,
+          106,
+          10
+        ],
+        "text": "950326-08-9684",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          200,
+          152,
+          36
+        ],
+        "text": "755, LORONG KAJANG\nSHAH ALAM\n75682 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          302,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          303,
+          49,
+          10
+        ],
+        "text": "EXORA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          337,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          377,
+          61,
+          11
+        ],
+        "text": "GE546086",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          417,
+          136,
+          9
+        ],
+        "text": "DELRE9PGU86X5L5NS",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          498,
+          46,
+          10
+        ],
+        "text": "3336CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

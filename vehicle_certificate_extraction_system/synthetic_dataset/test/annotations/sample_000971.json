@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000971.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KQA10 97",
+    "Nama Pemilik": "TAN SRI ISMAIL BINTI ZAINAB",
+    "No. Kad Pengenalan": "860317-03-3725",
+    "Alamat": "155, KAMPUNG BUKIT BINTANG\nKAJANG\n14139 TERENGGANU",
+    "Jenama": "KIA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "MN247365",
+    "No. Casis": "U8S5VF4HLFCBUU7W7",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2165CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          65,
+          11
+        ],
+        "text": "KQA10 97",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          123,
+          207,
+          10
+        ],
+        "text": "TAN SRI ISMAIL BINTI ZAINAB",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          163,
+          94,
+          11
+        ],
+        "text": "860317-03-3725",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          213,
+          36
+        ],
+        "text": "155, KAMPUNG BUKIT BINTANG\nKAJANG\n14139 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          25,
+          8
+        ],
+        "text": "KIA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          338,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          377,
+          64,
+          9
+        ],
+        "text": "MN247365",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          420,
+          156,
+          10
+        ],
+        "text": "U8S5VF4HLFCBUU7W7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          457,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          497,
+          46,
+          11
+        ],
+        "text": "2165CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

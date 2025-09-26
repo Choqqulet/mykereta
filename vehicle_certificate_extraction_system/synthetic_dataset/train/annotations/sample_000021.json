@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000021.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ABV70 53",
+    "Nama Pemilik": "DATUK LIM LEE",
+    "No. Kad Pengenalan": "580819-08-4371",
+    "Alamat": "468, LEBUH KAJANG\nSUBANG JAYA\n46267 SELANGOR",
+    "Jenama": "NISSAN",
+    "Model": "SERENA",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "CA888316",
+    "No. Casis": "LBB55ERR0P0RNW8LA",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2141CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          61,
+          11
+        ],
+        "text": "ABV70 53",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          117,
+          104,
+          8
+        ],
+        "text": "DATUK LIM LEE",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          94,
+          11
+        ],
+        "text": "580819-08-4371",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          200,
+          137,
+          36
+        ],
+        "text": "468, LEBUH KAJANG\nSUBANG JAYA\n46267 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          302,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          300,
+          49,
+          8
+        ],
+        "text": "SERENA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          341,
+          32,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          383,
+          67,
+          10
+        ],
+        "text": "CA888316",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          421,
+          148,
+          11
+        ],
+        "text": "LBB55ERR0P0RNW8LA",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          458,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          458,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          48,
+          9
+        ],
+        "text": "2141CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

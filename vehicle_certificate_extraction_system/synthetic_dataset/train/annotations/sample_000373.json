@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000373.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BRC17 28",
+    "Nama Pemilik": "DR. KRISHNAN",
+    "No. Kad Pengenalan": "760125-10-4713",
+    "Alamat": "582, JALAN DATO' SUBANG JAYA\nBUKIT BINTANG\n89087 TERENGGANU",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "VH080763",
+    "No. Casis": "UTTZ949W8MUXJX9LY",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1186CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          83,
+          64,
+          9
+        ],
+        "text": "BRC17 28",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          122,
+          96,
+          8
+        ],
+        "text": "DR. KRISHNAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          163,
+          112,
+          9
+        ],
+        "text": "760125-10-4713",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          198,
+          225,
+          30
+        ],
+        "text": "582, JALAN DATO' SUBANG JAYA\nBUKIT BINTANG\n89087 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          297,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          300,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          343,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          378,
+          67,
+          10
+        ],
+        "text": "VH080763",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          419,
+          155,
+          10
+        ],
+        "text": "UTTZ949W8MUXJX9LY",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          461,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          463,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          497,
+          48,
+          9
+        ],
+        "text": "1186CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

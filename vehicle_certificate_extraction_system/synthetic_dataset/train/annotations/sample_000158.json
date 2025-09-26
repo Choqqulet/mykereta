@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000158.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KZT48 42",
+    "Nama Pemilik": "EN. SITI BINTI ISMAIL",
+    "No. Kad Pengenalan": "770117-06-7726",
+    "Alamat": "984, TAMAN SUBANG JAYA\nKAJANG\n82191 PERLIS",
+    "Jenama": "PROTON",
+    "Model": "X70",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "TW740479",
+    "No. Casis": "2G2JR7J86YDY4YV3Z",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1488CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          60,
+          10
+        ],
+        "text": "KZT48 42",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          143,
+          10
+        ],
+        "text": "EN. SITI BINTI ISMAIL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          159,
+          106,
+          10
+        ],
+        "text": "770117-06-7726",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          197,
+          180,
+          36
+        ],
+        "text": "984, TAMAN SUBANG JAYA\nKAJANG\n82191 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          297,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          301,
+          25,
+          10
+        ],
+        "text": "X70",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          343,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          377,
+          64,
+          9
+        ],
+        "text": "TW740479",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          422,
+          137,
+          10
+        ],
+        "text": "2G2JR7J86YDY4YV3Z",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          459,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          458,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          503,
+          52,
+          10
+        ],
+        "text": "1488CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

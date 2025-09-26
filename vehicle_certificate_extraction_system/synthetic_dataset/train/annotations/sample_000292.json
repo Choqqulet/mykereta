@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000292.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KKA02 77",
+    "Nama Pemilik": "DATO' MARYAM BIN ZAINAB",
+    "No. Kad Pengenalan": "640424-16-6076",
+    "Alamat": "751, PERSIARAN PETALING JAYA\nSEREMBAN\n44179 SELANGOR",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "YO958793",
+    "No. Casis": "PSURZP31ZBHWJ1P1L",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2324CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          79,
+          62,
+          10
+        ],
+        "text": "KKA02 77",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          123,
+          184,
+          9
+        ],
+        "text": "DATO' MARYAM BIN ZAINAB",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          94,
+          10
+        ],
+        "text": "640424-16-6076",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          201,
+          220,
+          36
+        ],
+        "text": "751, PERSIARAN PETALING JAYA\nSEREMBAN\n44179 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          300,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          301,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          32,
+          9
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          377,
+          62,
+          11
+        ],
+        "text": "YO958793",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          423,
+          136,
+          9
+        ],
+        "text": "PSURZP31ZBHWJ1P1L",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          462,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          52,
+          10
+        ],
+        "text": "2324CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

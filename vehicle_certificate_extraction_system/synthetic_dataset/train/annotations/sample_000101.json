@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000101.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KPI53 53",
+    "Nama Pemilik": "EN. ZALEHA BINTI SITI",
+    "No. Kad Pengenalan": "670702-12-1940",
+    "Alamat": "480, PERSIARAN SHAH ALAM\nPETALING JAYA\n42486 PAHANG",
+    "Jenama": "PERODUA",
+    "Model": "BEZZA",
+    "Tahun Dibuat": "2006",
+    "No. Enjin": "KC140091",
+    "No. Casis": "KFGU070HY9ZGGPRHW",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3232CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          58,
+          10
+        ],
+        "text": "KPI53 53",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          120,
+          168,
+          8
+        ],
+        "text": "EN. ZALEHA BINTI SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          161,
+          106,
+          10
+        ],
+        "text": "670702-12-1940",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          202,
+          195,
+          36
+        ],
+        "text": "480, PERSIARAN SHAH ALAM\nPETALING JAYA\n42486 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          41,
+          8
+        ],
+        "text": "BEZZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          343,
+          32,
+          10
+        ],
+        "text": "2006",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          379,
+          67,
+          10
+        ],
+        "text": "KC140091",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          420,
+          164,
+          10
+        ],
+        "text": "KFGU070HY9ZGGPRHW",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          462,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          458,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          503,
+          48,
+          9
+        ],
+        "text": "3232CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

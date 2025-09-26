@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000656.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KFL81 64",
+    "Nama Pemilik": "JUN CHONG",
+    "No. Kad Pengenalan": "820124-05-0152",
+    "Alamat": "395, LEBUH PETALING JAYA\nJOHOR BAHRU\n58963 KEDAH",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "QM477538",
+    "No. Casis": "TCNBTA4A0FWK8VB51",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2556CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          80,
+          62,
+          10
+        ],
+        "text": "KFL81 64",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          123,
+          83,
+          10
+        ],
+        "text": "JUN CHONG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          158,
+          106,
+          10
+        ],
+        "text": "820124-05-0152",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          203,
+          193,
+          30
+        ],
+        "text": "395, LEBUH PETALING JAYA\nJOHOR BAHRU\n58963 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          65,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          299,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          343,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          381,
+          64,
+          11
+        ],
+        "text": "QM477538",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          418,
+          151,
+          11
+        ],
+        "text": "TCNBTA4A0FWK8VB51",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          462,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          463,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          501,
+          52,
+          10
+        ],
+        "text": "2556CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

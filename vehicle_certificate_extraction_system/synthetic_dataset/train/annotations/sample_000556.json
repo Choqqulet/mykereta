@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000556.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WTH67 39",
+    "Nama Pemilik": "DATO' FATIMAH BINTI AISHAH",
+    "No. Kad Pengenalan": "571219-12-8323",
+    "Alamat": "68, JALAN TUN SHAH ALAM\nSUBANG JAYA\n70855 PERLIS",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "HE851181",
+    "No. Casis": "8GGJY0JRAN9GMGGHH",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2304CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          64,
+          10
+        ],
+        "text": "WTH67 39",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          122,
+          203,
+          10
+        ],
+        "text": "DATO' FATIMAH BINTI AISHAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          161,
+          94,
+          11
+        ],
+        "text": "571219-12-8323",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          199,
+          187,
+          36
+        ],
+        "text": "68, JALAN TUN SHAH ALAM\nSUBANG JAYA\n70855 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          302,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          302,
+          25,
+          10
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          343,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          380,
+          64,
+          9
+        ],
+        "text": "HE851181",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          418,
+          136,
+          9
+        ],
+        "text": "8GGJY0JRAN9GMGGHH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          458,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          460,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          499,
+          48,
+          9
+        ],
+        "text": "2304CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

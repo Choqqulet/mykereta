@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000057.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KKG79 76",
+    "Nama Pemilik": "EN. WONG TEO",
+    "No. Kad Pengenalan": "580703-07-1529",
+    "Alamat": "157, LEBUH KAJANG\nKLANG\n76562 TERENGGANU",
+    "Jenama": "PROTON",
+    "Model": "X70",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "YV937737",
+    "No. Casis": "T5H8TD4WU6W9Y6YLJ",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3027CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          79,
+          62,
+          10
+        ],
+        "text": "KKG79 76",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          102,
+          10
+        ],
+        "text": "EN. WONG TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          160,
+          112,
+          9
+        ],
+        "text": "580703-07-1529",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          198,
+          135,
+          36
+        ],
+        "text": "157, LEBUH KAJANG\nKLANG\n76562 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          301,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          298,
+          25,
+          10
+        ],
+        "text": "X70",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          342,
+          32,
+          9
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          383,
+          64,
+          9
+        ],
+        "text": "YV937737",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          423,
+          151,
+          11
+        ],
+        "text": "T5H8TD4WU6W9Y6YLJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          460,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          459,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          500,
+          46,
+          10
+        ],
+        "text": "3027CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

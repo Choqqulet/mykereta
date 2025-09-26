@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000614.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WFY19 96",
+    "Nama Pemilik": "DR. ONG LING",
+    "No. Kad Pengenalan": "610112-07-0231",
+    "Alamat": "213, JALAN RAJA CHERAS\nSUBANG JAYA\n52188 NEGERI SEMBILAN",
+    "Jenama": "NISSAN",
+    "Model": "TEANA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "PF031594",
+    "No. Casis": "H9J4HFMHVEC607ND6",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1650CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          80,
+          63,
+          10
+        ],
+        "text": "WFY19 96",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          121,
+          95,
+          10
+        ],
+        "text": "DR. ONG LING",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          161,
+          94,
+          10
+        ],
+        "text": "610112-07-0231",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          199,
+          176,
+          30
+        ],
+        "text": "213, JALAN RAJA CHERAS\nSUBANG JAYA\n52188 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          41,
+          8
+        ],
+        "text": "TEANA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          338,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          378,
+          64,
+          9
+        ],
+        "text": "PF031594",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          419,
+          154,
+          10
+        ],
+        "text": "H9J4HFMHVEC607ND6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          458,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          500,
+          46,
+          11
+        ],
+        "text": "1650CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

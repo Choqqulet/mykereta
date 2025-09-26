@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000540.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AEK79 42",
+    "Nama Pemilik": "DR. KAMALA",
+    "No. Kad Pengenalan": "930214-05-2286",
+    "Alamat": "17, LEBUH IPOH\nCHERAS\n57930 KELANTAN",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "TL347252",
+    "No. Casis": "8WPKXF4CNZXSZY24C",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2986CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          63,
+          10
+        ],
+        "text": "AEK79 42",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          122,
+          81,
+          8
+        ],
+        "text": "DR. KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          112,
+          9
+        ],
+        "text": "930214-05-2286",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          201,
+          116,
+          36
+        ],
+        "text": "17, LEBUH IPOH\nCHERAS\n57930 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          300,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          342,
+          28,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          380,
+          65,
+          10
+        ],
+        "text": "TL347252",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          422,
+          136,
+          9
+        ],
+        "text": "8WPKXF4CNZXSZY24C",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          40,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          462,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          501,
+          52,
+          10
+        ],
+        "text": "2986CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

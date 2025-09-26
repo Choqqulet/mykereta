@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000537.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AHJ78 77",
+    "Nama Pemilik": "DATO' SALLEH",
+    "No. Kad Pengenalan": "000130-08-1210",
+    "Alamat": "565, JALAN DATO' IPOH\nJOHOR BAHRU\n56389 NEGERI SEMBILAN",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "LN606031",
+    "No. Casis": "ZY7CMYWAC4C1386LA",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3424CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          83,
+          62,
+          10
+        ],
+        "text": "AHJ78 77",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          121,
+          99,
+          10
+        ],
+        "text": "DATO' SALLEH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          157,
+          106,
+          10
+        ],
+        "text": "000130-08-1210",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          198,
+          168,
+          30
+        ],
+        "text": "565, JALAN DATO' IPOH\nJOHOR BAHRU\n56389 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          301,
+          120,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          339,
+          32,
+          9
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          381,
+          66,
+          10
+        ],
+        "text": "LN606031",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          420,
+          157,
+          10
+        ],
+        "text": "ZY7CMYWAC4C1386LA",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          457,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          502,
+          48,
+          9
+        ],
+        "text": "3424CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

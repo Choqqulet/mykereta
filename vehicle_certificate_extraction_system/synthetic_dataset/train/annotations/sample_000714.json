@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000714.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KNJ06 50",
+    "Nama Pemilik": "DATUK MING LEE",
+    "No. Kad Pengenalan": "571209-08-5173",
+    "Alamat": "865, JALAN RAJA KLANG\nCHERAS\n57798 TERENGGANU",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "UK342531",
+    "No. Casis": "FCSPZPWCF6WD929F9",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1362CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          64,
+          9
+        ],
+        "text": "KNJ06 50",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          120,
+          118,
+          10
+        ],
+        "text": "DATUK MING LEE",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          163,
+          112,
+          9
+        ],
+        "text": "571209-08-5173",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          198,
+          165,
+          36
+        ],
+        "text": "865, JALAN RAJA KLANG\nCHERAS\n57798 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          299,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          297,
+          32,
+          8
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          343,
+          32,
+          9
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          67,
+          10
+        ],
+        "text": "UK342531",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          417,
+          159,
+          10
+        ],
+        "text": "FCSPZPWCF6WD929F9",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          457,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          457,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          502,
+          48,
+          9
+        ],
+        "text": "1362CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000676.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WXX54 48",
+    "Nama Pemilik": "PROF. SHARMA A/P REDDY",
+    "No. Kad Pengenalan": "730816-13-4502",
+    "Alamat": "951, BANDAR PETALING JAYA\nAMPANG\n69878 SABAH",
+    "Jenama": "TOYOTA",
+    "Model": "COROLLA",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "BW533967",
+    "No. Casis": "ZLHH1714DF896YCW8",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2619CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          79,
+          67,
+          10
+        ],
+        "text": "WXX54 48",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          185,
+          10
+        ],
+        "text": "PROF. SHARMA A/P REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          158,
+          94,
+          11
+        ],
+        "text": "730816-13-4502",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          199,
+          200,
+          36
+        ],
+        "text": "951, BANDAR PETALING JAYA\nAMPANG\n69878 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          299,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          298,
+          68,
+          10
+        ],
+        "text": "COROLLA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          45,
+          342,
+          28,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          378,
+          70,
+          10
+        ],
+        "text": "BW533967",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          418,
+          144,
+          10
+        ],
+        "text": "ZLHH1714DF896YCW8",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          463,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          463,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          499,
+          48,
+          9
+        ],
+        "text": "2619CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

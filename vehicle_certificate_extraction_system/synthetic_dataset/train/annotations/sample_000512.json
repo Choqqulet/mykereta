@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000512.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PGC53 38",
+    "Nama Pemilik": "DATUK KRISHNAN A/P RADHA",
+    "No. Kad Pengenalan": "570612-07-9994",
+    "Alamat": "297, JALAN TUN PETALING JAYA\nAMPANG\n12448 KUALA LUMPUR",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "EJ678577",
+    "No. Casis": "AF6P2XJMBRN7CPK38",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1938CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          81,
+          59,
+          11
+        ],
+        "text": "PGC53 38",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          122,
+          193,
+          11
+        ],
+        "text": "DATUK KRISHNAN A/P RADHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          158,
+          94,
+          11
+        ],
+        "text": "570612-07-9994",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          201,
+          225,
+          30
+        ],
+        "text": "297, JALAN TUN PETALING JAYA\nAMPANG\n12448 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          300,
+          62,
+          10
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          299,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          28,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          56,
+          11
+        ],
+        "text": "EJ678577",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          417,
+          152,
+          10
+        ],
+        "text": "AF6P2XJMBRN7CPK38",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          460,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          502,
+          46,
+          10
+        ],
+        "text": "1938CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

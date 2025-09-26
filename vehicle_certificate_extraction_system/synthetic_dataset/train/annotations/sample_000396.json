@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000396.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KFS03 32",
+    "Nama Pemilik": "PROF. LIM WEI",
+    "No. Kad Pengenalan": "870929-14-8228",
+    "Alamat": "49, JALAN PENANG\nJOHOR BAHRU\n22988 PUTRAJAYA",
+    "Jenama": "NISSAN",
+    "Model": "ALMERA",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "OM426983",
+    "No. Casis": "EGERYYF6722V23AWU",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2249CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          78,
+          63,
+          10
+        ],
+        "text": "KFS03 32",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          101,
+          10
+        ],
+        "text": "PROF. LIM WEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          159,
+          106,
+          10
+        ],
+        "text": "870929-14-8228",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          197,
+          129,
+          36
+        ],
+        "text": "49, JALAN PENANG\nJOHOR BAHRU\n22988 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          303,
+          58,
+          10
+        ],
+        "text": "ALMERA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          343,
+          32,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          71,
+          10
+        ],
+        "text": "OM426983",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          420,
+          136,
+          9
+        ],
+        "text": "EGERYYF6722V23AWU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          461,
+          41,
+          8
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          498,
+          48,
+          9
+        ],
+        "text": "2249CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

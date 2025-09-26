@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000386.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KLJ65 97",
+    "Nama Pemilik": "ALI BINTI ALI",
+    "No. Kad Pengenalan": "860601-05-2029",
+    "Alamat": "889, LEBUH KAJANG\nIPOH\n15387 SABAH",
+    "Jenama": "HYUNDAI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "EC756498",
+    "No. Casis": "U5SC15VT4KYEZLGEN",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1019CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          82,
+          64,
+          9
+        ],
+        "text": "KLJ65 97",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          119,
+          86,
+          10
+        ],
+        "text": "ALI BINTI ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          157,
+          106,
+          10
+        ],
+        "text": "860601-05-2029",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          137,
+          36
+        ],
+        "text": "889, LEBUH KAJANG\nIPOH\n15387 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          297,
+          56,
+          8
+        ],
+        "text": "HYUNDAI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          300,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          337,
+          28,
+          10
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          378,
+          67,
+          10
+        ],
+        "text": "EC756498",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          423,
+          136,
+          9
+        ],
+        "text": "U5SC15VT4KYEZLGEN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          458,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          462,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          502,
+          48,
+          9
+        ],
+        "text": "1019CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

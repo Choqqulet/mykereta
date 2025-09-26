@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000871.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JDR33 92",
+    "Nama Pemilik": "PN. OMAR BINTI SALLEH",
+    "No. Kad Pengenalan": "621015-05-8248",
+    "Alamat": "240, LORONG AMPANG\nSHAH ALAM\n86693 PAHANG",
+    "Jenama": "TOYOTA",
+    "Model": "HILUX",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "JM780941",
+    "No. Casis": "MUT0CZ8M1K0C261WG",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1533CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          81,
+          64,
+          9
+        ],
+        "text": "JDR33 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          118,
+          168,
+          8
+        ],
+        "text": "PN. OMAR BINTI SALLEH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          106,
+          10
+        ],
+        "text": "621015-05-8248",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          197,
+          157,
+          36
+        ],
+        "text": "240, LORONG AMPANG\nSHAH ALAM\n86693 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          298,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          299,
+          42,
+          10
+        ],
+        "text": "HILUX",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          340,
+          28,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          382,
+          64,
+          9
+        ],
+        "text": "JM780941",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          419,
+          152,
+          10
+        ],
+        "text": "MUT0CZ8M1K0C261WG",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          458,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          457,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          499,
+          52,
+          10
+        ],
+        "text": "1533CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

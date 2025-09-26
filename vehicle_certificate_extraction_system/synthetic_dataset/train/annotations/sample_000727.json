@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000727.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JUD48 57",
+    "Nama Pemilik": "DATUK RAMAN A/L RAMAN",
+    "No. Kad Pengenalan": "790602-09-3720",
+    "Alamat": "222, LEBUH SUBANG JAYA\nJOHOR BAHRU\n34576 PERAK",
+    "Jenama": "TOYOTA",
+    "Model": "COROLLA",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "RY888665",
+    "No. Casis": "FY5R1Z17NAZ26YLBL",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2621CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          80,
+          57,
+          11
+        ],
+        "text": "JUD48 57",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          123,
+          168,
+          11
+        ],
+        "text": "DATUK RAMAN A/L RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          161,
+          112,
+          9
+        ],
+        "text": "790602-09-3720",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          179,
+          36
+        ],
+        "text": "222, LEBUH SUBANG JAYA\nJOHOR BAHRU\n34576 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          302,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          301,
+          66,
+          10
+        ],
+        "text": "COROLLA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          338,
+          32,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          379,
+          61,
+          11
+        ],
+        "text": "RY888665",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          417,
+          144,
+          11
+        ],
+        "text": "FY5R1Z17NAZ26YLBL",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          461,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          458,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          503,
+          48,
+          9
+        ],
+        "text": "2621CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

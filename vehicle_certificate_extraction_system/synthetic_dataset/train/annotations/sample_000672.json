@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000672.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WFF84 87",
+    "Nama Pemilik": "LAKSHMI",
+    "No. Kad Pengenalan": "040407-03-6572",
+    "Alamat": "202, JALAN KAJANG\nKAJANG\n94267 KUALA LUMPUR",
+    "Jenama": "HONDA",
+    "Model": "HR-V",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "LL443516",
+    "No. Casis": "BAJ1HUBH88AE7HGMB",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2328CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          67,
+          10
+        ],
+        "text": "WFF84 87",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          56,
+          8
+        ],
+        "text": "LAKSHMI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          157,
+          106,
+          10
+        ],
+        "text": "040407-03-6572",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          199,
+          152,
+          36
+        ],
+        "text": "202, JALAN KAJANG\nKAJANG\n94267 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          298,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          298,
+          34,
+          10
+        ],
+        "text": "HR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          343,
+          32,
+          9
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          377,
+          60,
+          11
+        ],
+        "text": "LL443516",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          423,
+          156,
+          10
+        ],
+        "text": "BAJ1HUBH88AE7HGMB",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          461,
+          32,
+          8
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          458,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          501,
+          46,
+          10
+        ],
+        "text": "2328CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000482.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KDW67 81",
+    "Nama Pemilik": "DR. XIAO FENG",
+    "No. Kad Pengenalan": "641112-13-1484",
+    "Alamat": "945, TAMAN KAJANG\nJOHOR BAHRU\n21282 PUTRAJAYA",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "NI463859",
+    "No. Casis": "DTSMUJHB3YYPUM95J",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1214CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          80,
+          65,
+          10
+        ],
+        "text": "KDW67 81",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          121,
+          103,
+          10
+        ],
+        "text": "DR. XIAO FENG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          159,
+          112,
+          9
+        ],
+        "text": "641112-13-1484",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          203,
+          140,
+          36
+        ],
+        "text": "945, TAMAN KAJANG\nJOHOR BAHRU\n21282 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          302,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          301,
+          28,
+          10
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          339,
+          32,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          379,
+          62,
+          10
+        ],
+        "text": "NI463859",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          418,
+          136,
+          9
+        ],
+        "text": "DTSMUJHB3YYPUM95J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          458,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          463,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          500,
+          48,
+          9
+        ],
+        "text": "1214CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

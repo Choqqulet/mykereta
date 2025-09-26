@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000768.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WUO59 22",
+    "Nama Pemilik": "EN. SHANTI",
+    "No. Kad Pengenalan": "941121-07-4101",
+    "Alamat": "443, JALAN DATO' KAJANG\nCHERAS\n69293 TERENGGANU",
+    "Jenama": "PERODUA",
+    "Model": "ARUZ",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "YD075355",
+    "No. Casis": "VYRLCTT002J0MEU8T",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1858CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          81,
+          65,
+          11
+        ],
+        "text": "WUO59 22",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          119,
+          79,
+          10
+        ],
+        "text": "EN. SHANTI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          163,
+          112,
+          9
+        ],
+        "text": "941121-07-4101",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          198,
+          184,
+          30
+        ],
+        "text": "443, JALAN DATO' KAJANG\nCHERAS\n69293 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          302,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          298,
+          38,
+          10
+        ],
+        "text": "ARUZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          339,
+          32,
+          10
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          383,
+          62,
+          11
+        ],
+        "text": "YD075355",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          420,
+          145,
+          10
+        ],
+        "text": "VYRLCTT002J0MEU8T",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          463,
+          48,
+          8
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          48,
+          9
+        ],
+        "text": "1858CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000299.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WXY23 95",
+    "Nama Pemilik": "DR. VANI",
+    "No. Kad Pengenalan": "530219-12-9079",
+    "Alamat": "356, JALAN DATO' KAJANG\nPETALING JAYA\n70389 PERLIS",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2015",
+    "No. Enjin": "FG103074",
+    "No. Casis": "F95TRJ3CANB0J31ML",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3076CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          79,
+          64,
+          9
+        ],
+        "text": "WXY23 95",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          122,
+          64,
+          8
+        ],
+        "text": "DR. VANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          94,
+          11
+        ],
+        "text": "530219-12-9079",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          199,
+          184,
+          30
+        ],
+        "text": "356, JALAN DATO' KAJANG\nPETALING JAYA\n70389 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          302,
+          37,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          32,
+          10
+        ],
+        "text": "2015",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          382,
+          64,
+          9
+        ],
+        "text": "FG103074",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          419,
+          137,
+          11
+        ],
+        "text": "F95TRJ3CANB0J31ML",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          459,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          457,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          501,
+          48,
+          9
+        ],
+        "text": "3076CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

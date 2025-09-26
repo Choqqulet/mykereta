@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000644.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KDF06 82",
+    "Nama Pemilik": "DATO' REDDY",
+    "No. Kad Pengenalan": "960305-01-2501",
+    "Alamat": "215, JALAN DATO' SUBANG JAYA\nJOHOR BAHRU\n26311 PAHANG",
+    "Jenama": "NISSAN",
+    "Model": "LIVINA",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "HW417676",
+    "No. Casis": "M281ZDEDUTZPAJZF1",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3430CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          83,
+          64,
+          10
+        ],
+        "text": "KDF06 82",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          123,
+          94,
+          10
+        ],
+        "text": "DATO' REDDY",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          112,
+          9
+        ],
+        "text": "960305-01-2501",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          201,
+          219,
+          36
+        ],
+        "text": "215, JALAN DATO' SUBANG JAYA\nJOHOR BAHRU\n26311 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          302,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          298,
+          45,
+          10
+        ],
+        "text": "LIVINA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          342,
+          28,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          381,
+          65,
+          10
+        ],
+        "text": "HW417676",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          418,
+          153,
+          10
+        ],
+        "text": "M281ZDEDUTZPAJZF1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          459,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          458,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          501,
+          52,
+          10
+        ],
+        "text": "3430CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

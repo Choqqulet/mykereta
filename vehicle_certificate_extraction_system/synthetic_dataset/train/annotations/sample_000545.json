@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000545.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KCS33 29",
+    "Nama Pemilik": "PROF. SALLEH",
+    "No. Kad Pengenalan": "550221-12-7973",
+    "Alamat": "564, JALAN RAJA PETALING JAYA\nSUBANG JAYA\n39589 KUALA LUMPUR",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "IZ657045",
+    "No. Casis": "44NEEF31DWH40VWEJ",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2712CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          78,
+          64,
+          10
+        ],
+        "text": "KCS33 29",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          117,
+          98,
+          10
+        ],
+        "text": "PROF. SALLEH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          159,
+          112,
+          9
+        ],
+        "text": "550221-12-7973",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          226,
+          36
+        ],
+        "text": "564, JALAN RAJA PETALING JAYA\nSUBANG JAYA\n39589 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          303,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          299,
+          49,
+          8
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          339,
+          32,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          377,
+          61,
+          10
+        ],
+        "text": "IZ657045",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          421,
+          136,
+          9
+        ],
+        "text": "44NEEF31DWH40VWEJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          462,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          499,
+          52,
+          10
+        ],
+        "text": "2712CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

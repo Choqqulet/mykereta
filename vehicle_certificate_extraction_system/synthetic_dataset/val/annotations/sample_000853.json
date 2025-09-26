@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000853.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AMT50 61",
+    "Nama Pemilik": "EN. RAMAN",
+    "No. Kad Pengenalan": "910721-07-1589",
+    "Alamat": "931, JALAN DATO' KAJANG\nCHERAS\n10453 PAHANG",
+    "Jenama": "TOYOTA",
+    "Model": "COROLLA",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "XT005889",
+    "No. Casis": "M81RNTMW9CBCYG4TM",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2919CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          78,
+          65,
+          9
+        ],
+        "text": "AMT50 61",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          117,
+          78,
+          10
+        ],
+        "text": "EN. RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          157,
+          94,
+          11
+        ],
+        "text": "910721-07-1589",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          197,
+          180,
+          36
+        ],
+        "text": "931, JALAN DATO' KAJANG\nCHERAS\n10453 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          302,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          57,
+          8
+        ],
+        "text": "COROLLA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          340,
+          28,
+          11
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          382,
+          64,
+          9
+        ],
+        "text": "XT005889",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          162,
+          10
+        ],
+        "text": "M81RNTMW9CBCYG4TM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          457,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          503,
+          48,
+          9
+        ],
+        "text": "2919CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

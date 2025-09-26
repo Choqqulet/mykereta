@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000220.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KQR19 78",
+    "Nama Pemilik": "YUSOF BIN KHADIJAH",
+    "No. Kad Pengenalan": "900714-16-6315",
+    "Alamat": "816, LORONG BUKIT BINTANG\nAMPANG\n91647 PERAK",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "IV013758",
+    "No. Casis": "MRNK2VU81Z9BB1BW7",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1152CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          78,
+          64,
+          11
+        ],
+        "text": "KQR19 78",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          147,
+          10
+        ],
+        "text": "YUSOF BIN KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          163,
+          112,
+          9
+        ],
+        "text": "900714-16-6315",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          200,
+          201,
+          36
+        ],
+        "text": "816, LORONG BUKIT BINTANG\nAMPANG\n91647 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          298,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          298,
+          33,
+          10
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          342,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          377,
+          57,
+          11
+        ],
+        "text": "IV013758",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          423,
+          157,
+          10
+        ],
+        "text": "MRNK2VU81Z9BB1BW7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          463,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          462,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          498,
+          48,
+          9
+        ],
+        "text": "1152CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

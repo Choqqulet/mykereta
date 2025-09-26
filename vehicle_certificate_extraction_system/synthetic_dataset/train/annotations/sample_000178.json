@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000178.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PRH21 96",
+    "Nama Pemilik": "EN. CHONG TEO",
+    "No. Kad Pengenalan": "051106-06-6786",
+    "Alamat": "598, JALAN SUBANG JAYA\nPENANG\n75433 KEDAH",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "PK927702",
+    "No. Casis": "46CVHSNMG1X2YDV6Y",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2196CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          83,
+          59,
+          10
+        ],
+        "text": "PRH21 96",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          117,
+          112,
+          10
+        ],
+        "text": "EN. CHONG TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          106,
+          10
+        ],
+        "text": "051106-06-6786",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          197,
+          173,
+          36
+        ],
+        "text": "598, JALAN SUBANG JAYA\nPENANG\n75433 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          298,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          301,
+          49,
+          8
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          32,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          377,
+          60,
+          10
+        ],
+        "text": "PK927702",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          421,
+          136,
+          9
+        ],
+        "text": "46CVHSNMG1X2YDV6Y",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          457,
+          32,
+          8
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          48,
+          9
+        ],
+        "text": "2196CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000594.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BFZ22 30",
+    "Nama Pemilik": "TAN SRI NG LI",
+    "No. Kad Pengenalan": "650701-01-2483",
+    "Alamat": "168, JALAN DATO' PETALING JAYA\nPETALING JAYA\n36222 PUTRAJAYA",
+    "Jenama": "PERODUA",
+    "Model": "ALZA",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "JM378995",
+    "No. Casis": "M8KXJ16BXGUW1B506",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2866CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          64,
+          9
+        ],
+        "text": "BFZ22 30",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          120,
+          96,
+          10
+        ],
+        "text": "TAN SRI NG LI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          160,
+          94,
+          11
+        ],
+        "text": "650701-01-2483",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          202,
+          241,
+          30
+        ],
+        "text": "168, JALAN DATO' PETALING JAYA\nPETALING JAYA\n36222 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          302,
+          34,
+          8
+        ],
+        "text": "ALZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          337,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          378,
+          64,
+          9
+        ],
+        "text": "JM378995",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          422,
+          136,
+          9
+        ],
+        "text": "M8KXJ16BXGUW1B506",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          463,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          503,
+          46,
+          10
+        ],
+        "text": "2866CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

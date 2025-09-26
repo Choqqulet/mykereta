@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000700.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BVW27 09",
+    "Nama Pemilik": "GEETHA",
+    "No. Kad Pengenalan": "570116-04-0277",
+    "Alamat": "272, LEBUH IPOH\nAMPANG\n64030 SABAH",
+    "Jenama": "TOYOTA",
+    "Model": "FORTUNER",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "IY548510",
+    "No. Casis": "W64RP32P5Z0ARE9UL",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1382CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          78,
+          64,
+          9
+        ],
+        "text": "BVW27 09",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          122,
+          57,
+          10
+        ],
+        "text": "GEETHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          163,
+          112,
+          9
+        ],
+        "text": "570116-04-0277",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          203,
+          120,
+          30
+        ],
+        "text": "272, LEBUH IPOH\nAMPANG\n64030 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          303,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          65,
+          8
+        ],
+        "text": "FORTUNER",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          342,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          380,
+          61,
+          10
+        ],
+        "text": "IY548510",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          421,
+          152,
+          10
+        ],
+        "text": "W64RP32P5Z0ARE9UL",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          463,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          46,
+          10
+        ],
+        "text": "1382CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

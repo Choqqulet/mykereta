@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000022.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BGI22 11",
+    "Nama Pemilik": "EN. KHADIJAH",
+    "No. Kad Pengenalan": "530308-07-6333",
+    "Alamat": "116, JALAN DATO' KLANG\nSUBANG JAYA\n57473 PUTRAJAYA",
+    "Jenama": "TOYOTA",
+    "Model": "CAMRY",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "RH099758",
+    "No. Casis": "4DSJJR9192ZTCAG0Z",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2691CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          60,
+          10
+        ],
+        "text": "BGI22 11",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          118,
+          97,
+          10
+        ],
+        "text": "EN. KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          112,
+          9
+        ],
+        "text": "530308-07-6333",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          197,
+          172,
+          36
+        ],
+        "text": "116, JALAN DATO' KLANG\nSUBANG JAYA\n57473 PUTRAJAYA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          298,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          297,
+          51,
+          10
+        ],
+        "text": "CAMRY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          343,
+          32,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          382,
+          68,
+          10
+        ],
+        "text": "RH099758",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          422,
+          148,
+          10
+        ],
+        "text": "4DSJJR9192ZTCAG0Z",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          459,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          498,
+          48,
+          9
+        ],
+        "text": "2691CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

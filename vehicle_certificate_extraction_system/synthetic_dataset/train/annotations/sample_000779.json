@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000779.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WQN87 34",
+    "Nama Pemilik": "DATO' KRISHNAN",
+    "No. Kad Pengenalan": "920402-15-1039",
+    "Alamat": "165, JALAN SEREMBAN\nBUKIT BINTANG\n88329 PERAK",
+    "Jenama": "PERODUA",
+    "Model": "ARUZ",
+    "Tahun Dibuat": "2022",
+    "No. Enjin": "KG279993",
+    "No. Casis": "BFTMVB3FVKGNN71KJ",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1939CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          77,
+          70,
+          11
+        ],
+        "text": "WQN87 34",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          120,
+          112,
+          9
+        ],
+        "text": "DATO' KRISHNAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          161,
+          94,
+          11
+        ],
+        "text": "920402-15-1039",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          201,
+          156,
+          36
+        ],
+        "text": "165, JALAN SEREMBAN\nBUKIT BINTANG\n88329 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          303,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          298,
+          38,
+          10
+        ],
+        "text": "ARUZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          340,
+          32,
+          10
+        ],
+        "text": "2022",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          378,
+          62,
+          10
+        ],
+        "text": "KG279993",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          421,
+          136,
+          9
+        ],
+        "text": "BFTMVB3FVKGNN71KJ",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          40,
+          8
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          457,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          499,
+          46,
+          10
+        ],
+        "text": "1939CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

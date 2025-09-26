@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000736.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JPH51 87",
+    "Nama Pemilik": "DR. NOOR BINTI ZALEHA",
+    "No. Kad Pengenalan": "561007-09-6111",
+    "Alamat": "128, LORONG KLANG\nPETALING JAYA\n37025 PERLIS",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "IZ552591",
+    "No. Casis": "DCAH0FJKK7CV5RF4U",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2788CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          82,
+          55,
+          11
+        ],
+        "text": "JPH51 87",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          123,
+          169,
+          10
+        ],
+        "text": "DR. NOOR BINTI ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          157,
+          106,
+          10
+        ],
+        "text": "561007-09-6111",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          200,
+          140,
+          36
+        ],
+        "text": "128, LORONG KLANG\nPETALING JAYA\n37025 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          301,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          298,
+          32,
+          8
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          342,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          382,
+          64,
+          9
+        ],
+        "text": "IZ552591",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          419,
+          146,
+          11
+        ],
+        "text": "DCAH0FJKK7CV5RF4U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          462,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          459,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          500,
+          48,
+          9
+        ],
+        "text": "2788CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

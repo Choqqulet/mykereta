@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000734.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AXT77 61",
+    "Nama Pemilik": "PROF. SHARMA A/L RAMAN",
+    "No. Kad Pengenalan": "761010-07-4548",
+    "Alamat": "700, TAMAN CHERAS\nPETALING JAYA\n24495 SABAH",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "MA481624",
+    "No. Casis": "UA7AYKBN2642C2D3R",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2537CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          83,
+          63,
+          10
+        ],
+        "text": "AXT77 61",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          118,
+          176,
+          11
+        ],
+        "text": "PROF. SHARMA A/L RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          159,
+          94,
+          11
+        ],
+        "text": "761010-07-4548",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          198,
+          142,
+          36
+        ],
+        "text": "700, TAMAN CHERAS\nPETALING JAYA\n24495 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          300,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          300,
+          33,
+          10
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          343,
+          32,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          64,
+          9
+        ],
+        "text": "MA481624",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          147,
+          10
+        ],
+        "text": "UA7AYKBN2642C2D3R",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          463,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          463,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          498,
+          48,
+          9
+        ],
+        "text": "2537CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

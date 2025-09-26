@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000203.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WSQ00 68",
+    "Nama Pemilik": "TAN SRI KAMALA A/P RAO",
+    "No. Kad Pengenalan": "551225-06-7308",
+    "Alamat": "660, BANDAR BUKIT BINTANG\nSHAH ALAM\n74095 PAHANG",
+    "Jenama": "HONDA",
+    "Model": "CIVIC",
+    "Tahun Dibuat": "2014",
+    "No. Enjin": "II722918",
+    "No. Casis": "8WBC2GE4U5WKSV6D5",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1936CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          64,
+          11
+        ],
+        "text": "WSQ00 68",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          123,
+          179,
+          10
+        ],
+        "text": "TAN SRI KAMALA A/P RAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          112,
+          9
+        ],
+        "text": "551225-06-7308",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          203,
+          200,
+          30
+        ],
+        "text": "660, BANDAR BUKIT BINTANG\nSHAH ALAM\n74095 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          301,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          302,
+          37,
+          10
+        ],
+        "text": "CIVIC",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          339,
+          32,
+          10
+        ],
+        "text": "2014",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          383,
+          64,
+          9
+        ],
+        "text": "II722918",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          423,
+          153,
+          11
+        ],
+        "text": "8WBC2GE4U5WKSV6D5",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          457,
+          48,
+          8
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          501,
+          52,
+          10
+        ],
+        "text": "1936CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

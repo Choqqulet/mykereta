@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000575.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JTS23 69",
+    "Nama Pemilik": "PROF. NOOR",
+    "No. Kad Pengenalan": "610822-12-9108",
+    "Alamat": "214, BANDAR PETALING JAYA\nKLANG\n57013 PERAK",
+    "Jenama": "PERODUA",
+    "Model": "BEZZA",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "ZZ532796",
+    "No. Casis": "G3Z2KYFW6JPEJXT9H",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1084CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          82,
+          64,
+          9
+        ],
+        "text": "JTS23 69",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          83,
+          10
+        ],
+        "text": "PROF. NOOR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          162,
+          112,
+          9
+        ],
+        "text": "610822-12-9108",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          197,
+          200,
+          36
+        ],
+        "text": "214, BANDAR PETALING JAYA\nKLANG\n57013 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          303,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          301,
+          46,
+          10
+        ],
+        "text": "BEZZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          32,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          383,
+          60,
+          11
+        ],
+        "text": "ZZ532796",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          420,
+          152,
+          10
+        ],
+        "text": "G3Z2KYFW6JPEJXT9H",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          462,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          459,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          500,
+          48,
+          9
+        ],
+        "text": "1084CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

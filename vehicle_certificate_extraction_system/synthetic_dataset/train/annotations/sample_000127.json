@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000127.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KAO69 99",
+    "Nama Pemilik": "DATO' SINGH",
+    "No. Kad Pengenalan": "540423-03-9595",
+    "Alamat": "429, PERSIARAN KAJANG\nPETALING JAYA\n77891 PERAK",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "SG314983",
+    "No. Casis": "7YVFDUSTP38RBSG4Z",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3247CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          82,
+          65,
+          10
+        ],
+        "text": "KAO69 99",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          121,
+          88,
+          9
+        ],
+        "text": "DATO' SINGH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          94,
+          11
+        ],
+        "text": "540423-03-9595",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          199,
+          170,
+          36
+        ],
+        "text": "429, PERSIARAN KAJANG\nPETALING JAYA\n77891 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          117,
+          10
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          299,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          337,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          381,
+          68,
+          10
+        ],
+        "text": "SG314983",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          420,
+          136,
+          9
+        ],
+        "text": "7YVFDUSTP38RBSG4Z",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          458,
+          54,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          459,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          502,
+          46,
+          10
+        ],
+        "text": "3247CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

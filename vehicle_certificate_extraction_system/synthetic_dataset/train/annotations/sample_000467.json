@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000467.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PUN44 62",
+    "Nama Pemilik": "PROF. SALLEH BIN ROHANI",
+    "No. Kad Pengenalan": "880829-08-8029",
+    "Alamat": "122, TAMAN CHERAS\nSHAH ALAM\n60680 PERLIS",
+    "Jenama": "NISSAN",
+    "Model": "X-TRAIL",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "UU784522",
+    "No. Casis": "CVWGDST97F0WZ88LH",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2730CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          81,
+          65,
+          10
+        ],
+        "text": "PUN44 62",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          118,
+          184,
+          8
+        ],
+        "text": "PROF. SALLEH BIN ROHANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          160,
+          94,
+          10
+        ],
+        "text": "880829-08-8029",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          202,
+          139,
+          36
+        ],
+        "text": "122, TAMAN CHERAS\nSHAH ALAM\n60680 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          303,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          298,
+          57,
+          10
+        ],
+        "text": "X-TRAIL",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          340,
+          32,
+          9
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          383,
+          68,
+          10
+        ],
+        "text": "UU784522",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          419,
+          153,
+          10
+        ],
+        "text": "CVWGDST97F0WZ88LH",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          460,
+          40,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          221,
+          460,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          499,
+          52,
+          10
+        ],
+        "text": "2730CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

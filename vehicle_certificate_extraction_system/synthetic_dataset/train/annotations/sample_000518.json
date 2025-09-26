@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000518.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JYT01 32",
+    "Nama Pemilik": "KRISHNAN A/P KRISHNAN",
+    "No. Kad Pengenalan": "901014-15-0574",
+    "Alamat": "268, LORONG KAJANG\nKAJANG\n83947 PAHANG",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "KX988163",
+    "No. Casis": "TAHJCVK1PS4LB3BA1",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2010CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          56,
+          10
+        ],
+        "text": "JYT01 32",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          118,
+          168,
+          11
+        ],
+        "text": "KRISHNAN A/P KRISHNAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          46,
+          158,
+          112,
+          9
+        ],
+        "text": "901014-15-0574",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          201,
+          146,
+          36
+        ],
+        "text": "268, LORONG KAJANG\nKAJANG\n83947 PAHANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          302,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          33,
+          10
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          337,
+          32,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          380,
+          62,
+          10
+        ],
+        "text": "KX988163",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          421,
+          144,
+          10
+        ],
+        "text": "TAHJCVK1PS4LB3BA1",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          458,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          498,
+          48,
+          9
+        ],
+        "text": "2010CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

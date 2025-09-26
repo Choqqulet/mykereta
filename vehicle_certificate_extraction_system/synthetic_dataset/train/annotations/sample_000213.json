@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000213.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ATS93 79",
+    "Nama Pemilik": "MOHAMED BIN ZALEHA",
+    "No. Kad Pengenalan": "760711-14-5711",
+    "Alamat": "427, JALAN DATO' IPOH\nAMPANG\n63591 SELANGOR",
+    "Jenama": "TOYOTA",
+    "Model": "CAMRY",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "NG731200",
+    "No. Casis": "482381CLVKBE3EPDN",
+    "Warna": "EMAS",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2892CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          77,
+          65,
+          9
+        ],
+        "text": "ATS93 79",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          162,
+          10
+        ],
+        "text": "MOHAMED BIN ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          163,
+          112,
+          9
+        ],
+        "text": "760711-14-5711",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          203,
+          168,
+          30
+        ],
+        "text": "427, JALAN DATO' IPOH\nAMPANG\n63591 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          301,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          51,
+          10
+        ],
+        "text": "CAMRY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          338,
+          32,
+          9
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          380,
+          69,
+          10
+        ],
+        "text": "NG731200",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          418,
+          148,
+          10
+        ],
+        "text": "482381CLVKBE3EPDN",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          457,
+          39,
+          10
+        ],
+        "text": "EMAS",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          460,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          499,
+          52,
+          10
+        ],
+        "text": "2892CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

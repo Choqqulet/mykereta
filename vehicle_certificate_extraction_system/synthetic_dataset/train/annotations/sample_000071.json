@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000071.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BJY58 89",
+    "Nama Pemilik": "DR. KRISHNAN A/L VANI",
+    "No. Kad Pengenalan": "740317-14-3051",
+    "Alamat": "90, BANDAR KLANG\nSEREMBAN\n78576 TERENGGANU",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2023",
+    "No. Enjin": "NC502005",
+    "No. Casis": "YL12P51XD6PMAX61S",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2714CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          77,
+          64,
+          9
+        ],
+        "text": "BJY58 89",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          122,
+          168,
+          11
+        ],
+        "text": "DR. KRISHNAN A/L VANI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          160,
+          112,
+          9
+        ],
+        "text": "740317-14-3051",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          202,
+          128,
+          30
+        ],
+        "text": "90, BANDAR KLANG\nSEREMBAN\n78576 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          50,
+          302,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          301,
+          32,
+          8
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          32,
+          9
+        ],
+        "text": "2023",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          383,
+          68,
+          10
+        ],
+        "text": "NC502005",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          419,
+          149,
+          10
+        ],
+        "text": "YL12P51XD6PMAX61S",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          461,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          500,
+          48,
+          9
+        ],
+        "text": "2714CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

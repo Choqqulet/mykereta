@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000561.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BCE88 73",
+    "Nama Pemilik": "KAVITHA A/L KAVITHA",
+    "No. Kad Pengenalan": "511020-16-8486",
+    "Alamat": "344, JALAN TUN JOHOR BAHRU\nSEREMBAN\n46277 SARAWAK",
+    "Jenama": "MAZDA",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "OR254251",
+    "No. Casis": "1ZHVTE9U59R8G5X8L",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2315CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          78,
+          64,
+          10
+        ],
+        "text": "BCE88 73",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          122,
+          153,
+          11
+        ],
+        "text": "KAVITHA A/L KAVITHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          159,
+          112,
+          9
+        ],
+        "text": "511020-16-8486",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          198,
+          213,
+          36
+        ],
+        "text": "344, JALAN TUN JOHOR BAHRU\nSEREMBAN\n46277 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          301,
+          51,
+          10
+        ],
+        "text": "MAZDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          297,
+          56,
+          8
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          337,
+          32,
+          9
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          378,
+          64,
+          9
+        ],
+        "text": "OR254251",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          422,
+          144,
+          11
+        ],
+        "text": "1ZHVTE9U59R8G5X8L",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          459,
+          47,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          458,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          48,
+          9
+        ],
+        "text": "2315CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

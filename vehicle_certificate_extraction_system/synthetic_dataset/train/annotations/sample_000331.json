@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000331.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BGW88 35",
+    "Nama Pemilik": "TAN SRI ROHANI BIN KHADIJAH",
+    "No. Kad Pengenalan": "660619-15-6442",
+    "Alamat": "464, KAMPUNG PENANG\nJOHOR BAHRU\n92754 NEGERI SEMBILAN",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2014",
+    "No. Enjin": "VK397361",
+    "No. Casis": "VR6C7KZR2Y2D457AU",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2613CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          47,
+          78,
+          64,
+          11
+        ],
+        "text": "BGW88 35",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          123,
+          212,
+          10
+        ],
+        "text": "TAN SRI ROHANI BIN KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          157,
+          112,
+          9
+        ],
+        "text": "660619-15-6442",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          202,
+          171,
+          36
+        ],
+        "text": "464, KAMPUNG PENANG\nJOHOR BAHRU\n92754 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          300,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          301,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          339,
+          28,
+          10
+        ],
+        "text": "2014",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          378,
+          64,
+          9
+        ],
+        "text": "VK397361",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          419,
+          145,
+          11
+        ],
+        "text": "VR6C7KZR2Y2D457AU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          460,
+          32,
+          8
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          460,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          500,
+          48,
+          9
+        ],
+        "text": "2613CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

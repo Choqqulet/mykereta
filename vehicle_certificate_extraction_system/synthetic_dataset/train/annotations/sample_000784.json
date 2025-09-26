@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000784.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JYG16 94",
+    "Nama Pemilik": "DR. KAVITHA A/P RADHA",
+    "No. Kad Pengenalan": "511023-12-0824",
+    "Alamat": "468, TAMAN KAJANG\nSHAH ALAM\n68566 PULAU PINANG",
+    "Jenama": "HONDA",
+    "Model": "ACCORD",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "UF033515",
+    "No. Casis": "CV5597RS8Y0R6ZKUE",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1339CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          79,
+          64,
+          9
+        ],
+        "text": "JYG16 94",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          122,
+          166,
+          10
+        ],
+        "text": "DR. KAVITHA A/P RADHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          162,
+          94,
+          11
+        ],
+        "text": "511023-12-0824",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          203,
+          147,
+          36
+        ],
+        "text": "468, TAMAN KAJANG\nSHAH ALAM\n68566 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          301,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          49,
+          8
+        ],
+        "text": "ACCORD",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          339,
+          28,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          383,
+          60,
+          11
+        ],
+        "text": "UF033515",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          52,
+          422,
+          136,
+          9
+        ],
+        "text": "CV5597RS8Y0R6ZKUE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          458,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          457,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          52,
+          10
+        ],
+        "text": "1339CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

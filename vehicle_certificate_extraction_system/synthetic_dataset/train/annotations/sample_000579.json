@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000579.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AXU66 14",
+    "Nama Pemilik": "PROF. ALI",
+    "No. Kad Pengenalan": "820610-05-4920",
+    "Alamat": "715, KAMPUNG SEREMBAN\nAMPANG\n16739 PERAK",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2019",
+    "No. Enjin": "ID443639",
+    "No. Casis": "NH49G36LCFCNS8XBM",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2183CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          64,
+          10
+        ],
+        "text": "AXU66 14",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          122,
+          68,
+          10
+        ],
+        "text": "PROF. ALI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          157,
+          112,
+          9
+        ],
+        "text": "820610-05-4920",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          199,
+          179,
+          36
+        ],
+        "text": "715, KAMPUNG SEREMBAN\nAMPANG\n16739 PERAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          302,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          300,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          339,
+          32,
+          10
+        ],
+        "text": "2019",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          382,
+          64,
+          9
+        ],
+        "text": "ID443639",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          137,
+          9
+        ],
+        "text": "NH49G36LCFCNS8XBM",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          463,
+          47,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          502,
+          48,
+          9
+        ],
+        "text": "2183CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

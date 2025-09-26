@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000553.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JRV24 97",
+    "Nama Pemilik": "FATIMAH",
+    "No. Kad Pengenalan": "040805-07-9813",
+    "Alamat": "969, JALAN PENANG\nKAJANG\n91176 NEGERI SEMBILAN",
+    "Jenama": "HONDA",
+    "Model": "CIVIC",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "OR121937",
+    "No. Casis": "B9ABTCUNEM6NSAF9T",
+    "Warna": "KELABU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2098CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          81,
+          56,
+          10
+        ],
+        "text": "JRV24 97",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          123,
+          62,
+          10
+        ],
+        "text": "FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          49,
+          163,
+          112,
+          9
+        ],
+        "text": "040805-07-9813",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          200,
+          171,
+          36
+        ],
+        "text": "969, JALAN PENANG\nKAJANG\n91176 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          298,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          299,
+          38,
+          10
+        ],
+        "text": "CIVIC",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          32,
+          9
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          381,
+          69,
+          10
+        ],
+        "text": "OR121937",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          423,
+          157,
+          10
+        ],
+        "text": "B9ABTCUNEM6NSAF9T",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          463,
+          57,
+          10
+        ],
+        "text": "KELABU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          460,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          46,
+          10
+        ],
+        "text": "2098CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

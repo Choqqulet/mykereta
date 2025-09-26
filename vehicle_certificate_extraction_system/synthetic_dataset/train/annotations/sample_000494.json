@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000494.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PHH01 39",
+    "Nama Pemilik": "DR. NOOR BIN AHMAD",
+    "No. Kad Pengenalan": "571006-12-2436",
+    "Alamat": "510, JALAN TUN JOHOR BAHRU\nKLANG\n31153 TERENGGANU",
+    "Jenama": "NISSAN",
+    "Model": "ALMERA",
+    "Tahun Dibuat": "2009",
+    "No. Enjin": "NZ885109",
+    "No. Casis": "LK705HM18BNBWVY8K",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2853CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          83,
+          65,
+          10
+        ],
+        "text": "PHH01 39",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          119,
+          150,
+          10
+        ],
+        "text": "DR. NOOR BIN AHMAD",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          160,
+          112,
+          9
+        ],
+        "text": "571006-12-2436",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          206,
+          36
+        ],
+        "text": "510, JALAN TUN JOHOR BAHRU\nKLANG\n31153 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          301,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          302,
+          58,
+          10
+        ],
+        "text": "ALMERA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          340,
+          28,
+          10
+        ],
+        "text": "2009",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          380,
+          61,
+          11
+        ],
+        "text": "NZ885109",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          423,
+          154,
+          11
+        ],
+        "text": "LK705HM18BNBWVY8K",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          48,
+          462,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          501,
+          48,
+          9
+        ],
+        "text": "2853CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

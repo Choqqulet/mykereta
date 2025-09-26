@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000218.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JOM62 64",
+    "Nama Pemilik": "TAN SRI YUSOF BIN KHADIJAH",
+    "No. Kad Pengenalan": "510812-08-3076",
+    "Alamat": "642, JALAN SHAH ALAM\nSHAH ALAM\n76604 SABAH",
+    "Jenama": "PROTON",
+    "Model": "EXORA",
+    "Tahun Dibuat": "2014",
+    "No. Enjin": "JF775513",
+    "No. Casis": "ADF9D5MJUN0W6HGC7",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "3042CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          79,
+          59,
+          10
+        ],
+        "text": "JOM62 64",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          122,
+          207,
+          10
+        ],
+        "text": "TAN SRI YUSOF BIN KHADIJAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          157,
+          94,
+          11
+        ],
+        "text": "510812-08-3076",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          53,
+          203,
+          159,
+          36
+        ],
+        "text": "642, JALAN SHAH ALAM\nSHAH ALAM\n76604 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          299,
+          48,
+          8
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          300,
+          48,
+          10
+        ],
+        "text": "EXORA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          339,
+          28,
+          10
+        ],
+        "text": "2014",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          382,
+          64,
+          10
+        ],
+        "text": "JF775513",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          421,
+          137,
+          9
+        ],
+        "text": "ADF9D5MJUN0W6HGC7",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          463,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          461,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          46,
+          10
+        ],
+        "text": "3042CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

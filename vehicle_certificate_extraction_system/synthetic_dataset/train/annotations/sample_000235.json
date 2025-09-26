@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000235.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BYM97 47",
+    "Nama Pemilik": "EN. ONG JUN",
+    "No. Kad Pengenalan": "570329-15-3243",
+    "Alamat": "860, BANDAR SEREMBAN\nKAJANG\n54006 KELANTAN",
+    "Jenama": "HONDA",
+    "Model": "ACCORD",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "TM430719",
+    "No. Casis": "Y1B02TREL098P34H6",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1165CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          81,
+          66,
+          10
+        ],
+        "text": "BYM97 47",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          123,
+          86,
+          10
+        ],
+        "text": "EN. ONG JUN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          158,
+          112,
+          9
+        ],
+        "text": "570329-15-3243",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          198,
+          170,
+          36
+        ],
+        "text": "860, BANDAR SEREMBAN\nKAJANG\n54006 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          303,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          300,
+          60,
+          10
+        ],
+        "text": "ACCORD",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          32,
+          9
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          381,
+          69,
+          10
+        ],
+        "text": "TM430719",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          417,
+          136,
+          10
+        ],
+        "text": "Y1B02TREL098P34H6",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          459,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          459,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          501,
+          52,
+          10
+        ],
+        "text": "1165CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

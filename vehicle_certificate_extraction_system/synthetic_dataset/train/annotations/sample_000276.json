@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000276.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KGB93 43",
+    "Nama Pemilik": "DATO' REDDY A/L KUMAR",
+    "No. Kad Pengenalan": "670318-01-8536",
+    "Alamat": "29, JALAN RAJA SUBANG JAYA\nSHAH ALAM\n16283 SARAWAK",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "HK211706",
+    "No. Casis": "8NA7F2WSXJRS3RJXB",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2369CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          82,
+          61,
+          10
+        ],
+        "text": "KGB93 43",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          121,
+          173,
+          10
+        ],
+        "text": "DATO' REDDY A/L KUMAR",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          158,
+          94,
+          11
+        ],
+        "text": "670318-01-8536",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          199,
+          209,
+          30
+        ],
+        "text": "29, JALAN RAJA SUBANG JAYA\nSHAH ALAM\n16283 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          300,
+          32,
+          8
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          303,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          54,
+          337,
+          32,
+          9
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          382,
+          64,
+          9
+        ],
+        "text": "HK211706",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          418,
+          136,
+          9
+        ],
+        "text": "8NA7F2WSXJRS3RJXB",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          54,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          458,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          45,
+          503,
+          48,
+          9
+        ],
+        "text": "2369CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

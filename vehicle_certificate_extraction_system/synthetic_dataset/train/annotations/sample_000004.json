@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000004.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BAA72 27",
+    "Nama Pemilik": "PN. MARYAM BINTI FATIMAH",
+    "No. Kad Pengenalan": "910411-15-0291",
+    "Alamat": "27, JALAN KAJANG\nSHAH ALAM\n11366 PULAU PINANG",
+    "Jenama": "MITSUBISHI",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "TC857398",
+    "No. Casis": "MA1Y5PKEGYA3EN2UC",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1560CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          63,
+          10
+        ],
+        "text": "BAA72 27",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          123,
+          192,
+          8
+        ],
+        "text": "PN. MARYAM BINTI FATIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          161,
+          106,
+          10
+        ],
+        "text": "910411-15-0291",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          52,
+          199,
+          147,
+          36
+        ],
+        "text": "27, JALAN KAJANG\nSHAH ALAM\n11366 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          52,
+          302,
+          80,
+          8
+        ],
+        "text": "MITSUBISHI",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          302,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          340,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          381,
+          60,
+          11
+        ],
+        "text": "TC857398",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          53,
+          421,
+          136,
+          9
+        ],
+        "text": "MA1Y5PKEGYA3EN2UC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          459,
+          50,
+          10
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          461,
+          48,
+          8
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          498,
+          48,
+          9
+        ],
+        "text": "1560CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

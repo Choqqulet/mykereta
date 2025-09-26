@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000932.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KGS33 86",
+    "Nama Pemilik": "EN. KAVITHA A/P KAMALA",
+    "No. Kad Pengenalan": "900428-08-7889",
+    "Alamat": "779, JALAN RAJA BUKIT BINTANG\nKLANG\n81076 PULAU PINANG",
+    "Jenama": "PROTON",
+    "Model": "X70",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "SN668617",
+    "No. Casis": "15DTNFPKCLYVCZ859",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3479CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          83,
+          65,
+          10
+        ],
+        "text": "KGS33 86",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          118,
+          182,
+          10
+        ],
+        "text": "EN. KAVITHA A/P KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          160,
+          94,
+          10
+        ],
+        "text": "900428-08-7889",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          47,
+          199,
+          225,
+          36
+        ],
+        "text": "779, JALAN RAJA BUKIT BINTANG\nKLANG\n81076 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          301,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          303,
+          24,
+          9
+        ],
+        "text": "X70",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          342,
+          32,
+          9
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          49,
+          379,
+          64,
+          9
+        ],
+        "text": "SN668617",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          422,
+          136,
+          9
+        ],
+        "text": "15DTNFPKCLYVCZ859",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          462,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          459,
+          68,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          498,
+          48,
+          9
+        ],
+        "text": "3479CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

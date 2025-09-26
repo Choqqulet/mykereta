@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000870.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JKT70 10",
+    "Nama Pemilik": "DATUK RAHMAN BIN SALLEH",
+    "No. Kad Pengenalan": "790110-08-4575",
+    "Alamat": "69, TAMAN SUBANG JAYA\nIPOH\n68158 JOHOR",
+    "Jenama": "HONDA",
+    "Model": "CIVIC",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "UH543605",
+    "No. Casis": "Y0ZDK8CDU2DC0C1CT",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "3402CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          80,
+          56,
+          10
+        ],
+        "text": "JKT70 10",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          120,
+          195,
+          10
+        ],
+        "text": "DATUK RAHMAN BIN SALLEH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          160,
+          112,
+          9
+        ],
+        "text": "790110-08-4575",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          173,
+          36
+        ],
+        "text": "69, TAMAN SUBANG JAYA\nIPOH\n68158 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          302,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          297,
+          38,
+          10
+        ],
+        "text": "CIVIC",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          339,
+          32,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          48,
+          377,
+          62,
+          11
+        ],
+        "text": "UH543605",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          420,
+          156,
+          10
+        ],
+        "text": "Y0ZDK8CDU2DC0C1CT",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          463,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          461,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          46,
+          10
+        ],
+        "text": "3402CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000124.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JJG81 36",
+    "Nama Pemilik": "DATUK FATIMAH BINTI YUSOF",
+    "No. Kad Pengenalan": "580531-06-4871",
+    "Alamat": "108, PERSIARAN SEREMBAN\nCHERAS\n85424 KELANTAN",
+    "Jenama": "PROTON",
+    "Model": "X50",
+    "Tahun Dibuat": "2017",
+    "No. Enjin": "HB386327",
+    "No. Casis": "USY6U02PYHFFVT74U",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "3391CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          78,
+          64,
+          9
+        ],
+        "text": "JJG81 36",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          121,
+          200,
+          8
+        ],
+        "text": "DATUK FATIMAH BINTI YUSOF",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          160,
+          106,
+          10
+        ],
+        "text": "580531-06-4871",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          199,
+          187,
+          36
+        ],
+        "text": "108, PERSIARAN SEREMBAN\nCHERAS\n85424 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          300,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          303,
+          24,
+          9
+        ],
+        "text": "X50",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          337,
+          32,
+          9
+        ],
+        "text": "2017",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          378,
+          64,
+          9
+        ],
+        "text": "HB386327",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          423,
+          146,
+          10
+        ],
+        "text": "USY6U02PYHFFVT74U",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          54,
+          458,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          46,
+          499,
+          46,
+          10
+        ],
+        "text": "3391CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

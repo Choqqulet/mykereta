@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000652.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JVN71 14",
+    "Nama Pemilik": "TAN SRI SINGH A/P MAYA",
+    "No. Kad Pengenalan": "620101-07-8610",
+    "Alamat": "562, JALAN BUKIT BINTANG\nCHERAS\n51340 KELANTAN",
+    "Jenama": "TOYOTA",
+    "Model": "VIOS",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "ZG687607",
+    "No. Casis": "JS7BSCAAE8RW6EZX8",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2064CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          82,
+          57,
+          10
+        ],
+        "text": "JVN71 14",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          174,
+          10
+        ],
+        "text": "TAN SRI SINGH A/P MAYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          160,
+          112,
+          9
+        ],
+        "text": "620101-07-8610",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          201,
+          186,
+          36
+        ],
+        "text": "562, JALAN BUKIT BINTANG\nCHERAS\n51340 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          47,
+          298,
+          58,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          216,
+          300,
+          33,
+          10
+        ],
+        "text": "VIOS",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          342,
+          32,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          378,
+          64,
+          9
+        ],
+        "text": "ZG687607",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          419,
+          153,
+          10
+        ],
+        "text": "JS7BSCAAE8RW6EZX8",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          460,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          500,
+          46,
+          10
+        ],
+        "text": "2064CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

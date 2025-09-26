@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000646.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KUT76 92",
+    "Nama Pemilik": "TAN SRI HASSAN BINTI SALLEH",
+    "No. Kad Pengenalan": "810412-15-4833",
+    "Alamat": "247, TAMAN IPOH\nSHAH ALAM\n61303 KEDAH",
+    "Jenama": "PERODUA",
+    "Model": "ALZA",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "VW594197",
+    "No. Casis": "7D0T4L08N2J6N0586",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1827CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          82,
+          64,
+          9
+        ],
+        "text": "KUT76 92",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          122,
+          212,
+          10
+        ],
+        "text": "TAN SRI HASSAN BINTI SALLEH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          161,
+          112,
+          9
+        ],
+        "text": "810412-15-4833",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          199,
+          120,
+          30
+        ],
+        "text": "247, TAMAN IPOH\nSHAH ALAM\n61303 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          298,
+          57,
+          8
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          301,
+          38,
+          10
+        ],
+        "text": "ALZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          32,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          378,
+          65,
+          11
+        ],
+        "text": "VW594197",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          420,
+          136,
+          9
+        ],
+        "text": "7D0T4L08N2J6N0586",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          458,
+          56,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          460,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          500,
+          46,
+          10
+        ],
+        "text": "1827CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

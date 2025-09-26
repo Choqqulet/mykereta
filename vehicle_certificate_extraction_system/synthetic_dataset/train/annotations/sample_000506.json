@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000506.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PSF42 20",
+    "Nama Pemilik": "DATUK MURUGAN",
+    "No. Kad Pengenalan": "610330-01-7481",
+    "Alamat": "34, KAMPUNG JOHOR BAHRU\nAMPANG\n91776 LABUAN",
+    "Jenama": "TOYOTA",
+    "Model": "HILUX",
+    "Tahun Dibuat": "2020",
+    "No. Enjin": "SQ357060",
+    "No. Casis": "FEKRMRA13F0EPSX8S",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2689CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          78,
+          64,
+          9
+        ],
+        "text": "PSF42 20",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          118,
+          123,
+          10
+        ],
+        "text": "DATUK MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          160,
+          106,
+          10
+        ],
+        "text": "610330-01-7481",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          200,
+          192,
+          36
+        ],
+        "text": "34, KAMPUNG JOHOR BAHRU\nAMPANG\n91776 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          297,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          42,
+          10
+        ],
+        "text": "HILUX",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          342,
+          28,
+          10
+        ],
+        "text": "2020",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          382,
+          60,
+          13
+        ],
+        "text": "SQ357060",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          417,
+          154,
+          10
+        ],
+        "text": "FEKRMRA13F0EPSX8S",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          457,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          457,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          499,
+          52,
+          10
+        ],
+        "text": "2689CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

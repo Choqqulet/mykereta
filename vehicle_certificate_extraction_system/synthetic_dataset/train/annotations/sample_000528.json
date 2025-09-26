@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000528.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WTU09 22",
+    "Nama Pemilik": "PROF. REDDY A/P PRIYA",
+    "No. Kad Pengenalan": "920414-11-8857",
+    "Alamat": "662, LORONG SEREMBAN\nCHERAS\n80245 KELANTAN",
+    "Jenama": "MERCEDES-BENZ",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2005",
+    "No. Enjin": "DV049330",
+    "No. Casis": "CFR3FBXTS38BHFEFE",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2194CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          80,
+          64,
+          10
+        ],
+        "text": "WTU09 22",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          48,
+          120,
+          167,
+          10
+        ],
+        "text": "PROF. REDDY A/P PRIYA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          163,
+          94,
+          11
+        ],
+        "text": "920414-11-8857",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          198,
+          160,
+          30
+        ],
+        "text": "662, LORONG SEREMBAN\nCHERAS\n80245 KELANTAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          297,
+          104,
+          8
+        ],
+        "text": "MERCEDES-BENZ",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          342,
+          32,
+          10
+        ],
+        "text": "2005",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          377,
+          64,
+          9
+        ],
+        "text": "DV049330",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          421,
+          153,
+          10
+        ],
+        "text": "CFR3FBXTS38BHFEFE",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          457,
+          40,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          219,
+          463,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          498,
+          48,
+          9
+        ],
+        "text": "2194CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

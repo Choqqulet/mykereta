@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000395.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KSP71 26",
+    "Nama Pemilik": "PROF. LING HUI",
+    "No. Kad Pengenalan": "020831-05-4181",
+    "Alamat": "60, LEBUH SEREMBAN\nPETALING JAYA\n48175 MELAKA",
+    "Jenama": "PROTON",
+    "Model": "PERSONA",
+    "Tahun Dibuat": "2011",
+    "No. Enjin": "VZ121149",
+    "No. Casis": "B1SJ3B5GF2TC77YSR",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1549CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          83,
+          64,
+          9
+        ],
+        "text": "KSP71 26",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          123,
+          106,
+          10
+        ],
+        "text": "PROF. LING HUI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          161,
+          112,
+          9
+        ],
+        "text": "020831-05-4181",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          198,
+          149,
+          36
+        ],
+        "text": "60, LEBUH SEREMBAN\nPETALING JAYA\n48175 MELAKA",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          303,
+          60,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          302,
+          57,
+          8
+        ],
+        "text": "PERSONA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          53,
+          340,
+          28,
+          10
+        ],
+        "text": "2011",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          381,
+          66,
+          10
+        ],
+        "text": "VZ121149",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          418,
+          137,
+          11
+        ],
+        "text": "B1SJ3B5GF2TC77YSR",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          462,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          460,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          503,
+          48,
+          9
+        ],
+        "text": "1549CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

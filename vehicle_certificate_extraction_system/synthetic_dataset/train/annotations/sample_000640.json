@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000640.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KKR98 67",
+    "Nama Pemilik": "TAN SRI MARYAM BIN ISMAIL",
+    "No. Kad Pengenalan": "810708-16-4133",
+    "Alamat": "845, JALAN RAJA KAJANG\nJOHOR BAHRU\n17035 PULAU PINANG",
+    "Jenama": "FORD",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2021",
+    "No. Enjin": "UV018874",
+    "No. Casis": "AJY25J61AWK0L05RA",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1775CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          81,
+          61,
+          10
+        ],
+        "text": "KKR98 67",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          121,
+          203,
+          10
+        ],
+        "text": "TAN SRI MARYAM BIN ISMAIL",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          157,
+          94,
+          10
+        ],
+        "text": "810708-16-4133",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          197,
+          170,
+          36
+        ],
+        "text": "845, JALAN RAJA KAJANG\nJOHOR BAHRU\n17035 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          301,
+          40,
+          10
+        ],
+        "text": "FORD",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          297,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          337,
+          28,
+          10
+        ],
+        "text": "2021",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          67,
+          10
+        ],
+        "text": "UV018874",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          419,
+          140,
+          11
+        ],
+        "text": "AJY25J61AWK0L05RA",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          458,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          501,
+          46,
+          11
+        ],
+        "text": "1775CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

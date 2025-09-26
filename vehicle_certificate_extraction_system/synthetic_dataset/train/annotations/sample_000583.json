@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000583.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PAS49 19",
+    "Nama Pemilik": "LING TEO",
+    "No. Kad Pengenalan": "560404-04-9262",
+    "Alamat": "367, TAMAN AMPANG\nSEREMBAN\n81833 SELANGOR",
+    "Jenama": "NISSAN",
+    "Model": "X-TRAIL",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "WY581754",
+    "No. Casis": "L6C6LFJTAS6DDLT8J",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1041CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          82,
+          64,
+          9
+        ],
+        "text": "PAS49 19",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          119,
+          64,
+          8
+        ],
+        "text": "LING TEO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          158,
+          106,
+          10
+        ],
+        "text": "560404-04-9262",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          197,
+          144,
+          36
+        ],
+        "text": "367, TAMAN AMPANG\nSEREMBAN\n81833 SELANGOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          303,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          301,
+          57,
+          10
+        ],
+        "text": "X-TRAIL",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          341,
+          28,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          383,
+          65,
+          11
+        ],
+        "text": "WY581754",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          418,
+          136,
+          9
+        ],
+        "text": "L6C6LFJTAS6DDLT8J",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          460,
+          40,
+          8
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          463,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          46,
+          10
+        ],
+        "text": "1041CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000566.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PYJ60 35",
+    "Nama Pemilik": "TAN SRI MEERA A/P KAMALA",
+    "No. Kad Pengenalan": "810301-06-8065",
+    "Alamat": "896, JALAN DATO' KAJANG\nCHERAS\n42750 KEDAH",
+    "Jenama": "BMW",
+    "Model": "UNKNOWN",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "JO976027",
+    "No. Casis": "YU99ABP4BT5T7LH2M",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2500CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          80,
+          55,
+          11
+        ],
+        "text": "PYJ60 35",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          117,
+          199,
+          10
+        ],
+        "text": "TAN SRI MEERA A/P KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          163,
+          106,
+          10
+        ],
+        "text": "810301-06-8065",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          178,
+          36
+        ],
+        "text": "896, JALAN DATO' KAJANG\nCHERAS\n42750 KEDAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          302,
+          35,
+          10
+        ],
+        "text": "BMW",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          298,
+          73,
+          10
+        ],
+        "text": "UNKNOWN",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          28,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          377,
+          64,
+          9
+        ],
+        "text": "JO976027",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          417,
+          137,
+          9
+        ],
+        "text": "YU99ABP4BT5T7LH2M",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          52,
+          460,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          458,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          497,
+          48,
+          9
+        ],
+        "text": "2500CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

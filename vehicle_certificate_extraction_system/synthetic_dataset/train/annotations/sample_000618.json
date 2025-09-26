@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000618.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WZJ42 39",
+    "Nama Pemilik": "TAN SRI SHARMA A/P MEERA",
+    "No. Kad Pengenalan": "810731-02-5080",
+    "Alamat": "379, JALAN TUN SEREMBAN\nCHERAS\n68052 SABAH",
+    "Jenama": "HONDA",
+    "Model": "BR-V",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "RQ577616",
+    "No. Casis": "7NB0ZS6XACFMNMMJ2",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1513CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          78,
+          59,
+          10
+        ],
+        "text": "WZJ42 39",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          117,
+          197,
+          10
+        ],
+        "text": "TAN SRI SHARMA A/P MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          159,
+          112,
+          9
+        ],
+        "text": "810731-02-5080",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          202,
+          184,
+          30
+        ],
+        "text": "379, JALAN TUN SEREMBAN\nCHERAS\n68052 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          303,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          302,
+          33,
+          8
+        ],
+        "text": "BR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          340,
+          32,
+          9
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          381,
+          61,
+          13
+        ],
+        "text": "RQ577616",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          418,
+          159,
+          10
+        ],
+        "text": "7NB0ZS6XACFMNMMJ2",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          50,
+          463,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          462,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          53,
+          498,
+          52,
+          10
+        ],
+        "text": "1513CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

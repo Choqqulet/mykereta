@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000038.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ACL92 51",
+    "Nama Pemilik": "DR. YUSOF BIN HASSAN",
+    "No. Kad Pengenalan": "511210-03-4863",
+    "Alamat": "358, JALAN RAJA SEREMBAN\nPENANG\n96406 PERLIS",
+    "Jenama": "NISSAN",
+    "Model": "X-TRAIL",
+    "Tahun Dibuat": "2001",
+    "No. Enjin": "FJ569402",
+    "No. Casis": "DR5P97MHNG34TK24X",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1952CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          52,
+          77,
+          65,
+          9
+        ],
+        "text": "ACL92 51",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          122,
+          161,
+          10
+        ],
+        "text": "DR. YUSOF BIN HASSAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          53,
+          161,
+          112,
+          9
+        ],
+        "text": "511210-03-4863",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          200,
+          195,
+          36
+        ],
+        "text": "358, JALAN RAJA SEREMBAN\nPENANG\n96406 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          300,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          301,
+          56,
+          8
+        ],
+        "text": "X-TRAIL",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          338,
+          32,
+          9
+        ],
+        "text": "2001",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          379,
+          55,
+          11
+        ],
+        "text": "FJ569402",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          55,
+          418,
+          156,
+          10
+        ],
+        "text": "DR5P97MHNG34TK24X",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          460,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          462,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          499,
+          46,
+          11
+        ],
+        "text": "1952CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

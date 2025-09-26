@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000767.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PDC20 99",
+    "Nama Pemilik": "PN. SITI",
+    "No. Kad Pengenalan": "020714-12-8213",
+    "Alamat": "376, JALAN TUN AMPANG\nAMPANG\n24709 LABUAN",
+    "Jenama": "PROTON",
+    "Model": "IRIZ",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "IU824751",
+    "No. Casis": "4ET5GVZX0RZV1PAAV",
+    "Warna": "HITAM",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1409CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          79,
+          59,
+          10
+        ],
+        "text": "PDC20 99",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          118,
+          53,
+          10
+        ],
+        "text": "PN. SITI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          160,
+          94,
+          10
+        ],
+        "text": "020714-12-8213",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          200,
+          170,
+          36
+        ],
+        "text": "376, JALAN TUN AMPANG\nAMPANG\n24709 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          298,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          218,
+          299,
+          28,
+          10
+        ],
+        "text": "IRIZ",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          341,
+          32,
+          10
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          379,
+          62,
+          10
+        ],
+        "text": "IU824751",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          54,
+          417,
+          137,
+          9
+        ],
+        "text": "4ET5GVZX0RZV1PAAV",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          458,
+          44,
+          10
+        ],
+        "text": "HITAM",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          216,
+          461,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          502,
+          46,
+          10
+        ],
+        "text": "1409CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

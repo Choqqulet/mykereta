@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000423.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PUN37 30",
+    "Nama Pemilik": "DATO' RAMAN",
+    "No. Kad Pengenalan": "610923-03-8052",
+    "Alamat": "604, JALAN PENANG\nIPOH\n88056 SARAWAK",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2000",
+    "No. Enjin": "XJ696687",
+    "No. Casis": "CX9BAM5U9ZGLBCBE0",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2887CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          78,
+          60,
+          10
+        ],
+        "text": "PUN37 30",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          117,
+          96,
+          10
+        ],
+        "text": "DATO' RAMAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          162,
+          112,
+          9
+        ],
+        "text": "610923-03-8052",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          54,
+          197,
+          134,
+          36
+        ],
+        "text": "604, JALAN PENANG\nIPOH\n88056 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          298,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          301,
+          33,
+          8
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          342,
+          32,
+          10
+        ],
+        "text": "2000",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          381,
+          64,
+          9
+        ],
+        "text": "XJ696687",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          422,
+          136,
+          9
+        ],
+        "text": "CX9BAM5U9ZGLBCBE0",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          459,
+          47,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          224,
+          458,
+          53,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          500,
+          46,
+          10
+        ],
+        "text": "2887CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

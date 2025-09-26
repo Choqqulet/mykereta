@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000209.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JPE58 78",
+    "Nama Pemilik": "PN. ROHANI BIN HALIMAH",
+    "No. Kad Pengenalan": "890620-09-0687",
+    "Alamat": "944, KAMPUNG KAJANG\nBUKIT BINTANG\n32150 TERENGGANU",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "ZH791767",
+    "No. Casis": "R6F7FRSU132DFFA23",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "2940CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          46,
+          79,
+          64,
+          9
+        ],
+        "text": "JPE58 78",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          53,
+          117,
+          174,
+          10
+        ],
+        "text": "PN. ROHANI BIN HALIMAH",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          51,
+          163,
+          94,
+          10
+        ],
+        "text": "890620-09-0687",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          51,
+          198,
+          152,
+          30
+        ],
+        "text": "944, KAMPUNG KAJANG\nBUKIT BINTANG\n32150 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          45,
+          299,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          298,
+          35,
+          10
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          338,
+          32,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          47,
+          377,
+          61,
+          10
+        ],
+        "text": "ZH791767",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          421,
+          150,
+          10
+        ],
+        "text": "R6F7FRSU132DFFA23",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          460,
+          48,
+          8
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          458,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          497,
+          48,
+          9
+        ],
+        "text": "2940CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

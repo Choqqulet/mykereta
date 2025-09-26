@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000310.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AKI12 12",
+    "Nama Pemilik": "DATO' REDDY A/P KAMALA",
+    "No. Kad Pengenalan": "860302-02-5759",
+    "Alamat": "995, BANDAR KLANG\nKLANG\n31629 SARAWAK",
+    "Jenama": "NISSAN",
+    "Model": "LIVINA",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "XJ113398",
+    "No. Casis": "WS17SGVEZ0CASXFE8",
+    "Warna": "BIRU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1696CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          81,
+          65,
+          9
+        ],
+        "text": "AKI12 12",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          121,
+          181,
+          10
+        ],
+        "text": "DATO' REDDY A/P KAMALA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          163,
+          94,
+          11
+        ],
+        "text": "860302-02-5759",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          200,
+          140,
+          36
+        ],
+        "text": "995, BANDAR KLANG\nKLANG\n31629 SARAWAK",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          302,
+          51,
+          10
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          298,
+          49,
+          8
+        ],
+        "text": "LIVINA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          46,
+          343,
+          32,
+          9
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          383,
+          64,
+          10
+        ],
+        "text": "XJ113398",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          423,
+          149,
+          10
+        ],
+        "text": "WS17SGVEZ0CASXFE8",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          459,
+          33,
+          10
+        ],
+        "text": "BIRU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          54,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          52,
+          10
+        ],
+        "text": "1696CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

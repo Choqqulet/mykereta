@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000890.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JYX75 25",
+    "Nama Pemilik": "DATO' LIM LIM",
+    "No. Kad Pengenalan": "811031-14-4149",
+    "Alamat": "845, BANDAR PENANG\nSEREMBAN\n43514 PERLIS",
+    "Jenama": "PROTON",
+    "Model": "EXORA",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "XF765371",
+    "No. Casis": "J5CN74834J207ZTVK",
+    "Warna": "HIJAU",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "2339CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          48,
+          83,
+          61,
+          10
+        ],
+        "text": "JYX75 25",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          52,
+          121,
+          98,
+          10
+        ],
+        "text": "DATO' LIM LIM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          162,
+          106,
+          10
+        ],
+        "text": "811031-14-4149",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          203,
+          151,
+          36
+        ],
+        "text": "845, BANDAR PENANG\nSEREMBAN\n43514 PERLIS",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          302,
+          56,
+          10
+        ],
+        "text": "PROTON",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          223,
+          300,
+          49,
+          10
+        ],
+        "text": "EXORA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          52,
+          341,
+          32,
+          9
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          381,
+          66,
+          10
+        ],
+        "text": "XF765371",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          419,
+          136,
+          9
+        ],
+        "text": "J5CN74834J207ZTVK",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          461,
+          40,
+          10
+        ],
+        "text": "HIJAU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          457,
+          48,
+          8
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          54,
+          498,
+          52,
+          10
+        ],
+        "text": "2339CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

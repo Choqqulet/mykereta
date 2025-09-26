@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000653.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "BHL38 90",
+    "Nama Pemilik": "MING XIAO",
+    "No. Kad Pengenalan": "680105-14-9951",
+    "Alamat": "648, JALAN DATO' SEREMBAN\nPENANG\n18793 SABAH",
+    "Jenama": "NISSAN",
+    "Model": "X-TRAIL",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "GE966953",
+    "No. Casis": "7GAPDLZ6KXG1J4LLC",
+    "Warna": "PUTIH",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3072CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          51,
+          80,
+          63,
+          10
+        ],
+        "text": "BHL38 90",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          49,
+          122,
+          74,
+          10
+        ],
+        "text": "MING XIAO",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          47,
+          163,
+          112,
+          9
+        ],
+        "text": "680105-14-9951",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          197,
+          200,
+          30
+        ],
+        "text": "648, JALAN DATO' SEREMBAN\nPENANG\n18793 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          303,
+          48,
+          8
+        ],
+        "text": "NISSAN",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          301,
+          56,
+          8
+        ],
+        "text": "X-TRAIL",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          342,
+          32,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          381,
+          68,
+          10
+        ],
+        "text": "GE966953",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          417,
+          146,
+          10
+        ],
+        "text": "7GAPDLZ6KXG1J4LLC",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          53,
+          461,
+          42,
+          10
+        ],
+        "text": "PUTIH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          225,
+          460,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          51,
+          503,
+          52,
+          10
+        ],
+        "text": "3072CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

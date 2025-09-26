@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000076.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ATJ23 59",
+    "Nama Pemilik": "DATO' FENG MEI",
+    "No. Kad Pengenalan": "940616-02-5726",
+    "Alamat": "233, TAMAN BUKIT BINTANG\nIPOH\n90560 KUALA LUMPUR",
+    "Jenama": "TOYOTA",
+    "Model": "INNOVA",
+    "Tahun Dibuat": "2007",
+    "No. Enjin": "EB769745",
+    "No. Casis": "1LS436DT10J82V407",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "1477CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          79,
+          65,
+          9
+        ],
+        "text": "ATJ23 59",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          118,
+          112,
+          9
+        ],
+        "text": "DATO' FENG MEI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          112,
+          9
+        ],
+        "text": "940616-02-5726",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          203,
+          194,
+          36
+        ],
+        "text": "233, TAMAN BUKIT BINTANG\nIPOH\n90560 KUALA LUMPUR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          46,
+          298,
+          49,
+          8
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          215,
+          301,
+          49,
+          8
+        ],
+        "text": "INNOVA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          340,
+          28,
+          10
+        ],
+        "text": "2007",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          51,
+          383,
+          60,
+          11
+        ],
+        "text": "EB769745",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          417,
+          136,
+          9
+        ],
+        "text": "1LS436DT10J82V407",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          49,
+          460,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          459,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          47,
+          498,
+          46,
+          10
+        ],
+        "text": "1477CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

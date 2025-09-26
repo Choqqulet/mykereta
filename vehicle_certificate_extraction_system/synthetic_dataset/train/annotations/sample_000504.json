@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000504.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WYL77 73",
+    "Nama Pemilik": "DATO' AHMAD BIN ZALEHA",
+    "No. Kad Pengenalan": "851104-15-7668",
+    "Alamat": "104, KAMPUNG SHAH ALAM\nAMPANG\n59421 PULAU PINANG",
+    "Jenama": "HONDA",
+    "Model": "CIVIC",
+    "Tahun Dibuat": "2010",
+    "No. Enjin": "FH000347",
+    "No. Casis": "6R5W76S2CER3C5F31",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1970CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          54,
+          77,
+          64,
+          10
+        ],
+        "text": "WYL77 73",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          121,
+          182,
+          10
+        ],
+        "text": "DATO' AHMAD BIN ZALEHA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          159,
+          106,
+          10
+        ],
+        "text": "851104-15-7668",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          48,
+          198,
+          177,
+          30
+        ],
+        "text": "104, KAMPUNG SHAH ALAM\nAMPANG\n59421 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          54,
+          300,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          224,
+          302,
+          38,
+          10
+        ],
+        "text": "CIVIC",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          339,
+          28,
+          10
+        ],
+        "text": "2010",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          377,
+          67,
+          10
+        ],
+        "text": "FH000347",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          421,
+          136,
+          9
+        ],
+        "text": "6R5W76S2CER3C5F31",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          462,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          461,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          502,
+          52,
+          10
+        ],
+        "text": "1970CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

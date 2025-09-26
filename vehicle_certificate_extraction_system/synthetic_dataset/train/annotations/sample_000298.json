@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000298.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AUU50 46",
+    "Nama Pemilik": "DR. REDDY A/P MEERA",
+    "No. Kad Pengenalan": "761120-13-8456",
+    "Alamat": "899, BANDAR SUBANG JAYA\nKLANG\n27786 LABUAN",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2008",
+    "No. Enjin": "ND052155",
+    "No. Casis": "98G75YPFB88EMNLUP",
+    "Warna": "MERAH",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2356CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          77,
+          65,
+          10
+        ],
+        "text": "AUU50 46",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          120,
+          153,
+          11
+        ],
+        "text": "DR. REDDY A/P MEERA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          45,
+          162,
+          112,
+          9
+        ],
+        "text": "761120-13-8456",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          50,
+          199,
+          190,
+          36
+        ],
+        "text": "899, BANDAR SUBANG JAYA\nKLANG\n27786 LABUAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          301,
+          41,
+          8
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          221,
+          297,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          51,
+          337,
+          28,
+          10
+        ],
+        "text": "2008",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          54,
+          379,
+          62,
+          11
+        ],
+        "text": "ND052155",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          48,
+          419,
+          153,
+          10
+        ],
+        "text": "98G75YPFB88EMNLUP",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          460,
+          40,
+          8
+        ],
+        "text": "MERAH",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          218,
+          461,
+          49,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          48,
+          501,
+          52,
+          10
+        ],
+        "text": "2356CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

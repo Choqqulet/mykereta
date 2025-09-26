@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000896.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "AGI84 48",
+    "Nama Pemilik": "PN. SHANTI A/P DEVI",
+    "No. Kad Pengenalan": "640810-04-8212",
+    "Alamat": "538, JALAN TUN JOHOR BAHRU\nPETALING JAYA\n66857 PULAU PINANG",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2016",
+    "No. Enjin": "TJ319174",
+    "No. Casis": "KB6YYMUYX6TRN9YTA",
+    "Warna": "COKLAT",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1315CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          49,
+          79,
+          65,
+          9
+        ],
+        "text": "AGI84 48",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          46,
+          117,
+          142,
+          10
+        ],
+        "text": "PN. SHANTI A/P DEVI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          50,
+          163,
+          112,
+          9
+        ],
+        "text": "640810-04-8212",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          198,
+          208,
+          30
+        ],
+        "text": "538, JALAN TUN JOHOR BAHRU\nPETALING JAYA\n66857 PULAU PINANG",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          51,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          220,
+          298,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          342,
+          28,
+          10
+        ],
+        "text": "2016",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          383,
+          64,
+          9
+        ],
+        "text": "TJ319174",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          418,
+          137,
+          9
+        ],
+        "text": "KB6YYMUYX6TRN9YTA",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          45,
+          460,
+          57,
+          10
+        ],
+        "text": "COKLAT",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          223,
+          457,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          500,
+          46,
+          11
+        ],
+        "text": "1315CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

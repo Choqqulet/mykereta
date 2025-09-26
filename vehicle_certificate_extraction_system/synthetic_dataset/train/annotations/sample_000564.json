@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000564.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KUA80 85",
+    "Nama Pemilik": "PROF. MURUGAN",
+    "No. Kad Pengenalan": "591221-04-3922",
+    "Alamat": "902, PERSIARAN SHAH ALAM\nPENANG\n40865 SABAH",
+    "Jenama": "PERODUA",
+    "Model": "MYVI",
+    "Tahun Dibuat": "2002",
+    "No. Enjin": "TN938197",
+    "No. Casis": "75RVMC3J3XZ21BTSV",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "1044CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          83,
+          64,
+          10
+        ],
+        "text": "KUA80 85",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          50,
+          117,
+          114,
+          10
+        ],
+        "text": "PROF. MURUGAN",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          54,
+          161,
+          112,
+          9
+        ],
+        "text": "591221-04-3922",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          45,
+          201,
+          195,
+          36
+        ],
+        "text": "902, PERSIARAN SHAH ALAM\nPENANG\n40865 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          300,
+          69,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          301,
+          34,
+          10
+        ],
+        "text": "MYVI",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          50,
+          339,
+          32,
+          9
+        ],
+        "text": "2002",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          53,
+          378,
+          61,
+          10
+        ],
+        "text": "TN938197",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          46,
+          420,
+          142,
+          11
+        ],
+        "text": "75RVMC3J3XZ21BTSV",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          47,
+          462,
+          41,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          64,
+          8
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          499,
+          52,
+          10
+        ],
+        "text": "1044CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

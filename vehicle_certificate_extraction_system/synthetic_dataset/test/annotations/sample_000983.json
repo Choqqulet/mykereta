@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000983.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "KAW50 11",
+    "Nama Pemilik": "DATO' TEO LEE",
+    "No. Kad Pengenalan": "560929-04-8484",
+    "Alamat": "486, JALAN PETALING JAYA\nSUBANG JAYA\n75699 JOHOR",
+    "Jenama": "HONDA",
+    "Model": "CITY",
+    "Tahun Dibuat": "2003",
+    "No. Enjin": "PY892096",
+    "No. Casis": "FA864MTGFZWGB28JU",
+    "Warna": "OREN",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "2197CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          80,
+          67,
+          10
+        ],
+        "text": "KAW50 11",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          55,
+          120,
+          105,
+          10
+        ],
+        "text": "DATO' TEO LEE",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          160,
+          112,
+          9
+        ],
+        "text": "560929-04-8484",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          55,
+          199,
+          193,
+          30
+        ],
+        "text": "486, JALAN PETALING JAYA\nSUBANG JAYA\n75699 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          53,
+          301,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          299,
+          33,
+          10
+        ],
+        "text": "CITY",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          338,
+          28,
+          10
+        ],
+        "text": "2003",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          52,
+          383,
+          66,
+          10
+        ],
+        "text": "PY892096",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          45,
+          418,
+          158,
+          10
+        ],
+        "text": "FA864MTGFZWGB28JU",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          460,
+          38,
+          10
+        ],
+        "text": "OREN",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          215,
+          460,
+          52,
+          10
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          49,
+          502,
+          48,
+          9
+        ],
+        "text": "2197CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

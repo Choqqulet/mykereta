@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000406.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "ALG58 75",
+    "Nama Pemilik": "DR. FENG NG",
+    "No. Kad Pengenalan": "880728-12-7851",
+    "Alamat": "687, LEBUH SEREMBAN\nSEREMBAN\n18893 SABAH",
+    "Jenama": "HONDA",
+    "Model": "BR-V",
+    "Tahun Dibuat": "2012",
+    "No. Enjin": "ZU201873",
+    "No. Casis": "MFH4VY9Y87M7HP84X",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "PETROL",
+    "Isi Padu": "1241CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          45,
+          77,
+          65,
+          9
+        ],
+        "text": "ALG58 75",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          51,
+          117,
+          88,
+          10
+        ],
+        "text": "DR. FENG NG",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          52,
+          158,
+          112,
+          9
+        ],
+        "text": "880728-12-7851",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          201,
+          156,
+          36
+        ],
+        "text": "687, LEBUH SEREMBAN\nSEREMBAN\n18893 SABAH",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          51,
+          301,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          225,
+          302,
+          33,
+          10
+        ],
+        "text": "BR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          49,
+          337,
+          32,
+          10
+        ],
+        "text": "2012",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          46,
+          378,
+          67,
+          10
+        ],
+        "text": "ZU201873",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          47,
+          418,
+          155,
+          10
+        ],
+        "text": "MFH4VY9Y87M7HP84X",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          55,
+          463,
+          40,
+          8
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          460,
+          56,
+          10
+        ],
+        "text": "PETROL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          499,
+          52,
+          10
+        ],
+        "text": "1241CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

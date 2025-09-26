@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000948.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "JLO27 08",
+    "Nama Pemilik": "TAN SRI JUN LI",
+    "No. Kad Pengenalan": "560628-05-6703",
+    "Alamat": "995, JALAN DATO' KAJANG\nSEREMBAN\n98849 NEGERI SEMBILAN",
+    "Jenama": "HONDA",
+    "Model": "CR-V",
+    "Tahun Dibuat": "2004",
+    "No. Enjin": "GZ599843",
+    "No. Casis": "Z0KH76YS5JN970U4P",
+    "Warna": "PERAK",
+    "Jenis Bahan Api": "DIESEL",
+    "Isi Padu": "2461CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          55,
+          78,
+          62,
+          10
+        ],
+        "text": "JLO27 08",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          45,
+          117,
+          102,
+          10
+        ],
+        "text": "TAN SRI JUN LI",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          48,
+          162,
+          94,
+          11
+        ],
+        "text": "560628-05-6703",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          198,
+          184,
+          30
+        ],
+        "text": "995, JALAN DATO' KAJANG\nSEREMBAN\n98849 NEGERI SEMBILAN",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          55,
+          299,
+          50,
+          10
+        ],
+        "text": "HONDA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          219,
+          302,
+          33,
+          8
+        ],
+        "text": "CR-V",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          48,
+          342,
+          32,
+          9
+        ],
+        "text": "2004",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          50,
+          380,
+          61,
+          11
+        ],
+        "text": "GZ599843",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          49,
+          417,
+          136,
+          9
+        ],
+        "text": "Z0KH76YS5JN970U4P",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          462,
+          46,
+          10
+        ],
+        "text": "PERAK",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          217,
+          460,
+          50,
+          10
+        ],
+        "text": "DIESEL",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          52,
+          502,
+          48,
+          9
+        ],
+        "text": "2461CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

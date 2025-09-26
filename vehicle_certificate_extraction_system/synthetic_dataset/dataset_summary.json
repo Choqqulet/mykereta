@@ -1,0 +1,27 @@
+{
+  "total_samples": 1000,
+  "splits": {
+    "train": 800,
+    "val": 100,
+    "test": 100
+  },
+  "image_size": [
+    800,
+    1200
+  ],
+  "field_types": [
+    "plate_number",
+    "owner_name",
+    "nric",
+    "address",
+    "make",
+    "model",
+    "year",
+    "engine_number",
+    "chassis_number",
+    "color",
+    "fuel_type",
+    "engine_capacity"
+  ],
+  "generation_date": "2025-09-26T19:01:34.336635"
+}

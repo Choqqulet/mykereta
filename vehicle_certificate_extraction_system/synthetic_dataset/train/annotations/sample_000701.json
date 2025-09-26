@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000701.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "PTB86 53",
+    "Nama Pemilik": "PROF. MOHAMED BINTI MARYAM",
+    "No. Kad Pengenalan": "820429-16-8398",
+    "Alamat": "382, JALAN DATO' SHAH ALAM\nAMPANG\n76478 JOHOR",
+    "Jenama": "TOYOTA",
+    "Model": "HILUX",
+    "Tahun Dibuat": "2013",
+    "No. Enjin": "AQ991529",
+    "No. Casis": "8NCWZW0KK3TKKR943",
+    "Warna": "UNGU",
+    "Jenis Bahan Api": "HYBRID",
+    "Isi Padu": "1673CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          53,
+          79,
+          58,
+          11
+        ],
+        "text": "PTB86 53",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          54,
+          117,
+          225,
+          10
+        ],
+        "text": "PROF. MOHAMED BINTI MARYAM",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          158,
+          112,
+          9
+        ],
+        "text": "820429-16-8398",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          49,
+          202,
+          205,
+          36
+        ],
+        "text": "382, JALAN DATO' SHAH ALAM\nAMPANG\n76478 JOHOR",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          49,
+          301,
+          59,
+          10
+        ],
+        "text": "TOYOTA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          222,
+          301,
+          40,
+          8
+        ],
+        "text": "HILUX",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          47,
+          341,
+          32,
+          9
+        ],
+        "text": "2013",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          45,
+          378,
+          62,
+          13
+        ],
+        "text": "AQ991529",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          50,
+          423,
+          158,
+          10
+        ],
+        "text": "8NCWZW0KK3TKKR943",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          46,
+          458,
+          40,
+          10
+        ],
+        "text": "UNGU",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          222,
+          463,
+          48,
+          8
+        ],
+        "text": "HYBRID",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          50,
+          502,
+          52,
+          10
+        ],
+        "text": "1673CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}

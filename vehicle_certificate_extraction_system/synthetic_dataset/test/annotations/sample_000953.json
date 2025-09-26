@@ -1,0 +1,157 @@
+{
+  "image_filename": "sample_000953.jpg",
+  "image_size": [
+    1080,
+    782
+  ],
+  "vehicle_data": {
+    "No. Pendaftaran": "WBJ69 36",
+    "Nama Pemilik": "DR. REDDY A/P SHARMA",
+    "No. Kad Pengenalan": "660829-10-3178",
+    "Alamat": "802, PERSIARAN BUKIT BINTANG\nSHAH ALAM\n68954 TERENGGANU",
+    "Jenama": "PERODUA",
+    "Model": "ALZA",
+    "Tahun Dibuat": "2018",
+    "No. Enjin": "PB884982",
+    "No. Casis": "H6FEC46X55F8BBMZT",
+    "Warna": "KUNING",
+    "Jenis Bahan Api": "ELEKTRIK",
+    "Isi Padu": "3197CC"
+  },
+  "annotations": {
+    "fields": [
+      {
+        "label": "No. Pendaftaran",
+        "bbox": [
+          50,
+          82,
+          59,
+          10
+        ],
+        "text": "WBJ69 36",
+        "field_type": "plate_number"
+      },
+      {
+        "label": "Nama Pemilik",
+        "bbox": [
+          47,
+          120,
+          164,
+          10
+        ],
+        "text": "DR. REDDY A/P SHARMA",
+        "field_type": "owner_name"
+      },
+      {
+        "label": "No. Kad Pengenalan",
+        "bbox": [
+          55,
+          158,
+          112,
+          9
+        ],
+        "text": "660829-10-3178",
+        "field_type": "nric"
+      },
+      {
+        "label": "Alamat",
+        "bbox": [
+          46,
+          198,
+          224,
+          30
+        ],
+        "text": "802, PERSIARAN BUKIT BINTANG\nSHAH ALAM\n68954 TERENGGANU",
+        "field_type": "address"
+      },
+      {
+        "label": "Jenama",
+        "bbox": [
+          48,
+          297,
+          66,
+          10
+        ],
+        "text": "PERODUA",
+        "field_type": "make"
+      },
+      {
+        "label": "Model",
+        "bbox": [
+          217,
+          300,
+          38,
+          10
+        ],
+        "text": "ALZA",
+        "field_type": "model"
+      },
+      {
+        "label": "Tahun Dibuat",
+        "bbox": [
+          55,
+          343,
+          32,
+          10
+        ],
+        "text": "2018",
+        "field_type": "year"
+      },
+      {
+        "label": "No. Enjin",
+        "bbox": [
+          55,
+          380,
+          66,
+          10
+        ],
+        "text": "PB884982",
+        "field_type": "engine_number"
+      },
+      {
+        "label": "No. Casis",
+        "bbox": [
+          51,
+          418,
+          152,
+          10
+        ],
+        "text": "H6FEC46X55F8BBMZT",
+        "field_type": "chassis_number"
+      },
+      {
+        "label": "Warna",
+        "bbox": [
+          51,
+          460,
+          55,
+          10
+        ],
+        "text": "KUNING",
+        "field_type": "color"
+      },
+      {
+        "label": "Jenis Bahan Api",
+        "bbox": [
+          220,
+          463,
+          70,
+          10
+        ],
+        "text": "ELEKTRIK",
+        "field_type": "fuel_type"
+      },
+      {
+        "label": "Isi Padu",
+        "bbox": [
+          55,
+          503,
+          52,
+          10
+        ],
+        "text": "3197CC",
+        "field_type": "engine_capacity"
+      }
+    ]
+  }
+}
