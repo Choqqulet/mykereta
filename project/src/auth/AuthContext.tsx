@@ -1,30 +1,24 @@
-import { createContext, useContext, useEffect, useState, useCallback, ReactNode } from "react";
-import api from "../api";
+import { createContext, useCallback, useContext, useEffect, useState } from "react";
+import api from "../api"; // index.ts default export
 
-type User = {
-  id: string;
-  email: string;
-  name?: string;
-  picture?: string;
-};
+type User = { id: string; email: string; name?: string };
 
 type AuthCtx = {
   user: User | null;
   loading: boolean;
   refresh: () => Promise<void>;
-  logout: () => Promise<void>;
+  signOut: () => Promise<void>;
 };
 
 const Ctx = createContext<AuthCtx | undefined>(undefined);
 
-export function AuthProvider({ children }: { children: ReactNode }) {
+export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
 
   const refresh = useCallback(async () => {
-    setLoading(true);
     try {
-      const data = await api.get<{ user: User | null }>("/api/auth/me");
+      const data = await api.me();
       setUser(data.user ?? null);
     } catch {
       setUser(null);
@@ -33,26 +27,21 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
-  useEffect(() => {
-    void refresh();
-  }, [refresh]);
+  useEffect(() => { void refresh(); }, [refresh]);
 
-  const logout = useCallback(async () => {
-    try {
-      await api.post("/api/auth/logout", {});
-    } finally {
-      setUser(null);
-    }
+  const signOut = useCallback(async () => {
+    await api.logout();
+    setUser(null);
   }, []);
 
   return (
-    <Ctx.Provider value={{ user, loading, refresh, logout }}>
+    <Ctx.Provider value={{ user, loading, refresh, signOut }}>
       {children}
     </Ctx.Provider>
   );
 }
 
-export function useAuth(): AuthCtx {
+export function useAuth() {
   const ctx = useContext(Ctx);
   if (!ctx) throw new Error("useAuth must be used within <AuthProvider>");
   return ctx;

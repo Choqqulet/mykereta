@@ -1,6 +1,8 @@
 import * as React from "react";
 import { useNavigate } from "react-router-dom";
-
+import PingML from "../components/PingML";
+import { useState } from "react";
+import { mlHealth, mlSummarize, mlPlate } from "../api/ml";
 /**
  * Dashboard (default page after sign in)
  * - Reads user JWT from localStorage.user.token
@@ -38,6 +40,37 @@ async function getJson<T>(path: string): Promise<T> {
   });
   if (!res.ok) throw new Error(await res.text().catch(() => res.statusText));
   return (await res.json()) as T;
+}
+
+function MlDevPanel() {
+  const [text, setText] = useState("");
+  const [sum, setSum] = useState<string | null>(null);
+  const [plate, setPlate] = useState<string | null>(null);
+  const [ping, setPing] = useState<string>("");
+
+  return (
+    <div style={{ margin: "16px 0", padding: 12, border: "1px dashed #666", borderRadius: 8 }}>
+      <button onClick={async () => {
+        const h = await mlHealth();
+        setPing(h.ok ? "ML OK" : "ML not OK");
+      }}>Ping ML</button>
+      <span style={{ marginLeft: 8 }}>{ping}</span>
+
+      <div style={{ marginTop: 10 }}>
+        <textarea value={text} onChange={(e) => setText(e.target.value)} rows={3} style={{ width: "100%" }} />
+        <button onClick={async () => setSum((await mlSummarize(text)).summary)}>Summarize</button>
+        {sum && <pre style={{whiteSpace:"pre-wrap"}}>{sum}</pre>}
+      </div>
+
+      <div style={{ marginTop: 10 }}>
+        <input type="file" accept="image/*" onChange={async (e) => {
+          const f = e.target.files?.[0]; if (!f) return;
+          setPlate((await mlPlate(f)).plate);
+        }} />
+        {plate && <div>Detected plate: <b>{plate}</b></div>}
+      </div>
+    </div>
+  );
 }
 
 /* ------------------------------- Types -------------------------------- */
@@ -137,6 +170,7 @@ export default function DashboardPage() {
       }
     })();
   }, []);
+
 
   /* ------------------------------ KPIs -------------------------------- */
 

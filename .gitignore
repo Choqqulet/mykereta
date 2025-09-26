@@ -23,3 +23,10 @@ backend/node_modules/
 project/node_modules/
 .DS_Store
 project/dist/
+
+# never commit secrets
+.env
+**/.env
+project/.env
+backend/.env
+ml/.env

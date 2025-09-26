@@ -35,12 +35,14 @@ const Trust = () => {
       description: "Advanced security for all account access",
       gradient: "from-purple-500 to-pink-500"
     },
+    /*
     {
       icon: Database,
       title: "Immutable blockchain audit trail for each plate-number validation",
       description: "Transparent and tamper-proof record keeping",
       gradient: "from-green-500 to-emerald-500"
     }
+    */
   ];
 
   return (
