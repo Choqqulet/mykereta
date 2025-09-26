@@ -1,32 +1,49 @@
-import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import morgan from 'morgan';
 import cookieParser from 'cookie-parser';
+import morgan from 'morgan';
 
-import authRouter from './src/routes/auth.js'; 
-import apiRouter from './src/routes/api.js';       // vehicles/docs/expenses etc.
+import authRouter from './src/routes/auth.js';
 
 const app = express();
 
+// ---- config ----
+const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:5173';
+const CORS_ORIGINS = (process.env.CORS_ORIGINS || `${FRONTEND_URL}`).split(',');
+const isProd = process.env.NODE_ENV === 'production';
+const cookieDomain = (() => {
+  try { return new URL(FRONTEND_URL).hostname; } catch { return undefined; }
+})();
+
+// ---- middleware ----
+app.set('trust proxy', 1);
 app.use(helmet());
-app.use(morgan('tiny'));
+app.use(morgan('combined'));
 app.use(express.json());
 app.use(cookieParser());
+app.use(
+  cors({
+    origin: (origin, cb) => {
+      if (!origin) return cb(null, true); // curl/postman
+      const allowed = CORS_ORIGINS.map(s => s.trim());
+      cb(null, allowed.includes(origin));
+    },
+    credentials: true,
+  })
+);
 
-// CORS
-const allowed = (process.env.CORS_ORIGINS || '').split(',').map(s => s.trim()).filter(Boolean);
-app.use(cors({
-  origin: allowed.length ? allowed : true,
-  credentials: true
-}));
-
-// health
+// ---- health ----
 app.get('/health', (_req, res) => res.json({ ok: true }));
 
-// routes (note the /api prefix!)
+// ---- routes ----
 app.use('/api/auth', authRouter);
-app.use('/api', apiRouter);
+
+// ---- 404 & error handler ----
+app.use((_req, res) => res.status(404).json({ error: 'Not Found' }));
+app.use((err, _req, res, _next) => {
+  console.error(err);
+  res.status(500).json({ error: 'Internal Server Error' });
+});
 
 export default app;
