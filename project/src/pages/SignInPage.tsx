@@ -1,97 +1,122 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 type MeResponse =
-  | { ok: true; user: { id: string; email?: string; name?: string } }
-  | { ok: false; error?: string };
+  | { user: { sub: string; email?: string; name?: string; picture?: string } }
+  | { user: null; error?: string };
 
-const BACKEND_URL =
-  import.meta.env.VITE_BACKEND_URL?.replace(/\/+$/, "") ||
-  window.location.origin; // fallback for local dev
-
-const REDIRECT_AFTER_LOGIN = "/dashboard"; // change if the route differs
+const BACKEND =
+  (import.meta.env.VITE_BACKEND_URL as string | undefined)?.replace(/\/+$/, "") ||
+  "http://127.0.0.1:3000";
 
 export default function SignInPage() {
+  const nav = useNavigate();
   const [checking, setChecking] = useState(true);
   const [err, setErr] = useState<string | null>(null);
 
-  // If already signed in (session cookie present), go straight to dashboard
+  // If already authenticated (cookie present), go straight to dashboard
   useEffect(() => {
     let cancelled = false;
     (async () => {
       try {
-        const res = await fetch(`${BACKEND_URL}/api/auth/me`, {
+        const res = await fetch(`${BACKEND}/api/auth/me`, {
           method: "GET",
           credentials: "include",
         });
+        if (!res.ok) throw new Error(`me ${res.status}`);
         const data = (await res.json()) as MeResponse;
         if (!cancelled) {
-          if (res.ok && "ok" in data && data.ok && data.user?.id) {
-            window.location.assign(REDIRECT_AFTER_LOGIN);
-            return;
+          if ("user" in data && data.user) {
+            nav("/dashboard", { replace: true });
+          } else {
+            setChecking(false);
           }
         }
-      } catch (e) {
-        // swallow; we’ll just show the sign-in UI
-        if (!cancelled) setErr(null);
-      } finally {
-        if (!cancelled) setChecking(false);
+      } catch (e: any) {
+        if (!cancelled) {
+          setChecking(false);
+          setErr("Unable to check session. Please try again.");
+          // still allow sign-in UI to render
+        }
       }
     })();
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [nav]);
 
-  const handleGoogle = async () => {
-    // Backend will handle Google OAuth and redirect back using its configured FRONTEND_URL
-    window.location.href = `${BACKEND_URL}/api/auth/google/start`;
+  const startGoogle = () => {
+    // Let Google redirect back to: FRONTEND_URL + /dashboard
+    window.location.href = `${BACKEND}/api/auth/google/start?redirect=/dashboard`;
   };
 
-  if (checking) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-black text-white">
-        <div className="rounded-2xl border border-white/15 bg-white/10 backdrop-blur-md px-6 py-4">
-          Checking session…
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-black flex items-center justify-center px-4">
-      <div className="w-full max-w-md">
-        <div className="rounded-3xl border border-white/15 bg-white/10 backdrop-blur-xl shadow-2xl p-8 text-white">
-          <div className="mb-6">
-            <h1 className="text-2xl font-semibold tracking-tight">Welcome back</h1>
-            <p className="text-sm text-white/70 mt-1">
-              Sign in to continue.
-            </p>
-          </div>
-
-          {err && (
-            <div className="mb-4 rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm">
-              {err}
-            </div>
-          )}
-
-          <button
-            onClick={handleGoogle}
-            className="w-full rounded-xl px-4 py-3 font-medium
-                       bg-white/15 hover:bg-white/25 active:bg-white/30
-                       border border-white/20 transition
-                       backdrop-blur-md"
-          >
-            Use Google
-          </button>
-
-          <div className="mt-6 text-xs text-white/60">
-            By continuing, you agree to our Terms &amp; Privacy Policy.
-          </div>
+    <div className="min-h-screen bg-gradient-to-br from-neutral-900 via-neutral-950 to-black flex items-center justify-center p-6">
+      <div
+        className="w-full max-w-md rounded-2xl backdrop-blur-xl"
+        style={{
+          background:
+            "linear-gradient(180deg, rgba(255,255,255,0.10), rgba(255,255,255,0.06))",
+          border: "1px solid rgba(255,255,255,0.18)",
+          boxShadow:
+            "0 10px 30px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.06)",
+        }}
+      >
+        <div className="px-6 pt-6 text-center">
+          <h1 className="text-2xl font-semibold text-white">Welcome to MyKereta</h1>
+          <p className="text-sm text-neutral-300 mt-1">
+            Sign in to continue to your dashboard
+          </p>
         </div>
 
-        {/* Optional footer note */}
-        <div className="mt-4 text-center text-xs text-white/50">
-          Having trouble? Ensure your pop-up/redirects aren’t blocked.
+        <div className="p-6">
+          {checking ? (
+            <div className="flex items-center justify-center gap-2 text-neutral-200">
+              <svg
+                className="animate-spin h-5 w-5"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <circle
+                  className="opacity-25"
+                  cx="12"
+                  cy="12"
+                  r="10"
+                  stroke="currentColor"
+                  strokeWidth="4"
+                />
+                <path
+                  className="opacity-90"
+                  fill="currentColor"
+                  d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+                />
+              </svg>
+              Checking session…
+            </div>
+          ) : (
+            <>
+              {err && (
+                <div className="mb-3 text-sm text-red-300 bg-red-900/30 border border-red-500/30 rounded-lg px-3 py-2">
+                  {err}
+                </div>
+              )}
+
+              <button
+                onClick={startGoogle}
+                className="w-full h-11 mt-1 rounded-xl font-medium text-black bg-white hover:bg-neutral-100 active:bg-neutral-200 transition-colors"
+              >
+                Use Google
+              </button>
+
+              {/* If keeping email/password later, slot here */}
+            </>
+          )}
+        </div>
+
+        <div className="px-6 pb-6 text-center">
+          <p className="text-xs text-neutral-400">
+            By continuing you consent to cookies for sign-in.
+          </p>
         </div>
       </div>
     </div>
