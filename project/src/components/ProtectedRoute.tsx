@@ -1,15 +1,35 @@
-import { Navigate, Outlet, useLocation } from "react-router-dom";
+import { ReactNode, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useAuth } from "../auth/AuthContext";
 
-export default function ProtectedRoute({ children }: { children?: JSX.Element }) {
+type Props = {
+  children: ReactNode;
+  redirectTo?: string;
+};
+
+export default function ProtectedRoute({ children, redirectTo = "/signin" }: Props) {
+  const { user, loading } = useAuth();
+  const nav = useNavigate();
   const loc = useLocation();
-  let token: string | null = null;
-  try {
-    token = JSON.parse(localStorage.getItem("user") || "null")?.token ?? null;
-  } catch {}
 
-  if (!token) {
-    const next = encodeURIComponent(loc.pathname + loc.search + loc.hash);
-    return <Navigate to={`/signin?next=${next}`} replace />;
+  useEffect(() => {
+    if (!loading && !user) {
+      nav(redirectTo, {
+        replace: true,
+        state: { from: loc.pathname + loc.search },
+      });
+    }
+  }, [loading, user, nav, redirectTo, loc]);
+
+  if (loading) {
+    return (
+      <div className="min-h-[60vh] grid place-items-center text-slate-300">
+        Checking session…
+      </div>
+    );
   }
-  return children ?? <Outlet />;
+
+  if (!user) return null; // we'll navigate away
+
+  return <>{children}</>;
 }
