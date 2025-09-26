@@ -1,12 +1,25 @@
-// project/src/api/index.ts
+import axios from "axios";
+
+/**
+ * Runtime base URL:
+ *  - PROD (Vercel):   ''  (relative -> handled by vercel.json rewrites)
+ *  - DEV (local):     VITE_BACKEND_URL (e.g. http://127.0.0.1:3000)
+ */
 const isProd = import.meta.env.PROD;
+const ORIGIN =
+  isProd ? "" : (import.meta.env.VITE_BACKEND_URL ?? "http://127.0.0.1:3000");
 
-// In dev we hit the explicit backend URL.
-// In prod we rely on Vercel rewrite and call relative /api/*.
-const BASE = isProd
-  ? "" // relative
-  : (import.meta.env.VITE_BACKEND_URL ?? "http://127.0.0.1:3000");
+const join = (path: string) => `${ORIGIN}${path}`;
 
+/** Axios client (use when you want interceptors, etc.) */
+export const http = axios.create({
+  baseURL: ORIGIN,                      // '' in prod, absolute in dev
+  withCredentials: true,                // send/receive cookies
+  headers: { "Content-Type": "application/json" },
+});
+export default http;                    // optional default export
+
+/** Lightweight fetch wrappers (handy for simple JSON calls) */
 type Json = Record<string, unknown>;
 
 function jsonHeaders(token?: string): Record<string, string> {
@@ -16,7 +29,7 @@ function jsonHeaders(token?: string): Record<string, string> {
 }
 
 async function get<T = unknown>(path: string, token?: string): Promise<T> {
-  const res = await fetch(`${BASE}${path}`, {
+  const res = await fetch(join(path), {
     method: "GET",
     headers: jsonHeaders(token),
     credentials: "include",
@@ -26,7 +39,7 @@ async function get<T = unknown>(path: string, token?: string): Promise<T> {
 }
 
 async function post<T = unknown>(path: string, body: Json, token?: string): Promise<T> {
-  const res = await fetch(`${BASE}${path}`, {
+  const res = await fetch(join(path), {
     method: "POST",
     headers: jsonHeaders(token),
     credentials: "include",
@@ -37,7 +50,7 @@ async function post<T = unknown>(path: string, body: Json, token?: string): Prom
 }
 
 async function del<T = unknown>(path: string, token?: string): Promise<T> {
-  const res = await fetch(`${BASE}${path}`, {
+  const res = await fetch(join(path), {
     method: "DELETE",
     headers: jsonHeaders(token),
     credentials: "include",
@@ -46,9 +59,12 @@ async function del<T = unknown>(path: string, token?: string): Promise<T> {
   return (await res.json()) as T;
 }
 
+/** Export a simple REST helper object.
+ *  (Named `api` to match previous imports like: `import { api } from '@/api'`)
+ */
 export const api = { get, post, del };
 
-// Convenience helpers for your existing routes:
+/** Domain helpers — adjust paths to match your backend routes */
 export const VehiclesAPI = {
   list: () => api.get("/api/vehicles"),
   create: (data: Json) => api.post("/api/vehicles", data),
@@ -67,9 +83,15 @@ export const ExpensesAPI = {
   remove: (id: string) => api.del(`/api/expenses/${id}`),
 };
 
-// Auth flow typically hits your backend directly:
+/** Auth */
 export const AuthAPI = {
-  startGoogle: () => `${BASE || ""}/api/auth/google/start`,
+  /** Start Google OAuth (optionally pass desired post-login path) */
+  startGoogle: (redirect = "/dashboard") =>
+    `${join("/api/auth/google/start")}?redirect=${encodeURIComponent(redirect)}`,
+
+  /** Who am I (session check) */
   me: () => api.get("/api/auth/me"),
+
+  /** Logout and clear cookie */
   logout: () => api.post("/api/auth/logout", {}),
 };
