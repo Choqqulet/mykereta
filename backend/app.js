@@ -8,15 +8,10 @@ import authRouter from './src/routes/auth.js';
 
 const app = express();
 
-// ---- config ----
 const FRONTEND_URL = process.env.FRONTEND_URL || 'http://localhost:5173';
-const CORS_ORIGINS = (process.env.CORS_ORIGINS || `${FRONTEND_URL}`).split(',');
+const CORS_ORIGINS = (process.env.CORS_ORIGINS || FRONTEND_URL).split(',');
 const isProd = process.env.NODE_ENV === 'production';
-const cookieDomain = (() => {
-  try { return new URL(FRONTEND_URL).hostname; } catch { return undefined; }
-})();
 
-// ---- middleware ----
 app.set('trust proxy', 1);
 app.use(helmet());
 app.use(morgan('combined'));
@@ -25,7 +20,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: (origin, cb) => {
-      if (!origin) return cb(null, true); // curl/postman
+      if (!origin) return cb(null, true);
       const allowed = CORS_ORIGINS.map(s => s.trim());
       cb(null, allowed.includes(origin));
     },
@@ -33,13 +28,10 @@ app.use(
   })
 );
 
-// ---- health ----
 app.get('/health', (_req, res) => res.json({ ok: true }));
 
-// ---- routes ----
 app.use('/api/auth', authRouter);
 
-// ---- 404 & error handler ----
 app.use((_req, res) => res.status(404).json({ error: 'Not Found' }));
 app.use((err, _req, res, _next) => {
   console.error(err);
