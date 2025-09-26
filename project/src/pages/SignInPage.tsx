@@ -1,63 +1,98 @@
-import * as React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import React, { useEffect, useState } from "react";
 
-function apiBase() {
-  const raw =
-    (import.meta as any).env?.VITE_API_URL ||
-    (import.meta as any).env?.VITE_BACKEND_URL ||
-    "http://127.0.0.1:3000";
-  const t = String(raw).replace(/\/$/, "");
-  return t.endsWith("/api") ? t : `${t}/api`;
-}
-function parseSearch(search: string) {
-  const p = new URLSearchParams(search);
-  const obj: Record<string, string> = {};
-  p.forEach((v, k) => (obj[k] = v));
-  return obj;
-}
-function parseUserParam(val?: string | null) {
-  if (!val) return {};
-  const candidates = [val, decodeURIComponent(val)];
-  for (const c of candidates) {
-    try { return JSON.parse(c); } catch {}
-    try { return JSON.parse(atob(c)); } catch {}
-  }
-  return {};
-}
+type MeResponse =
+  | { ok: true; user: { id: string; email?: string; name?: string } }
+  | { ok: false; error?: string };
+
+const BACKEND_URL =
+  import.meta.env.VITE_BACKEND_URL?.replace(/\/+$/, "") ||
+  window.location.origin; // fallback for local dev
+
+const REDIRECT_AFTER_LOGIN = "/dashboard"; // change if the route differs
 
 export default function SignInPage() {
-  const nav = useNavigate();
-  const loc = useLocation();
+  const [checking, setChecking] = useState(true);
+  const [err, setErr] = useState<string | null>(null);
 
-  // If backend redirected back to /signin?token=... handle it here
-  React.useEffect(() => {
-    const params = parseSearch(loc.search);
-    const token = params.token || params.jwt || "";
-    const user = parseUserParam(params.user);
-    if (token) {
+  // If already signed in (session cookie present), go straight to dashboard
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
       try {
-        localStorage.setItem("user", JSON.stringify({ token, ...user }));
-      } catch {}
-      window.history.replaceState({}, "", "/dashboard");
-      nav("/dashboard", { replace: true });
-    }
-  }, [loc.search, nav]);
+        const res = await fetch(`${BACKEND_URL}/api/auth/me`, {
+          method: "GET",
+          credentials: "include",
+        });
+        const data = (await res.json()) as MeResponse;
+        if (!cancelled) {
+          if (res.ok && "ok" in data && data.ok && data.user?.id) {
+            window.location.assign(REDIRECT_AFTER_LOGIN);
+            return;
+          }
+        }
+      } catch (e) {
+        // swallow; we’ll just show the sign-in UI
+        if (!cancelled) setErr(null);
+      } finally {
+        if (!cancelled) setChecking(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
-  const startGoogle = () => {
-    window.location.href = `${apiBase()}/auth/google`;
+  const handleGoogle = async () => {
+    // Backend will handle Google OAuth and redirect back using its configured FRONTEND_URL
+    window.location.href = `${BACKEND_URL}/api/auth/google/start`;
   };
 
+  if (checking) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-950 to-black text-white">
+        <div className="rounded-2xl border border-white/15 bg-white/10 backdrop-blur-md px-6 py-4">
+          Checking session…
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className="min-h-[calc(100vh-5rem)] grid place-items-center">
-      <div className="max-w-md w-full bg-white/10 border border-white/10 rounded-2xl p-6 backdrop-blur-xl shadow-xl text-center">
-        <div className="text-2xl font-semibold">Sign in</div>
-        <div className="text-white/80 mt-1">Use Google to continue</div>
-        <button
-          onClick={startGoogle}
-          className="mt-6 w-full h-11 rounded-xl bg-white/20 hover:bg-white/25 border border-white/30 text-white font-medium"
-        >
-          Continue with Google
-        </button>
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-black flex items-center justify-center px-4">
+      <div className="w-full max-w-md">
+        <div className="rounded-3xl border border-white/15 bg-white/10 backdrop-blur-xl shadow-2xl p-8 text-white">
+          <div className="mb-6">
+            <h1 className="text-2xl font-semibold tracking-tight">Welcome back</h1>
+            <p className="text-sm text-white/70 mt-1">
+              Sign in to continue.
+            </p>
+          </div>
+
+          {err && (
+            <div className="mb-4 rounded-lg border border-red-500/30 bg-red-500/10 px-3 py-2 text-sm">
+              {err}
+            </div>
+          )}
+
+          <button
+            onClick={handleGoogle}
+            className="w-full rounded-xl px-4 py-3 font-medium
+                       bg-white/15 hover:bg-white/25 active:bg-white/30
+                       border border-white/20 transition
+                       backdrop-blur-md"
+          >
+            Use Google
+          </button>
+
+          <div className="mt-6 text-xs text-white/60">
+            By continuing, you agree to our Terms &amp; Privacy Policy.
+          </div>
+        </div>
+
+        {/* Optional footer note */}
+        <div className="mt-4 text-center text-xs text-white/50">
+          Having trouble? Ensure your pop-up/redirects aren’t blocked.
+        </div>
       </div>
     </div>
   );

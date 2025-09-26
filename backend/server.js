@@ -7,7 +7,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 // Try common locations for the Express app module
-const candidates = ['./src/app.js', './app.js', './dist/app.js'];
+const candidates = ['./app.js', './src/app.js', './dist/app.js'];
 
 let appModule = null;
 for (const rel of candidates) {

@@ -5,6 +5,7 @@
 import express from "express";
 import passport from "passport";
 import { initGooglePassport, startGoogle, googleCallback } from "../controllers/authController.js";
+import { me } from "../controllers/authController.js";
 
 const router = express.Router();
 initGooglePassport();
@@ -13,5 +14,6 @@ router.use(passport.initialize());
 router.get("/google", startGoogle);       // alias
 router.get("/google/start", startGoogle); // canonical
 router.get("/google/callback", ...googleCallback);
+router.get("/me", me);
 
 export default router;

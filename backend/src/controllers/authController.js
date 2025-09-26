@@ -126,17 +126,25 @@ export const googleCallback = [
 
       const token = jwt.sign(
         { userId: user.id, email: user.email },
-        config.jwt.secret,
-        { expiresIn: "12h" }
-      );
-
-      const redirectUrl = buildFrontendRedirect(token, nextOverride);
-      return res.redirect(302, redirectUrl);
-    } catch (err) {
+          config.jwt.secret,
+          { expiresIn: "7d" }
+          );
+        // Send secure cross-site cookie (Heroku requires trust proxy = 1 — already set in app.js)
+        res.cookie("mykereta_session", token, {
+          httpOnly: true,
+          secure: true,
+          sameSite: "none",
+          path: "/",
+          maxAge: 7 * 24 * 60 * 60 * 1000,
+        });
+      const dest = req.query.next || config.postLoginPath || "/dashboard";
+      return res.redirect(302, `${config.frontendUrl.replace(/\/$/, "")}${dest}`);
+    }
+    catch (err) {
       logger.error("[OAuth] Callback error:", err);
       return res.redirect(
-        `${config.frontendUrl.replace(/\/$/, "")}/signin?error=oauth_exception`
+        `${config.frontendUrl.replace(/\/$/, "")}/signin?error=server_error`
       );
     }
-  },
+  }
 ];

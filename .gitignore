@@ -13,3 +13,12 @@ node_modules/
 .vercel
 **/.env
 **/.env # safe, idempotent
+**/.env
+**/.env
+
+**/.env
+*.log
+backend/logs/
+backend/node_modules/
+project/node_modules/
+.DS_Store

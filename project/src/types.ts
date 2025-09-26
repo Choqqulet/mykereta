@@ -4,7 +4,6 @@ export type Vehicle = {
     make?: string;
     model?: string;
     year?: number;
-    // 扩展字段（你的功能页里会用到）
     brand?: string;
     chassisNumber?: string;
     engineNumber?: string;
@@ -30,7 +29,7 @@ export type Vehicle = {
     vehicleId?: string;
     text?: string;          // 识别/备注
     fileName?: string;
-    url?: string;           // 预览地址（可选）
+    url?: string;          
   };
   
   export type ExpenseCategory = "Fuel" | "Maintenance" | "Insurance" | "Road Tax" | "Toll/Parking" | "Other";
