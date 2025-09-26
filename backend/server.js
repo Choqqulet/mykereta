@@ -2,7 +2,6 @@ import { existsSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
-// Resolve current dir in ESM
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -19,14 +18,12 @@ for (const rel of candidates) {
 }
 
 if (!appModule?.default) {
-  throw new Error(
-    `Could not find app module. Tried: ${candidates.join(', ')}`
-  );
+  throw new Error(`Could not find app module. Tried: ${candidates.join(', ')}`);
 }
 
 const app = appModule.default;
 
-// Heroku: must listen on process.env.PORT and bind to 0.0.0.0 (omit host)
+// Heroku: listen only on PORT; do not pass host
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`API listening on 0.0.0.0:${port}`);
