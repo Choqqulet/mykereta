@@ -1,150 +1,118 @@
-// Google OAuth via Passport; creates/loads a Sequelize user,
-// mints a JWT, and redirects back to frontend with ?token=...&next=...
-import passport from "passport";
-import { Strategy as GoogleStrategy } from "passport-google-oauth20";
 import jwt from "jsonwebtoken";
-import { randomBytes } from "crypto";
-import config from "../config/config.js";
-import logger from "../utils/logger.js";
-import * as models from "../models/index.js";
 
-/** Build the frontend redirect URL with token and optional next */
-function buildFrontendRedirect(token, nextOverride) {
-  const base = `${config.frontendUrl.replace(/\/$/, "")}${config.postLoginPath}`;
-  const usp = new URLSearchParams({ token });
-  if (nextOverride) usp.set("next", nextOverride);
-  return `${base}?${usp.toString()}`;
-}
+const {
+  GOOGLE_CLIENT_ID,
+  GOOGLE_CLIENT_SECRET,
+  GOOGLE_CALLBACK_URL,
+  FRONTEND_URL,
+  JWT_SECRET = "dev-secret",
+} = process.env;
 
-/** Normalize names from Google profile */
-function extractNames(profile) {
-  const given =
-    profile?.name?.givenName ||
-    (profile?.displayName ? String(profile.displayName).split(" ")[0] : "") ||
-    "Google";
-  const family =
-    profile?.name?.familyName ||
-    (profile?.displayName
-      ? String(profile.displayName).split(" ").slice(1).join(" ")
-      : "") ||
-    "User";
-  return { given, family };
-}
-
-/** Initialize the Google strategy (stateless) */
-export function initGooglePassport() {
-  const { clientID, clientSecret, callbackURL } = config.google;
-
-  if (!clientID || !clientSecret || !callbackURL) {
-    logger.error("[OAuth] Missing Google env (GOOGLE_CLIENT_ID/SECRET/CALLBACK_URL)");
-    throw new Error("Google OAuth is not configured");
+function assertEnv() {
+  const miss = [];
+  if (!GOOGLE_CLIENT_ID) miss.push("GOOGLE_CLIENT_ID");
+  if (!GOOGLE_CLIENT_SECRET) miss.push("GOOGLE_CLIENT_SECRET");
+  if (!GOOGLE_CALLBACK_URL) miss.push("GOOGLE_CALLBACK_URL");
+  if (!FRONTEND_URL) miss.push("FRONTEND_URL");
+  if (miss.length) {
+    console.error("[OAuth] Missing env:", miss.join(", "));
+    throw new Error("Server misconfigured");
   }
-
-  passport.use(
-    new GoogleStrategy(
-      {
-        clientID,
-        clientSecret,
-        callbackURL, // must exactly match the Google Console value
-        passReqToCallback: true,
-      },
-      // Verify callback: find or create a Sequelize user
-      async (_req, _accessToken, _refreshToken, profile, done) => {
-        try {
-          const email =
-            profile?.emails?.find((e) => e.verified)?.value ||
-            profile?.emails?.[0]?.value;
-        
-          if (!email) return done(new Error("No email returned by Google"));
-        
-          const displayName = profile?.displayName || email.split("@")[0];
-          const avatar = profile?.photos?.[0]?.value || null;
-        
-          // Find by email
-          let user = await models.User.findOne({ where: { email } });
-        
-          if (!user) {
-            user = await models.User.create({
-              email,
-              name: displayName,
-              avatarUrl: avatar,
-            });
-          } else {
-            // best-effort profile refresh
-            const patch = {};
-            if (!user.name && displayName) patch.name = displayName;
-            if (!user.avatarUrl && avatar) patch.avatarUrl = avatar;
-            if (Object.keys(patch).length) await user.update(patch);
-          }
-        
-          return done(null, {
-            id: user.id,
-            email: user.email,
-            name: user.name || email,
-          });
-        } catch (err) {
-          logger.error("[OAuth] Verify error:", err);
-          return done(err);
-        }
-      }
-    )
-  );
 }
+assertEnv();
 
-/** Start OAuth; carries optional ?next=... in state */
-export function startGoogle(req, res, next) {
-  const nextParam = typeof req.query.next === "string" ? req.query.next : "";
-  const state = nextParam ? `n:${encodeURIComponent(nextParam)}` : "";
-  const authenticator = passport.authenticate("google", {
-    scope: ["profile", "email"],
-    prompt: "select_account",
-    session: false,
-    state,
-  });
-  authenticator(req, res, next);
-}
+export async function startGoogle(req, res) {
+  try {
+    const params = new URLSearchParams({
+      client_id: GOOGLE_CLIENT_ID,
+      redirect_uri: GOOGLE_CALLBACK_URL,
+      response_type: "code",
+      scope: "profile email",
+      prompt: "select_account",
+      access_type: "offline",
+    });
+    // optional redirect back path (e.g. /dashboard)
+    const { redirect } = req.query;
+    if (redirect) params.set("state", encodeURIComponent(redirect));
 
-/** Callback: authenticate, mint JWT, and redirect back */
-export const googleCallback = [
-  passport.authenticate("google", {
-    session: false,
-    failureRedirect: `${config.frontendUrl.replace(/\/$/, "")}/signin?error=oauth_failed`,
-  }),
-  async (req, res) => {
-    try {
-      let nextOverride = "";
-      if (typeof req.query.state === "string" && req.query.state.startsWith("n:")) {
-        nextOverride = decodeURIComponent(req.query.state.slice(2));
-      }
-
-      const user = req.user;
-      if (!user?.id) {
-        return res.redirect(
-          `${config.frontendUrl.replace(/\/$/, "")}/signin?error=missing_user`
-        );
-      }
-
-      const token = jwt.sign(
-        { userId: user.id, email: user.email },
-          config.jwt.secret,
-          { expiresIn: "7d" }
-          );
-        // Send secure cross-site cookie (Heroku requires trust proxy = 1 — already set in app.js)
-        res.cookie("mykereta_session", token, {
-          httpOnly: true,
-          secure: true,
-          sameSite: "none",
-          path: "/",
-          maxAge: 7 * 24 * 60 * 60 * 1000,
-        });
-      const dest = req.query.next || config.postLoginPath || "/dashboard";
-      return res.redirect(302, `${config.frontendUrl.replace(/\/$/, "")}${dest}`);
-    }
-    catch (err) {
-      logger.error("[OAuth] Callback error:", err);
-      return res.redirect(
-        `${config.frontendUrl.replace(/\/$/, "")}/signin?error=server_error`
-      );
-    }
+    const url = `https://accounts.google.com/o/oauth2/v2/auth?${params.toString()}`;
+    return res.redirect(302, url);
+  } catch (err) {
+    console.error("[OAuth/start] error:", err);
+    return res.status(500).json({ error: "OAuth start failed" });
   }
-];
+}
+
+export async function googleCallback(req, res) {
+  const t0 = Date.now();
+  try {
+    const { code, state } = req.query;
+    if (!code) return res.status(400).json({ error: "Missing code" });
+
+    // 1) Exchange code for tokens
+    const body = new URLSearchParams({
+      code,
+      client_id: GOOGLE_CLIENT_ID,
+      client_secret: GOOGLE_CLIENT_SECRET,
+      redirect_uri: GOOGLE_CALLBACK_URL,
+      grant_type: "authorization_code",
+    });
+
+    const tokenResp = await fetch("https://oauth2.googleapis.com/token", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body,
+    });
+
+    if (!tokenResp.ok) {
+      const text = await tokenResp.text();
+      console.error("[OAuth/callback] token exchange failed:", tokenResp.status, text);
+      return res.status(400).json({ error: "OAuth token exchange failed" });
+    }
+
+    const tokens = await tokenResp.json();
+    // 2) Fetch user info
+    const userResp = await fetch("https://www.googleapis.com/oauth2/v2/userinfo", {
+      headers: { Authorization: `Bearer ${tokens.access_token}` },
+    });
+    if (!userResp.ok) {
+      const text = await userResp.text();
+      console.error("[OAuth/callback] userinfo failed:", userResp.status, text);
+      return res.status(400).json({ error: "Failed to fetch Google profile" });
+    }
+    const profile = await userResp.json();
+
+    // 3) Upsert user in DB (replace with your prisma/sequelize call)
+    // const user = await upsertUserFromGoogle(profile);
+
+    // 4) Set session (JWT cookie)
+    const jwtPayload = {
+      sub: profile.id,
+      email: profile.email,
+      name: profile.name,
+      picture: profile.picture,
+    };
+    const token = jwt.sign(jwtPayload, JWT_SECRET, { expiresIn: "7d" });
+
+    // Secure cross-site cookie (Vercel <-> Heroku are different domains)
+    res.cookie("session", token, {
+      httpOnly: true,
+      secure: true,
+      sameSite: "none",
+      path: "/",
+      maxAge: 7 * 24 * 60 * 60 * 1000,
+    });
+
+    const redirectPath = state ? decodeURIComponent(state) : "/dashboard";
+    console.log("[OAuth/callback] success in", Date.now() - t0, "ms ->", redirectPath);
+    return res.redirect(302, `${FRONTEND_URL}${redirectPath}`);
+  } catch (err) {
+    // Log rich details for diagnosis
+    const detail =
+      err?.response
+        ? { status: err.response.status, data: await err.response.text().catch(() => "") }
+        : { message: err?.message };
+    console.error("[OAuth/callback] unhandled error:", detail, err);
+    return res.status(500).json({ error: "OAuth callback failed" });
+  }
+}
